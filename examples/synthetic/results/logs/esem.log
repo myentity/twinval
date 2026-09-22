@@ -1,0 +1,41 @@
+
+=== [1/9] Synthetic - Faithful twin (instrument_id=901) ===
+  human: status=ok, 0.5s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+
+=== [2/9] Synthetic - Miscalibrated twin (instrument_id=902) ===
+  human: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+
+=== [3/9] Synthetic - Weakly individuating twin (instrument_id=903) ===
+  human: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.5s, heywood_resid=FALSE; heywood_corr=FALSE
+
+=== [4/9] Synthetic - Unequal twin loadings (instrument_id=904) ===
+  human: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+
+=== [5/9] Synthetic - Repeated twin answers (congruent) (instrument_id=905) ===
+  human: status=ok, 0.3s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE | warnings: lavaan->lav_samp_step2():  
+   correlation between variables SYN05_2
+
+=== [6/9] Synthetic - Mixed instrument with a total score (instrument_id=906) ===
+  human: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+
+=== [7/9] Synthetic - Short scales (instrument_id=907) ===
+  human: status=ok, 0.2s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.2s, heywood_resid=FALSE; heywood_corr=FALSE
+
+=== [8/9] Synthetic - Repeated twin answers (discrepant) (instrument_id=909) ===
+  human: status=ok, 0.3s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE | warnings: lavaan->lav_samp_step2():  
+   correlation between variables SYN09_2
+
+=== [9/9] Synthetic - Repeated twin answers (inadmissible) (instrument_id=910) ===
+  human: status=ok, 0.3s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=inadmissible_heywood, 0.3s, heywood_resid=TRUE; heywood_corr=FALSE | warnings: lavaan->lav_samp_step2():  
+   correlation between variables SYN10_2_
+
+Done.

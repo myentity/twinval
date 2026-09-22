@@ -1,0 +1,204 @@
+## LOADINGS:
+
+Fh =~ 1*it1_h + lambda.1_1*it1_h
+Fh =~ NA*it2_h + lambda.2_1*it2_h
+Fh =~ NA*it3_h + lambda.3_1*it3_h
+Fh =~ NA*it4_h + lambda.4_1*it4_h
+Fh =~ NA*it5_h + lambda.5_1*it5_h
+Fh =~ NA*it6_h + lambda.6_1*it6_h
+Fh =~ NA*it7_h + lambda.7_1*it7_h
+Fh =~ NA*it8_h + lambda.8_1*it8_h
+Fh =~ NA*it9_h + lambda.9_1*it9_h
+Fh =~ NA*it10_h + lambda.10_1*it10_h
+Fh =~ NA*it11_h + lambda.11_1*it11_h
+Fh =~ NA*it12_h + lambda.12_1*it12_h
+Fh =~ NA*it13_h + lambda.13_1*it13_h
+Ft =~ 1*it1_t + lambda.14_2*it1_t
+Ft =~ NA*it2_t + lambda.15_2*it2_t
+Ft =~ NA*it3_t + lambda.16_2*it3_t
+Ft =~ NA*it4_t + lambda.17_2*it4_t
+Ft =~ NA*it5_t + lambda.18_2*it5_t
+Ft =~ NA*it6_t + lambda.19_2*it6_t
+Ft =~ NA*it7_t + lambda.20_2*it7_t
+Ft =~ NA*it8_t + lambda.21_2*it8_t
+Ft =~ NA*it9_t + lambda.22_2*it9_t
+Ft =~ NA*it10_t + lambda.23_2*it10_t
+Ft =~ NA*it11_t + lambda.24_2*it11_t
+Ft =~ NA*it12_t + lambda.25_2*it12_t
+Ft =~ NA*it13_t + lambda.26_2*it13_t
+
+## THRESHOLDS:
+
+it1_h | NA*t1 + it1_h.thr1*t1
+it1_h | NA*t2 + it1_h.thr2*t2
+it1_h | NA*t3 + it1_h.thr3*t3
+it1_h | NA*t4 + it1_h.thr4*t4
+it2_h | NA*t1 + it2_h.thr1*t1
+it2_h | NA*t2 + it2_h.thr2*t2
+it2_h | NA*t3 + it2_h.thr3*t3
+it2_h | NA*t4 + it2_h.thr4*t4
+it3_h | NA*t1 + it3_h.thr1*t1
+it3_h | NA*t2 + it3_h.thr2*t2
+it3_h | NA*t3 + it3_h.thr3*t3
+it4_h | NA*t1 + it4_h.thr1*t1
+it4_h | NA*t2 + it4_h.thr2*t2
+it4_h | NA*t3 + it4_h.thr3*t3
+it5_h | NA*t1 + it5_h.thr1*t1
+it5_h | NA*t2 + it5_h.thr2*t2
+it5_h | NA*t3 + it5_h.thr3*t3
+it5_h | NA*t4 + it5_h.thr4*t4
+it6_h | NA*t1 + it6_h.thr1*t1
+it6_h | NA*t2 + it6_h.thr2*t2
+it6_h | NA*t3 + it6_h.thr3*t3
+it7_h | NA*t1 + it7_h.thr1*t1
+it7_h | NA*t2 + it7_h.thr2*t2
+it7_h | NA*t3 + it7_h.thr3*t3
+it8_h | NA*t1 + it8_h.thr1*t1
+it8_h | NA*t2 + it8_h.thr2*t2
+it8_h | NA*t3 + it8_h.thr3*t3
+it9_h | NA*t1 + it9_h.thr1*t1
+it9_h | NA*t2 + it9_h.thr2*t2
+it9_h | NA*t3 + it9_h.thr3*t3
+it10_h | NA*t1 + it10_h.thr1*t1
+it10_h | NA*t2 + it10_h.thr2*t2
+it10_h | NA*t3 + it10_h.thr3*t3
+it11_h | NA*t1 + it11_h.thr1*t1
+it11_h | NA*t2 + it11_h.thr2*t2
+it11_h | NA*t3 + it11_h.thr3*t3
+it12_h | NA*t1 + it12_h.thr1*t1
+it12_h | NA*t2 + it12_h.thr2*t2
+it12_h | NA*t3 + it12_h.thr3*t3
+it13_h | NA*t1 + it13_h.thr1*t1
+it13_h | NA*t2 + it13_h.thr2*t2
+it13_h | NA*t3 + it13_h.thr3*t3
+it1_t | NA*t1 + it1_h.thr1*t1
+it1_t | NA*t2 + it1_h.thr2*t2
+it1_t | NA*t3 + it1_t.thr3*t3
+it1_t | NA*t4 + it1_t.thr4*t4
+it2_t | NA*t1 + it2_h.thr1*t1
+it2_t | NA*t2 + it2_t.thr2*t2
+it2_t | NA*t3 + it2_t.thr3*t3
+it2_t | NA*t4 + it2_t.thr4*t4
+it3_t | NA*t1 + it3_h.thr1*t1
+it3_t | NA*t2 + it3_t.thr2*t2
+it3_t | NA*t3 + it3_t.thr3*t3
+it4_t | NA*t1 + it4_h.thr1*t1
+it4_t | NA*t2 + it4_t.thr2*t2
+it4_t | NA*t3 + it4_t.thr3*t3
+it5_t | NA*t1 + it5_h.thr1*t1
+it5_t | NA*t2 + it5_t.thr2*t2
+it5_t | NA*t3 + it5_t.thr3*t3
+it5_t | NA*t4 + it5_t.thr4*t4
+it6_t | NA*t1 + it6_h.thr1*t1
+it6_t | NA*t2 + it6_t.thr2*t2
+it6_t | NA*t3 + it6_t.thr3*t3
+it7_t | NA*t1 + it7_h.thr1*t1
+it7_t | NA*t2 + it7_t.thr2*t2
+it7_t | NA*t3 + it7_t.thr3*t3
+it8_t | NA*t1 + it8_h.thr1*t1
+it8_t | NA*t2 + it8_t.thr2*t2
+it8_t | NA*t3 + it8_t.thr3*t3
+it9_t | NA*t1 + it9_h.thr1*t1
+it9_t | NA*t2 + it9_t.thr2*t2
+it9_t | NA*t3 + it9_t.thr3*t3
+it10_t | NA*t1 + it10_h.thr1*t1
+it10_t | NA*t2 + it10_t.thr2*t2
+it10_t | NA*t3 + it10_t.thr3*t3
+it11_t | NA*t1 + it11_h.thr1*t1
+it11_t | NA*t2 + it11_t.thr2*t2
+it11_t | NA*t3 + it11_t.thr3*t3
+it12_t | NA*t1 + it12_h.thr1*t1
+it12_t | NA*t2 + it12_t.thr2*t2
+it12_t | NA*t3 + it12_t.thr3*t3
+it13_t | NA*t1 + it13_h.thr1*t1
+it13_t | NA*t2 + it13_t.thr2*t2
+it13_t | NA*t3 + it13_t.thr3*t3
+
+## INTERCEPTS:
+
+it1_h ~ 0*1 + nu.1*1
+it2_h ~ 0*1 + nu.2*1
+it3_h ~ 0*1 + nu.3*1
+it4_h ~ 0*1 + nu.4*1
+it5_h ~ 0*1 + nu.5*1
+it6_h ~ 0*1 + nu.6*1
+it7_h ~ 0*1 + nu.7*1
+it8_h ~ 0*1 + nu.8*1
+it9_h ~ 0*1 + nu.9*1
+it10_h ~ 0*1 + nu.10*1
+it11_h ~ 0*1 + nu.11*1
+it12_h ~ 0*1 + nu.12*1
+it13_h ~ 0*1 + nu.13*1
+it1_t ~ 0*1 + nu.14*1
+it2_t ~ 0*1 + nu.15*1
+it3_t ~ 0*1 + nu.16*1
+it4_t ~ 0*1 + nu.17*1
+it5_t ~ 0*1 + nu.18*1
+it6_t ~ 0*1 + nu.19*1
+it7_t ~ 0*1 + nu.20*1
+it8_t ~ 0*1 + nu.21*1
+it9_t ~ 0*1 + nu.22*1
+it10_t ~ 0*1 + nu.23*1
+it11_t ~ 0*1 + nu.24*1
+it12_t ~ 0*1 + nu.25*1
+it13_t ~ 0*1 + nu.26*1
+
+## UNIQUE-FACTOR VARIANCES:
+
+it1_h ~~ 1*it1_h + theta.1_1*it1_h
+it2_h ~~ 1*it2_h + theta.2_2*it2_h
+it3_h ~~ 1*it3_h + theta.3_3*it3_h
+it4_h ~~ 1*it4_h + theta.4_4*it4_h
+it5_h ~~ 1*it5_h + theta.5_5*it5_h
+it6_h ~~ 1*it6_h + theta.6_6*it6_h
+it7_h ~~ 1*it7_h + theta.7_7*it7_h
+it8_h ~~ 1*it8_h + theta.8_8*it8_h
+it9_h ~~ 1*it9_h + theta.9_9*it9_h
+it10_h ~~ 1*it10_h + theta.10_10*it10_h
+it11_h ~~ 1*it11_h + theta.11_11*it11_h
+it12_h ~~ 1*it12_h + theta.12_12*it12_h
+it13_h ~~ 1*it13_h + theta.13_13*it13_h
+it1_t ~~ NA*it1_t + theta.14_14*it1_t
+it2_t ~~ NA*it2_t + theta.15_15*it2_t
+it3_t ~~ NA*it3_t + theta.16_16*it3_t
+it4_t ~~ NA*it4_t + theta.17_17*it4_t
+it5_t ~~ NA*it5_t + theta.18_18*it5_t
+it6_t ~~ NA*it6_t + theta.19_19*it6_t
+it7_t ~~ NA*it7_t + theta.20_20*it7_t
+it8_t ~~ NA*it8_t + theta.21_21*it8_t
+it9_t ~~ NA*it9_t + theta.22_22*it9_t
+it10_t ~~ NA*it10_t + theta.23_23*it10_t
+it11_t ~~ NA*it11_t + theta.24_24*it11_t
+it12_t ~~ NA*it12_t + theta.25_25*it12_t
+it13_t ~~ NA*it13_t + theta.26_26*it13_t
+
+## UNIQUE-FACTOR COVARIANCES:
+
+it1_h ~~ NA*it1_t + theta.14_1*it1_t
+it2_h ~~ NA*it2_t + theta.15_2*it2_t
+it3_h ~~ NA*it3_t + theta.16_3*it3_t
+it4_h ~~ NA*it4_t + theta.17_4*it4_t
+it5_h ~~ NA*it5_t + theta.18_5*it5_t
+it6_h ~~ NA*it6_t + theta.19_6*it6_t
+it7_h ~~ NA*it7_t + theta.20_7*it7_t
+it8_h ~~ NA*it8_t + theta.21_8*it8_t
+it9_h ~~ NA*it9_t + theta.22_9*it9_t
+it10_h ~~ NA*it10_t + theta.23_10*it10_t
+it11_h ~~ NA*it11_t + theta.24_11*it11_t
+it12_h ~~ NA*it12_t + theta.25_12*it12_t
+it13_h ~~ NA*it13_t + theta.26_13*it13_t
+
+## LATENT MEANS/INTERCEPTS:
+
+Fh ~ 0*1 + alpha.1*1
+Ft ~ NA*1 + alpha.2*1
+
+## COMMON-FACTOR VARIANCES:
+
+Fh ~~ NA*Fh + psi.1_1*Fh
+Ft ~~ NA*Ft + psi.2_2*Ft
+
+## COMMON-FACTOR COVARIANCES:
+
+Fh ~~ NA*Ft + psi.2_1*Ft
+

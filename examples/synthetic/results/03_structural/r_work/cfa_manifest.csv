@@ -1,0 +1,30 @@
+scale_id,file,n_items,n_pairs,instrument,scale_name,method_count,category_status
+901_Alpha,<run_dir>/03_structural/r_work/cfa_input/901_Alpha_paired_wide.csv,6,500,Synthetic - Faithful twin,Alpha,mean,clean
+901_Beta,<run_dir>/03_structural/r_work/cfa_input/901_Beta_paired_wide.csv,5,500,Synthetic - Faithful twin,Beta,mean,clean
+901_Gamma,<run_dir>/03_structural/r_work/cfa_input/901_Gamma_paired_wide.csv,6,500,Synthetic - Faithful twin,Gamma,mean,clean
+902_Shifted,<run_dir>/03_structural/r_work/cfa_input/902_Shifted_paired_wide.csv,6,500,Synthetic - Miscalibrated twin,Shifted,mean,harmonized
+902_Compressed,<run_dir>/03_structural/r_work/cfa_input/902_Compressed_paired_wide.csv,5,500,Synthetic - Miscalibrated twin,Compressed,mean,harmonized
+902_Lowered,<run_dir>/03_structural/r_work/cfa_input/902_Lowered_paired_wide.csv,6,500,Synthetic - Miscalibrated twin,Lowered,mean,harmonized
+903_Generic1,<run_dir>/03_structural/r_work/cfa_input/903_Generic1_paired_wide.csv,6,500,Synthetic - Weakly individuating twin,Generic1,mean,clean
+903_Generic2,<run_dir>/03_structural/r_work/cfa_input/903_Generic2_paired_wide.csv,5,500,Synthetic - Weakly individuating twin,Generic2,mean,clean
+903_Generic3,<run_dir>/03_structural/r_work/cfa_input/903_Generic3_paired_wide.csv,6,500,Synthetic - Weakly individuating twin,Generic3,mean,clean
+904_Uneven1,<run_dir>/03_structural/r_work/cfa_input/904_Uneven1_paired_wide.csv,6,500,Synthetic - Unequal twin loadings,Uneven1,mean,clean
+904_Uneven2,<run_dir>/03_structural/r_work/cfa_input/904_Uneven2_paired_wide.csv,6,500,Synthetic - Unequal twin loadings,Uneven2,mean,clean
+904_Even,<run_dir>/03_structural/r_work/cfa_input/904_Even_paired_wide.csv,5,500,Synthetic - Unequal twin loadings,Even,mean,clean
+905_Duplicated,<run_dir>/03_structural/r_work/cfa_input/905_Duplicated_paired_wide.csv,5,500,Synthetic - Repeated twin answers (congruent),Duplicated,mean,clean
+905_Plain1,<run_dir>/03_structural/r_work/cfa_input/905_Plain1_paired_wide.csv,5,500,Synthetic - Repeated twin answers (congruent),Plain1,mean,clean
+905_Plain2,<run_dir>/03_structural/r_work/cfa_input/905_Plain2_paired_wide.csv,5,500,Synthetic - Repeated twin answers (congruent),Plain2,mean,clean
+906_Mixed1,<run_dir>/03_structural/r_work/cfa_input/906_Mixed1_paired_wide.csv,6,500,Synthetic - Mixed instrument with a total score,Mixed1,mean,clean
+906_Mixed2,<run_dir>/03_structural/r_work/cfa_input/906_Mixed2_paired_wide.csv,5,500,Synthetic - Mixed instrument with a total score,Mixed2,mean,harmonized
+906_Mixed3,<run_dir>/03_structural/r_work/cfa_input/906_Mixed3_paired_wide.csv,5,500,Synthetic - Mixed instrument with a total score,Mixed3,mean,clean
+906_Total,<run_dir>/03_structural/r_work/cfa_input/906_Total_paired_wide.csv,16,500,Synthetic - Mixed instrument with a total score,Total,sum,harmonized
+907_ShortA,<run_dir>/03_structural/r_work/cfa_input/907_ShortA_paired_wide.csv,3,500,Synthetic - Short scales,ShortA,mean,clean
+907_ShortB,<run_dir>/03_structural/r_work/cfa_input/907_ShortB_paired_wide.csv,3,500,Synthetic - Short scales,ShortB,mean,clean
+907_ShortC,<run_dir>/03_structural/r_work/cfa_input/907_ShortC_paired_wide.csv,4,500,Synthetic - Short scales,ShortC,mean,clean
+908_Solo,<run_dir>/03_structural/r_work/cfa_input/908_Solo_paired_wide.csv,4,500,Synthetic - Single-scale instrument,Solo,mean,clean
+909_DupD,<run_dir>/03_structural/r_work/cfa_input/909_DupD_paired_wide.csv,5,500,Synthetic - Repeated twin answers (discrepant),DupD,mean,clean
+909_DupF,<run_dir>/03_structural/r_work/cfa_input/909_DupF_paired_wide.csv,5,500,Synthetic - Repeated twin answers (discrepant),DupF,mean,clean
+909_Plain,<run_dir>/03_structural/r_work/cfa_input/909_Plain_paired_wide.csv,5,500,Synthetic - Repeated twin answers (discrepant),Plain,mean,clean
+910_Duplicated,<run_dir>/03_structural/r_work/cfa_input/910_Duplicated_paired_wide.csv,5,500,Synthetic - Repeated twin answers (inadmissible),Duplicated,mean,clean
+910_Plain1,<run_dir>/03_structural/r_work/cfa_input/910_Plain1_paired_wide.csv,5,500,Synthetic - Repeated twin answers (inadmissible),Plain1,mean,clean
+910_Plain2,<run_dir>/03_structural/r_work/cfa_input/910_Plain2_paired_wide.csv,5,500,Synthetic - Repeated twin answers (inadmissible),Plain2,mean,clean

@@ -1,0 +1,166 @@
+lavaan 0.7-2 ended normally after 75 iterations
+
+  Estimator                                       DWLS
+  Optimization method                           NLMINB
+  Number of model parameters                        50
+  Number of equality constraints                     8
+
+  Number of observations                           484
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                                46.206      77.958
+  Degrees of freedom                                18          18
+  P-value (Unknown)                                 NA       0.000
+  Scaling correction factor                                  0.627
+  Shift parameter                                            4.222
+    simple second-order correction                                
+
+Model Test Baseline Model:
+
+  Test statistic                             74303.229   36881.770
+  Degrees of freedom                                28          28
+  P-value                                           NA       0.000
+  Scaling correction factor                                  2.015
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000       0.998
+  Tucker-Lewis Index (TLI)                       0.999       0.997
+                                                                  
+  Robust Comparative Fit Index (CFI)                            NA
+  Robust Tucker-Lewis Index (TLI)                               NA
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.057       0.083
+  90 Percent confidence interval - lower         0.037       0.065
+  90 Percent confidence interval - upper         0.078       0.102
+  P-value H_0: RMSEA <= 0.050                    0.262       0.002
+  P-value H_0: RMSEA >= 0.080                    0.032       0.627
+                                                                  
+  Robust RMSEA                                                  NA
+  90 Percent confidence interval - lower                        NA
+  90 Percent confidence interval - upper                        NA
+  P-value H_0: Robust RMSEA <= 0.050                            NA
+  P-value H_0: Robust RMSEA >= 0.080                            NA
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.027       0.027
+
+Goodness of Fit Index:
+
+  Goodness of Fit Index (GFI)                    0.986            
+  90 Percent confidence interval - lower         0.974            
+  90 Percent confidence interval - upper         0.994            
+                                                                  
+  Robust GFI                                                    NA
+  90 Percent confidence interval - lower                        NA
+  90 Percent confidence interval - upper                        NA
+
+Parameter Estimates:
+
+  Parameterization                               Theta
+  Standard errors                           Robust.sem
+  Information                                 Expected
+  Information saturated (h1) model        Unstructured
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  Fh =~                                                                 
+    it1_h   (l.1_)    1.000                               0.886    0.663
+    it2_h   (l.2_)    1.351    0.138    9.759    0.000    1.198    0.768
+    it3_h   (l.3_)    1.502    0.149   10.058    0.000    1.331    0.800
+    it4_h   (l.4_)    1.134    0.105   10.802    0.000    1.005    0.709
+  Ft =~                                                                 
+    it1_t   (l.1_)    1.000                               0.966    0.971
+    it2_t   (l.2_)    1.351    0.138    9.759    0.000    1.305    0.980
+    it3_t   (l.3_)    1.502    0.149   10.058    0.000    1.450    0.933
+    it4_t   (l.4_)    1.134    0.105   10.802    0.000    1.095    0.989
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+ .it1_h ~~                                                              
+   .it1_t   (t.5_)    0.016    0.036    0.455    0.649    0.016    0.069
+ .it2_h ~~                                                              
+   .it2_t   (t.6_)    0.024    0.044    0.537    0.592    0.024    0.090
+ .it3_h ~~                                                              
+   .it3_t   (t.7_)   -0.035    0.067   -0.519    0.604   -0.035   -0.063
+ .it4_h ~~                                                              
+   .it4_t   (t.8_)   -0.030    0.041   -0.718    0.473   -0.030   -0.180
+  Fh ~~                                                                 
+    Ft      (p.2_)    0.455    0.080    5.695    0.000    0.532    0.532
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .it1_h   (nu.1)    0.000                               0.000    0.000
+   .it2_h   (nu.2)    0.000                               0.000    0.000
+   .it3_h   (nu.3)    0.000                               0.000    0.000
+   .it4_h   (nu.4)    0.000                               0.000    0.000
+   .it1_t   (nu.5)    0.000                               0.000    0.000
+   .it2_t   (nu.6)    0.000                               0.000    0.000
+   .it3_t   (nu.7)    0.000                               0.000    0.000
+   .it4_t   (nu.8)    0.000                               0.000    0.000
+    Fh      (al.1)    0.000                               0.000    0.000
+    Ft      (al.2)   -0.377    0.097   -3.895    0.000   -0.391   -0.391
+
+Thresholds:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    i1_|   (i1_.1)   -1.885    0.122  -15.482    0.000   -1.885   -1.411
+    i1_|   (i1_.2)   -0.640    0.078   -8.154    0.000   -0.640   -0.479
+    i1_| (it1_h.3)    0.180    0.076    2.371    0.018    0.180    0.135
+    i1_| (it1_h.4)    1.466    0.093   15.797    0.000    1.466    1.097
+    i2_|   (i2_.1)   -1.886    0.138  -13.712    0.000   -1.886   -1.208
+    i2_| (it2_h.2)   -0.400    0.091   -4.398    0.000   -0.400   -0.257
+    i2_| (it2_h.3)    0.738    0.094    7.877    0.000    0.738    0.473
+    i2_| (it2_h.4)    2.103    0.131   16.034    0.000    2.103    1.348
+    i3_|   (i3_.1)   -1.846    0.128  -14.376    0.000   -1.846   -1.109
+    i3_| (it3_h.2)    0.129    0.095    1.357    0.175    0.129    0.078
+    i3_| (it3_h.3)    1.374    0.117   11.780    0.000    1.374    0.825
+    i3_| (it3_h.4)    3.269    0.228   14.338    0.000    3.269    1.964
+    i4_|   (i4_.1)   -1.135    0.081  -14.068    0.000   -1.135   -0.801
+    i4_| (it4_h.2)    0.440    0.082    5.349    0.000    0.440    0.310
+    i4_| (it4_h.3)    1.379    0.095   14.567    0.000    1.379    0.973
+    i4_| (it4_h.4)    2.605    0.147   17.703    0.000    2.605    1.838
+    i1_|   (i1_.1)   -1.885    0.122  -15.482    0.000   -1.885   -1.895
+    i1_|   (i1_.2)   -0.640    0.078   -8.154    0.000   -0.640   -0.643
+    i1_| (it1_t.3)    0.087    0.133    0.655    0.513    0.087    0.088
+    i1_| (it1_t.4)    1.224    0.256    4.773    0.000    1.224    1.230
+    i2_|   (i2_.1)   -1.886    0.138  -13.712    0.000   -1.886   -1.417
+    i2_| (it2_t.2)   -0.565    0.123   -4.595    0.000   -0.565   -0.425
+    i2_| (it2_t.3)   -0.068    0.162   -0.417    0.677   -0.068   -0.051
+    i2_| (it2_t.4)    1.712    0.358    4.786    0.000    1.712    1.286
+    i3_|   (i3_.1)   -1.846    0.128  -14.376    0.000   -1.846   -1.188
+    i3_| (it3_t.2)   -0.093    0.178   -0.521    0.602   -0.093   -0.060
+    i3_| (it3_t.3)    1.011    0.301    3.357    0.001    1.011    0.651
+    i3_| (it3_t.4)    3.159    0.615    5.135    0.000    3.159    2.032
+    i4_|   (i4_.1)   -1.135    0.081  -14.068    0.000   -1.135   -1.026
+    i4_| (it4_t.2)   -0.156    0.124   -1.251    0.211   -0.156   -0.141
+    i4_| (it4_t.3)    0.348    0.182    1.914    0.056    0.348    0.314
+    i4_| (it4_t.4)    1.638    0.358    4.582    0.000    1.638    1.480
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .it1_h   (t.1_)    1.000                               1.000    0.560
+   .it2_h   (t.2_)    1.000                               1.000    0.411
+   .it3_h   (t.3_)    1.000                               1.000    0.361
+   .it4_h   (t.4_)    1.000                               1.000    0.498
+   .it1_t   (t.5_)    0.057    0.017    3.321    0.001    0.057    0.058
+   .it2_t   (t.6_)    0.069    0.025    2.783    0.005    0.069    0.039
+   .it3_t   (t.7_)    0.312    0.084    3.718    0.000    0.312    0.129
+   .it4_t   (t.8_)    0.027    0.016    1.744    0.081    0.027    0.022
+    Fh      (p.1_)    0.786    0.118    6.664    0.000    1.000    1.000
+    Ft      (p.2_)    0.932    0.210    4.434    0.000    1.000    1.000
+
+Scales y*:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    it1_h             0.748                               0.748    1.000
+    it2_h             0.641                               0.641    1.000
+    it3_h             0.601                               0.601    1.000
+    it4_h             0.705                               0.705    1.000
+    it1_t             1.005                               1.005    1.000
+    it2_t             0.751                               0.751    1.000
+    it3_t             0.643                               0.643    1.000
+    it4_t             0.903                               0.903    1.000
+

@@ -1,0 +1,12 @@
+
+=== [1/2] Big Five Inventory-2 (BFI-2) (instrument_id=148) ===
+  human: status=ok, 5.0s, heywood_resid=FALSE; heywood_corr=FALSE | warnings: lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the
+  twin: status=ok, 7.5s, heywood_resid=FALSE; heywood_corr=FALSE | warnings: lavaan->lav_samp_step2():  
+   correlation between variables BFI2_43
+
+=== [2/2] Spectrum of Psychological Health (instrument_id=161) ===
+  human: status=ok, 0.3s, heywood_resid=FALSE; heywood_corr=FALSE
+  twin: status=ok, 0.4s, heywood_resid=FALSE; heywood_corr=FALSE
+
+Done.

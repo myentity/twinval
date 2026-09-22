@@ -1,0 +1,262 @@
+scale_id,scheme,step,converged,cfi,rmsea,srmr,df,heywood
+901_Alpha,wu,configural,1,1.0,0.0,0.0196124911692433,47.0,0.0
+901_Alpha,wu,thresholds,1,1.0,0.0,0.0196124957470306,59.0,0.0
+901_Alpha,wu,conditional_loading (thresholds+loadings),1,1.0,0.0,0.0202319145944399,64.0,0.0
+901_Alpha,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0202125217118984,69.0,0.0
+901_Alpha,wu,conditional_strict (+residuals),1,1.0,0.0,0.0206307932937821,75.0,0.0
+901_Alpha,millsap,baseline,1,1.0,0.0,0.0196124929409799,47.0,0.0
+901_Alpha,millsap,loading,1,1.0,0.0,0.0199127644617685,52.0,0.0
+901_Alpha,millsap,threshold_after_loading,1,1.0,0.0,0.0202125140087532,69.0,0.0
+901_Alpha,millsap,unique_after_threshold,1,1.0,0.0,0.0206307899163515,75.0,0.0
+901_Beta,wu,configural,1,0.996060257169336,0.0335915550352848,0.0245792654378722,29.0,0.0
+901_Beta,wu,thresholds,1,0.994661952008588,0.033717402034201,0.0245792608897694,39.0,0.0
+901_Beta,wu,conditional_loading (thresholds+loadings),1,0.996849155310404,0.0246703006062645,0.0248948233695934,43.0,0.0
+901_Beta,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.996109022166822,0.0262225921475881,0.0248521207895109,47.0,0.0
+901_Beta,wu,conditional_strict (+residuals),1,0.996535651039529,0.0235236286473393,0.0275685258096651,52.0,0.0
+901_Beta,millsap,baseline,1,0.996060256926675,0.0335915560697865,0.0245792668473094,29.0,0.0
+901_Beta,millsap,loading,1,0.997646185468323,0.0243402099950358,0.0247569196471052,33.0,0.0
+901_Beta,millsap,threshold_after_loading,1,0.996109022191689,0.0262225920637961,0.024852118430072,47.0,0.0
+901_Beta,millsap,unique_after_threshold,1,0.996535651021052,0.0235236287100703,0.0275685250464895,52.0,0.0
+901_Gamma,wu,configural,1,0.999194515493988,0.0126874020524826,0.0235246838116387,47.0,0.0
+901_Gamma,wu,thresholds,1,0.999407987558293,0.0097080598960593,0.02352467995771,59.0,0.0
+901_Gamma,wu,conditional_loading (thresholds+loadings),1,1.0,0.0,0.0239424240167187,64.0,0.0
+901_Gamma,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0239559576823536,69.0,0.0
+901_Gamma,wu,conditional_strict (+residuals),1,1.0,0.0,0.0244547279053335,75.0,0.0
+901_Gamma,millsap,baseline,1,0.999194515647935,0.012687400840055,0.0235246793632633,47.0,0.0
+901_Gamma,millsap,loading,1,1.0,0.0,0.0236982199205435,52.0,0.0
+901_Gamma,millsap,threshold_after_loading,1,1.0,0.0,0.0239559744983545,69.0,0.0
+901_Gamma,millsap,unique_after_threshold,1,1.0,0.0,0.0244547270912246,75.0,0.0
+902_Shifted,wu,configural,1,1.0,0.0,0.0232762659848317,47.0,0.0
+902_Shifted,wu,thresholds,1,0.998231630055747,0.0129922867330575,0.0232762648678667,68.0,0.0
+902_Shifted,wu,conditional_loading (thresholds+loadings),1,0.99696449535968,0.0164288631135612,0.0262213528883923,73.0,0.0
+902_Shifted,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.997142740820743,0.015419880480852,0.0265183285889479,78.0,0.0
+902_Shifted,wu,conditional_strict (+residuals),1,0.997300142829582,0.0144438923257752,0.0291208912441835,84.0,0.0
+902_Shifted,millsap,baseline,1,1.0,0.0,0.0232762658007439,47.0,0.0
+902_Shifted,millsap,loading,1,0.99781170267123,0.0165274169628445,0.0246462682700227,52.0,0.0
+902_Shifted,millsap,threshold_after_loading,0,,,,,
+902_Shifted,millsap,unique_after_threshold,0,,,,,
+902_Compressed,wu,configural,1,1.0,0.0,0.0232650442778667,29.0,0.0
+902_Compressed,wu,thresholds,1,0.996623439860409,0.016795956171024,0.0232650447140008,46.0,0.0
+902_Compressed,wu,conditional_loading (thresholds+loadings),0,,,,,
+902_Compressed,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+902_Compressed,wu,conditional_strict (+residuals),0,,,,,
+902_Compressed,millsap,baseline,1,1.0,0.0,0.0232650519710913,29.0,0.0
+902_Compressed,millsap,loading,1,1.0,0.0,0.0245037708178178,33.0,0.0
+902_Compressed,millsap,threshold_after_loading,1,1.0,0.0,0.0255831889217434,54.0,0.0
+902_Compressed,millsap,unique_after_threshold,1,1.0,0.0,0.0267312335997848,59.0,0.0
+902_Lowered,wu,configural,1,0.997701290631919,0.0192233534335358,0.0256971715382747,47.0,0.0
+902_Lowered,wu,thresholds,1,0.997294474138467,0.0177339391268391,0.025697167369647,65.0,0.0
+902_Lowered,wu,conditional_loading (thresholds+loadings),1,0.999882880275655,0.003555511172503,0.0262181901976302,70.0,0.0
+902_Lowered,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0264887368119536,75.0,0.0
+902_Lowered,wu,conditional_strict (+residuals),1,1.0,0.0,0.0272117730140278,81.0,0.0
+902_Lowered,millsap,baseline,1,0.99770129051654,0.0192233539159747,0.0256971692733759,47.0,0.0
+902_Lowered,millsap,loading,1,1.0,0.0,0.025691005225009,52.0,0.0
+902_Lowered,millsap,threshold_after_loading,1,1.0,0.0,0.0264887251365444,75.0,0.0
+902_Lowered,millsap,unique_after_threshold,1,1.0,0.0,0.0272117713404617,81.0,0.0
+903_Generic1,wu,configural,1,1.0,0.0,0.0230083146420749,47.0,0.0
+903_Generic1,wu,thresholds,1,1.0,0.0,0.0230083144886164,59.0,0.0
+903_Generic1,wu,conditional_loading (thresholds+loadings),1,1.0,0.0,0.0235016448942867,64.0,0.0
+903_Generic1,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0234371067557428,69.0,0.0
+903_Generic1,wu,conditional_strict (+residuals),1,1.0,0.0,0.0235244998860848,75.0,0.0
+903_Generic1,millsap,baseline,1,1.0,0.0,0.0230083141941034,47.0,0.0
+903_Generic1,millsap,loading,1,1.0,0.0,0.0232869166095311,52.0,0.0
+903_Generic1,millsap,threshold_after_loading,1,1.0,0.0,0.0234370950396504,69.0,0.0
+903_Generic1,millsap,unique_after_threshold,1,1.0,0.0,0.023524500909654,75.0,0.0
+903_Generic2,wu,configural,1,1.0,0.0,0.0253474423437528,29.0,0.0
+903_Generic2,wu,thresholds,1,0.994879024215483,0.0227597174976987,0.0253474423233158,39.0,0.0
+903_Generic2,wu,conditional_loading (thresholds+loadings),0,,,,,
+903_Generic2,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+903_Generic2,wu,conditional_strict (+residuals),0,,,,,
+903_Generic2,millsap,baseline,1,1.0,0.0,0.0253474404680447,29.0,0.0
+903_Generic2,millsap,loading,1,1.0,0.0,0.0261651119014946,33.0,0.0
+903_Generic2,millsap,threshold_after_loading,1,0.998175248839196,0.0123758690345945,0.0262873784773058,47.0,0.0
+903_Generic2,millsap,unique_after_threshold,1,0.996768702429838,0.0156570383288769,0.0275506764258775,52.0,0.0
+903_Generic3,wu,configural,1,1.0,0.0,0.0261198636016929,47.0,0.0
+903_Generic3,wu,thresholds,1,1.0,0.0,0.0261198721936101,59.0,0.0
+903_Generic3,wu,conditional_loading (thresholds+loadings),1,0.997680667354066,0.0152507845567077,0.0295387377076605,64.0,0.0
+903_Generic3,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+903_Generic3,wu,conditional_strict (+residuals),0,,,,,
+903_Generic3,millsap,baseline,1,1.0,0.0,0.0261198650941222,47.0,0.0
+903_Generic3,millsap,loading,1,0.998274385733471,0.0145938823887816,0.0275974257600839,52.0,0.0
+903_Generic3,millsap,threshold_after_loading,1,0.997749823257051,0.0144671979206211,0.0293153684537731,69.0,0.0
+903_Generic3,millsap,unique_after_threshold,1,0.996708047456917,0.0167840515089553,0.0339969780572429,75.0,0.0
+904_Uneven1,wu,configural,1,0.998215381233514,0.0221465775239947,0.0270812706777034,47.0,0.0
+904_Uneven1,wu,thresholds,1,0.997650934426033,0.0226779809662598,0.0270812715345161,59.0,0.0
+904_Uneven1,wu,conditional_loading (thresholds+loadings),1,0.922838218201842,0.124794072902431,0.0691427389923154,64.0,0.0
+904_Uneven1,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+904_Uneven1,wu,conditional_strict (+residuals),0,,,,,
+904_Uneven1,millsap,baseline,1,0.998215381160144,0.0221465779792419,0.0270812725846728,47.0,0.0
+904_Uneven1,millsap,loading,1,0.965750779443676,0.09223728190622,0.0334891547265066,52.0,0.0
+904_Uneven1,millsap,threshold_after_loading,0,,,,,
+904_Uneven1,millsap,unique_after_threshold,0,,,,,
+904_Uneven2,wu,configural,1,1.0,0.0,0.0166280874291485,47.0,0.0
+904_Uneven2,wu,thresholds,1,1.0,0.0,0.0166280862321637,59.0,0.0
+904_Uneven2,wu,conditional_loading (thresholds+loadings),1,0.952796914201995,0.103542618183495,0.05058769790056,64.0,0.0
+904_Uneven2,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+904_Uneven2,wu,conditional_strict (+residuals),0,,,,,
+904_Uneven2,millsap,baseline,1,1.0,0.0,0.0166280870595842,47.0,0.0
+904_Uneven2,millsap,loading,1,0.980427809886445,0.0739676762192355,0.0223435863300358,52.0,0.0
+904_Uneven2,millsap,threshold_after_loading,0,,,,,
+904_Uneven2,millsap,unique_after_threshold,0,,,,,
+904_Even,wu,configural,1,0.996039486879106,0.02893108063549,0.0237433403120792,29.0,0.0
+904_Even,wu,thresholds,1,0.995918766599402,0.0253251099237158,0.0237433419714866,39.0,0.0
+904_Even,wu,conditional_loading (thresholds+loadings),1,0.998995267785686,0.0119668228558154,0.0237575643439785,43.0,0.0
+904_Even,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0237399132544924,47.0,0.0
+904_Even,wu,conditional_strict (+residuals),1,1.0,0.0,0.0254198164749511,52.0,0.0
+904_Even,millsap,baseline,1,0.996039486798513,0.0289310809298539,0.0237433408854411,29.0,0.0
+904_Even,millsap,loading,1,0.997067363469215,0.0233378087536265,0.023868434436009,33.0,0.0
+904_Even,millsap,threshold_after_loading,1,1.0,0.0,0.0237399270127693,47.0,0.0
+904_Even,millsap,unique_after_threshold,1,1.0,0.0,0.0254198125674905,52.0,0.0
+905_Duplicated,wu,configural,0,,,,,
+905_Duplicated,wu,thresholds,1,0.999710240811956,0.130387822888976,0.0839197915347394,39.0,1.0
+905_Duplicated,wu,conditional_loading (thresholds+loadings),0,,,,,
+905_Duplicated,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+905_Duplicated,wu,conditional_strict (+residuals),0,,,,,
+905_Duplicated,millsap,baseline,1,0.999720934982348,0.148389929941575,0.083919786745767,29.0,1.0
+905_Duplicated,millsap,loading,1,0.999703278272302,0.143439391434244,0.0845212964481846,33.0,1.0
+905_Duplicated,millsap,threshold_after_loading,0,,,,,
+905_Duplicated,millsap,unique_after_threshold,0,,,,,
+905_Plain1,wu,configural,1,1.0,0.0,0.0193673221911988,29.0,0.0
+905_Plain1,wu,thresholds,1,1.0,0.0,0.0193673201713825,39.0,0.0
+905_Plain1,wu,conditional_loading (thresholds+loadings),1,1.0,0.0,0.0207351139773945,43.0,0.0
+905_Plain1,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0206806499885724,47.0,0.0
+905_Plain1,wu,conditional_strict (+residuals),1,1.0,0.0,0.0245174012364179,52.0,0.0
+905_Plain1,millsap,baseline,1,1.0,0.0,0.019367322175011,29.0,0.0
+905_Plain1,millsap,loading,1,1.0,0.0,0.0201935090829537,33.0,0.0
+905_Plain1,millsap,threshold_after_loading,1,1.0,0.0,0.0206806757953422,47.0,0.0
+905_Plain1,millsap,unique_after_threshold,1,1.0,0.0,0.0245174008491824,52.0,0.0
+905_Plain2,wu,configural,1,1.0,0.0,0.0223018361921861,29.0,0.0
+905_Plain2,wu,thresholds,1,0.997186898422069,0.0211083285726774,0.0223018361755228,39.0,0.0
+905_Plain2,wu,conditional_loading (thresholds+loadings),0,,,,,
+905_Plain2,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+905_Plain2,wu,conditional_strict (+residuals),0,,,,,
+905_Plain2,millsap,baseline,1,1.0,0.0,0.0223018343913119,29.0,0.0
+905_Plain2,millsap,loading,1,0.999708501818822,0.0073867669407559,0.0232471548757952,33.0,0.0
+905_Plain2,millsap,threshold_after_loading,1,0.995483235050166,0.024364542364991,0.0237919598239334,47.0,0.0
+905_Plain2,millsap,unique_after_threshold,0,,,,,
+906_Mixed1,wu,configural,1,1.0,0.0,0.0204770173651577,47.0,0.0
+906_Mixed1,wu,thresholds,1,1.0,0.0,0.0204770131193324,65.0,0.0
+906_Mixed1,wu,conditional_loading (thresholds+loadings),1,0.986142435701028,0.0348311446057921,0.0328707959826416,70.0,0.0
+906_Mixed1,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+906_Mixed1,wu,conditional_strict (+residuals),0,,,,,
+906_Mixed1,millsap,baseline,1,1.0,0.0,0.0204770179472247,47.0,0.0
+906_Mixed1,millsap,loading,1,0.996760057450153,0.0195407081326771,0.0240602851413806,52.0,0.0
+906_Mixed1,millsap,threshold_after_loading,0,,,,,
+906_Mixed1,millsap,unique_after_threshold,0,,,,,
+906_Mixed2,wu,configural,1,1.0,0.0,0.0242697179493845,29.0,0.0
+906_Mixed2,wu,thresholds,1,1.0,0.0,0.0242697200220847,39.0,0.0
+906_Mixed2,wu,conditional_loading (thresholds+loadings),1,0.996401883939694,0.0182127040103298,0.0299164209965964,43.0,0.0
+906_Mixed2,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+906_Mixed2,wu,conditional_strict (+residuals),0,,,,,
+906_Mixed2,millsap,baseline,1,1.0,0.0,0.0242697185510519,29.0,0.0
+906_Mixed2,millsap,loading,1,0.997984739478271,0.0155589291143571,0.0282633283647352,33.0,0.0
+906_Mixed2,millsap,threshold_after_loading,0,,,,,
+906_Mixed2,millsap,unique_after_threshold,0,,,,,
+906_Mixed3,wu,configural,1,0.997689722139952,0.0198537288269603,0.0274411522661983,29.0,0.0
+906_Mixed3,wu,thresholds,1,0.999989691168861,0.0010766817489082,0.0274411572670772,44.0,0.0
+906_Mixed3,wu,conditional_loading (thresholds+loadings),1,1.0,0.0,0.0276441591062651,48.0,0.0
+906_Mixed3,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0277585917045104,52.0,0.0
+906_Mixed3,wu,conditional_strict (+residuals),1,1.0,0.0,0.0286207311755615,57.0,0.0
+906_Mixed3,millsap,baseline,1,0.997689722147289,0.0198537287954357,0.0274411573156696,29.0,0.0
+906_Mixed3,millsap,loading,1,0.999530767698774,0.0083877592571969,0.0274913659641719,33.0,0.0
+906_Mixed3,millsap,threshold_after_loading,1,1.0,0.0,0.0277585912360968,52.0,0.0
+906_Mixed3,millsap,unique_after_threshold,1,1.0,0.0,0.0286207213273492,57.0,0.0
+906_Total,wu,configural,1,0.455958438853877,0.120422092265706,0.129963156025748,447.0,0.0
+906_Total,wu,thresholds,1,0.443589039008639,0.116317133083132,0.129963155091328,490.0,0.0
+906_Total,wu,conditional_loading (thresholds+loadings),0,,,,,
+906_Total,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+906_Total,wu,conditional_strict (+residuals),0,,,,,
+906_Total,millsap,baseline,1,0.455958368550415,0.120422100046444,0.129963150957376,447.0,0.0
+906_Total,millsap,loading,1,0.460829010324111,0.117919644613824,0.129674230089968,462.0,0.0
+906_Total,millsap,threshold_after_loading,1,0.424940447134488,0.114788565975244,0.131542475027622,520.0,0.0
+906_Total,millsap,unique_after_threshold,0,,,,,
+907_ShortA,wu,configural,1,1.0,0.0,0.0154371424325743,5.0,0.0
+907_ShortA,wu,thresholds,1,1.0,0.0,0.0154371443424006,11.0,0.0
+907_ShortA,wu,conditional_loading (thresholds+loadings),1,1.0,0.0,0.0154485207288833,13.0,0.0
+907_ShortA,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.015458422533463,15.0,0.0
+907_ShortA,wu,conditional_strict (+residuals),1,1.0,0.0,0.016567148567538,18.0,0.0
+907_ShortA,millsap,baseline,1,1.0,0.0,0.0154371437004438,5.0,0.0
+907_ShortA,millsap,loading,1,1.0,0.0,0.0155978721416808,7.0,0.0
+907_ShortA,millsap,threshold_after_loading,1,1.0,0.0,0.0154584261217762,15.0,0.0
+907_ShortA,millsap,unique_after_threshold,1,1.0,0.0,0.0165671493867365,18.0,0.0
+907_ShortB,wu,configural,1,1.0,0.0,0.0091850787684158,5.0,0.0
+907_ShortB,wu,thresholds,1,1.0,0.0,0.0091850781142928,11.0,0.0
+907_ShortB,wu,conditional_loading (thresholds+loadings),1,1.0,0.0,0.0095006076942115,13.0,0.0
+907_ShortB,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0095163057690819,15.0,0.0
+907_ShortB,wu,conditional_strict (+residuals),1,1.0,0.0,0.0102382403798804,18.0,0.0
+907_ShortB,millsap,baseline,1,1.0,0.0,0.0091850785288815,5.0,0.0
+907_ShortB,millsap,loading,1,1.0,0.0,0.0092184789365463,7.0,0.0
+907_ShortB,millsap,threshold_after_loading,1,1.0,0.0,0.0095163058515571,15.0,0.0
+907_ShortB,millsap,unique_after_threshold,1,1.0,0.0,0.0102382398547232,18.0,0.0
+907_ShortC,wu,configural,1,0.998530248956906,0.0218031702937524,0.0209408746464716,15.0,0.0
+907_ShortC,wu,thresholds,1,0.999457875374129,0.0106937256395931,0.0209408779741674,23.0,0.0
+907_ShortC,wu,conditional_loading (thresholds+loadings),1,1.0,0.0,0.0222233480894309,26.0,0.0
+907_ShortC,wu,conditional_scalar (thresholds+loadings+intercepts),1,1.0,0.0,0.0221283753045241,29.0,0.0
+907_ShortC,wu,conditional_strict (+residuals),1,1.0,0.0,0.0221889872695877,33.0,0.0
+907_ShortC,millsap,baseline,1,0.998530248930762,0.0218031704876706,0.0209408791412174,15.0,0.0
+907_ShortC,millsap,loading,1,1.0,0.0,0.021087105826127,18.0,0.0
+907_ShortC,millsap,threshold_after_loading,1,1.0,0.0,0.0221283614286508,29.0,0.0
+907_ShortC,millsap,unique_after_threshold,1,1.0,0.0,0.0221889836064154,33.0,0.0
+908_Solo,wu,configural,0,,,,,
+908_Solo,wu,thresholds,1,0.999999626355922,0.0088888730587848,0.0136846919960369,23.0,0.0
+908_Solo,wu,conditional_loading (thresholds+loadings),0,,,,,
+908_Solo,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+908_Solo,wu,conditional_strict (+residuals),0,,,,,
+908_Solo,millsap,baseline,1,1.0,0.0,0.0136846949528254,15.0,0.0
+908_Solo,millsap,loading,1,0.999999699610544,0.0090092297043908,0.0140411751677349,18.0,0.0
+908_Solo,millsap,threshold_after_loading,1,0.999998431553589,0.0162187512758427,0.0151858776845697,29.0,0.0
+908_Solo,millsap,unique_after_threshold,0,,,,,
+909_DupD,wu,configural,0,,,,,
+909_DupD,wu,thresholds,1,0.999993090430678,0.0254985151073329,0.0157450609622441,39.0,0.0
+909_DupD,wu,conditional_loading (thresholds+loadings),0,,,,,
+909_DupD,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+909_DupD,wu,conditional_strict (+residuals),0,,,,,
+909_DupD,millsap,baseline,1,1.0,0.0,0.0157450622677657,29.0,0.0
+909_DupD,millsap,loading,0,,,,,
+909_DupD,millsap,threshold_after_loading,0,,,,,
+909_DupD,millsap,unique_after_threshold,0,,,,,
+909_DupF,wu,configural,0,,,,,
+909_DupF,wu,thresholds,1,1.0,0.0,28.4646490547923,39.0,1.0
+909_DupF,wu,conditional_loading (thresholds+loadings),0,,,,,
+909_DupF,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+909_DupF,wu,conditional_strict (+residuals),0,,,,,
+909_DupF,millsap,baseline,1,1.0,0.0,31.9292090747026,29.0,1.0
+909_DupF,millsap,loading,1,0.950439944865029,0.063475578128837,0.226703784242192,33.0,0.0
+909_DupF,millsap,threshold_after_loading,0,,,,,
+909_DupF,millsap,unique_after_threshold,0,,,,,
+909_Plain,wu,configural,1,0.995894998154742,0.026952602627523,0.0266464532144197,29.0,0.0
+909_Plain,wu,thresholds,1,0.996805646429634,0.0205022827139124,0.026646450985622,39.0,0.0
+909_Plain,wu,conditional_loading (thresholds+loadings),1,0.988253053142948,0.0374430573593803,0.0327863047559287,43.0,0.0
+909_Plain,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+909_Plain,wu,conditional_strict (+residuals),0,,,,,
+909_Plain,millsap,baseline,1,0.995894998257783,0.0269526022892509,0.0266464530623793,29.0,0.0
+909_Plain,millsap,loading,1,0.988355815683775,0.0425540201307662,0.029770933419508,33.0,0.0
+909_Plain,millsap,threshold_after_loading,0,,,,,
+909_Plain,millsap,unique_after_threshold,0,,,,,
+910_Duplicated,wu,configural,0,,,,,
+910_Duplicated,wu,thresholds,1,0.999819170572561,0.100587376202577,0.0735691883073477,39.0,1.0
+910_Duplicated,wu,conditional_loading (thresholds+loadings),0,,,,,
+910_Duplicated,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+910_Duplicated,wu,conditional_strict (+residuals),0,,,,,
+910_Duplicated,millsap,baseline,1,0.999831740482292,0.11252060294145,0.073569267332202,29.0,1.0
+910_Duplicated,millsap,loading,1,0.99982859009886,0.106463860964632,0.0747476097386567,33.0,1.0
+910_Duplicated,millsap,threshold_after_loading,0,,,,,
+910_Duplicated,millsap,unique_after_threshold,0,,,,,
+910_Plain1,wu,configural,1,0.99941261963926,0.0131396154250348,0.0196423229943852,29.0,0.0
+910_Plain1,wu,thresholds,1,0.999494131907011,0.0105149759276476,0.0196423194183541,39.0,0.0
+910_Plain1,wu,conditional_loading (thresholds+loadings),1,0.999335439504911,0.0114777028023041,0.0208256521941277,43.0,0.0
+910_Plain1,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.999764191939831,0.0065396173340526,0.0208150007479657,47.0,0.0
+910_Plain1,wu,conditional_strict (+residuals),1,1.0,0.0,0.0248114531796105,52.0,0.0
+910_Plain1,millsap,baseline,1,0.999412619805854,0.0131396135617,0.0196423192347957,29.0,0.0
+910_Plain1,millsap,loading,1,1.0,0.0,0.0199101841569498,33.0,0.0
+910_Plain1,millsap,threshold_after_loading,1,0.999764191895989,0.0065396179419791,0.0208150106783586,47.0,0.0
+910_Plain1,millsap,unique_after_threshold,1,1.0,0.0,0.0248114611912555,52.0,0.0
+910_Plain2,wu,configural,1,1.0,0.0,0.0200447951690596,29.0,0.0
+910_Plain2,wu,thresholds,1,0.999149487439724,0.0119362748026044,0.0200447951903949,39.0,0.0
+910_Plain2,wu,conditional_loading (thresholds+loadings),1,0.997645097206479,0.0189152903077423,0.0221679310758721,43.0,0.0
+910_Plain2,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.998894400260737,0.0123968338717552,0.0221897409499286,47.0,0.0
+910_Plain2,wu,conditional_strict (+residuals),1,0.998687655728206,0.012840530437514,0.0261575191129796,52.0,0.0
+910_Plain2,millsap,baseline,1,1.0,0.0,0.0200447945900546,29.0,0.0
+910_Plain2,millsap,loading,1,0.997505331224143,0.0222233856195097,0.021421498183786,33.0,0.0
+910_Plain2,millsap,threshold_after_loading,0,,,,,
+910_Plain2,millsap,unique_after_threshold,0,,,,,

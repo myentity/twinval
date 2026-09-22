@@ -1,0 +1,10 @@
+instrument_id,human_esem_admissible,twin_esem_admissible,paired_esem_admissible
+901,True,True,True
+902,True,True,True
+903,True,True,True
+904,True,True,True
+905,True,True,True
+906,True,True,True
+907,True,True,True
+909,True,True,True
+910,True,False,False

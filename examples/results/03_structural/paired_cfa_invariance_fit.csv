@@ -1,0 +1,217 @@
+scale_id,scheme,step,converged,cfi,rmsea,srmr,df,heywood
+148_Extraversion,wu,configural,1,0.963192179748407,0.145603785830505,0.115746246052576,239.0,0.0
+148_Extraversion,wu,thresholds,1,0.960860993078425,0.143676657270414,0.115746287932459,261.0,0.0
+148_Extraversion,wu,conditional_loading (thresholds+loadings),1,0.960906690070575,0.140659262891375,0.116625491659015,272.0,0.0
+148_Extraversion,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.958606543380446,0.141897321393755,0.116849660019941,283.0,0.0
+148_Extraversion,wu,conditional_strict (+residuals),1,0.942547725598136,0.163735998654832,0.13889149795865,295.0,0.0
+148_Extraversion,millsap,baseline,1,0.963192170411161,0.145603804298567,0.115746235291201,239.0,0.0
+148_Extraversion,millsap,loading,1,0.963085088508698,0.142571421372302,0.116030998407348,250.0,0.0
+148_Extraversion,millsap,threshold_after_loading,1,0.958606538430495,0.141897329878004,0.116849608103866,283.0,0.0
+148_Extraversion,millsap,unique_after_threshold,1,0.942547711007762,0.163736019445736,0.138891364776562,295.0,0.0
+148_Sociability,wu,configural,1,0.999143707864377,0.0964544911431863,0.0365457635730133,15.0,0.0
+148_Sociability,wu,thresholds,1,0.998568688849042,0.102970493226459,0.0365457541329392,22.0,0.0
+148_Sociability,wu,conditional_loading (thresholds+loadings),1,0.998570313987886,0.0965400314039417,0.0378631234142184,25.0,0.0
+148_Sociability,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.995858557345015,0.155257974654424,0.0373637775439966,28.0,0.0
+148_Sociability,wu,conditional_strict (+residuals),0,,,,,
+148_Sociability,millsap,baseline,1,0.999143707901483,0.0964544890533234,0.0365457559224642,15.0,0.0
+148_Sociability,millsap,loading,1,0.998697660465515,0.108588282897169,0.038730980094578,18.0,0.0
+148_Sociability,millsap,threshold_after_loading,1,0.995858557084974,0.155257979528754,0.0373638358462296,28.0,0.0
+148_Sociability,millsap,unique_after_threshold,0,,,,,
+148_Persistence,wu,configural,1,0.997259658966282,0.0579738946092405,0.0275672059289223,15.0,0.0
+148_Persistence,wu,thresholds,1,0.981903340138983,0.120312594711892,0.0275672174987717,23.0,0.0
+148_Persistence,wu,conditional_loading (thresholds+loadings),0,,,,,
+148_Persistence,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_Persistence,wu,conditional_strict (+residuals),0,,,,,
+148_Persistence,millsap,baseline,1,0.997259658758945,0.0579738968024294,0.0275671980181877,15.0,0.0
+148_Persistence,millsap,loading,1,0.995959735236378,0.0642605531605261,0.0283065642137972,18.0,0.0
+148_Persistence,millsap,threshold_after_loading,1,0.977478978186043,0.119528328399247,0.0310321710913946,29.0,0.0
+148_Persistence,millsap,unique_after_threshold,0,,,,,
+148_EnergyLevel,wu,configural,0,,,,,
+148_EnergyLevel,wu,thresholds,1,0.978906719344855,0.0908505449620051,0.0433521017815087,22.0,1.0
+148_EnergyLevel,wu,conditional_loading (thresholds+loadings),0,,,,,
+148_EnergyLevel,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_EnergyLevel,wu,conditional_strict (+residuals),0,,,,,
+148_EnergyLevel,millsap,baseline,1,0.984597284845502,0.0940199084661593,0.043352137179088,15.0,1.0
+148_EnergyLevel,millsap,loading,1,0.985648999171665,0.0828460208445869,0.0431070464396011,18.0,1.0
+148_EnergyLevel,millsap,threshold_after_loading,0,,,,,
+148_EnergyLevel,millsap,unique_after_threshold,0,,,,,
+148_Agreeableness,wu,configural,1,0.945078836433166,0.139365064547492,0.128124241023379,239.0,0.0
+148_Agreeableness,wu,thresholds,1,0.942162534881359,0.136857114014263,0.128124301442476,261.0,0.0
+148_Agreeableness,wu,conditional_loading (thresholds+loadings),1,0.941424258439677,0.134914134490935,0.128434641039583,272.0,0.0
+148_Agreeableness,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.935052988169962,0.139273783986598,0.128388197294685,283.0,0.0
+148_Agreeableness,wu,conditional_strict (+residuals),1,0.926172506421248,0.145439060406758,0.126500689304684,295.0,0.0
+148_Agreeableness,millsap,baseline,1,0.945078834803886,0.13936506661468,0.128124290348837,239.0,0.0
+148_Agreeableness,millsap,loading,1,0.945052747052357,0.136296905002135,0.128102654291748,250.0,0.0
+148_Agreeableness,millsap,threshold_after_loading,1,0.935052998079166,0.139273773361841,0.128388195159732,283.0,0.0
+148_Agreeableness,millsap,unique_after_threshold,1,0.926172497164092,0.145439069524987,0.126500557153589,295.0,0.0
+148_Compassion,wu,configural,1,0.998919705638176,0.0704617032233157,0.0350095862814147,15.0,0.0
+148_Compassion,wu,thresholds,1,0.998886314872795,0.0604643340921213,0.0350096055786173,21.0,0.0
+148_Compassion,wu,conditional_loading (thresholds+loadings),1,0.998487534832333,0.0659120442785204,0.0339924280420588,24.0,0.0
+148_Compassion,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.9965890325573,0.0933221244169569,0.0345127751506062,27.0,0.0
+148_Compassion,wu,conditional_strict (+residuals),0,,,,,
+148_Compassion,millsap,baseline,1,0.9989197056299,0.0704617034931969,0.0350096122009083,15.0,0.0
+148_Compassion,millsap,loading,1,0.998959691006933,0.0631208204925724,0.0344478382225583,18.0,0.0
+148_Compassion,millsap,threshold_after_loading,1,0.996589032658868,0.093322123027531,0.034512775590267,27.0,0.0
+148_Compassion,millsap,unique_after_threshold,0,,,,,
+148_Respectfulness,wu,configural,1,0.993527355792428,0.102674280035954,0.0437006591381764,15.0,0.0
+148_Respectfulness,wu,thresholds,1,0.990988980666707,0.0978339235542394,0.0437006804989727,23.0,0.0
+148_Respectfulness,wu,conditional_loading (thresholds+loadings),1,0.988511260497207,0.103900095168763,0.0500145780752653,26.0,0.0
+148_Respectfulness,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.974002746662333,0.147989588435481,0.0484206779076503,29.0,0.0
+148_Respectfulness,wu,conditional_strict (+residuals),0,,,,,
+148_Respectfulness,millsap,baseline,1,0.993527356594581,0.102674273673757,0.0437007091176843,15.0,0.0
+148_Respectfulness,millsap,loading,1,0.993175573905714,0.0962416905533466,0.0436165295280523,18.0,0.0
+148_Respectfulness,millsap,threshold_after_loading,1,0.974002750465928,0.147989577609485,0.0484206886257602,29.0,0.0
+148_Respectfulness,millsap,unique_after_threshold,0,,,,,
+148_Trust,wu,configural,1,0.994645181147652,0.110681351720597,0.0500393676554142,15.0,0.0
+148_Trust,wu,thresholds,1,0.986161683670499,0.143689621582131,0.0500393820831854,23.0,0.0
+148_Trust,wu,conditional_loading (thresholds+loadings),0,,,,,
+148_Trust,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_Trust,wu,conditional_strict (+residuals),0,,,,,
+148_Trust,millsap,baseline,1,0.994645181273008,0.110681350425078,0.0500393650410054,15.0,0.0
+148_Trust,millsap,loading,1,0.994837970607521,0.0992022850872767,0.0497296096730184,18.0,1.0
+148_Trust,millsap,threshold_after_loading,0,,,,,
+148_Trust,millsap,unique_after_threshold,0,,,,,
+148_Conscientiousness,wu,configural,1,0.986281532179814,0.0947671890149816,0.0693894559093676,285.0,0.0
+148_Conscientiousness,wu,thresholds,1,0.985840698097629,0.0936839723969398,0.0693894813714462,301.0,0.0
+148_Conscientiousness,wu,conditional_loading (thresholds+loadings),1,0.984103772944699,0.09734249741377,0.0706816794454774,313.0,0.0
+148_Conscientiousness,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.982144354241658,0.101245032586624,0.0704137482420761,325.0,0.0
+148_Conscientiousness,wu,conditional_strict (+residuals),1,0.966772158464273,0.135431702982037,0.108981191540014,338.0,0.0
+148_Conscientiousness,millsap,baseline,1,0.986281534571478,0.0947671807541722,0.0693894345166435,285.0,0.0
+148_Conscientiousness,millsap,loading,1,0.985572549233775,0.0952015896464634,0.0698019622059136,297.0,0.0
+148_Conscientiousness,millsap,threshold_after_loading,1,0.982144355056815,0.101245030275574,0.070413689459566,325.0,0.0
+148_Conscientiousness,millsap,unique_after_threshold,1,0.966772159832357,0.135431700193985,0.108981199500432,338.0,0.0
+148_Organization,wu,configural,1,0.998408034341712,0.0701764695858705,0.0358621048752193,15.0,0.0
+148_Organization,wu,thresholds,1,0.997967924494692,0.0686633867515201,0.035862085785812,20.0,0.0
+148_Organization,wu,conditional_loading (thresholds+loadings),1,0.994686215014725,0.103540049624818,0.039203880927319,23.0,0.0
+148_Organization,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_Organization,wu,conditional_strict (+residuals),0,,,,,
+148_Organization,millsap,baseline,1,0.998408034398549,0.0701764683331404,0.0358620974941925,15.0,0.0
+148_Organization,millsap,loading,1,0.997808006382757,0.0751715816618854,0.0374022607166154,18.0,0.0
+148_Organization,millsap,threshold_after_loading,1,0.99080316775995,0.128115818768364,0.038310907715075,26.0,0.0
+148_Organization,millsap,unique_after_threshold,0,,,,,
+148_Productiveness,wu,configural,1,0.982753386380906,0.137613160835162,0.0529117210422432,15.0,0.0
+148_Productiveness,wu,thresholds,1,0.975943511029279,0.137359960359458,0.0529116506352283,21.0,0.0
+148_Productiveness,wu,conditional_loading (thresholds+loadings),1,0.975146304397715,0.130600112037571,0.0556984248022567,24.0,0.0
+148_Productiveness,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.965118384174741,0.145871382192302,0.055737065275255,27.0,0.0
+148_Productiveness,wu,conditional_strict (+residuals),0,,,,,
+148_Productiveness,millsap,baseline,1,0.982753388198068,0.137613153585463,0.0529117125914388,15.0,0.0
+148_Productiveness,millsap,loading,1,0.983175239965762,0.124077167238585,0.0533343895282262,18.0,0.0
+148_Productiveness,millsap,threshold_after_loading,1,0.9651183796858,0.145871391578448,0.0557370216036915,27.0,0.0
+148_Productiveness,millsap,unique_after_threshold,0,,,,,
+148_Responsibility,wu,configural,1,0.998997456923359,0.088489213606438,0.0482566731831926,29.0,0.0
+148_Responsibility,wu,thresholds,1,0.998977917015014,0.08251662072821,0.0482566727092525,34.0,0.0
+148_Responsibility,wu,conditional_loading (thresholds+loadings),1,0.998238936567719,0.10245508424481,0.0572371886559334,38.0,0.0
+148_Responsibility,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_Responsibility,wu,conditional_strict (+residuals),0,,,,,
+148_Responsibility,millsap,baseline,1,0.998997456832118,0.0884892176331384,0.0482566866804587,29.0,0.0
+148_Responsibility,millsap,loading,1,0.998630546008,0.0969515075807814,0.0495130199151197,33.0,0.0
+148_Responsibility,millsap,threshold_after_loading,1,0.998098983237308,0.101252590078914,0.0566974848132701,42.0,0.0
+148_Responsibility,millsap,unique_after_threshold,1,0.992665073580535,0.188012517748492,0.0893666275610137,47.0,0.0
+148_NegativeEmotionality,wu,configural,1,0.986685928254394,0.118013903590997,0.065900223965496,239.0,0.0
+148_NegativeEmotionality,wu,thresholds,1,0.985911764560482,0.115724977796442,0.0659002670360297,263.0,0.0
+148_NegativeEmotionality,wu,conditional_loading (thresholds+loadings),1,0.985014115076924,0.116934481745333,0.0667606477533244,274.0,0.0
+148_NegativeEmotionality,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.984434502613195,0.116851892738568,0.0668913015591982,285.0,0.0
+148_NegativeEmotionality,wu,conditional_strict (+residuals),1,0.97430962977065,0.1470563006982,0.0931927856333309,297.0,0.0
+148_NegativeEmotionality,millsap,baseline,1,0.986685930661706,0.118013892921972,0.0659002559631874,239.0,0.0
+148_NegativeEmotionality,millsap,loading,1,0.985984716184193,0.118387983701096,0.0661764728137188,250.0,0.0
+148_NegativeEmotionality,millsap,threshold_after_loading,1,0.98443449931414,0.116851905121749,0.0668913095036748,285.0,0.0
+148_NegativeEmotionality,millsap,unique_after_threshold,1,0.974309631337051,0.147056296215021,0.093192773406919,297.0,0.0
+148_Anxiety,wu,configural,1,0.999269871888757,0.0915901666650944,0.0317793702295588,15.0,0.0
+148_Anxiety,wu,thresholds,1,0.998353456920837,0.11107532043451,0.0317794228947598,23.0,0.0
+148_Anxiety,wu,conditional_loading (thresholds+loadings),0,,,,,
+148_Anxiety,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_Anxiety,wu,conditional_strict (+residuals),0,,,,,
+148_Anxiety,millsap,baseline,1,0.999269871530849,0.0915901891137794,0.0317794336180407,15.0,0.0
+148_Anxiety,millsap,loading,1,0.999089465574112,0.0933698963192228,0.0318408245589197,18.0,0.0
+148_Anxiety,millsap,threshold_after_loading,1,0.99826314373574,0.101596298313438,0.0326449726906981,29.0,0.0
+148_Anxiety,millsap,unique_after_threshold,1,0.989729891526492,0.231593032404723,0.0605672045358325,33.0,0.0
+148_Depression,wu,configural,1,0.99698682883187,0.112386570000131,0.0477756982724888,15.0,0.0
+148_Depression,wu,thresholds,1,0.996402284489574,0.0991739557044619,0.0477757065801647,23.0,0.0
+148_Depression,wu,conditional_loading (thresholds+loadings),1,0.995872736083969,0.0999062346241913,0.0480336536880909,26.0,0.0
+148_Depression,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.995077855640118,0.103306183939541,0.0481453942895226,29.0,0.0
+148_Depression,wu,conditional_strict (+residuals),1,0.983492556302786,0.177349956886931,0.0806931972875208,33.0,0.0
+148_Depression,millsap,baseline,1,0.99698682908987,0.112386565188624,0.0477757492848912,15.0,0.0
+148_Depression,millsap,loading,1,0.997019909294762,0.102029705651812,0.0477398438720244,18.0,0.0
+148_Depression,millsap,threshold_after_loading,1,0.995077855656652,0.103306183766033,0.0481454105456971,29.0,0.0
+148_Depression,millsap,unique_after_threshold,1,0.983492556205677,0.177349957408578,0.080693203382473,33.0,0.0
+148_EmotionalVolatility,wu,configural,1,0.999192661434825,0.0640840003016005,0.0261801063173379,15.0,0.0
+148_EmotionalVolatility,wu,thresholds,1,0.998270528798254,0.075746076728444,0.0261801076197366,23.0,0.0
+148_EmotionalVolatility,wu,conditional_loading (thresholds+loadings),1,0.998516806549654,0.0659750335274962,0.0263873870026999,26.0,0.0
+148_EmotionalVolatility,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.99614141309795,0.100758695931564,0.0269505130059129,29.0,0.0
+148_EmotionalVolatility,wu,conditional_strict (+residuals),0,,,,,
+148_EmotionalVolatility,millsap,baseline,1,0.999192661397257,0.0640840017926092,0.026180107477229,15.0,0.0
+148_EmotionalVolatility,millsap,loading,1,0.998373083667842,0.0830450500159158,0.026928607600732,18.0,0.0
+148_EmotionalVolatility,millsap,threshold_after_loading,0,,,,,
+148_EmotionalVolatility,millsap,unique_after_threshold,0,,,,,
+148_OpenMindedness,wu,configural,1,0.969473108822628,0.1644387199815,0.173961184488513,239.0,0.0
+148_OpenMindedness,wu,thresholds,1,0.968252400363112,0.161715122651655,0.173961276582322,257.0,0.0
+148_OpenMindedness,wu,conditional_loading (thresholds+loadings),1,0.968235874110786,0.158402782449318,0.173183724631495,268.0,0.0
+148_OpenMindedness,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.966282273495434,0.159951673733224,0.17313445193571,279.0,0.0
+148_OpenMindedness,wu,conditional_strict (+residuals),1,0.9601834953227,0.170195009117411,0.174823246021737,291.0,0.0
+148_OpenMindedness,millsap,baseline,1,0.969473108949046,0.164438719641013,0.173961194227116,239.0,0.0
+148_OpenMindedness,millsap,loading,1,0.968823740135477,0.162481436784885,0.173939118773918,250.0,0.0
+148_OpenMindedness,millsap,threshold_after_loading,1,0.966282278750139,0.15995166126947,0.173134415093299,279.0,0.0
+148_OpenMindedness,millsap,unique_after_threshold,1,0.960183510655404,0.170194976347708,0.174823347717858,291.0,0.0
+148_AestheticSensitivity,wu,configural,1,0.99958597443988,0.072460637021993,0.0249071297614287,15.0,0.0
+148_AestheticSensitivity,wu,thresholds,1,0.998860563877823,0.0970767602539142,0.0249071471113559,23.0,0.0
+148_AestheticSensitivity,wu,conditional_loading (thresholds+loadings),0,,,,,
+148_AestheticSensitivity,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_AestheticSensitivity,wu,conditional_strict (+residuals),0,,,,,
+148_AestheticSensitivity,millsap,baseline,1,0.999585974437772,0.0724606372065052,0.0249071308246699,15.0,0.0
+148_AestheticSensitivity,millsap,loading,1,0.999462402363829,0.0753748781769718,0.0254428644776501,18.0,0.0
+148_AestheticSensitivity,millsap,threshold_after_loading,1,0.997596215304469,0.125569158688185,0.0255045080932668,29.0,0.0
+148_AestheticSensitivity,millsap,unique_after_threshold,0,,,,,
+148_IntellectualCuriosity,wu,configural,1,0.999153292004597,0.0562869321703366,0.0351747564403389,15.0,0.0
+148_IntellectualCuriosity,wu,thresholds,1,0.997630838863857,0.0795745205225006,0.0351747547300665,21.0,0.0
+148_IntellectualCuriosity,wu,conditional_loading (thresholds+loadings),0,,,,,
+148_IntellectualCuriosity,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_IntellectualCuriosity,wu,conditional_strict (+residuals),0,,,,,
+148_IntellectualCuriosity,millsap,baseline,1,0.999153291667918,0.0562869433611101,0.0351747487602837,15.0,0.0
+148_IntellectualCuriosity,millsap,loading,1,0.998528065843601,0.0677476627585156,0.0413181667958164,18.0,0.0
+148_IntellectualCuriosity,millsap,threshold_after_loading,1,0.995046868271903,0.101471582835392,0.0412436048030138,27.0,0.0
+148_IntellectualCuriosity,millsap,unique_after_threshold,0,,,,,
+148_CreativeImagination,wu,configural,0,,,,,
+148_CreativeImagination,wu,thresholds,1,0.998275088603163,0.083004490572732,0.036310157924983,19.0,1.0
+148_CreativeImagination,wu,conditional_loading (thresholds+loadings),0,,,,,
+148_CreativeImagination,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+148_CreativeImagination,wu,conditional_strict (+residuals),0,,,,,
+148_CreativeImagination,millsap,baseline,1,0.99855555151604,0.0854870621406188,0.0363101528795558,15.0,1.0
+148_CreativeImagination,millsap,loading,1,0.997166403321176,0.109301911734271,0.0381651471091313,18.0,1.0
+148_CreativeImagination,millsap,threshold_after_loading,0,,,,,
+148_CreativeImagination,millsap,unique_after_threshold,0,,,,,
+161_EmotionalWellBeing,wu,configural,0,,,,,
+161_EmotionalWellBeing,wu,thresholds,1,0.995584664003304,0.0641197131350257,0.0111940988074691,12.0,1.0
+161_EmotionalWellBeing,wu,conditional_loading (thresholds+loadings),0,,,,,
+161_EmotionalWellBeing,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+161_EmotionalWellBeing,wu,conditional_strict (+residuals),0,,,,,
+161_EmotionalWellBeing,millsap,baseline,1,1.0,0.0,0.0111941081220334,5.0,1.0
+161_EmotionalWellBeing,millsap,loading,1,0.99864422699106,0.0465205442059456,0.0121863110408656,7.0,1.0
+161_EmotionalWellBeing,millsap,threshold_after_loading,0,,,,,
+161_EmotionalWellBeing,millsap,unique_after_threshold,0,,,,,
+161_SocialWellBeing,wu,configural,1,0.956391063908337,0.173279089786768,0.0978302891279634,29.0,0.0
+161_SocialWellBeing,wu,thresholds,1,0.950024999561126,0.154137804705314,0.0978302515637752,42.0,0.0
+161_SocialWellBeing,wu,conditional_loading (thresholds+loadings),1,0.952345659495693,0.143823458242456,0.0981552422020349,46.0,0.0
+161_SocialWellBeing,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.922534817968736,0.175883735944578,0.0985229433861295,50.0,0.0
+161_SocialWellBeing,wu,conditional_strict (+residuals),0,,,,,
+161_SocialWellBeing,millsap,baseline,1,0.957143879462362,0.171776931153507,0.0978309317227207,29.0,0.0
+161_SocialWellBeing,millsap,loading,1,0.94584514420439,0.181016908331283,0.0993942498592533,33.0,0.0
+161_SocialWellBeing,millsap,threshold_after_loading,0,,,,,
+161_SocialWellBeing,millsap,unique_after_threshold,0,,,,,
+161_PsychologicalWellBeing,wu,configural,1,0.97459339936687,0.0705052628763908,0.0462909374882356,47.0,0.0
+161_PsychologicalWellBeing,wu,thresholds,1,0.959444406106021,0.0775580216753164,0.0462909248087854,62.0,0.0
+161_PsychologicalWellBeing,wu,conditional_loading (thresholds+loadings),0,,,,,
+161_PsychologicalWellBeing,wu,conditional_scalar (thresholds+loadings+intercepts),0,,,,,
+161_PsychologicalWellBeing,wu,conditional_strict (+residuals),0,,,,,
+161_PsychologicalWellBeing,millsap,baseline,1,0.974593399440667,0.0705052627739935,0.0462909439731702,47.0,0.0
+161_PsychologicalWellBeing,millsap,loading,1,0.962116398122794,0.0818504638296425,0.0492818036273951,52.0,0.0
+161_PsychologicalWellBeing,millsap,threshold_after_loading,0,,,,,
+161_PsychologicalWellBeing,millsap,unique_after_threshold,0,,,,,
+161_OverallScore,wu,configural,1,0.888610688490617,0.117671903048644,0.100405481668975,335.0,0.0
+161_OverallScore,wu,thresholds,1,0.882828024978772,0.11483768631449,0.100405532761204,370.0,0.0
+161_OverallScore,wu,conditional_loading (thresholds+loadings),1,0.878084870837227,0.115133799099049,0.101415405777337,383.0,0.0
+161_OverallScore,wu,conditional_scalar (thresholds+loadings+intercepts),1,0.858006024850296,0.122197068307272,0.101527801179793,396.0,0.0
+161_OverallScore,wu,conditional_strict (+residuals),0,,,,,
+161_OverallScore,millsap,baseline,1,0.888610686049791,0.117671904337891,0.100405539866518,335.0,0.0
+161_OverallScore,millsap,loading,1,0.883222592967367,0.118212448482076,0.100532069609914,348.0,0.0
+161_OverallScore,millsap,threshold_after_loading,1,0.858006046654759,0.122197058925038,0.101527796686787,396.0,0.0
+161_OverallScore,millsap,unique_after_threshold,0,,,,,

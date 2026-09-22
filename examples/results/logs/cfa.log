@@ -1,0 +1,32 @@
+[1/24] 148_Extraversion (k=12, n=484)
+[2/24] 148_Sociability (k=4, n=484)
+[3/24] 148_Persistence (k=4, n=484)
+[4/24] 148_EnergyLevel (k=4, n=484)
+[5/24] 148_Agreeableness (k=12, n=484)
+[6/24] 148_Compassion (k=4, n=484)
+[7/24] 148_Respectfulness (k=4, n=484)
+[8/24] 148_Trust (k=4, n=484)
+[9/24] 148_Conscientiousness (k=13, n=484)
+[10/24] 148_Organization (k=4, n=484)
+[11/24] 148_Productiveness (k=4, n=484)
+[12/24] 148_Responsibility (k=5, n=484)
+[13/24] 148_NegativeEmotionality (k=12, n=484)
+[14/24] 148_Anxiety (k=4, n=484)
+[15/24] 148_Depression (k=4, n=484)
+[16/24] 148_EmotionalVolatility (k=4, n=484)
+[17/24] 148_OpenMindedness (k=12, n=484)
+[18/24] 148_AestheticSensitivity (k=4, n=484)
+[19/24] 148_IntellectualCuriosity (k=4, n=484)
+[20/24] 148_CreativeImagination (k=4, n=484)
+[21/24] 161_EmotionalWellBeing (k=3, n=484)
+[22/24] 161_SocialWellBeing (k=5, n=484)
+[23/24] 161_PsychologicalWellBeing (k=6, n=484)
+[24/24] 161_OverallScore (k=14, n=484)
+Было 50 или более предупреждений (введите warnings() чтобы просмотреть первые 50)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/cfa_results/invariance_results.csv
+  examples/results/03_structural/r_work/cfa_results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/cfa_results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/cfa_results

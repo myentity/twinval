@@ -1,0 +1,85 @@
+# Default configuration of the twinval framework.
+# Every threshold and resampling setting lives here so that an analysis can be
+# pre-registered: copy this file, edit it, and pass it with `twinval run --config my.yaml`.
+# Values below reproduce the settings of the original study (N = 484, 13 instruments).
+
+run:
+  name: run
+  seed: 20260915                 # master seed; every stage derives its own generator from it
+  n_jobs: 1
+
+data:
+  data_dir: data                 # folder with <scale_id>_paired_wide.csv files
+  id_column: ID
+  instruments: null              # e.g. [148, 157] to restrict to some instruments; null = all found in data_dir
+  legacy_file_names: true        # also accept <legacy_id>_paired_wide.csv (original Russian file names)
+  missing: drop                  # 'drop' incomplete pairs (complete-case across all loaded scales) | 'error'
+
+thresholds:
+  r_practical: 0.50              # practically adequate individuation: r >= 0.50 ...
+  auc_ci_low: 0.50               # ... and lower 95% CI bound of scale-level AUC > 0.50
+  cb_adequate: 0.80              # calibration adequate if C_b >= 0.80
+  ccc_acceptable: 0.40           # type D branch (b): CCC >= 0.40
+  phi_congruence: 0.85           # Tucker's phi >= 0.85 => congruence supported
+  bootstrap_valid_min: 0.80      # a Tucker bootstrap CI is stable if >= 80% replicates are admissible
+  alpha_sig: 0.05
+  cfa_delta_cfi_min: -0.010      # invariance supported if delta CFI >= -0.010 ...
+  cfa_delta_rmsea_max: 0.015     # ... and delta RMSEA <= 0.015 (see r/paired_cfa_invariance.R)
+
+profile:
+  enabled: true
+  n_boot: 5000
+  n_perm: 2000
+  robustness_specs: true         # also compute Pearson / equal-weight-Pearson identification specs
+  leave_one_instrument_out: true
+  mahalanobis_scales: nonredundant   # nonredundant | all
+
+scale:
+  enabled: true
+  n_boot: 5000
+  n_perm: 2000
+  cv_repeats: 10
+  cv_folds: 5
+  n_nested_boot: 1000            # nested person-level bootstrap around the CV recalibration
+  n_boot_disattenuation: 5000
+
+item:
+  enabled: true
+  n_boot: 5000
+  n_boot_variance: 2000
+  data_version: harmonized       # DATA USED FOR THE ITEM LEVEL: 'harmonized' (as in the original study) | 'raw'.
+                                 # Harmonization merges rare categories symmetrically for Human and Twin when their observed
+                                 # category sets differ for an item. Profile and scale level always use the raw input data;
+                                 # CFA/ESEM always use harmonized data. The harmonized files are written to 00_audit/harmonized_data/.
+
+structural:
+  enabled: true                  # requires Rscript + lavaan + semTools
+  rscript: Rscript
+  cfa: true
+  cfa_scales: all                # all | nonredundant (facets and total scores are redundant)
+  esem: true
+  order_check_permutations: 0    # >0: refit non-clean CFA models on this many random row orders to flag order-sensitive verdicts
+  tucker_bootstrap: true
+  bootstrap_admissible_only: true  # run the (slow) Tucker bootstrap only for instruments whose Human AND Twin ESEM are admissible
+  n_boot_tucker: 500             # the published analysis used 500 (~11 h for 11 instruments)
+  resume: true
+
+synthesis:
+  enabled: true
+  n_boot_cluster: 5000
+  min_clusters_for_cluster_bootstrap: 4   # with fewer instruments the cluster-bootstrap CI is reported as NaN
+  type_labels:
+    A: Multidimensionally supported fidelity
+    B: Individuating but miscalibrated
+    C: Structurally supported but weakly individuating
+    D: Structurally discrepant despite acceptable score-level fidelity
+    E: Individuating and calibrated with limited structural support
+    F: Unclassified residual
+    model_inadmissible: Structural model inadmissible (Heywood/nonidentified)
+    not_tested: Structural analysis not conducted/not applicable
+
+figures:
+  dpi: 200
+
+output:
+  keep_intermediate: true      # false: delete copies of the input data (harmonised files, item batteries) from the run folder

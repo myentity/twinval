@@ -1,0 +1,9 @@
+instrument_id,instrument_name,factor,matched_twin_factor,phi_full_column,phi_target_items_only,status_human,status_twin,category,n_valid_bootstrap,n_total_bootstrap,frac_valid_bootstrap,phi_boot_mean,phi_ci_lo,phi_ci_hi,ci_stable
+148,Big Five Inventory-2 (BFI-2),148_Extraversion,148_Extraversion,0.9468349326971996,0.991698550459561,ok,ok,high,38,500,0.076,0.9257639025582701,0.8711145740220224,0.9510248470263655,False
+148,Big Five Inventory-2 (BFI-2),148_Agreeableness,148_Agreeableness,0.9368934689042191,0.9842043170943293,ok,ok,high,38,500,0.076,0.9138606501330089,0.8699683374265503,0.9385830569562532,False
+148,Big Five Inventory-2 (BFI-2),148_Conscientiousness,148_Conscientiousness,0.9575020120746908,0.9892928274611628,ok,ok,very_high,38,500,0.076,0.9442655341106105,0.9156542308292358,0.9564109532094694,False
+148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,148_NegativeEmotionality,0.9365066017865038,0.9926053769503926,ok,ok,high,38,500,0.076,0.9249923411749834,0.8963225465812618,0.9526783517833799,False
+148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,148_OpenMindedness,0.9411825689103481,0.9666759621275822,ok,ok,high,38,500,0.076,0.9185467477519005,0.8668441410939557,0.9504072427943022,False
+161,Spectrum of Psychological Health,161_EmotionalWellBeing,161_EmotionalWellBeing,0.8173407871610836,0.9599879067959135,ok,ok,insufficient,252,500,0.504,0.7656072970407124,0.5673607487244164,0.908011957312688,False
+161,Spectrum of Psychological Health,161_SocialWellBeing,161_SocialWellBeing,0.9577787427154411,0.9902808385127517,ok,ok,very_high,252,500,0.504,0.9404876446552098,0.8829780919174107,0.9718120986529999,False
+161,Spectrum of Psychological Health,161_PsychologicalWellBeing,161_PsychologicalWellBeing,0.8094223990248284,0.9397574636251546,ok,ok,insufficient,252,500,0.504,0.8035017140076166,0.6799861172614396,0.943378592437076,False

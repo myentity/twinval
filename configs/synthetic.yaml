@@ -1,0 +1,13 @@
+# Settings used for the published synthetic example (examples/synthetic/results).
+# Resampling sizes are smaller than the study defaults (configs/default.yaml) to keep the run at ~30 minutes.
+run:
+  name: synthetic_results
+  seed: 20260922
+profile: {n_boot: 2000, n_perm: 1000}
+scale: {n_boot: 2000, n_perm: 1000, cv_repeats: 10, n_nested_boot: 300, n_boot_disattenuation: 2000}
+item: {n_boot: 2000, n_boot_variance: 1000}
+structural:
+  n_boot_tucker: 100
+  order_check_permutations: 3
+synthesis: {n_boot_cluster: 2000}
+output: {keep_intermediate: false}

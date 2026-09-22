@@ -1,0 +1,3 @@
+instrument_id,instrument_name,n_scales,configural_status,n_scales_configural_ok,metric_status_millsap_primary,metric_status_wu_conditional,scalar_status_wu_chain,n_scales_metric_supported,n_scales_metric_rejected,n_scales_scalar_supported_of_interpretable,n_scales_scalar_rejected_of_interpretable,n_scales_scalar_not_interpretable
+148,Big Five Inventory-2 (BFI-2),20,nonconverged,18,not_supported,not_supported,not_supported,16,1,6,5,7
+161,Spectrum of Psychological Health,4,nonconverged,3,not_supported,supported,not_supported,1,2,0,2,2

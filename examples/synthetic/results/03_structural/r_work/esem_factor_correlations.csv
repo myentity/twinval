@@ -1,0 +1,55 @@
+"instrument_id","instrument_name","side","factor1","factor2","correlation","se","pvalue"
+901,"Synthetic - Faithful twin","human","901_Alpha","901_Beta",0.303648819308052,0.0470184917019352,1.06045172643121e-10
+901,"Synthetic - Faithful twin","human","901_Alpha","901_Gamma",0.24231408298589,0.0502070058343953,1.39092789219752e-06
+901,"Synthetic - Faithful twin","human","901_Beta","901_Gamma",0.2604373521239,0.0512352959999996,3.7120122242662e-07
+901,"Synthetic - Faithful twin","twin","901_Alpha","901_Beta",0.198857188171025,0.0512730804126418,0.000105148486480688
+901,"Synthetic - Faithful twin","twin","901_Alpha","901_Gamma",0.0758386048190577,0.0511507163450368,0.138167450191629
+901,"Synthetic - Faithful twin","twin","901_Beta","901_Gamma",0.212078208272914,0.0500889480050458,2.29538269398422e-05
+902,"Synthetic - Miscalibrated twin","human","902_Shifted","902_Compressed",0.30385285355171,0.0472306288735606,1.24792398636941e-10
+902,"Synthetic - Miscalibrated twin","human","902_Shifted","902_Lowered",0.231490258307384,0.0506300128053897,4.82642962906787e-06
+902,"Synthetic - Miscalibrated twin","human","902_Compressed","902_Lowered",0.354230630552108,0.0457303988587987,9.54791801177635e-15
+902,"Synthetic - Miscalibrated twin","twin","902_Shifted","902_Compressed",0.172207352139579,0.0685522350112348,0.012002855703565
+902,"Synthetic - Miscalibrated twin","twin","902_Shifted","902_Lowered",0.272212567037679,0.0530722577347136,2.91140871189199e-07
+902,"Synthetic - Miscalibrated twin","twin","902_Compressed","902_Lowered",0.210086951346514,0.0714196894478133,0.00326539217636035
+903,"Synthetic - Weakly individuating twin","human","903_Generic1","903_Generic2",0.42445950523888,0.047489198110969,0
+903,"Synthetic - Weakly individuating twin","human","903_Generic1","903_Generic3",0.282843675793301,0.0477878646722401,3.24428506282004e-09
+903,"Synthetic - Weakly individuating twin","human","903_Generic2","903_Generic3",0.27194669137292,0.0490379850532107,2.9289180414338e-08
+903,"Synthetic - Weakly individuating twin","twin","903_Generic1","903_Generic2",-0.0248028165595752,0.0529763999615077,0.639651478129245
+903,"Synthetic - Weakly individuating twin","twin","903_Generic1","903_Generic3",0.0365820397557424,0.0514180618299844,0.476797476769093
+903,"Synthetic - Weakly individuating twin","twin","903_Generic2","903_Generic3",-0.0137532997829466,0.0537041425007521,0.797878382617399
+904,"Synthetic - Unequal twin loadings","human","904_Uneven1","904_Uneven2",0.349644294768586,0.0488905020059994,8.57758308825396e-13
+904,"Synthetic - Unequal twin loadings","human","904_Uneven1","904_Even",0.298753092007456,0.050892709229766,4.35129932085943e-09
+904,"Synthetic - Unequal twin loadings","human","904_Uneven2","904_Even",0.349627519956162,0.0459242149108791,2.66453525910038e-14
+904,"Synthetic - Unequal twin loadings","twin","904_Uneven1","904_Uneven2",0.252345159848067,0.0462533329081089,4.87752369604522e-08
+904,"Synthetic - Unequal twin loadings","twin","904_Uneven1","904_Even",0.207633632417468,0.0496085738110278,2.84616182053554e-05
+904,"Synthetic - Unequal twin loadings","twin","904_Uneven2","904_Even",0.296568320590288,0.0475805198336284,4.57651250229674e-10
+905,"Synthetic - Repeated twin answers (congruent)","human","905_Duplicated","905_Plain1",0.232926323836843,0.0520496380597386,7.63825046856681e-06
+905,"Synthetic - Repeated twin answers (congruent)","human","905_Duplicated","905_Plain2",0.288609467103708,0.0496251577159683,6.03483996108878e-09
+905,"Synthetic - Repeated twin answers (congruent)","human","905_Plain1","905_Plain2",0.315375434627957,0.0497309521444127,2.27342811243147e-10
+905,"Synthetic - Repeated twin answers (congruent)","twin","905_Duplicated","905_Plain1",0.139777539613077,0.0505566100591673,0.00569624576780781
+905,"Synthetic - Repeated twin answers (congruent)","twin","905_Duplicated","905_Plain2",0.151741694574818,0.0498462202724425,0.00233302617766107
+905,"Synthetic - Repeated twin answers (congruent)","twin","905_Plain1","905_Plain2",0.188762395177492,0.0536730010407769,0.000436623824879412
+906,"Synthetic - Mixed instrument with a total score","human","906_Mixed1","906_Mixed2",0.265830088936739,0.049527655777642,7.9921354645407e-08
+906,"Synthetic - Mixed instrument with a total score","human","906_Mixed1","906_Mixed3",0.286474921356474,0.0468951003699565,1.00354435872418e-09
+906,"Synthetic - Mixed instrument with a total score","human","906_Mixed2","906_Mixed3",0.255245012132464,0.0513277189632558,6.59759425758466e-07
+906,"Synthetic - Mixed instrument with a total score","twin","906_Mixed1","906_Mixed2",0.184187006777735,0.0653462053787527,0.00482285435140639
+906,"Synthetic - Mixed instrument with a total score","twin","906_Mixed1","906_Mixed3",0.0353196117784598,0.055200261516823,0.522273368405949
+906,"Synthetic - Mixed instrument with a total score","twin","906_Mixed2","906_Mixed3",0.0369230020461142,0.0602499944897928,0.539988774967507
+907,"Synthetic - Short scales","human","907_ShortA","907_ShortB",0.275915924117035,0.0635583142456254,1.41741472192702e-05
+907,"Synthetic - Short scales","human","907_ShortA","907_ShortC",0.24791703730241,0.059497214823567,3.08813266638452e-05
+907,"Synthetic - Short scales","human","907_ShortB","907_ShortC",0.275819023157994,0.0553890848347524,6.36948094934198e-07
+907,"Synthetic - Short scales","twin","907_ShortA","907_ShortB",0.108965281886413,0.0619146406308463,0.0784200912013984
+907,"Synthetic - Short scales","twin","907_ShortA","907_ShortC",0.0617858121316045,0.0585800846788319,0.291551643110683
+907,"Synthetic - Short scales","twin","907_ShortB","907_ShortC",0.0916498940057927,0.0564908804044498,0.104721177516268
+909,"Synthetic - Repeated twin answers (discrepant)","human","909_DupD","909_DupF",0.221923678639355,0.0512602317328223,1.4954751732299e-05
+909,"Synthetic - Repeated twin answers (discrepant)","human","909_DupD","909_Plain",0.2530557829838,0.0530265515312164,1.82182201302616e-06
+909,"Synthetic - Repeated twin answers (discrepant)","human","909_DupF","909_Plain",0.25042072109717,0.0508708079100623,8.5366875945958e-07
+909,"Synthetic - Repeated twin answers (discrepant)","twin","909_DupD","909_DupF",0.0937864964234805,0.0717760430242596,0.191330045852389
+909,"Synthetic - Repeated twin answers (discrepant)","twin","909_DupD","909_Plain",0.244548591986693,0.0483940396460684,4.34288410122718e-07
+909,"Synthetic - Repeated twin answers (discrepant)","twin","909_DupF","909_Plain",0.183511119204067,0.112759548057315,0.103640444066573
+910,"Synthetic - Repeated twin answers (inadmissible)","human","910_Duplicated","910_Plain1",0.334906995389449,0.0503693715937775,2.95048430132283e-11
+910,"Synthetic - Repeated twin answers (inadmissible)","human","910_Duplicated","910_Plain2",0.225826308840097,0.0517387895684031,1.27274671601896e-05
+910,"Synthetic - Repeated twin answers (inadmissible)","human","910_Plain1","910_Plain2",0.27841722146836,0.0500287618635443,2.61937289636194e-08
+910,"Synthetic - Repeated twin answers (inadmissible)","twin","910_Duplicated","910_Plain1",0.206425114037218,0.0504335493546889,4.25805991088879e-05
+910,"Synthetic - Repeated twin answers (inadmissible)","twin","910_Duplicated","910_Plain2",0.153640426843375,0.0510461956514206,0.00261393008880528
+910,"Synthetic - Repeated twin answers (inadmissible)","twin","910_Plain1","910_Plain2",0.177142485937957,0.0521133812460059,0.000675895341683219

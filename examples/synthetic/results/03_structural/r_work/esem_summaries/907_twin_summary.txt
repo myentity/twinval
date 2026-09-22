@@ -1,0 +1,176 @@
+lavaan 0.7-2 ended normally after 27 iterations
+
+  Estimator                                       DWLS
+  Optimization method                           NLMINB
+  Number of model parameters                        73
+  Row rank of the constraints matrix                 6
+
+  Rotation method                          PST OBLIQUE
+  Rotation algorithm (rstarts)                GPA (30)
+  Standardized metric                             TRUE
+  Row weights                                     None
+
+  Number of observations                           500
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                                 4.557      13.074
+  Degrees of freedom                                18          18
+  P-value (Unknown)                                 NA       0.787
+  Scaling correction factor                                  0.370
+  Shift parameter                                            0.760
+    simple second-order correction                                
+
+Model Test Baseline Model:
+
+  Test statistic                              2014.191    1445.749
+  Degrees of freedom                                45          45
+  P-value                                           NA       0.000
+  Scaling correction factor                                  1.406
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000       1.000
+  Tucker-Lewis Index (TLI)                       1.017       1.009
+                                                                  
+  Robust Comparative Fit Index (CFI)                         1.000
+  Robust Tucker-Lewis Index (TLI)                            1.016
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.000       0.000
+  90 Percent confidence interval - lower         0.000       0.000
+  90 Percent confidence interval - upper         0.000       0.027
+  P-value H_0: RMSEA <= 0.050                    1.000       0.999
+  P-value H_0: RMSEA >= 0.080                    0.000       0.000
+                                                                  
+  Robust RMSEA                                               0.000
+  90 Percent confidence interval - lower                     0.000
+  90 Percent confidence interval - upper                     0.032
+  P-value H_0: Robust RMSEA <= 0.050                         0.995
+  P-value H_0: Robust RMSEA >= 0.080                         0.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.013       0.013
+
+Goodness of Fit Index:
+
+  Goodness of Fit Index (GFI)                    1.000            
+  90 Percent confidence interval - lower         1.000            
+  90 Percent confidence interval - upper         1.000            
+                                                                  
+  Robust GFI                                                 1.000
+  90 Percent confidence interval - lower                     0.996
+  90 Percent confidence interval - upper                     1.000
+
+Parameter Estimates:
+
+  Parameterization                               Delta
+  Standard errors                           Robust.sem
+  Information                                 Expected
+  Information saturated (h1) model        Unstructured
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  f1 =~ efa                                                             
+    SYN07_1_t         0.543    0.048   11.391    0.000    0.543    0.543
+    SYN07_2_t         0.857    0.057   15.075    0.000    0.857    0.857
+    SYN07_3_t         0.555    0.048   11.505    0.000    0.555    0.555
+    SYN07_4_t         0.039    0.036    1.069    0.285    0.039    0.039
+    SYN07_5_t        -0.051    0.032   -1.623    0.104   -0.051   -0.051
+    SYN07_6_t         0.019    0.035    0.546    0.585    0.019    0.019
+    SYN07_7_t         0.001    0.038    0.034    0.973    0.001    0.001
+    SYN07_8_t        -0.021    0.039   -0.545    0.586   -0.021   -0.021
+    SYN07_9_t         0.007    0.036    0.205    0.838    0.007    0.007
+    SYN07_10_t        0.016    0.038    0.427    0.669    0.016    0.016
+  f2 =~ efa                                                             
+    SYN07_1_t         0.036    0.038    0.954    0.340    0.036    0.036
+    SYN07_2_t        -0.021    0.028   -0.758    0.449   -0.021   -0.021
+    SYN07_3_t         0.000    0.044    0.008    0.994    0.000    0.000
+    SYN07_4_t         0.660    0.038   17.303    0.000    0.660    0.660
+    SYN07_5_t         0.743    0.037   19.979    0.000    0.743    0.743
+    SYN07_6_t         0.760    0.039   19.475    0.000    0.760    0.760
+    SYN07_7_t        -0.001    0.036   -0.016    0.987   -0.001   -0.001
+    SYN07_8_t         0.041    0.034    1.206    0.228    0.041    0.041
+    SYN07_9_t        -0.059    0.036   -1.647    0.100   -0.059   -0.059
+    SYN07_10_t        0.015    0.036    0.424    0.672    0.015    0.015
+  f3 =~ efa                                                             
+    SYN07_1_t         0.033    0.038    0.872    0.383    0.033    0.033
+    SYN07_2_t        -0.017    0.027   -0.641    0.521   -0.017   -0.017
+    SYN07_3_t        -0.004    0.040   -0.090    0.929   -0.004   -0.004
+    SYN07_4_t        -0.023    0.035   -0.665    0.506   -0.023   -0.023
+    SYN07_5_t         0.007    0.029    0.241    0.809    0.007    0.007
+    SYN07_6_t         0.012    0.032    0.383    0.702    0.012    0.012
+    SYN07_7_t         0.674    0.035   19.394    0.000    0.674    0.674
+    SYN07_8_t         0.751    0.039   19.357    0.000    0.751    0.751
+    SYN07_9_t         0.711    0.034   20.919    0.000    0.711    0.711
+    SYN07_10_t        0.667    0.037   18.109    0.000    0.667    0.667
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  f1 ~~                                                                 
+    f2                0.109    0.062    1.760    0.078    0.109    0.109
+    f3                0.062    0.059    1.055    0.292    0.062    0.062
+  f2 ~~                                                                 
+    f3                0.092    0.056    1.622    0.105    0.092    0.092
+
+Thresholds:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+    SYN07_1_t|t1     -1.491    0.086  -17.370    0.000   -1.491   -1.491
+    SYN07_1_t|t2     -0.524    0.059   -8.888    0.000   -0.524   -0.524
+    SYN07_1_t|t3      0.364    0.057    6.330    0.000    0.364    0.364
+    SYN07_1_t|t4      1.305    0.077   16.851    0.000    1.305    1.305
+    SYN07_2_t|t1     -1.461    0.084  -17.324    0.000   -1.461   -1.461
+    SYN07_2_t|t2     -0.519    0.059   -8.800    0.000   -0.519   -0.519
+    SYN07_2_t|t3      0.327    0.057    5.708    0.000    0.327    0.327
+    SYN07_2_t|t4      1.270    0.076   16.693    0.000    1.270    1.270
+    SYN07_3_t|t1     -1.206    0.074  -16.345    0.000   -1.206   -1.206
+    SYN07_3_t|t2     -0.311    0.057   -5.442    0.000   -0.311   -0.311
+    SYN07_3_t|t3      0.553    0.059    9.325    0.000    0.553    0.553
+    SYN07_3_t|t4      1.626    0.093   17.405    0.000    1.626    1.626
+    SYN07_4_t|t1     -1.645    0.095  -17.388    0.000   -1.645   -1.645
+    SYN07_4_t|t2     -0.681    0.061  -11.143    0.000   -0.681   -0.681
+    SYN07_4_t|t3      0.248    0.057    4.374    0.000    0.248    0.248
+    SYN07_4_t|t4      1.089    0.070   15.551    0.000    1.089    1.089
+    SYN07_5_t|t1     -1.270    0.076  -16.693    0.000   -1.270   -1.270
+    SYN07_5_t|t2     -0.342    0.057   -5.975    0.000   -0.342   -0.342
+    SYN07_5_t|t3      0.519    0.059    8.800    0.000    0.519    0.519
+    SYN07_5_t|t4      1.538    0.088   17.414    0.000    1.538    1.538
+    SYN07_6_t|t1     -1.645    0.095  -17.388    0.000   -1.645   -1.645
+    SYN07_6_t|t2     -0.765    0.063  -12.246    0.000   -0.765   -0.765
+    SYN07_6_t|t3      0.116    0.056    2.055    0.040    0.116    0.116
+    SYN07_6_t|t4      1.028    0.068   15.044    0.000    1.028    1.028
+    SYN07_7_t|t1     -1.555    0.089  -17.421    0.000   -1.555   -1.555
+    SYN07_7_t|t2     -0.662    0.061  -10.886    0.000   -0.662   -0.662
+    SYN07_7_t|t3      0.233    0.057    4.107    0.000    0.233    0.233
+    SYN07_7_t|t4      1.098    0.070   15.621    0.000    1.098    1.098
+    SYN07_8_t|t1     -2.054    0.129  -15.866    0.000   -2.054   -2.054
+    SYN07_8_t|t2     -1.054    0.069  -15.264    0.000   -1.054   -1.054
+    SYN07_8_t|t3     -0.070    0.056   -1.251    0.211   -0.070   -0.070
+    SYN07_8_t|t4      0.779    0.063   12.413    0.000    0.779    0.779
+    SYN07_9_t|t1     -1.645    0.095  -17.388    0.000   -1.645   -1.645
+    SYN07_9_t|t2     -0.849    0.064  -13.240    0.000   -0.849   -0.849
+    SYN07_9_t|t3      0.181    0.056    3.215    0.001    0.181    0.181
+    SYN07_9_t|t4      1.126    0.071   15.827    0.000    1.126    1.126
+    SYN07_10_t|t1    -1.433    0.083  -17.267    0.000   -1.433   -1.433
+    SYN07_10_t|t2    -0.519    0.059   -8.800    0.000   -0.519   -0.519
+    SYN07_10_t|t3     0.348    0.057    6.064    0.000    0.348    0.348
+    SYN07_10_t|t4     1.248    0.075   16.582    0.000    1.248    1.248
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .SYN07_1           0.696                               0.696    0.696
+   .SYN07_2           0.270                               0.270    0.270
+   .SYN07_3           0.692                               0.692    0.692
+   .SYN07_4           0.560                               0.560    0.560
+   .SYN07_5           0.452                               0.452    0.452
+   .SYN07_6           0.416                               0.416    0.416
+   .SYN07_7           0.546                               0.546    0.546
+   .SYN07_8           0.430                               0.430    0.430
+   .SYN07_9           0.498                               0.498    0.498
+   .SYN07_1           0.551                               0.551    0.551
+    f1      (lb+b)    1.000                               1.000    1.000
+    f2      (lb+b)    1.000                               1.000    1.000
+    f3      (lb+b)    1.000                               1.000    1.000
+

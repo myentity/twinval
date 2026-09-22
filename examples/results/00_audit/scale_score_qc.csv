@@ -1,0 +1,25 @@
+scale_id,scale_name,instrument_id,n_items,scoring,redundant,n,min_human,max_human,min_twin,max_twin,zero_variance_human,zero_variance_twin
+148_Extraversion,Extraversion,148,12,mean,False,484,1.0833333333333333,5.0,1.75,4.583333333333333,False,False
+148_Sociability,Sociability,148,4,mean,True,484,1.0,5.0,1.0,4.75,False,False
+148_Persistence,Persistence,148,4,mean,True,484,1.0,5.0,1.5,5.0,False,False
+148_EnergyLevel,Energy Level,148,4,mean,True,484,1.0,5.0,1.25,5.0,False,False
+148_Agreeableness,Agreeableness,148,12,mean,False,484,1.5833333333333333,4.916666666666667,1.3333333333333333,4.833333333333333,False,False
+148_Compassion,Compassion,148,4,mean,True,484,1.25,5.0,1.5,5.0,False,False
+148_Respectfulness,Respectfulness,148,4,mean,True,484,1.5,5.0,1.0,5.0,False,False
+148_Trust,Trust,148,4,mean,True,484,1.0,5.0,1.0,4.75,False,False
+148_Conscientiousness,Conscientiousness,148,13,mean,False,484,1.7692307692307692,5.0,2.0,5.0,False,False
+148_Organization,Organization,148,4,mean,True,484,1.0,5.0,1.75,5.0,False,False
+148_Productiveness,Productiveness,148,4,mean,True,484,1.25,5.0,1.5,5.0,False,False
+148_Responsibility,Responsibility,148,5,mean,True,484,2.0,5.0,2.0,5.0,False,False
+148_NegativeEmotionality,Negative Emotionality,148,12,mean,False,484,1.0,4.916666666666667,1.0,5.0,False,False
+148_Anxiety,Anxiety,148,4,mean,True,484,1.0,5.0,1.0,5.0,False,False
+148_Depression,Depression,148,4,mean,True,484,1.0,5.0,1.0,5.0,False,False
+148_EmotionalVolatility,Emotional Volatility,148,4,mean,True,484,1.0,5.0,1.0,5.0,False,False
+148_OpenMindedness,Open-Mindedness,148,12,mean,False,484,1.9166666666666667,5.0,1.6666666666666667,5.0,False,False
+148_AestheticSensitivity,Aesthetic Sensitivity,148,4,mean,True,484,1.0,5.0,1.0,5.0,False,False
+148_IntellectualCuriosity,Intellectual Curiosity,148,4,mean,True,484,2.0,5.0,1.5,5.0,False,False
+148_CreativeImagination,Creative Imagination,148,4,mean,True,484,1.0,5.0,2.0,5.0,False,False
+161_EmotionalWellBeing,Emotional Well-Being,161,3,sum,False,484,3.0,18.0,5.0,18.0,False,False
+161_SocialWellBeing,Social Well-Being,161,5,sum,False,484,5.0,30.0,5.0,24.0,False,False
+161_PsychologicalWellBeing,Psychological Well-Being,161,6,sum,False,484,7.0,36.0,10.0,35.0,False,False
+161_OverallScore,Overall Score,161,14,sum,True,484,15.0,84.0,25.0,74.0,False,False

@@ -1,0 +1,22 @@
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23.6.0
+Running under: macOS Golden Gate 27.0
+
+Matrix products: default
+BLAS:   /opt/homebrew/Cellar/openblas/0.3.34/lib/libopenblasp-r0.3.34.dylib 
+LAPACK: /opt/homebrew/Cellar/r/4.6.1/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] ru_RU/C.UTF-8/ru_RU/C/ru_RU/ru_RU
+
+time zone: Europe/Moscow
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] semTools_0.5-9 lavaan_0.7-2  
+
+loaded via a namespace (and not attached):
+[1] compiler_4.6.1 mnormt_2.1.2   pbivnorm_0.6.0 stats4_4.6.1   quadprog_1.5-8

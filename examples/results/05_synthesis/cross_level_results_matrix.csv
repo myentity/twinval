@@ -1,0 +1,19 @@
+level,unit,n,component,metric,value,ci_lo,ci_hi,detail,status
+profile,respondent,484 (60 non-redundant scales),individuation,Own-twin identification AUC (distinctive),0.8128817822493711,0.7946947239190323,0.8312333170781787,,main
+profile,respondent,484,individuation,Top-1 identification (%),2.6859504132231407,1.2396694214876034,4.132231404958678,,supplementary
+profile,respondent,484,calibration/agreement,"Profile CCC, own (full)",0.3492827923781724,0.323338122873798,0.3760553565737318,"same specification as the identification model (non-redundant scales, equal instrument weights)",main
+profile,respondent,484,calibration/agreement,"Profile CCC, own (distinctive / bias-corrected)",0.3788148222167331,0.3536198264713674,0.4045903288373815,"same specification as the identification model (non-redundant scales, equal instrument weights)",main
+scale,scale,24 scales,individuation,"Pearson r, Fisher-z mean",0.5284643641355711,,,"raw arithmetic mean = 0.524; median = 0.536 [IQR 0.470, 0.581]",main
+scale,scale,24,individuation,"Scale-level AUC, mean",0.6191111603043421,,,median = 0.618,main
+scale,scale,24,individuation,"Disattenuated r (alpha-based, k >= 3), median",0.6234245500907136,,,"IQR [0.576, 0.683]",supplementary
+scale,scale,24,calibration/agreement,"CCC, mean",0.4693399790178668,,,median = 0.484,main
+scale,scale,24,calibration/agreement,"C_b, mean",0.8961064907859355,,,median = 0.941,main
+scale,scale,24,calibration/agreement,"Delta CCC after LS recalibration, mean",0.052395900197940375,,,median = +0.028,supplementary
+structure,factor,"8 factors, 2 instruments (gated)",structural fidelity,"Tucker phi, GATED (both ESEM admissible), median",0.9390380189072836,,,descriptive; bootstrap-stable only where >= 80% replicates are admissible,main
+structure,factor,8 factors (all point estimates),structural fidelity,"Tucker phi, EXPLORATORY (incl. inadmissible ESEM), median",0.9390380189072836,,,NOT used for typology or main conclusions,supplementary
+structure,scale,24,structural fidelity,Metric invariance (Millsap/Liu),17.0,,,"yes: 17, no: 3, not_tested: 4",main
+structure,scale,24,structural fidelity,Scalar invariance (Wu chain),6.0,,,"yes: 6, no: 7, not_tested: 11",main
+item,item,75,individuation,"Item-level Spearman rho, median",0.37266141702254324,,,"mean = 0.365; IQR [0.295, 0.421]",main
+item,item,75,calibration/agreement,"Item-level CCC, median",0.33737190663799627,,,"mean = 0.338; IQR [0.274, 0.405]",main
+item,item,75,calibration/agreement,"Item-level SD ratio, median",0.8513407004302471,,,"mean = 0.847; IQR [0.748, 0.934]",main
+item,instrument,Instrument-weighted mean (2 instruments),mechanism,"Delta %var item (twin - human), pp",16.93069094345404,15.337678624689564,18.632515432459478,"ANOVA-style decomposition, paired bootstrap contrast",main

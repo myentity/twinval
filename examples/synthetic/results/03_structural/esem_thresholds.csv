@@ -1,0 +1,1179 @@
+instrument_id,instrument_name,side,item,threshold,value,se
+901,Synthetic - Faithful twin,human,SYN01_1_h,t1,-1.97736842818195,0.121314536024859
+901,Synthetic - Faithful twin,human,SYN01_1_h,t2,-0.994457883209753,0.0674506742976313
+901,Synthetic - Faithful twin,human,SYN01_1_h,t3,-0.115561597105383,0.0562423939674249
+901,Synthetic - Faithful twin,human,SYN01_1_h,t4,0.655726678798254,0.0607175913182715
+901,Synthetic - Faithful twin,human,SYN01_2_h,t1,-1.66456286120272,0.0958613874775921
+901,Synthetic - Faithful twin,human,SYN01_2_h,t2,-0.680796918764575,0.06109684588608
+901,Synthetic - Faithful twin,human,SYN01_2_h,t3,0.212137198317524,0.0565672220837247
+901,Synthetic - Faithful twin,human,SYN01_2_h,t4,1.11698672787661,0.0708781339513307
+901,Synthetic - Faithful twin,human,SYN01_3_h,t1,-1.29303197614424,0.0769681985239947
+901,Synthetic - Faithful twin,human,SYN01_3_h,t2,-0.379926467041307,0.0576026446945277
+901,Synthetic - Faithful twin,human,SYN01_3_h,t3,0.473298825432437,0.0584505965905349
+901,Synthetic - Faithful twin,human,SYN01_3_h,t4,1.23723459916283,0.0748741640573541
+901,Synthetic - Faithful twin,human,SYN01_4_h,t1,-1.55477359459685,0.0892470323654637
+901,Synthetic - Faithful twin,human,SYN01_4_h,t2,-0.507220660586946,0.0588093241211237
+901,Synthetic - Faithful twin,human,SYN01_4_h,t3,0.186567181836519,0.0564623200154457
+901,Synthetic - Faithful twin,human,SYN01_4_h,t4,1.17498679206609,0.0727216610420672
+901,Synthetic - Faithful twin,human,SYN01_5_h,t1,-1.79911810683797,0.105462304213966
+901,Synthetic - Faithful twin,human,SYN01_5_h,t2,-0.907769529868055,0.0653719166256705
+901,Synthetic - Faithful twin,human,SYN01_5_h,t3,-0.0100266811002748,0.056107071141801
+901,Synthetic - Faithful twin,human,SYN01_5_h,t4,0.900225985701434,0.0652035525415288
+901,Synthetic - Faithful twin,human,SYN01_6_h,t1,-1.44663206715898,0.0836362733823801
+901,Synthetic - Faithful twin,human,SYN01_6_h,t2,-0.687131286795469,0.0611954071385046
+901,Synthetic - Faithful twin,human,SYN01_6_h,t3,0.120609934119307,0.0562545876973724
+901,Synthetic - Faithful twin,human,SYN01_6_h,t4,1.04504969965839,0.0687928161459116
+901,Synthetic - Faithful twin,human,SYN01_7_h,t1,-1.62576338623323,0.0934090176935232
+901,Synthetic - Faithful twin,human,SYN01_7_h,t2,-0.699883600197341,0.061397220668366
+901,Synthetic - Faithful twin,human,SYN01_7_h,t3,0.176374164780861,0.0564243155905955
+901,Synthetic - Faithful twin,human,SYN01_7_h,t4,0.994457883209753,0.0674506742976313
+901,Synthetic - Faithful twin,human,SYN01_8_h,t1,-1.66456286120272,0.095861387477592
+901,Synthetic - Faithful twin,human,SYN01_8_h,t2,-0.765456096690878,0.0625082755223576
+901,Synthetic - Faithful twin,human,SYN01_8_h,t3,0.140835370397127,0.0563087091182522
+901,Synthetic - Faithful twin,human,SYN01_8_h,t4,1.13589622116731,0.0714626861803656
+901,Synthetic - Faithful twin,human,SYN01_9_h,t1,-1.43250272082581,0.0829626257220945
+901,Synthetic - Faithful twin,human,SYN01_9_h,t2,-0.699883600197342,0.0613972206683661
+901,Synthetic - Faithful twin,human,SYN01_9_h,t3,0.294991988222626,0.0570022294340258
+901,Synthetic - Faithful twin,human,SYN01_9_h,t4,1.1455050613927,0.0717657648357753
+901,Synthetic - Faithful twin,human,SYN01_10_h,t1,-1.66456286120272,0.095861387477592
+901,Synthetic - Faithful twin,human,SYN01_10_h,t2,-0.758753544504371,0.0623889540949657
+901,Synthetic - Faithful twin,human,SYN01_10_h,t3,0.120609934119307,0.0562545876973723
+901,Synthetic - Faithful twin,human,SYN01_10_h,t4,0.92301382625498,0.0657181221805423
+901,Synthetic - Faithful twin,human,SYN01_11_h,t1,-1.40507156030963,0.0816913958595011
+901,Synthetic - Faithful twin,human,SYN01_11_h,t2,-0.559236977611907,0.0594138687447215
+901,Synthetic - Faithful twin,human,SYN01_11_h,t3,0.284535542671622,0.0569392285860081
+901,Synthetic - Faithful twin,human,SYN01_11_h,t4,1.29303197614424,0.0769681985239946
+901,Synthetic - Faithful twin,human,SYN01_12_h,t1,-1.8250068211464,0.107524917709956
+901,Synthetic - Faithful twin,human,SYN01_12_h,t2,-0.946291357961576,0.0662624232475762
+901,Synthetic - Faithful twin,human,SYN01_12_h,t3,-0.105473621768868,0.0562195983135808
+901,Synthetic - Faithful twin,human,SYN01_12_h,t4,0.799500943132737,0.063135205551371
+901,Synthetic - Faithful twin,human,SYN01_13_h,t1,-1.50626172327824,0.0866271489722759
+901,Synthetic - Faithful twin,human,SYN01_13_h,t2,-0.530161445055519,0.0590677157001787
+901,Synthetic - Faithful twin,human,SYN01_13_h,t3,0.274110116035147,0.0568787622232525
+901,Synthetic - Faithful twin,human,SYN01_13_h,t4,1.29303197614424,0.0769681985239947
+901,Synthetic - Faithful twin,human,SYN01_14_h,t1,-1.353174154548,0.0794131549398938
+901,Synthetic - Faithful twin,human,SYN01_14_h,t2,-0.44544250629172,0.0581764697401265
+901,Synthetic - Faithful twin,human,SYN01_14_h,t3,0.337155076995277,0.0572803953368269
+901,Synthetic - Faithful twin,human,SYN01_14_h,t4,1.353174154548,0.0794131549398937
+901,Synthetic - Faithful twin,human,SYN01_15_h,t1,-1.70604339688896,0.0986325466478442
+901,Synthetic - Faithful twin,human,SYN01_15_h,t2,-0.83449873482574,0.063816878073261
+901,Synthetic - Faithful twin,human,SYN01_15_h,t3,0.140835370397127,0.0563087091182522
+901,Synthetic - Faithful twin,human,SYN01_15_h,t4,1.04504969965839,0.0687928161459115
+901,Synthetic - Faithful twin,human,SYN01_16_h,t1,-1.52203624173586,0.0874600332209417
+901,Synthetic - Faithful twin,human,SYN01_16_h,t2,-0.484543782441079,0.0585664572427259
+901,Synthetic - Faithful twin,human,SYN01_16_h,t3,0.289759805228914,0.0569704097870112
+901,Synthetic - Faithful twin,human,SYN01_16_h,t4,1.23723459916283,0.0748741640573541
+901,Synthetic - Faithful twin,human,SYN01_17_h,t1,-1.72793432238842,0.100160379341514
+901,Synthetic - Faithful twin,human,SYN01_17_h,t2,-0.855995985492682,0.0642548375227213
+901,Synthetic - Faithful twin,human,SYN01_17_h,t3,0.115561597105383,0.0562423939674249
+901,Synthetic - Faithful twin,human,SYN01_17_h,t4,1.06251930227087,0.0692796323169604
+901,Synthetic - Faithful twin,twin,SYN01_1_t,t1,-2.01409081201814,0.12510988692865
+901,Synthetic - Faithful twin,twin,SYN01_1_t,t2,-1.01103432814182,0.067879558932549
+901,Synthetic - Faithful twin,twin,SYN01_1_t,t3,-0.0953963690568918,0.0561989146572898
+901,Synthetic - Faithful twin,twin,SYN01_1_t,t4,0.848786685915967,0.0641063051717831
+901,Synthetic - Faithful twin,twin,SYN01_2_t,t1,-1.64485362695147,0.0945992650866873
+901,Synthetic - Faithful twin,twin,SYN01_2_t,t2,-0.565108452006584,0.0594863368359873
+901,Synthetic - Faithful twin,twin,SYN01_2_t,t3,0.222403226927206,0.05661320328699
+901,Synthetic - Faithful twin,twin,SYN01_2_t,t4,1.1455050613927,0.0717657648357753
+901,Synthetic - Faithful twin,twin,SYN01_3_t,t1,-1.37865872862328,0.080511659471536
+901,Synthetic - Faithful twin,twin,SYN01_3_t,t2,-0.484543782441079,0.058566457242726
+901,Synthetic - Faithful twin,twin,SYN01_3_t,t3,0.401570695630149,0.0577813593045877
+901,Synthetic - Faithful twin,twin,SYN01_3_t,t4,1.31651871841826,0.0778990141491394
+901,Synthetic - Faithful twin,twin,SYN01_4_t,t1,-1.55477359459685,0.0892470323654637
+901,Synthetic - Faithful twin,twin,SYN01_4_t,t2,-0.699883600197342,0.0613972206683661
+901,Synthetic - Faithful twin,twin,SYN01_4_t,t3,0.207012623385187,0.056545099364022
+901,Synthetic - Faithful twin,twin,SYN01_4_t,t4,1.13589622116731,0.0714626861803655
+901,Synthetic - Faithful twin,twin,SYN01_5_t,t1,-1.88079360815125,0.112232712981132
+901,Synthetic - Faithful twin,twin,SYN01_5_t,t2,-0.900225985701434,0.065203552541529
+901,Synthetic - Faithful twin,twin,SYN01_5_t,t3,0.0200543703529505,0.0561101462501512
+901,Synthetic - Faithful twin,twin,SYN01_5_t,t4,0.938475698411568,0.0660775359715403
+901,Synthetic - Faithful twin,twin,SYN01_6_t,t1,-1.77438191034496,0.103560022526512
+901,Synthetic - Faithful twin,twin,SYN01_6_t,t2,-0.785773831524484,0.0628781958967896
+901,Synthetic - Faithful twin,twin,SYN01_6_t,t3,0.0652185397095437,0.0561494272909885
+901,Synthetic - Faithful twin,twin,SYN01_6_t,t4,1.02789334580214,0.0683265507905363
+901,Synthetic - Faithful twin,twin,SYN01_7_t,t1,-1.55477359459685,0.0892470323654637
+901,Synthetic - Faithful twin,twin,SYN01_7_t,t2,-0.576910377333272,0.0596346390321585
+901,Synthetic - Faithful twin,twin,SYN01_7_t,t3,0.232692749183045,0.0566615215302093
+901,Synthetic - Faithful twin,twin,SYN01_7_t,t4,1.15522084661195,0.0720764178948667
+901,Synthetic - Faithful twin,twin,SYN01_8_t,t1,-1.70604339688896,0.0986325466478442
+901,Synthetic - Faithful twin,twin,SYN01_8_t,t2,-0.80642124701824,0.0632669665344023
+901,Synthetic - Faithful twin,twin,SYN01_8_t,t3,0.0752698620998304,0.0561638387967412
+901,Synthetic - Faithful twin,twin,SYN01_8_t,t4,0.994457883209753,0.0674506742976313
+901,Synthetic - Faithful twin,twin,SYN01_9_t,t1,-1.40507156030963,0.0816913958595012
+901,Synthetic - Faithful twin,twin,SYN01_9_t,t2,-0.53594002664749,0.0591348392090989
+901,Synthetic - Faithful twin,twin,SYN01_9_t,t3,0.2533471031358,0.0567652852566564
+901,Synthetic - Faithful twin,twin,SYN01_9_t,t4,1.13589622116731,0.0714626861803656
+901,Synthetic - Faithful twin,twin,SYN01_10_t,t1,-1.58926755705139,0.0912187162183189
+901,Synthetic - Faithful twin,twin,SYN01_10_t,t2,-0.725737024100805,0.0618204516121697
+901,Synthetic - Faithful twin,twin,SYN01_10_t,t3,0.0351000017727088,0.0561186071096096
+901,Synthetic - Faithful twin,twin,SYN01_10_t,t4,1.05374430213067,0.0690335708415694
+901,Synthetic - Faithful twin,twin,SYN01_11_t,t1,-1.39174377939633,0.081090772715076
+901,Synthetic - Faithful twin,twin,SYN01_11_t,t2,-0.49018923171521,0.0586257628849747
+901,Synthetic - Faithful twin,twin,SYN01_11_t,t3,0.337155076995277,0.0572803953368269
+901,Synthetic - Faithful twin,twin,SYN01_11_t,t4,1.17498679206609,0.0727216610420672
+901,Synthetic - Faithful twin,twin,SYN01_12_t,t1,-1.77438191034496,0.103560022526512
+901,Synthetic - Faithful twin,twin,SYN01_12_t,t2,-0.92301382625498,0.0657181221805423
+901,Synthetic - Faithful twin,twin,SYN01_12_t,t3,-0.166199440170359,0.0563885384249956
+901,Synthetic - Faithful twin,twin,SYN01_12_t,t4,0.772193214188685,0.0626295617060913
+901,Synthetic - Faithful twin,twin,SYN01_13_t,t1,-1.47579102817917,0.0850683438620056
+901,Synthetic - Faithful twin,twin,SYN01_13_t,t2,-0.565108452006584,0.0594863368359873
+901,Synthetic - Faithful twin,twin,SYN01_13_t,t3,0.248173718459313,0.0567384438984682
+901,Synthetic - Faithful twin,twin,SYN01_13_t,t4,1.29303197614424,0.0769681985239948
+901,Synthetic - Faithful twin,twin,SYN01_14_t,t1,-1.353174154548,0.0794131549398937
+901,Synthetic - Faithful twin,twin,SYN01_14_t,t2,-0.467698799114508,0.0583940187343973
+901,Synthetic - Faithful twin,twin,SYN01_14_t,t3,0.467698799114508,0.0583940187343973
+901,Synthetic - Faithful twin,twin,SYN01_14_t,t4,1.34075503369022,0.0788915914896874
+901,Synthetic - Faithful twin,twin,SYN01_15_t,t1,-1.57178681650986,0.090207856680864
+901,Synthetic - Faithful twin,twin,SYN01_15_t,t2,-0.738846849185214,0.0620423818966627
+901,Synthetic - Faithful twin,twin,SYN01_15_t,t3,0.110516203562042,0.0562307313790801
+901,Synthetic - Faithful twin,twin,SYN01_15_t,t4,1.01942761823437,0.0681007210188917
+901,Synthetic - Faithful twin,twin,SYN01_16_t,t1,-1.43250272082581,0.0829626257220945
+901,Synthetic - Faithful twin,twin,SYN01_16_t,t2,-0.524400512708041,0.059001616335236
+901,Synthetic - Faithful twin,twin,SYN01_16_t,t3,0.284535542671622,0.0569392285860081
+901,Synthetic - Faithful twin,twin,SYN01_16_t,t4,1.13589622116731,0.0714626861803654
+901,Synthetic - Faithful twin,twin,SYN01_17_t,t1,-1.75068607125217,0.101798229768219
+901,Synthetic - Faithful twin,twin,SYN01_17_t,t2,-0.738846849185214,0.0620423818966628
+901,Synthetic - Faithful twin,twin,SYN01_17_t,t3,0.0451346284814212,0.0561268176244015
+901,Synthetic - Faithful twin,twin,SYN01_17_t,t4,0.938475698411568,0.0660775359715402
+902,Synthetic - Miscalibrated twin,human,SYN02_1_h,t1,-1.1650469223056,0.0723949445357933
+902,Synthetic - Miscalibrated twin,human,SYN02_1_h,t2,-0.541736560112817,0.0592030012873481
+902,Synthetic - Miscalibrated twin,human,SYN02_1_h,t3,0.105473621768868,0.0562195983135809
+902,Synthetic - Miscalibrated twin,human,SYN02_1_h,t4,0.631061979059499,0.060361090900611
+902,Synthetic - Miscalibrated twin,human,SYN02_1_h,t5,1.29303197614424,0.0769681985239947
+902,Synthetic - Miscalibrated twin,human,SYN02_1_h,t6,2.25712924448623,0.156060908828311
+902,Synthetic - Miscalibrated twin,human,SYN02_2_h,t1,-1.07137688928021,0.0695311798787977
+902,Synthetic - Miscalibrated twin,human,SYN02_2_h,t2,-0.507220660586946,0.0588093241211239
+902,Synthetic - Miscalibrated twin,human,SYN02_2_h,t3,0.0702433138219167,0.0561563734068269
+902,Synthetic - Miscalibrated twin,human,SYN02_2_h,t4,0.778965564347545,0.0627528541987026
+902,Synthetic - Miscalibrated twin,human,SYN02_2_h,t5,1.43250272082581,0.0829626257220945
+902,Synthetic - Miscalibrated twin,human,SYN02_3_h,t1,-1.91103564754912,0.114943909482647
+902,Synthetic - Miscalibrated twin,human,SYN02_3_h,t2,-1.22652812003661,0.0744905308191435
+902,Synthetic - Miscalibrated twin,human,SYN02_3_h,t3,-0.518656932080391,0.0589365270442874
+902,Synthetic - Miscalibrated twin,human,SYN02_3_h,t4,0.080298312892055,0.0561718244840791
+902,Synthetic - Miscalibrated twin,human,SYN02_3_h,t5,0.745449548180789,0.0621560457055305
+902,Synthetic - Miscalibrated twin,human,SYN02_3_h,t6,1.49085335524666,0.0858307735853921
+902,Synthetic - Miscalibrated twin,human,SYN02_4_h,t1,-1.85217985876905,0.109771902032301
+902,Synthetic - Miscalibrated twin,human,SYN02_4_h,t2,-1.13589622116731,0.0714626861803655
+902,Synthetic - Miscalibrated twin,human,SYN02_4_h,t3,-0.478913734112256,0.0585080723316992
+902,Synthetic - Miscalibrated twin,human,SYN02_4_h,t4,0.0702433138219167,0.0561563734068268
+902,Synthetic - Miscalibrated twin,human,SYN02_4_h,t5,0.706302562840087,0.0615005316061368
+902,Synthetic - Miscalibrated twin,human,SYN02_4_h,t6,1.52203624173586,0.0874600332209419
+902,Synthetic - Miscalibrated twin,human,SYN02_5_h,t1,-1.41865370617274,0.082314862399961
+902,Synthetic - Miscalibrated twin,human,SYN02_5_h,t2,-0.813380388213404,0.0634009629017036
+902,Synthetic - Miscalibrated twin,human,SYN02_5_h,t3,-0.207012623385187,0.056545099364022
+902,Synthetic - Miscalibrated twin,human,SYN02_5_h,t4,0.462113401776377,0.0583383277476787
+902,Synthetic - Miscalibrated twin,human,SYN02_5_h,t5,1.13589622116731,0.0714626861803655
+902,Synthetic - Miscalibrated twin,human,SYN02_6_h,t1,-1.1263911290388,0.0711668986824127
+902,Synthetic - Miscalibrated twin,human,SYN02_6_h,t2,-0.631061979059499,0.0603610909006111
+902,Synthetic - Miscalibrated twin,human,SYN02_6_h,t3,0.0,0.056106046291382
+902,Synthetic - Miscalibrated twin,human,SYN02_6_h,t4,0.594765846801678,0.0598657658861242
+902,Synthetic - Miscalibrated twin,human,SYN02_6_h,t5,1.29303197614424,0.0769681985239946
+902,Synthetic - Miscalibrated twin,human,SYN02_7_h,t1,-2.25712924448623,0.156060908828311
+902,Synthetic - Miscalibrated twin,human,SYN02_7_h,t2,-1.01103432814182,0.067879558932549
+902,Synthetic - Miscalibrated twin,human,SYN02_7_h,t3,-0.541736560112817,0.0592030012873481
+902,Synthetic - Miscalibrated twin,human,SYN02_7_h,t4,0.181468316528477,0.0564430380650544
+902,Synthetic - Miscalibrated twin,human,SYN02_7_h,t5,0.863250051593421,0.0644059977734578
+902,Synthetic - Miscalibrated twin,human,SYN02_8_h,t1,-1.43250272082581,0.0829626257220945
+902,Synthetic - Miscalibrated twin,human,SYN02_8_h,t2,-0.841621233572914,0.0639603386608803
+902,Synthetic - Miscalibrated twin,human,SYN02_8_h,t3,-0.26371439822153,0.0568207929520537
+902,Synthetic - Miscalibrated twin,human,SYN02_8_h,t4,0.305480788099397,0.0570678041090073
+902,Synthetic - Miscalibrated twin,human,SYN02_8_h,t5,1.1650469223056,0.0723949445357932
+902,Synthetic - Miscalibrated twin,human,SYN02_9_h,t1,-1.88079360815125,0.112232712981132
+902,Synthetic - Miscalibrated twin,human,SYN02_9_h,t2,-1.17498679206609,0.0727216610420671
+902,Synthetic - Miscalibrated twin,human,SYN02_9_h,t3,-0.668209299725723,0.0609042739582533
+902,Synthetic - Miscalibrated twin,human,SYN02_9_h,t4,-0.0250689082587112,0.0561124531299791
+902,Synthetic - Miscalibrated twin,human,SYN02_9_h,t5,0.655726678798253,0.0607175913182714
+902,Synthetic - Miscalibrated twin,human,SYN02_9_h,t6,1.41865370617274,0.082314862399961
+902,Synthetic - Miscalibrated twin,human,SYN02_10_h,t1,-1.62576338623323,0.0934090176935232
+902,Synthetic - Miscalibrated twin,human,SYN02_10_h,t2,-1.18504412790781,0.0730569020836808
+902,Synthetic - Miscalibrated twin,human,SYN02_10_h,t3,-0.687131286795469,0.0611954071385047
+902,Synthetic - Miscalibrated twin,human,SYN02_10_h,t4,0.0501535834647337,0.0561316954367843
+902,Synthetic - Miscalibrated twin,human,SYN02_10_h,t5,0.643345405392917,0.0605365944581849
+902,Synthetic - Miscalibrated twin,human,SYN02_10_h,t6,1.1650469223056,0.0723949445357933
+902,Synthetic - Miscalibrated twin,human,SYN02_11_h,t1,-1.46105626918691,0.0843375435301101
+902,Synthetic - Miscalibrated twin,human,SYN02_11_h,t2,-0.712750760220043,0.0616054858823049
+902,Synthetic - Miscalibrated twin,human,SYN02_11_h,t3,-0.161118588510745,0.0563714786293418
+902,Synthetic - Miscalibrated twin,human,SYN02_11_h,t4,0.501527398977708,0.0587471840368113
+902,Synthetic - Miscalibrated twin,human,SYN02_11_h,t5,1.19522278143743,0.0734010221178211
+902,Synthetic - Miscalibrated twin,human,SYN02_12_h,t1,-1.75068607125217,0.101798229768219
+902,Synthetic - Miscalibrated twin,human,SYN02_12_h,t2,-1.09846842033986,0.0703206676538795
+902,Synthetic - Miscalibrated twin,human,SYN02_12_h,t3,-0.490189231715209,0.0586257628849749
+902,Synthetic - Miscalibrated twin,human,SYN02_12_h,t4,0.125661346855074,0.0562673142646908
+902,Synthetic - Miscalibrated twin,human,SYN02_12_h,t5,0.772193214188685,0.0626295617060914
+902,Synthetic - Miscalibrated twin,human,SYN02_13_h,t1,-1.53819885858406,0.0883322715121973
+902,Synthetic - Miscalibrated twin,human,SYN02_13_h,t2,-0.962098753913142,0.066643045765713
+902,Synthetic - Miscalibrated twin,human,SYN02_13_h,t3,-0.36917136250309,0.0575177710189752
+902,Synthetic - Miscalibrated twin,human,SYN02_13_h,t4,0.227544976641149,0.056637068527655
+902,Synthetic - Miscalibrated twin,human,SYN02_13_h,t5,0.870549830195654,0.0645598502253961
+902,Synthetic - Miscalibrated twin,human,SYN02_14_h,t1,-2.51214432793046,0.203327582527536
+902,Synthetic - Miscalibrated twin,human,SYN02_14_h,t2,-1.64485362695147,0.0945992650866873
+902,Synthetic - Miscalibrated twin,human,SYN02_14_h,t3,-1.11698672787661,0.0708781339513307
+902,Synthetic - Miscalibrated twin,human,SYN02_14_h,t4,-0.631061979059499,0.0603610909006113
+902,Synthetic - Miscalibrated twin,human,SYN02_14_h,t5,0.080298312892055,0.0561718244840793
+902,Synthetic - Miscalibrated twin,human,SYN02_15_h,t1,-1.60724789190022,0.0922840837424594
+902,Synthetic - Miscalibrated twin,human,SYN02_15_h,t2,-0.892733324320856,0.0650382396592289
+902,Synthetic - Miscalibrated twin,human,SYN02_15_h,t3,-0.243006967409982,0.0567122054336002
+902,Synthetic - Miscalibrated twin,human,SYN02_15_h,t4,0.347787204278627,0.0573567004182277
+902,Synthetic - Miscalibrated twin,human,SYN02_15_h,t5,0.92301382625498,0.0657181221805422
+902,Synthetic - Miscalibrated twin,human,SYN02_16_h,t1,-2.14441062091184,0.140329222398772
+902,Synthetic - Miscalibrated twin,human,SYN02_16_h,t2,-1.41865370617274,0.0823148623999611
+902,Synthetic - Miscalibrated twin,human,SYN02_16_h,t3,-0.752084906695491,0.0622715571627132
+902,Synthetic - Miscalibrated twin,human,SYN02_16_h,t4,-0.212137198317524,0.0565672220837246
+902,Synthetic - Miscalibrated twin,human,SYN02_16_h,t5,0.363809859029696,0.0574764292192021
+902,Synthetic - Miscalibrated twin,human,SYN02_17_h,t1,-1.64485362695147,0.0945992650866873
+902,Synthetic - Miscalibrated twin,human,SYN02_17_h,t2,-0.946291357961576,0.0662624232475762
+902,Synthetic - Miscalibrated twin,human,SYN02_17_h,t3,-0.347787204278627,0.0573567004182277
+902,Synthetic - Miscalibrated twin,human,SYN02_17_h,t4,0.227544976641149,0.0566370685276549
+902,Synthetic - Miscalibrated twin,human,SYN02_17_h,t5,0.80642124701824,0.0632669665344022
+902,Synthetic - Miscalibrated twin,twin,SYN02_1_t,t1,-1.97736842818195,0.121314536024859
+902,Synthetic - Miscalibrated twin,twin,SYN02_1_t,t2,-1.40507156030963,0.0816913958595011
+902,Synthetic - Miscalibrated twin,twin,SYN02_1_t,t3,-0.649523595844325,0.0606263944452984
+902,Synthetic - Miscalibrated twin,twin,SYN02_1_t,t4,0.140835370397127,0.0563087091182522
+902,Synthetic - Miscalibrated twin,twin,SYN02_1_t,t5,0.827418320704382,0.0636758655418338
+902,Synthetic - Miscalibrated twin,twin,SYN02_1_t,t6,1.70604339688896,0.0986325466478442
+902,Synthetic - Miscalibrated twin,twin,SYN02_2_t,t1,-1.88079360815125,0.112232712981132
+902,Synthetic - Miscalibrated twin,twin,SYN02_2_t,t2,-1.24808481112755,0.0752688046322382
+902,Synthetic - Miscalibrated twin,twin,SYN02_2_t,t3,-0.417927671669482,0.0579234887619104
+902,Synthetic - Miscalibrated twin,twin,SYN02_2_t,t4,0.396142373892698,0.0577355405972306
+902,Synthetic - Miscalibrated twin,twin,SYN02_2_t,t5,1.25908398042707,0.075674963779178
+902,Synthetic - Miscalibrated twin,twin,SYN02_3_t,t1,-2.6520698079022,0.238505752056373
+902,Synthetic - Miscalibrated twin,twin,SYN02_3_t,t2,-1.97736842818195,0.121314536024859
+902,Synthetic - Miscalibrated twin,twin,SYN02_3_t,t3,-1.25908398042707,0.0756749637791781
+902,Synthetic - Miscalibrated twin,twin,SYN02_3_t,t4,-0.649523595844325,0.0606263944452982
+902,Synthetic - Miscalibrated twin,twin,SYN02_3_t,t5,0.120609934119307,0.0562545876973724
+902,Synthetic - Miscalibrated twin,twin,SYN02_3_t,t6,1.03643338949379,0.0685571972050941
+902,Synthetic - Miscalibrated twin,twin,SYN02_4_t,t1,-2.32634787404084,0.167122607371282
+902,Synthetic - Miscalibrated twin,twin,SYN02_4_t,t2,-1.91103564754912,0.114943909482647
+902,Synthetic - Miscalibrated twin,twin,SYN02_4_t,t3,-1.37865872862328,0.080511659471536
+902,Synthetic - Miscalibrated twin,twin,SYN02_4_t,t4,-0.53594002664749,0.0591348392090986
+902,Synthetic - Miscalibrated twin,twin,SYN02_4_t,t5,0.196779620218466,0.0565025735204606
+902,Synthetic - Miscalibrated twin,twin,SYN02_4_t,t6,1.07137688928021,0.0695311798787977
+902,Synthetic - Miscalibrated twin,twin,SYN02_5_t,t1,-2.01409081201814,0.12510988692865
+902,Synthetic - Miscalibrated twin,twin,SYN02_5_t,t2,-1.36580556257227,0.0799528300625807
+902,Synthetic - Miscalibrated twin,twin,SYN02_5_t,t3,-0.745449548180789,0.0621560457055305
+902,Synthetic - Miscalibrated twin,twin,SYN02_5_t,t4,-0.0351000017727088,0.0561186071096095
+902,Synthetic - Miscalibrated twin,twin,SYN02_5_t,t5,0.752084906695491,0.0622715571627132
+902,Synthetic - Miscalibrated twin,twin,SYN02_6_t,t1,-1.97736842818195,0.121314536024859
+902,Synthetic - Miscalibrated twin,twin,SYN02_6_t,t2,-1.30468538522879,0.0774262784997295
+902,Synthetic - Miscalibrated twin,twin,SYN02_6_t,t3,-0.600759774249319,0.0599451932602205
+902,Synthetic - Miscalibrated twin,twin,SYN02_6_t,t4,0.115561597105383,0.0562423939674248
+902,Synthetic - Miscalibrated twin,twin,SYN02_6_t,t5,1.04504969965839,0.0687928161459114
+902,Synthetic - Miscalibrated twin,twin,SYN02_7_t,t1,-2.87816173909548,0.315447798527673
+902,Synthetic - Miscalibrated twin,twin,SYN02_7_t,t2,-1.62576338623323,0.0934090176935231
+902,Synthetic - Miscalibrated twin,twin,SYN02_7_t,t3,-0.820379145968461,0.0635372451607619
+902,Synthetic - Miscalibrated twin,twin,SYN02_7_t,t4,-0.105473621768868,0.0562195983135808
+902,Synthetic - Miscalibrated twin,twin,SYN02_7_t,t5,0.765456096690878,0.0625082755223576
+902,Synthetic - Miscalibrated twin,twin,SYN02_8_t,t1,-2.25712924448622,0.156060908828311
+902,Synthetic - Miscalibrated twin,twin,SYN02_8_t,t2,-1.40507156030963,0.081691395859501
+902,Synthetic - Miscalibrated twin,twin,SYN02_8_t,t3,-0.649523595844325,0.0606263944452983
+902,Synthetic - Miscalibrated twin,twin,SYN02_8_t,t4,0.130715968119863,0.0562805754428402
+902,Synthetic - Miscalibrated twin,twin,SYN02_8_t,t5,1.09846842033986,0.0703206676538796
+902,Synthetic - Miscalibrated twin,twin,SYN02_9_t,t1,-2.87816173909548,0.315447798527673
+902,Synthetic - Miscalibrated twin,twin,SYN02_9_t,t2,-2.01409081201814,0.12510988692865
+902,Synthetic - Miscalibrated twin,twin,SYN02_9_t,t3,-1.24808481112755,0.0752688046322383
+902,Synthetic - Miscalibrated twin,twin,SYN02_9_t,t4,-0.439913165673234,0.0581242212180141
+902,Synthetic - Miscalibrated twin,twin,SYN02_9_t,t5,0.467698799114508,0.0583940187343972
+902,Synthetic - Miscalibrated twin,twin,SYN02_9_t,t6,1.49085335524666,0.085830773585392
+902,Synthetic - Miscalibrated twin,twin,SYN02_10_t,t1,-2.51214432793046,0.203327582527536
+902,Synthetic - Miscalibrated twin,twin,SYN02_10_t,t2,-1.85217985876905,0.109771902032301
+902,Synthetic - Miscalibrated twin,twin,SYN02_10_t,t3,-0.994457883209753,0.0674506742976313
+902,Synthetic - Miscalibrated twin,twin,SYN02_10_t,t4,-0.347787204278627,0.0573567004182278
+902,Synthetic - Miscalibrated twin,twin,SYN02_10_t,t5,0.478913734112256,0.0585080723316992
+902,Synthetic - Miscalibrated twin,twin,SYN02_10_t,t6,1.46105626918691,0.0843375435301102
+902,Synthetic - Miscalibrated twin,twin,SYN02_11_t,t1,-2.25712924448622,0.156060908828311
+902,Synthetic - Miscalibrated twin,twin,SYN02_11_t,t2,-1.37865872862328,0.080511659471536
+902,Synthetic - Miscalibrated twin,twin,SYN02_11_t,t3,-0.553384719555673,0.059342500693283
+902,Synthetic - Miscalibrated twin,twin,SYN02_11_t,t4,0.243006967409982,0.0567122054336002
+902,Synthetic - Miscalibrated twin,twin,SYN02_11_t,t5,1.30468538522879,0.0774262784997295
+902,Synthetic - Miscalibrated twin,twin,SYN02_12_t,t1,-1.25908398042707,0.0756749637791781
+902,Synthetic - Miscalibrated twin,twin,SYN02_12_t,t2,-0.547551353326402,0.0592722167261137
+902,Synthetic - Miscalibrated twin,twin,SYN02_12_t,t3,0.19167090224842,0.0564821642134235
+902,Synthetic - Miscalibrated twin,twin,SYN02_12_t,t4,0.962098753913142,0.066643045765713
+902,Synthetic - Miscalibrated twin,twin,SYN02_12_t,t5,1.49085335524666,0.0858307735853921
+902,Synthetic - Miscalibrated twin,twin,SYN02_13_t,t1,-1.17498679206609,0.0727216610420672
+902,Synthetic - Miscalibrated twin,twin,SYN02_13_t,t2,-0.484543782441079,0.058566457242726
+902,Synthetic - Miscalibrated twin,twin,SYN02_13_t,t3,0.130715968119863,0.0562805754428401
+902,Synthetic - Miscalibrated twin,twin,SYN02_13_t,t4,0.738846849185214,0.0620423818966629
+902,Synthetic - Miscalibrated twin,twin,SYN02_13_t,t5,1.53819885858406,0.0883322715121974
+902,Synthetic - Miscalibrated twin,twin,SYN02_14_t,t1,-2.05374891063182,0.129440355777815
+902,Synthetic - Miscalibrated twin,twin,SYN02_14_t,t2,-1.44663206715898,0.0836362733823802
+902,Synthetic - Miscalibrated twin,twin,SYN02_14_t,t3,-0.785773831524484,0.0628781958967897
+902,Synthetic - Miscalibrated twin,twin,SYN02_14_t,t4,-0.135773931302112,0.0562943730836869
+902,Synthetic - Miscalibrated twin,twin,SYN02_14_t,t5,0.58879321191092,0.0597875433944062
+902,Synthetic - Miscalibrated twin,twin,SYN02_15_t,t1,-1.07137688928021,0.0695311798787976
+902,Synthetic - Miscalibrated twin,twin,SYN02_15_t,t2,-0.289759805228914,0.056970409787011
+902,Synthetic - Miscalibrated twin,twin,SYN02_15_t,t3,0.434397242259781,0.0580728082874
+902,Synthetic - Miscalibrated twin,twin,SYN02_15_t,t4,1.08031934081496,0.0697884016387108
+902,Synthetic - Miscalibrated twin,twin,SYN02_15_t,t5,1.88079360815125,0.112232712981132
+902,Synthetic - Miscalibrated twin,twin,SYN02_16_t,t1,-1.75068607125217,0.101798229768219
+902,Synthetic - Miscalibrated twin,twin,SYN02_16_t,t2,-1.05374430213067,0.0690335708415695
+902,Synthetic - Miscalibrated twin,twin,SYN02_16_t,t3,-0.331853346436817,0.0572432779380611
+902,Synthetic - Miscalibrated twin,twin,SYN02_16_t,t4,0.385320466407568,0.0576461910875243
+902,Synthetic - Miscalibrated twin,twin,SYN02_16_t,t5,1.08031934081496,0.0697884016387109
+902,Synthetic - Miscalibrated twin,twin,SYN02_17_t,t1,-1.1650469223056,0.0723949445357932
+902,Synthetic - Miscalibrated twin,twin,SYN02_17_t,t2,-0.524400512708041,0.0590016163352361
+902,Synthetic - Miscalibrated twin,twin,SYN02_17_t,t3,0.207012623385187,0.056545099364022
+902,Synthetic - Miscalibrated twin,twin,SYN02_17_t,t4,0.885290448829641,0.0648759007783178
+902,Synthetic - Miscalibrated twin,twin,SYN02_17_t,t5,1.66456286120272,0.095861387477592
+903,Synthetic - Weakly individuating twin,human,SYN03_1_h,t1,-1.91103564754912,0.114943909482646
+903,Synthetic - Weakly individuating twin,human,SYN03_1_h,t2,-1.05374430213067,0.0690335708415694
+903,Synthetic - Weakly individuating twin,human,SYN03_1_h,t3,-0.110516203562042,0.05623073137908
+903,Synthetic - Weakly individuating twin,human,SYN03_1_h,t4,0.792618717701712,0.0630056310964188
+903,Synthetic - Weakly individuating twin,human,SYN03_2_h,t1,-1.94313375110507,0.117951531903155
+903,Synthetic - Weakly individuating twin,human,SYN03_2_h,t2,-0.962098753913142,0.0666430457657129
+903,Synthetic - Weakly individuating twin,human,SYN03_2_h,t3,0.0250689082587111,0.0561124531299793
+903,Synthetic - Weakly individuating twin,human,SYN03_2_h,t4,0.907769529868056,0.0653719166256704
+903,Synthetic - Weakly individuating twin,human,SYN03_3_h,t1,-1.97736842818195,0.121314536024859
+903,Synthetic - Weakly individuating twin,human,SYN03_3_h,t2,-1.23723459916283,0.074874164057354
+903,Synthetic - Weakly individuating twin,human,SYN03_3_h,t3,-0.305480788099397,0.0570678041090072
+903,Synthetic - Weakly individuating twin,human,SYN03_3_h,t4,0.631061979059499,0.0603610909006111
+903,Synthetic - Weakly individuating twin,human,SYN03_4_h,t1,-1.66456286120272,0.095861387477592
+903,Synthetic - Weakly individuating twin,human,SYN03_4_h,t2,-0.668209299725723,0.0609042739582533
+903,Synthetic - Weakly individuating twin,human,SYN03_4_h,t3,0.176374164780861,0.0564243155905955
+903,Synthetic - Weakly individuating twin,human,SYN03_4_h,t4,1.07137688928021,0.0695311798787976
+903,Synthetic - Weakly individuating twin,human,SYN03_5_h,t1,-2.25712924448622,0.156060908828311
+903,Synthetic - Weakly individuating twin,human,SYN03_5_h,t2,-1.27023762239315,0.076093187066355
+903,Synthetic - Weakly individuating twin,human,SYN03_5_h,t3,-0.321277639545997,0.0571710831042836
+903,Synthetic - Weakly individuating twin,human,SYN03_5_h,t4,0.655726678798253,0.0607175913182714
+903,Synthetic - Weakly individuating twin,human,SYN03_6_h,t1,-2.32634787404084,0.167122607371282
+903,Synthetic - Weakly individuating twin,human,SYN03_6_h,t2,-1.22652812003661,0.0744905308191434
+903,Synthetic - Weakly individuating twin,human,SYN03_6_h,t3,-0.321277639545997,0.0571710831042836
+903,Synthetic - Weakly individuating twin,human,SYN03_6_h,t4,0.565108452006584,0.0594863368359873
+903,Synthetic - Weakly individuating twin,human,SYN03_7_h,t1,-1.52203624173586,0.0874600332209418
+903,Synthetic - Weakly individuating twin,human,SYN03_7_h,t2,-0.706302562840087,0.0615005316061367
+903,Synthetic - Weakly individuating twin,human,SYN03_7_h,t3,0.176374164780861,0.0564243155905956
+903,Synthetic - Weakly individuating twin,human,SYN03_7_h,t4,1.08934902792428,0.0700514950774224
+903,Synthetic - Weakly individuating twin,human,SYN03_8_h,t1,-1.41865370617274,0.082314862399961
+903,Synthetic - Weakly individuating twin,human,SYN03_8_h,t2,-0.618873040548629,0.0601908984727233
+903,Synthetic - Weakly individuating twin,human,SYN03_8_h,t3,0.274110116035147,0.0568787622232523
+903,Synthetic - Weakly individuating twin,human,SYN03_8_h,t4,1.30468538522879,0.0774262784997294
+903,Synthetic - Weakly individuating twin,human,SYN03_9_h,t1,-1.57178681650986,0.0902078566808641
+903,Synthetic - Weakly individuating twin,human,SYN03_9_h,t2,-0.501527398977708,0.0587471840368113
+903,Synthetic - Weakly individuating twin,human,SYN03_9_h,t3,0.439913165673234,0.0581242212180143
+903,Synthetic - Weakly individuating twin,human,SYN03_9_h,t4,1.25908398042707,0.0756749637791781
+903,Synthetic - Weakly individuating twin,human,SYN03_10_h,t1,-1.25908398042707,0.075674963779178
+903,Synthetic - Weakly individuating twin,human,SYN03_10_h,t2,-0.358458793251194,0.0574358080508324
+903,Synthetic - Weakly individuating twin,human,SYN03_10_h,t3,0.512930410614728,0.0588724341026306
+903,Synthetic - Weakly individuating twin,human,SYN03_10_h,t4,1.40507156030963,0.0816913958595012
+903,Synthetic - Weakly individuating twin,human,SYN03_11_h,t1,-1.29303197614424,0.0769681985239946
+903,Synthetic - Weakly individuating twin,human,SYN03_11_h,t2,-0.396142373892698,0.0577355405972306
+903,Synthetic - Weakly individuating twin,human,SYN03_11_h,t3,0.374543499199442,0.0575598404533534
+903,Synthetic - Weakly individuating twin,human,SYN03_11_h,t4,1.41865370617274,0.0823148623999611
+903,Synthetic - Weakly individuating twin,human,SYN03_12_h,t1,-1.41865370617274,0.0823148623999611
+903,Synthetic - Weakly individuating twin,human,SYN03_12_h,t2,-0.524400512708041,0.0590016163352362
+903,Synthetic - Weakly individuating twin,human,SYN03_12_h,t3,0.342466301465391,0.0573182007596258
+903,Synthetic - Weakly individuating twin,human,SYN03_12_h,t4,1.22652812003661,0.0744905308191435
+903,Synthetic - Weakly individuating twin,human,SYN03_13_h,t1,-1.85217985876905,0.109771902032301
+903,Synthetic - Weakly individuating twin,human,SYN03_13_h,t2,-0.946291357961576,0.0662624232475763
+903,Synthetic - Weakly individuating twin,human,SYN03_13_h,t3,-0.0451346284814213,0.0561268176244017
+903,Synthetic - Weakly individuating twin,human,SYN03_13_h,t4,0.92301382625498,0.0657181221805423
+903,Synthetic - Weakly individuating twin,human,SYN03_14_h,t1,-1.41865370617274,0.0823148623999611
+903,Synthetic - Weakly individuating twin,human,SYN03_14_h,t2,-0.547551353326402,0.0592722167261137
+903,Synthetic - Weakly individuating twin,human,SYN03_14_h,t3,0.227544976641149,0.0566370685276549
+903,Synthetic - Weakly individuating twin,human,SYN03_14_h,t4,1.07137688928021,0.0695311798787977
+903,Synthetic - Weakly individuating twin,human,SYN03_15_h,t1,-1.55477359459685,0.0892470323654637
+903,Synthetic - Weakly individuating twin,human,SYN03_15_h,t2,-0.706302562840088,0.0615005316061365
+903,Synthetic - Weakly individuating twin,human,SYN03_15_h,t3,0.125661346855074,0.0562673142646907
+903,Synthetic - Weakly individuating twin,human,SYN03_15_h,t4,1.08934902792428,0.0700514950774223
+903,Synthetic - Weakly individuating twin,human,SYN03_16_h,t1,-1.79911810683797,0.105462304213966
+903,Synthetic - Weakly individuating twin,human,SYN03_16_h,t2,-1.04504969965839,0.0687928161459116
+903,Synthetic - Weakly individuating twin,human,SYN03_16_h,t3,-0.2533471031358,0.0567652852566564
+903,Synthetic - Weakly individuating twin,human,SYN03_16_h,t4,0.643345405392917,0.0605365944581849
+903,Synthetic - Weakly individuating twin,human,SYN03_17_h,t1,-1.70604339688896,0.0986325466478441
+903,Synthetic - Weakly individuating twin,human,SYN03_17_h,t2,-0.827418320704382,0.0636758655418335
+903,Synthetic - Weakly individuating twin,human,SYN03_17_h,t3,0.115561597105383,0.0562423939674248
+903,Synthetic - Weakly individuating twin,human,SYN03_17_h,t4,1.05374430213067,0.0690335708415694
+903,Synthetic - Weakly individuating twin,twin,SYN03_1_t,t1,-1.72793432238842,0.100160379341514
+903,Synthetic - Weakly individuating twin,twin,SYN03_1_t,t2,-0.820379145968461,0.0635372451607621
+903,Synthetic - Weakly individuating twin,twin,SYN03_1_t,t3,-0.0050132775489266,0.0561063024952838
+903,Synthetic - Weakly individuating twin,twin,SYN03_1_t,t4,0.855995985492682,0.0642548375227214
+903,Synthetic - Weakly individuating twin,twin,SYN03_2_t,t1,-1.60724789190022,0.0922840837424594
+903,Synthetic - Weakly individuating twin,twin,SYN03_2_t,t2,-0.738846849185213,0.0620423818966628
+903,Synthetic - Weakly individuating twin,twin,SYN03_2_t,t3,0.0501535834647336,0.0561316954367842
+903,Synthetic - Weakly individuating twin,twin,SYN03_2_t,t4,0.885290448829642,0.0648759007783177
+903,Synthetic - Weakly individuating twin,twin,SYN03_3_t,t1,-1.94313375110507,0.117951531903155
+903,Synthetic - Weakly individuating twin,twin,SYN03_3_t,t2,-1.1263911290388,0.0711668986824126
+903,Synthetic - Weakly individuating twin,twin,SYN03_3_t,t3,-0.19167090224842,0.0564821642134236
+903,Synthetic - Weakly individuating twin,twin,SYN03_3_t,t4,0.668209299725723,0.0609042739582535
+903,Synthetic - Weakly individuating twin,twin,SYN03_4_t,t1,-1.58926755705139,0.091218716218319
+903,Synthetic - Weakly individuating twin,twin,SYN03_4_t,t2,-0.600759774249319,0.0599451932602206
+903,Synthetic - Weakly individuating twin,twin,SYN03_4_t,t3,0.212137198317524,0.0565672220837245
+903,Synthetic - Weakly individuating twin,twin,SYN03_4_t,t4,1.15522084661195,0.0720764178948666
+903,Synthetic - Weakly individuating twin,twin,SYN03_5_t,t1,-1.97736842818195,0.121314536024859
+903,Synthetic - Weakly individuating twin,twin,SYN03_5_t,t2,-1.13589622116731,0.0714626861803654
+903,Synthetic - Weakly individuating twin,twin,SYN03_5_t,t3,-0.321277639545997,0.0571710831042837
+903,Synthetic - Weakly individuating twin,twin,SYN03_5_t,t4,0.570999473112987,0.0595599213344955
+903,Synthetic - Weakly individuating twin,twin,SYN03_6_t,t1,-1.94313375110507,0.117951531903155
+903,Synthetic - Weakly individuating twin,twin,SYN03_6_t,t2,-1.17498679206609,0.0727216610420672
+903,Synthetic - Weakly individuating twin,twin,SYN03_6_t,t3,-0.342466301465391,0.0573182007596257
+903,Synthetic - Weakly individuating twin,twin,SYN03_6_t,t4,0.661955096288162,0.0608102094639923
+903,Synthetic - Weakly individuating twin,twin,SYN03_7_t,t1,-1.52203624173586,0.0874600332209418
+903,Synthetic - Weakly individuating twin,twin,SYN03_7_t,t2,-0.661955096288162,0.0608102094639922
+903,Synthetic - Weakly individuating twin,twin,SYN03_7_t,t3,0.243006967409982,0.0567122054336001
+903,Synthetic - Weakly individuating twin,twin,SYN03_7_t,t4,1.11698672787661,0.0708781339513306
+903,Synthetic - Weakly individuating twin,twin,SYN03_8_t,t1,-1.55477359459685,0.0892470323654637
+903,Synthetic - Weakly individuating twin,twin,SYN03_8_t,t2,-0.401570695630149,0.0577813593045877
+903,Synthetic - Weakly individuating twin,twin,SYN03_8_t,t3,0.401570695630148,0.0577813593045878
+903,Synthetic - Weakly individuating twin,twin,SYN03_8_t,t4,1.25908398042707,0.0756749637791782
+903,Synthetic - Weakly individuating twin,twin,SYN03_9_t,t1,-1.30468538522879,0.0774262784997296
+903,Synthetic - Weakly individuating twin,twin,SYN03_9_t,t2,-0.428894504074202,0.0580222214082387
+903,Synthetic - Weakly individuating twin,twin,SYN03_9_t,t3,0.423404722394183,0.057972451265156
+903,Synthetic - Weakly individuating twin,twin,SYN03_9_t,t4,1.353174154548,0.0794131549398938
+903,Synthetic - Weakly individuating twin,twin,SYN03_10_t,t1,-1.18504412790781,0.0730569020836808
+903,Synthetic - Weakly individuating twin,twin,SYN03_10_t,t2,-0.326560927412372,0.0572068424999182
+903,Synthetic - Weakly individuating twin,twin,SYN03_10_t,t3,0.535940026647491,0.0591348392090987
+903,Synthetic - Weakly individuating twin,twin,SYN03_10_t,t4,1.47579102817917,0.0850683438620056
+903,Synthetic - Weakly individuating twin,twin,SYN03_11_t,t1,-1.20552679597252,0.0737543969226237
+903,Synthetic - Weakly individuating twin,twin,SYN03_11_t,t2,-0.342466301465391,0.0573182007596257
+903,Synthetic - Weakly individuating twin,twin,SYN03_11_t,t3,0.618873040548629,0.0601908984727233
+903,Synthetic - Weakly individuating twin,twin,SYN03_11_t,t4,1.44663206715898,0.0836362733823802
+903,Synthetic - Weakly individuating twin,twin,SYN03_12_t,t1,-1.36580556257227,0.0799528300625807
+903,Synthetic - Weakly individuating twin,twin,SYN03_12_t,t2,-0.428894504074202,0.0580222214082389
+903,Synthetic - Weakly individuating twin,twin,SYN03_12_t,t3,0.385320466407567,0.0576461910875245
+903,Synthetic - Weakly individuating twin,twin,SYN03_12_t,t4,1.25908398042707,0.0756749637791782
+903,Synthetic - Weakly individuating twin,twin,SYN03_13_t,t1,-1.66456286120272,0.0958613874775921
+903,Synthetic - Weakly individuating twin,twin,SYN03_13_t,t2,-0.915365087842814,0.0655434120784885
+903,Synthetic - Weakly individuating twin,twin,SYN03_13_t,t3,-0.0250689082587111,0.0561124531299793
+903,Synthetic - Weakly individuating twin,twin,SYN03_13_t,t4,0.877896295051229,0.0647164615258476
+903,Synthetic - Weakly individuating twin,twin,SYN03_14_t,t1,-1.55477359459685,0.0892470323654637
+903,Synthetic - Weakly individuating twin,twin,SYN03_14_t,t2,-0.570999473112987,0.0595599213344955
+903,Synthetic - Weakly individuating twin,twin,SYN03_14_t,t3,0.22754497664115,0.056637068527655
+903,Synthetic - Weakly individuating twin,twin,SYN03_14_t,t4,1.1076800921478,0.0705961374636448
+903,Synthetic - Weakly individuating twin,twin,SYN03_15_t,t1,-1.64485362695147,0.0945992650866873
+903,Synthetic - Weakly individuating twin,twin,SYN03_15_t,t2,-0.680796918764575,0.0610968458860797
+903,Synthetic - Weakly individuating twin,twin,SYN03_15_t,t3,0.135773931302111,0.0562943730836869
+903,Synthetic - Weakly individuating twin,twin,SYN03_15_t,t4,1.06251930227087,0.0692796323169605
+903,Synthetic - Weakly individuating twin,twin,SYN03_16_t,t1,-1.88079360815125,0.112232712981132
+903,Synthetic - Weakly individuating twin,twin,SYN03_16_t,t2,-0.954165253146194,0.0664508927116352
+903,Synthetic - Weakly individuating twin,twin,SYN03_16_t,t3,-0.10043372051147,0.056208993228533
+903,Synthetic - Weakly individuating twin,twin,SYN03_16_t,t4,0.827418320704382,0.0636758655418337
+903,Synthetic - Weakly individuating twin,twin,SYN03_17_t,t1,-1.72793432238842,0.100160379341514
+903,Synthetic - Weakly individuating twin,twin,SYN03_17_t,t2,-0.745449548180789,0.0621560457055307
+903,Synthetic - Weakly individuating twin,twin,SYN03_17_t,t3,0.130715968119863,0.0562805754428402
+903,Synthetic - Weakly individuating twin,twin,SYN03_17_t,t4,1.02789334580214,0.0683265507905364
+904,Synthetic - Unequal twin loadings,human,SYN04_1_h,t1,-1.46105626918691,0.08433754353011
+904,Synthetic - Unequal twin loadings,human,SYN04_1_h,t2,-0.618873040548629,0.0601908984727233
+904,Synthetic - Unequal twin loadings,human,SYN04_1_h,t3,0.294991988222626,0.0570022294340256
+904,Synthetic - Unequal twin loadings,human,SYN04_1_h,t4,1.2815515655446,0.0765240574266069
+904,Synthetic - Unequal twin loadings,human,SYN04_2_h,t1,-1.68494076787191,0.0972029163790525
+904,Synthetic - Unequal twin loadings,human,SYN04_2_h,t2,-0.680796918764575,0.0610968458860799
+904,Synthetic - Unequal twin loadings,human,SYN04_2_h,t3,0.201893479141851,0.0565235508890622
+904,Synthetic - Unequal twin loadings,human,SYN04_2_h,t4,1.1650469223056,0.0723949445357932
+904,Synthetic - Unequal twin loadings,human,SYN04_3_h,t1,-1.60724789190022,0.0922840837424594
+904,Synthetic - Unequal twin loadings,human,SYN04_3_h,t2,-0.674489750196082,0.0609998105899072
+904,Synthetic - Unequal twin loadings,human,SYN04_3_h,t3,0.201893479141851,0.0565235508890621
+904,Synthetic - Unequal twin loadings,human,SYN04_3_h,t4,1.08934902792428,0.0700514950774224
+904,Synthetic - Unequal twin loadings,human,SYN04_4_h,t1,-1.72793432238842,0.100160379341514
+904,Synthetic - Unequal twin loadings,human,SYN04_4_h,t2,-0.938475698411568,0.0660775359715404
+904,Synthetic - Unequal twin loadings,human,SYN04_4_h,t3,-0.0050132775489266,0.0561063024952838
+904,Synthetic - Unequal twin loadings,human,SYN04_4_h,t4,0.900225985701434,0.0652035525415288
+904,Synthetic - Unequal twin loadings,human,SYN04_5_h,t1,-1.08934902792428,0.0700514950774224
+904,Synthetic - Unequal twin loadings,human,SYN04_5_h,t2,-0.217267350341863,0.0565899222814939
+904,Synthetic - Unequal twin loadings,human,SYN04_5_h,t3,0.565108452006584,0.0594863368359873
+904,Synthetic - Unequal twin loadings,human,SYN04_5_h,t4,1.40507156030963,0.081691395859501
+904,Synthetic - Unequal twin loadings,human,SYN04_6_h,t1,-1.07137688928021,0.0695311798787976
+904,Synthetic - Unequal twin loadings,human,SYN04_6_h,t2,-0.19167090224842,0.0564821642134235
+904,Synthetic - Unequal twin loadings,human,SYN04_6_h,t3,0.594765846801678,0.0598657658861242
+904,Synthetic - Unequal twin loadings,human,SYN04_6_h,t4,1.62576338623323,0.0934090176935231
+904,Synthetic - Unequal twin loadings,human,SYN04_7_h,t1,-1.37865872862328,0.080511659471536
+904,Synthetic - Unequal twin loadings,human,SYN04_7_h,t2,-0.612812991016627,0.0601077396556978
+904,Synthetic - Unequal twin loadings,human,SYN04_7_h,t3,0.19167090224842,0.0564821642134236
+904,Synthetic - Unequal twin loadings,human,SYN04_7_h,t4,1.00271166502655,0.0676629221091285
+904,Synthetic - Unequal twin loadings,human,SYN04_8_h,t1,-1.53819885858406,0.0883322715121973
+904,Synthetic - Unequal twin loadings,human,SYN04_8_h,t2,-0.778965564347545,0.0627528541987026
+904,Synthetic - Unequal twin loadings,human,SYN04_8_h,t3,0.0853287948856292,0.0561803315648919
+904,Synthetic - Unequal twin loadings,human,SYN04_8_h,t4,0.978150286262472,0.0670388295499555
+904,Synthetic - Unequal twin loadings,human,SYN04_9_h,t1,-1.66456286120272,0.095861387477592
+904,Synthetic - Unequal twin loadings,human,SYN04_9_h,t2,-0.738846849185214,0.0620423818966628
+904,Synthetic - Unequal twin loadings,human,SYN04_9_h,t3,0.0652185397095437,0.0561494272909884
+904,Synthetic - Unequal twin loadings,human,SYN04_9_h,t4,0.970093276628737,0.0668389880259653
+904,Synthetic - Unequal twin loadings,human,SYN04_10_h,t1,-1.29303197614424,0.0769681985239946
+904,Synthetic - Unequal twin loadings,human,SYN04_10_h,t2,-0.467698799114508,0.0583940187343972
+904,Synthetic - Unequal twin loadings,human,SYN04_10_h,t3,0.353117971973689,0.0573959006759312
+904,Synthetic - Unequal twin loadings,human,SYN04_10_h,t4,1.27023762239315,0.076093187066355
+904,Synthetic - Unequal twin loadings,human,SYN04_11_h,t1,-1.43250272082581,0.0829626257220945
+904,Synthetic - Unequal twin loadings,human,SYN04_11_h,t2,-0.541736560112817,0.0592030012873482
+904,Synthetic - Unequal twin loadings,human,SYN04_11_h,t3,0.274110116035147,0.0568787622232524
+904,Synthetic - Unequal twin loadings,human,SYN04_11_h,t4,1.08934902792428,0.0700514950774223
+904,Synthetic - Unequal twin loadings,human,SYN04_12_h,t1,-1.57178681650986,0.0902078566808641
+904,Synthetic - Unequal twin loadings,human,SYN04_12_h,t2,-0.765456096690878,0.0625082755223576
+904,Synthetic - Unequal twin loadings,human,SYN04_12_h,t3,0.0853287948856292,0.0561803315648919
+904,Synthetic - Unequal twin loadings,human,SYN04_12_h,t4,1.00271166502655,0.0676629221091286
+904,Synthetic - Unequal twin loadings,human,SYN04_13_h,t1,-1.91103564754912,0.114943909482647
+904,Synthetic - Unequal twin loadings,human,SYN04_13_h,t2,-0.938475698411568,0.0660775359715404
+904,Synthetic - Unequal twin loadings,human,SYN04_13_h,t3,-0.150969215496777,0.0563390044931249
+904,Synthetic - Unequal twin loadings,human,SYN04_13_h,t4,0.870549830195654,0.064559850225396
+904,Synthetic - Unequal twin loadings,human,SYN04_14_h,t1,-1.53819885858406,0.0883322715121973
+904,Synthetic - Unequal twin loadings,human,SYN04_14_h,t2,-0.624955903494688,0.0602753417973615
+904,Synthetic - Unequal twin loadings,human,SYN04_14_h,t3,0.227544976641149,0.056637068527655
+904,Synthetic - Unequal twin loadings,human,SYN04_14_h,t4,1.25908398042707,0.075674963779178
+904,Synthetic - Unequal twin loadings,human,SYN04_15_h,t1,-1.24808481112755,0.0752688046322383
+904,Synthetic - Unequal twin loadings,human,SYN04_15_h,t2,-0.347787204278627,0.0573567004182278
+904,Synthetic - Unequal twin loadings,human,SYN04_15_h,t3,0.541736560112817,0.059203001287348
+904,Synthetic - Unequal twin loadings,human,SYN04_15_h,t4,1.47579102817917,0.0850683438620058
+904,Synthetic - Unequal twin loadings,human,SYN04_16_h,t1,-1.60724789190022,0.0922840837424594
+904,Synthetic - Unequal twin loadings,human,SYN04_16_h,t2,-0.668209299725723,0.0609042739582534
+904,Synthetic - Unequal twin loadings,human,SYN04_16_h,t3,0.326560927412373,0.0572068424999181
+904,Synthetic - Unequal twin loadings,human,SYN04_16_h,t4,1.18504412790781,0.0730569020836807
+904,Synthetic - Unequal twin loadings,human,SYN04_17_h,t1,-1.72793432238842,0.100160379341514
+904,Synthetic - Unequal twin loadings,human,SYN04_17_h,t2,-0.83449873482574,0.063816878073261
+904,Synthetic - Unequal twin loadings,human,SYN04_17_h,t3,0.115561597105383,0.0562423939674248
+904,Synthetic - Unequal twin loadings,human,SYN04_17_h,t4,1.04504969965839,0.0687928161459115
+904,Synthetic - Unequal twin loadings,twin,SYN04_1_t,t1,-1.50626172327824,0.0866271489722759
+904,Synthetic - Unequal twin loadings,twin,SYN04_1_t,t2,-0.553384719555673,0.059342500693283
+904,Synthetic - Unequal twin loadings,twin,SYN04_1_t,t3,0.274110116035147,0.0568787622232524
+904,Synthetic - Unequal twin loadings,twin,SYN04_1_t,t4,1.17498679206609,0.0727216610420671
+904,Synthetic - Unequal twin loadings,twin,SYN04_2_t,t1,-1.52203624173586,0.0874600332209416
+904,Synthetic - Unequal twin loadings,twin,SYN04_2_t,t2,-0.693493346283289,0.0612955224310299
+904,Synthetic - Unequal twin loadings,twin,SYN04_2_t,t3,0.125661346855074,0.0562673142646906
+904,Synthetic - Unequal twin loadings,twin,SYN04_2_t,t4,1.20552679597252,0.0737543969226237
+904,Synthetic - Unequal twin loadings,twin,SYN04_3_t,t1,-1.57178681650986,0.0902078566808641
+904,Synthetic - Unequal twin loadings,twin,SYN04_3_t,t2,-0.668209299725723,0.0609042739582534
+904,Synthetic - Unequal twin loadings,twin,SYN04_3_t,t3,0.181468316528477,0.0564430380650541
+904,Synthetic - Unequal twin loadings,twin,SYN04_3_t,t4,1.01942761823437,0.0681007210188916
+904,Synthetic - Unequal twin loadings,twin,SYN04_4_t,t1,-1.60724789190022,0.0922840837424593
+904,Synthetic - Unequal twin loadings,twin,SYN04_4_t,t2,-0.885290448829642,0.0648759007783178
+904,Synthetic - Unequal twin loadings,twin,SYN04_4_t,t3,-0.085328794885629,0.056180331564892
+904,Synthetic - Unequal twin loadings,twin,SYN04_4_t,t4,0.954165253146195,0.0664508927116354
+904,Synthetic - Unequal twin loadings,twin,SYN04_5_t,t1,-1.08031934081496,0.0697884016387108
+904,Synthetic - Unequal twin loadings,twin,SYN04_5_t,t2,-0.19167090224842,0.0564821642134235
+904,Synthetic - Unequal twin loadings,twin,SYN04_5_t,t3,0.655726678798253,0.0607175913182715
+904,Synthetic - Unequal twin loadings,twin,SYN04_5_t,t4,1.62576338623323,0.0934090176935231
+904,Synthetic - Unequal twin loadings,twin,SYN04_6_t,t1,-1.15522084661195,0.0720764178948666
+904,Synthetic - Unequal twin loadings,twin,SYN04_6_t,t2,-0.196779620218467,0.0565025735204606
+904,Synthetic - Unequal twin loadings,twin,SYN04_6_t,t3,0.618873040548629,0.0601908984727234
+904,Synthetic - Unequal twin loadings,twin,SYN04_6_t,t4,1.44663206715898,0.0836362733823802
+904,Synthetic - Unequal twin loadings,twin,SYN04_7_t,t1,-1.52203624173586,0.0874600332209418
+904,Synthetic - Unequal twin loadings,twin,SYN04_7_t,t2,-0.661955096288162,0.0608102094639923
+904,Synthetic - Unequal twin loadings,twin,SYN04_7_t,t3,0.26890862445371,0.0568494677141674
+904,Synthetic - Unequal twin loadings,twin,SYN04_7_t,t4,1.11698672787661,0.0708781339513306
+904,Synthetic - Unequal twin loadings,twin,SYN04_8_t,t1,-1.68494076787191,0.0972029163790525
+904,Synthetic - Unequal twin loadings,twin,SYN04_8_t,t2,-0.83449873482574,0.0638168780732612
+904,Synthetic - Unequal twin loadings,twin,SYN04_8_t,t3,0.110516203562042,0.0562307313790801
+904,Synthetic - Unequal twin loadings,twin,SYN04_8_t,t4,1.03643338949379,0.068557197205094
+904,Synthetic - Unequal twin loadings,twin,SYN04_9_t,t1,-1.50626172327824,0.0866271489722759
+904,Synthetic - Unequal twin loadings,twin,SYN04_9_t,t2,-0.772193214188685,0.0626295617060913
+904,Synthetic - Unequal twin loadings,twin,SYN04_9_t,t3,0.0601954117289568,0.0561429994981815
+904,Synthetic - Unequal twin loadings,twin,SYN04_9_t,t4,0.986271298702238,0.0672426850791134
+904,Synthetic - Unequal twin loadings,twin,SYN04_10_t,t1,-1.46105626918691,0.08433754353011
+904,Synthetic - Unequal twin loadings,twin,SYN04_10_t,t2,-0.473298825432437,0.0584505965905349
+904,Synthetic - Unequal twin loadings,twin,SYN04_10_t,t3,0.2533471031358,0.0567652852566563
+904,Synthetic - Unequal twin loadings,twin,SYN04_10_t,t4,1.24808481112755,0.0752688046322383
+904,Synthetic - Unequal twin loadings,twin,SYN04_11_t,t1,-1.49085335524666,0.085830773585392
+904,Synthetic - Unequal twin loadings,twin,SYN04_11_t,t2,-0.668209299725723,0.0609042739582535
+904,Synthetic - Unequal twin loadings,twin,SYN04_11_t,t3,0.222403226927206,0.05661320328699
+904,Synthetic - Unequal twin loadings,twin,SYN04_11_t,t4,1.08934902792428,0.0700514950774224
+904,Synthetic - Unequal twin loadings,twin,SYN04_12_t,t1,-1.64485362695147,0.0945992650866873
+904,Synthetic - Unequal twin loadings,twin,SYN04_12_t,t2,-0.752084906695491,0.0622715571627132
+904,Synthetic - Unequal twin loadings,twin,SYN04_12_t,t3,0.0652185397095437,0.0561494272909884
+904,Synthetic - Unequal twin loadings,twin,SYN04_12_t,t4,0.994457883209753,0.0674506742976312
+904,Synthetic - Unequal twin loadings,twin,SYN04_13_t,t1,-1.8250068211464,0.107524917709956
+904,Synthetic - Unequal twin loadings,twin,SYN04_13_t,t2,-0.954165253146194,0.0664508927116353
+904,Synthetic - Unequal twin loadings,twin,SYN04_13_t,t3,-0.135773931302111,0.056294373083687
+904,Synthetic - Unequal twin loadings,twin,SYN04_13_t,t4,0.80642124701824,0.0632669665344023
+904,Synthetic - Unequal twin loadings,twin,SYN04_14_t,t1,-1.50626172327824,0.0866271489722759
+904,Synthetic - Unequal twin loadings,twin,SYN04_14_t,t2,-0.553384719555673,0.059342500693283
+904,Synthetic - Unequal twin loadings,twin,SYN04_14_t,t3,0.305480788099398,0.0570678041090073
+904,Synthetic - Unequal twin loadings,twin,SYN04_14_t,t4,1.21596041970732,0.0741174252791907
+904,Synthetic - Unequal twin loadings,twin,SYN04_15_t,t1,-1.04504969965839,0.0687928161459116
+904,Synthetic - Unequal twin loadings,twin,SYN04_15_t,t2,-0.321277639545997,0.0571710831042836
+904,Synthetic - Unequal twin loadings,twin,SYN04_15_t,t3,0.518656932080391,0.0589365270442873
+904,Synthetic - Unequal twin loadings,twin,SYN04_15_t,t4,1.52203624173586,0.0874600332209417
+904,Synthetic - Unequal twin loadings,twin,SYN04_16_t,t1,-1.353174154548,0.0794131549398938
+904,Synthetic - Unequal twin loadings,twin,SYN04_16_t,t2,-0.600759774249319,0.0599451932602207
+904,Synthetic - Unequal twin loadings,twin,SYN04_16_t,t3,0.25852727731631,0.0567927335555813
+904,Synthetic - Unequal twin loadings,twin,SYN04_16_t,t4,1.1650469223056,0.0723949445357933
+904,Synthetic - Unequal twin loadings,twin,SYN04_17_t,t1,-1.68494076787191,0.0972029163790525
+904,Synthetic - Unequal twin loadings,twin,SYN04_17_t,t2,-0.738846849185214,0.0620423818966628
+904,Synthetic - Unequal twin loadings,twin,SYN04_17_t,t3,0.0903614371292588,0.0561893612083672
+904,Synthetic - Unequal twin loadings,twin,SYN04_17_t,t4,0.93071694890434,0.065896133482544
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_1_h,t1,-1.62576338623323,0.0934090176935232
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_1_h,t2,-0.693493346283289,0.0612955224310299
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_1_h,t3,0.222403226927206,0.05661320328699
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_1_h,t4,1.1650469223056,0.0723949445357933
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_2_h,t1,-1.46105626918691,0.08433754353011
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_2_h,t2,-0.467698799114508,0.0583940187343975
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_2_h,t3,0.316003304412483,0.0571359939753683
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_2_h,t4,1.20552679597252,0.0737543969226238
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_3_h,t1,-1.46105626918691,0.08433754353011
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_3_h,t2,-0.765456096690878,0.0625082755223576
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_3_h,t3,0.237846695417749,0.0566865659221995
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_3_h,t4,1.18504412790781,0.0730569020836808
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_4_h,t1,-1.18504412790781,0.0730569020836807
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_4_h,t2,-0.300232259380722,0.0570346925061861
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_4_h,t3,0.553384719555673,0.059342500693283
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_4_h,t4,1.52203624173586,0.0874600332209417
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_5_h,t1,-1.41865370617274,0.082314862399961
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_5_h,t2,-0.44544250629172,0.0581764697401264
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_5_h,t3,0.353117971973689,0.0573959006759314
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_5_h,t4,1.25908398042707,0.0756749637791781
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_6_h,t1,-1.55477359459685,0.0892470323654637
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_6_h,t2,-0.631061979059499,0.0603610909006111
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_6_h,t3,0.196779620218467,0.0565025735204606
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_6_h,t4,1.11698672787661,0.0708781339513306
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_7_h,t1,-1.64485362695147,0.0945992650866873
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_7_h,t2,-0.778965564347545,0.0627528541987025
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_7_h,t3,0.0401168101849681,0.0561224550468626
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_7_h,t4,0.970093276628737,0.0668389880259654
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_8_h,t1,-1.72793432238842,0.100160379341514
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_8_h,t2,-0.738846849185214,0.0620423818966628
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_8_h,t3,0.150969215496777,0.0563390044931249
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_8_h,t4,1.1076800921478,0.0705961374636447
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_9_h,t1,-1.27023762239315,0.076093187066355
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_9_h,t2,-0.396142373892698,0.0577355405972306
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_9_h,t3,0.478913734112256,0.0585080723316993
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_9_h,t4,1.30468538522879,0.0774262784997296
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_10_h,t1,-1.68494076787191,0.0972029163790526
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_10_h,t2,-0.719228730439924,0.0617121150500493
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_10_h,t3,0.161118588510746,0.0563714786293418
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_10_h,t4,1.01942761823437,0.0681007210188917
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_11_h,t1,-1.94313375110507,0.117951531903155
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_11_h,t2,-0.863250051593421,0.0644059977734578
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_11_h,t3,-0.0702433138219166,0.0561563734068268
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_11_h,t4,0.745449548180789,0.0621560457055305
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_12_h,t1,-1.50626172327824,0.0866271489722759
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_12_h,t2,-0.778965564347545,0.0627528541987026
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_12_h,t3,0.0903614371292588,0.056189361208367
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_12_h,t4,1.08031934081496,0.0697884016387108
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_13_h,t1,-1.72793432238842,0.100160379341514
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_13_h,t2,-0.915365087842814,0.0655434120784884
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_13_h,t3,-0.0401168101849681,0.0561224550468628
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_13_h,t4,0.877896295051229,0.0647164615258478
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_14_h,t1,-1.75068607125217,0.101798229768219
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_14_h,t2,-0.994457883209753,0.0674506742976312
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_14_h,t3,-0.19167090224842,0.0564821642134234
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_14_h,t4,0.606775363514265,0.0600258446388386
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_15_h,t1,-1.44663206715898,0.0836362733823802
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_15_h,t2,-0.618873040548629,0.0601908984727233
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_15_h,t3,0.207012623385187,0.0565450993640219
+905,Synthetic - Repeated twin answers (congruent),human,SYN05_15_h,t4,1.08934902792428,0.0700514950774224
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_1_t,t1,-1.62576338623324,0.0934090176935232
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_1_t,t2,-0.674489750196082,0.060999810589907
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_1_t,t3,0.232692749183045,0.0566615215302091
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_1_t,t4,1.18504412790781,0.0730569020836807
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_2_t,t1,-1.47579102817917,0.0850683438620057
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_2_t,t2,-0.53594002664749,0.0591348392090988
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_2_t,t3,0.326560927412373,0.0572068424999181
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_2_t,t4,1.25908398042707,0.0756749637791781
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_3_t,t1,-1.66456286120272,0.095861387477592
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_3_t,t2,-0.687131286795469,0.0611954071385046
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_3_t,t3,0.217267350341864,0.0565899222814938
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_3_t,t4,1.15522084661195,0.0720764178948666
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_4_t,t1,-1.13589622116731,0.0714626861803654
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_4_t,t2,-0.347787204278627,0.0573567004182277
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_4_t,t3,0.565108452006584,0.0594863368359871
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_4_t,t4,1.47579102817917,0.0850683438620056
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_5_t,t1,-1.44663206715898,0.0836362733823802
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_5_t,t2,-0.518656932080391,0.0589365270442874
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_5_t,t3,0.36917136250309,0.0575177710189753
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_5_t,t4,1.2815515655446,0.076524057426607
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_6_t,t1,-1.60724789190022,0.0922840837424595
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_6_t,t2,-0.649523595844325,0.0606263944452984
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_6_t,t3,0.135773931302112,0.056294373083687
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_6_t,t4,1.1076800921478,0.0705961374636447
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_7_t,t1,-1.68494076787191,0.0972029163790525
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_7_t,t2,-0.738846849185214,0.0620423818966629
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_7_t,t3,0.0752698620998299,0.0561638387967413
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_7_t,t4,1.00271166502655,0.0676629221091287
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_8_t,t1,-1.57178681650986,0.090207856680864
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_8_t,t2,-0.745449548180789,0.0621560457055303
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_8_t,t3,0.110516203562042,0.05623073137908
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_8_t,t4,1.03643338949379,0.068557197205094
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_9_t,t1,-1.21596041970732,0.0741174252791908
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_9_t,t2,-0.439913165673234,0.0581242212180142
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_9_t,t3,0.39072570019687,0.0576904871541766
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_9_t,t4,1.34075503369022,0.0788915914896874
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_10_t,t1,-1.72793432238842,0.100160379341514
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_10_t,t2,-0.772193214188685,0.0626295617060912
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_10_t,t3,0.0100266811002751,0.056107071141801
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_10_t,t4,0.938475698411569,0.0660775359715403
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_11_t,t1,-1.72793432238842,0.100160379341514
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_11_t,t2,-1.03643338949379,0.0685571972050941
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_11_t,t3,-0.0401168101849681,0.0561224550468627
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_11_t,t4,0.848786685915967,0.064106305171783
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_12_t,t1,-1.50626172327824,0.0866271489722759
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_12_t,t2,-0.600759774249319,0.0599451932602207
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_12_t,t3,0.310737745487592,0.0571015694768337
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_12_t,t4,1.21596041970732,0.0741174252791907
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_13_t,t1,-1.75068607125217,0.101798229768219
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_13_t,t2,-0.962098753913142,0.0666430457657129
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_13_t,t3,-0.0050132775489266,0.0561063024952839
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_13_t,t4,0.855995985492682,0.0642548375227215
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_14_t,t1,-1.97736842818195,0.121314536024859
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_14_t,t2,-1.11698672787661,0.0708781339513306
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_14_t,t3,-0.19167090224842,0.0564821642134236
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_14_t,t4,0.778965564347545,0.0627528541987025
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_15_t,t1,-1.58926755705139,0.0912187162183189
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_15_t,t2,-0.612812991016627,0.0601077396556978
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_15_t,t3,0.232692749183045,0.0566615215302093
+905,Synthetic - Repeated twin answers (congruent),twin,SYN05_15_t,t4,1.00271166502655,0.0676629221091286
+906,Synthetic - Mixed instrument with a total score,human,SYN06_1_h,t1,-1.68494076787191,0.0972029163790525
+906,Synthetic - Mixed instrument with a total score,human,SYN06_1_h,t2,-1.01103432814182,0.0678795589325489
+906,Synthetic - Mixed instrument with a total score,human,SYN06_1_h,t3,-0.396142373892698,0.0577355405972304
+906,Synthetic - Mixed instrument with a total score,human,SYN06_1_h,t4,0.428894504074201,0.0580222214082386
+906,Synthetic - Mixed instrument with a total score,human,SYN06_1_h,t5,1.18504412790781,0.0730569020836807
+906,Synthetic - Mixed instrument with a total score,human,SYN06_2_h,t1,-1.64485362695147,0.0945992650866873
+906,Synthetic - Mixed instrument with a total score,human,SYN06_2_h,t2,-0.900225985701433,0.0652035525415288
+906,Synthetic - Mixed instrument with a total score,human,SYN06_2_h,t3,-0.161118588510745,0.0563714786293417
+906,Synthetic - Mixed instrument with a total score,human,SYN06_2_h,t4,0.565108452006584,0.0594863368359872
+906,Synthetic - Mixed instrument with a total score,human,SYN06_2_h,t5,1.37865872862328,0.080511659471536
+906,Synthetic - Mixed instrument with a total score,human,SYN06_3_h,t1,-1.97736842818195,0.121314536024859
+906,Synthetic - Mixed instrument with a total score,human,SYN06_3_h,t2,-1.24808481112755,0.0752688046322384
+906,Synthetic - Mixed instrument with a total score,human,SYN06_3_h,t3,-0.559236977611907,0.0594138687447216
+906,Synthetic - Mixed instrument with a total score,human,SYN06_3_h,t4,0.23784669541775,0.0566865659221997
+906,Synthetic - Mixed instrument with a total score,human,SYN06_3_h,t5,1.09846842033986,0.0703206676538796
+906,Synthetic - Mixed instrument with a total score,human,SYN06_4_h,t1,-1.46105626918691,0.0843375435301101
+906,Synthetic - Mixed instrument with a total score,human,SYN06_4_h,t2,-0.582841507271216,0.0597105071585195
+906,Synthetic - Mixed instrument with a total score,human,SYN06_4_h,t3,0.0953963690568919,0.0561989146572897
+906,Synthetic - Mixed instrument with a total score,human,SYN06_4_h,t4,0.970093276628737,0.0668389880259653
+906,Synthetic - Mixed instrument with a total score,human,SYN06_4_h,t5,1.79911810683797,0.105462304213966
+906,Synthetic - Mixed instrument with a total score,human,SYN06_5_h,t1,-1.66456286120272,0.0958613874775921
+906,Synthetic - Mixed instrument with a total score,human,SYN06_5_h,t2,-0.877896295051228,0.0647164615258477
+906,Synthetic - Mixed instrument with a total score,human,SYN06_5_h,t3,-0.243006967409982,0.0567122054336002
+906,Synthetic - Mixed instrument with a total score,human,SYN06_5_h,t4,0.478913734112256,0.0585080723316992
+906,Synthetic - Mixed instrument with a total score,human,SYN06_5_h,t5,1.41865370617274,0.082314862399961
+906,Synthetic - Mixed instrument with a total score,human,SYN06_6_h,t1,-1.97736842818195,0.121314536024859
+906,Synthetic - Mixed instrument with a total score,human,SYN06_6_h,t2,-1.25908398042707,0.075674963779178
+906,Synthetic - Mixed instrument with a total score,human,SYN06_6_h,t3,-0.559236977611907,0.0594138687447215
+906,Synthetic - Mixed instrument with a total score,human,SYN06_6_h,t4,0.0702433138219167,0.0561563734068268
+906,Synthetic - Mixed instrument with a total score,human,SYN06_6_h,t5,0.83449873482574,0.0638168780732611
+906,Synthetic - Mixed instrument with a total score,human,SYN06_7_h,t1,-1.34075503369022,0.0788915914896873
+906,Synthetic - Mixed instrument with a total score,human,SYN06_7_h,t2,-0.706302562840088,0.0615005316061365
+906,Synthetic - Mixed instrument with a total score,human,SYN06_7_h,t3,-0.0100266811002747,0.0561070711418009
+906,Synthetic - Mixed instrument with a total score,human,SYN06_7_h,t4,0.863250051593421,0.0644059977734577
+906,Synthetic - Mixed instrument with a total score,human,SYN06_8_h,t1,-1.41865370617274,0.0823148623999611
+906,Synthetic - Mixed instrument with a total score,human,SYN06_8_h,t2,-0.570999473112988,0.0595599213344954
+906,Synthetic - Mixed instrument with a total score,human,SYN06_8_h,t3,0.0702433138219167,0.0561563734068267
+906,Synthetic - Mixed instrument with a total score,human,SYN06_8_h,t4,0.92301382625498,0.0657181221805423
+906,Synthetic - Mixed instrument with a total score,human,SYN06_9_h,t1,-1.08031934081496,0.0697884016387108
+906,Synthetic - Mixed instrument with a total score,human,SYN06_9_h,t2,-0.412463129441405,0.0578753250160409
+906,Synthetic - Mixed instrument with a total score,human,SYN06_9_h,t3,0.26371439822153,0.0568207929520536
+906,Synthetic - Mixed instrument with a total score,human,SYN06_9_h,t4,1.1455050613927,0.0717657648357753
+906,Synthetic - Mixed instrument with a total score,human,SYN06_10_h,t1,-1.02789334580214,0.0683265507905364
+906,Synthetic - Mixed instrument with a total score,human,SYN06_10_h,t2,-0.39072570019687,0.0576904871541766
+906,Synthetic - Mixed instrument with a total score,human,SYN06_10_h,t3,0.2533471031358,0.0567652852566564
+906,Synthetic - Mixed instrument with a total score,human,SYN06_10_h,t4,1.08934902792428,0.0700514950774224
+906,Synthetic - Mixed instrument with a total score,human,SYN06_11_h,t1,-1.20552679597252,0.0737543969226238
+906,Synthetic - Mixed instrument with a total score,human,SYN06_11_h,t2,-0.501527398977708,0.0587471840368113
+906,Synthetic - Mixed instrument with a total score,human,SYN06_11_h,t3,0.161118588510746,0.0563714786293417
+906,Synthetic - Mixed instrument with a total score,human,SYN06_11_h,t4,0.954165253146195,0.0664508927116353
+906,Synthetic - Mixed instrument with a total score,human,SYN06_12_h,t1,-1.88079360815125,0.112232712981132
+906,Synthetic - Mixed instrument with a total score,human,SYN06_12_h,t2,-1.1455050613927,0.0717657648357753
+906,Synthetic - Mixed instrument with a total score,human,SYN06_12_h,t3,-0.385320466407568,0.0576461910875244
+906,Synthetic - Mixed instrument with a total score,human,SYN06_12_h,t4,0.321277639545997,0.0571710831042836
+906,Synthetic - Mixed instrument with a total score,human,SYN06_12_h,t5,1.1650469223056,0.0723949445357933
+906,Synthetic - Mixed instrument with a total score,human,SYN06_13_h,t1,-2.01409081201814,0.12510988692865
+906,Synthetic - Mixed instrument with a total score,human,SYN06_13_h,t2,-1.39174377939633,0.0810907727150762
+906,Synthetic - Mixed instrument with a total score,human,SYN06_13_h,t3,-0.553384719555673,0.059342500693283
+906,Synthetic - Mixed instrument with a total score,human,SYN06_13_h,t4,0.135773931302112,0.056294373083687
+906,Synthetic - Mixed instrument with a total score,human,SYN06_13_h,t5,0.827418320704382,0.0636758655418337
+906,Synthetic - Mixed instrument with a total score,human,SYN06_14_h,t1,-1.91103564754912,0.114943909482647
+906,Synthetic - Mixed instrument with a total score,human,SYN06_14_h,t2,-1.23723459916283,0.0748741640573541
+906,Synthetic - Mixed instrument with a total score,human,SYN06_14_h,t3,-0.565108452006584,0.0594863368359873
+906,Synthetic - Mixed instrument with a total score,human,SYN06_14_h,t4,0.237846695417749,0.0566865659221997
+906,Synthetic - Mixed instrument with a total score,human,SYN06_14_h,t5,1.02789334580214,0.0683265507905363
+906,Synthetic - Mixed instrument with a total score,human,SYN06_15_h,t1,-2.14441062091184,0.140329222398772
+906,Synthetic - Mixed instrument with a total score,human,SYN06_15_h,t2,-1.40507156030963,0.081691395859501
+906,Synthetic - Mixed instrument with a total score,human,SYN06_15_h,t3,-0.712750760220043,0.0616054858823047
+906,Synthetic - Mixed instrument with a total score,human,SYN06_15_h,t4,-0.0200543703529506,0.0561101462501511
+906,Synthetic - Mixed instrument with a total score,human,SYN06_15_h,t5,0.778965564347545,0.0627528541987024
+906,Synthetic - Mixed instrument with a total score,human,SYN06_16_h,t1,-1.75068607125217,0.101798229768219
+906,Synthetic - Mixed instrument with a total score,human,SYN06_16_h,t2,-0.970093276628737,0.0668389880259653
+906,Synthetic - Mixed instrument with a total score,human,SYN06_16_h,t3,-0.19167090224842,0.0564821642134236
+906,Synthetic - Mixed instrument with a total score,human,SYN06_16_h,t4,0.559236977611907,0.0594138687447216
+906,Synthetic - Mixed instrument with a total score,human,SYN06_16_h,t5,1.2815515655446,0.076524057426607
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_1_t,t1,-1.97736842818195,0.121314536024859
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_1_t,t2,-1.13589622116731,0.0714626861803655
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_1_t,t3,-0.423404722394183,0.0579724512651558
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_1_t,t4,0.45098549943237,0.0582295636241823
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_1_t,t5,1.20552679597252,0.0737543969226239
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_2_t,t1,-1.58926755705139,0.091218716218319
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_2_t,t2,-1.01103432814182,0.0678795589325489
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_2_t,t3,-0.2533471031358,0.0567652852566563
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_2_t,t4,0.417927671669482,0.0579234887619105
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_2_t,t5,1.2815515655446,0.0765240574266071
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_3_t,t1,-2.09692742916434,0.134446901948745
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_3_t,t2,-1.24808481112755,0.0752688046322382
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_3_t,t3,-0.501527398977708,0.0587471840368112
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_3_t,t4,0.18656718183652,0.0564623200154458
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_3_t,t5,1.11698672787661,0.0708781339513306
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_4_t,t1,-1.37865872862328,0.0805116594715361
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_4_t,t2,-0.570999473112987,0.0595599213344956
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_4_t,t3,0.115561597105383,0.056242393967425
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_4_t,t4,0.946291357961576,0.0662624232475763
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_4_t,t5,1.72793432238842,0.100160379341514
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_5_t,t1,-1.75068607125217,0.101798229768219
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_5_t,t2,-0.962098753913142,0.066643045765713
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_5_t,t3,-0.15604189276105,0.0563549680984673
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_5_t,t4,0.559236977611907,0.0594138687447215
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_5_t,t5,1.32853932885681,0.0783871755896592
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_6_t,t1,-2.19728637664105,0.147381732106183
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_6_t,t2,-1.41865370617274,0.082314862399961
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_6_t,t3,-0.501527398977708,0.0587471840368112
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_6_t,t4,0.196779620218467,0.0565025735204605
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_6_t,t5,0.962098753913142,0.0666430457657129
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_7_t,t1,-2.25712924448622,0.156060908828311
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_7_t,t2,-1.53819885858406,0.0883322715121973
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_7_t,t3,-0.624955903494687,0.0602753417973614
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_7_t,t4,0.428894504074202,0.0580222214082387
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_8_t,t1,-2.14441062091184,0.140329222398772
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_8_t,t2,-1.46105626918691,0.0843375435301102
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_8_t,t3,-0.570999473112987,0.0595599213344957
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_8_t,t4,0.495850347347453,0.0586860011038864
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_9_t,t1,-1.68494076787191,0.0972029163790525
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_9_t,t2,-1.08934902792428,0.0700514950774224
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_9_t,t3,-0.25852727731631,0.0567927335555814
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_9_t,t4,0.661955096288162,0.0608102094639923
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_10_t,t1,-1.77438191034496,0.103560022526512
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_10_t,t2,-1.04504969965839,0.0687928161459115
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_10_t,t3,-0.212137198317524,0.0565672220837245
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_10_t,t4,0.772193214188685,0.0626295617060912
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_11_t,t1,-2.01409081201814,0.12510988692865
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_11_t,t2,-1.20552679597252,0.0737543969226237
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_11_t,t3,-0.44544250629172,0.0581764697401263
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_11_t,t4,0.524400512708041,0.059001616335236
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_12_t,t1,-1.91103564754912,0.114943909482647
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_12_t,t2,-1.09846842033986,0.0703206676538796
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_12_t,t3,-0.36917136250309,0.0575177710189752
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_12_t,t4,0.374543499199442,0.0575598404533534
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_12_t,t5,1.25908398042707,0.075674963779178
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_13_t,t1,-2.01409081201814,0.12510988692865
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_13_t,t2,-1.23723459916283,0.0748741640573541
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_13_t,t3,-0.559236977611907,0.0594138687447216
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_13_t,t4,0.181468316528477,0.0564430380650544
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_13_t,t5,0.954165253146194,0.0664508927116354
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_14_t,t1,-1.91103564754912,0.114943909482647
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_14_t,t2,-1.1076800921478,0.0705961374636447
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_14_t,t3,-0.467698799114508,0.0583940187343973
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_14_t,t4,0.305480788099397,0.0570678041090072
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_14_t,t5,1.18504412790781,0.0730569020836808
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_15_t,t1,-2.09692742916434,0.134446901948745
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_15_t,t2,-1.30468538522879,0.0774262784997296
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_15_t,t3,-0.565108452006584,0.0594863368359873
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_15_t,t4,0.0903614371292588,0.0561893612083672
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_15_t,t5,0.877896295051229,0.0647164615258477
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_16_t,t1,-1.58926755705139,0.0912187162183189
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_16_t,t2,-0.877896295051228,0.0647164615258476
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_16_t,t3,-0.145900420032994,0.0563235855574937
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_16_t,t4,0.600759774249319,0.0599451932602205
+906,Synthetic - Mixed instrument with a total score,twin,SYN06_16_t,t5,1.34075503369022,0.0788915914896874
+907,Synthetic - Short scales,human,SYN07_1_h,t1,-1.47579102817917,0.0850683438620057
+907,Synthetic - Short scales,human,SYN07_1_h,t2,-0.582841507271216,0.0597105071585197
+907,Synthetic - Short scales,human,SYN07_1_h,t3,0.374543499199443,0.0575598404533534
+907,Synthetic - Short scales,human,SYN07_1_h,t4,1.34075503369022,0.0788915914896874
+907,Synthetic - Short scales,human,SYN07_2_h,t1,-1.40507156030963,0.081691395859501
+907,Synthetic - Short scales,human,SYN07_2_h,t2,-0.637191674504475,0.0604481676358052
+907,Synthetic - Short scales,human,SYN07_2_h,t3,0.326560927412373,0.0572068424999183
+907,Synthetic - Short scales,human,SYN07_2_h,t4,1.17498679206609,0.0727216610420672
+907,Synthetic - Short scales,human,SYN07_3_h,t1,-1.29303197614424,0.0769681985239947
+907,Synthetic - Short scales,human,SYN07_3_h,t2,-0.337155076995277,0.057280395336827
+907,Synthetic - Short scales,human,SYN07_3_h,t3,0.618873040548629,0.0601908984727233
+907,Synthetic - Short scales,human,SYN07_3_h,t4,1.64485362695147,0.0945992650866873
+907,Synthetic - Short scales,human,SYN07_4_h,t1,-1.64485362695147,0.0945992650866873
+907,Synthetic - Short scales,human,SYN07_4_h,t2,-0.725737024100805,0.0618204516121698
+907,Synthetic - Short scales,human,SYN07_4_h,t3,0.171284585931507,0.0564061499090683
+907,Synthetic - Short scales,human,SYN07_4_h,t4,1.15522084661195,0.0720764178948668
+907,Synthetic - Short scales,human,SYN07_5_h,t1,-1.37865872862328,0.080511659471536
+907,Synthetic - Short scales,human,SYN07_5_h,t2,-0.26890862445371,0.0568494677141673
+907,Synthetic - Short scales,human,SYN07_5_h,t3,0.570999473112987,0.0595599213344956
+907,Synthetic - Short scales,human,SYN07_5_h,t4,1.50626172327824,0.0866271489722759
+907,Synthetic - Short scales,human,SYN07_6_h,t1,-1.66456286120272,0.095861387477592
+907,Synthetic - Short scales,human,SYN07_6_h,t2,-0.820379145968461,0.063537245160762
+907,Synthetic - Short scales,human,SYN07_6_h,t3,0.080298312892055,0.0561718244840793
+907,Synthetic - Short scales,human,SYN07_6_h,t4,1.01942761823437,0.0681007210188917
+907,Synthetic - Short scales,human,SYN07_7_h,t1,-1.40507156030963,0.0816913958595011
+907,Synthetic - Short scales,human,SYN07_7_h,t2,-0.637191674504475,0.0604481676358053
+907,Synthetic - Short scales,human,SYN07_7_h,t3,0.207012623385187,0.0565450993640221
+907,Synthetic - Short scales,human,SYN07_7_h,t4,1.1455050613927,0.0717657648357753
+907,Synthetic - Short scales,human,SYN07_8_h,t1,-1.94313375110507,0.117951531903155
+907,Synthetic - Short scales,human,SYN07_8_h,t2,-0.946291357961576,0.0662624232475763
+907,Synthetic - Short scales,human,SYN07_8_h,t3,-0.0451346284814213,0.0561268176244016
+907,Synthetic - Short scales,human,SYN07_8_h,t4,0.758753544504371,0.0623889540949657
+907,Synthetic - Short scales,human,SYN07_9_h,t1,-1.57178681650986,0.0902078566808641
+907,Synthetic - Short scales,human,SYN07_9_h,t2,-0.712750760220043,0.0616054858823048
+907,Synthetic - Short scales,human,SYN07_9_h,t3,0.145900420032994,0.0563235855574938
+907,Synthetic - Short scales,human,SYN07_9_h,t4,1.1076800921478,0.0705961374636447
+907,Synthetic - Short scales,human,SYN07_10_h,t1,-1.353174154548,0.0794131549398938
+907,Synthetic - Short scales,human,SYN07_10_h,t2,-0.428894504074202,0.0580222214082387
+907,Synthetic - Short scales,human,SYN07_10_h,t3,0.423404722394183,0.0579724512651559
+907,Synthetic - Short scales,human,SYN07_10_h,t4,1.44663206715898,0.0836362733823802
+907,Synthetic - Short scales,twin,SYN07_1_t,t1,-1.49085335524666,0.085830773585392
+907,Synthetic - Short scales,twin,SYN07_1_t,t2,-0.524400512708041,0.059001616335236
+907,Synthetic - Short scales,twin,SYN07_1_t,t3,0.363809859029696,0.0574764292192023
+907,Synthetic - Short scales,twin,SYN07_1_t,t4,1.30468538522879,0.0774262784997295
+907,Synthetic - Short scales,twin,SYN07_2_t,t1,-1.46105626918691,0.08433754353011
+907,Synthetic - Short scales,twin,SYN07_2_t,t2,-0.518656932080391,0.0589365270442873
+907,Synthetic - Short scales,twin,SYN07_2_t,t3,0.326560927412373,0.057206842499918
+907,Synthetic - Short scales,twin,SYN07_2_t,t4,1.27023762239315,0.0760931870663549
+907,Synthetic - Short scales,twin,SYN07_3_t,t1,-1.20552679597252,0.0737543969226238
+907,Synthetic - Short scales,twin,SYN07_3_t,t2,-0.310737745487592,0.0571015694768338
+907,Synthetic - Short scales,twin,SYN07_3_t,t3,0.553384719555673,0.0593425006932829
+907,Synthetic - Short scales,twin,SYN07_3_t,t4,1.62576338623323,0.0934090176935232
+907,Synthetic - Short scales,twin,SYN07_4_t,t1,-1.64485362695147,0.0945992650866872
+907,Synthetic - Short scales,twin,SYN07_4_t,t2,-0.680796918764575,0.0610968458860797
+907,Synthetic - Short scales,twin,SYN07_4_t,t3,0.248173718459313,0.0567384438984681
+907,Synthetic - Short scales,twin,SYN07_4_t,t4,1.08934902792428,0.0700514950774223
+907,Synthetic - Short scales,twin,SYN07_5_t,t1,-1.27023762239315,0.0760931870663551
+907,Synthetic - Short scales,twin,SYN07_5_t,t2,-0.342466301465391,0.0573182007596258
+907,Synthetic - Short scales,twin,SYN07_5_t,t3,0.518656932080391,0.0589365270442873
+907,Synthetic - Short scales,twin,SYN07_5_t,t4,1.53819885858406,0.0883322715121973
+907,Synthetic - Short scales,twin,SYN07_6_t,t1,-1.64485362695147,0.0945992650866873
+907,Synthetic - Short scales,twin,SYN07_6_t,t2,-0.765456096690878,0.0625082755223576
+907,Synthetic - Short scales,twin,SYN07_6_t,t3,0.115561597105383,0.0562423939674249
+907,Synthetic - Short scales,twin,SYN07_6_t,t4,1.02789334580214,0.0683265507905363
+907,Synthetic - Short scales,twin,SYN07_7_t,t1,-1.55477359459685,0.0892470323654637
+907,Synthetic - Short scales,twin,SYN07_7_t,t2,-0.661955096288162,0.0608102094639923
+907,Synthetic - Short scales,twin,SYN07_7_t,t3,0.232692749183045,0.0566615215302093
+907,Synthetic - Short scales,twin,SYN07_7_t,t4,1.09846842033986,0.0703206676538796
+907,Synthetic - Short scales,twin,SYN07_8_t,t1,-2.05374891063182,0.129440355777815
+907,Synthetic - Short scales,twin,SYN07_8_t,t2,-1.05374430213067,0.0690335708415695
+907,Synthetic - Short scales,twin,SYN07_8_t,t3,-0.0702433138219167,0.0561563734068269
+907,Synthetic - Short scales,twin,SYN07_8_t,t4,0.778965564347545,0.0627528541987025
+907,Synthetic - Short scales,twin,SYN07_9_t,t1,-1.64485362695147,0.0945992650866873
+907,Synthetic - Short scales,twin,SYN07_9_t,t2,-0.848786685915967,0.0641063051717831
+907,Synthetic - Short scales,twin,SYN07_9_t,t3,0.181468316528477,0.0564430380650544
+907,Synthetic - Short scales,twin,SYN07_9_t,t4,1.1263911290388,0.0711668986824127
+907,Synthetic - Short scales,twin,SYN07_10_t,t1,-1.43250272082581,0.0829626257220946
+907,Synthetic - Short scales,twin,SYN07_10_t,t2,-0.518656932080391,0.0589365270442874
+907,Synthetic - Short scales,twin,SYN07_10_t,t3,0.347787204278627,0.0573567004182277
+907,Synthetic - Short scales,twin,SYN07_10_t,t4,1.24808481112755,0.0752688046322383
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_1_h,t1,-1.60724789190022,0.0922840837424593
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_1_h,t2,-0.870549830195654,0.064559850225396
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_1_h,t3,0.0,0.0561060462913819
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_1_h,t4,0.954165253146195,0.0664508927116352
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_2_h,t1,-1.64485362695147,0.0945992650866872
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_2_h,t2,-0.792618717701712,0.0630056310964187
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_2_h,t3,0.080298312892055,0.0561718244840791
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_2_h,t4,1.07137688928021,0.0695311798787977
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_3_h,t1,-1.53819885858406,0.0883322715121974
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_3_h,t2,-0.813380388213405,0.0634009629017035
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_3_h,t3,0.0,0.056106046291382
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_3_h,t4,0.892733324320856,0.065038239659229
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_4_h,t1,-1.08934902792428,0.0700514950774223
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_4_h,t2,-0.305480788099397,0.0570678041090072
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_4_h,t3,0.467698799114508,0.0583940187343973
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_4_h,t4,1.47579102817917,0.0850683438620057
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_5_h,t1,-1.62576338623324,0.0934090176935231
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_5_h,t2,-0.712750760220043,0.0616054858823048
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_5_h,t3,0.10043372051147,0.0562089932285329
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_5_h,t4,1.03643338949379,0.0685571972050939
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_6_h,t1,-1.66456286120272,0.0958613874775919
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_6_h,t2,-0.706302562840087,0.0615005316061366
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_6_h,t3,0.248173718459313,0.0567384438984682
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_6_h,t4,1.20552679597252,0.0737543969226238
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_7_h,t1,-1.09846842033986,0.0703206676538796
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_7_h,t2,-0.085328794885629,0.056180331564892
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_7_h,t3,0.915365087842814,0.0655434120784885
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_7_h,t4,1.68494076787192,0.0972029163790525
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_8_h,t1,-1.353174154548,0.0794131549398937
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_8_h,t2,-0.358458793251194,0.0574358080508324
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_8_h,t3,0.501527398977708,0.0587471840368112
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_8_h,t4,1.50626172327824,0.086627148972276
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_9_h,t1,-1.8250068211464,0.107524917709956
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_9_h,t2,-0.870549830195654,0.0645598502253962
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_9_h,t3,-0.0551738021383168,0.0561370891492904
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_9_h,t4,0.863250051593421,0.0644059977734577
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_10_h,t1,-1.31651871841826,0.0778990141491395
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_10_h,t2,-0.385320466407568,0.0576461910875243
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_10_h,t3,0.507220660586946,0.0588093241211238
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_10_h,t4,1.31651871841826,0.0778990141491396
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_11_h,t1,-1.32853932885681,0.0783871755896591
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_11_h,t2,-0.439913165673234,0.0581242212180142
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_11_h,t3,0.434397242259781,0.0580728082874002
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_11_h,t4,1.23723459916283,0.074874164057354
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_12_h,t1,-1.60724789190022,0.0922840837424593
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_12_h,t2,-0.693493346283289,0.06129552243103
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_12_h,t3,0.176374164780861,0.0564243155905955
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_12_h,t4,1.21596041970732,0.0741174252791908
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_13_h,t1,-1.27023762239315,0.0760931870663551
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_13_h,t2,-0.342466301465391,0.0573182007596258
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_13_h,t3,0.570999473112987,0.0595599213344955
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_13_h,t4,1.55477359459685,0.0892470323654638
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_14_h,t1,-1.50626172327824,0.0866271489722759
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_14_h,t2,-0.559236977611907,0.0594138687447216
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_14_h,t3,0.274110116035147,0.0568787622232524
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_14_h,t4,1.18504412790781,0.0730569020836808
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_15_h,t1,-1.70604339688896,0.0986325466478442
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_15_h,t2,-0.827418320704382,0.0636758655418338
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_15_h,t3,0.135773931302112,0.0562943730836871
+909,Synthetic - Repeated twin answers (discrepant),human,SYN09_15_h,t4,1.11698672787661,0.0708781339513306
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_1_t,t1,-1.94313375110507,0.117951531903155
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_1_t,t2,-0.758753544504371,0.0623889540949657
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_1_t,t3,0.0200543703529506,0.0561101462501512
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_1_t,t4,0.915365087842814,0.0655434120784884
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_2_t,t1,-1.79911810683797,0.105462304213966
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_2_t,t2,-0.661955096288162,0.0608102094639922
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_2_t,t3,0.125661346855074,0.0562673142646907
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_2_t,t4,1.07137688928021,0.0695311798787977
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_3_t,t1,-1.88079360815125,0.112232712981132
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_3_t,t2,-0.738846849185213,0.0620423818966628
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_3_t,t3,0.0601954117289566,0.0561429994981815
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_3_t,t4,0.938475698411568,0.0660775359715402
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_4_t,t1,-1.2815515655446,0.076524057426607
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_4_t,t2,-0.321277639545997,0.0571710831042837
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_4_t,t3,0.570999473112987,0.0595599213344956
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_4_t,t4,1.50626172327824,0.0866271489722759
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_5_t,t1,-1.66456286120272,0.095861387477592
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_5_t,t2,-0.772193214188685,0.0626295617060912
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_5_t,t3,0.130715968119863,0.0562805754428402
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_5_t,t4,1.13589622116731,0.0714626861803654
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_6_t,t1,-1.70604339688896,0.0986325466478442
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_6_t,t2,-0.7322762047231,0.0619305290571063
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_6_t,t3,0.207012623385187,0.056545099364022
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_6_t,t4,1.17498679206609,0.0727216610420671
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_7_t,t1,-1.11698672787661,0.0708781339513306
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_7_t,t2,-0.080298312892055,0.0561718244840791
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_7_t,t3,0.80642124701824,0.0632669665344023
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_7_t,t4,1.72793432238842,0.100160379341514
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_8_t,t1,-1.41865370617274,0.082314862399961
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_8_t,t2,-0.36917136250309,0.0575177710189752
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_8_t,t3,0.450985499432371,0.0582295636241823
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_8_t,t4,1.43250272082581,0.0829626257220945
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_9_t,t1,-1.72793432238842,0.100160379341514
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_9_t,t2,-0.970093276628737,0.0668389880259654
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_9_t,t3,-0.196779620218467,0.0565025735204606
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_9_t,t4,0.7322762047231,0.0619305290571062
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_10_t,t1,-1.36580556257227,0.0799528300625807
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_10_t,t2,-0.495850347347453,0.0586860011038863
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_10_t,t3,0.428894504074201,0.0580222214082387
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_10_t,t4,1.41865370617274,0.0823148623999611
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_11_t,t1,-1.62576338623323,0.0934090176935232
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_11_t,t2,-0.484543782441079,0.0585664572427259
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_11_t,t3,0.434397242259781,0.0580728082874002
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_11_t,t4,1.44663206715898,0.0836362733823802
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_12_t,t1,-1.53819885858406,0.0883322715121974
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_12_t,t2,-0.687131286795469,0.0611954071385047
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_12_t,t3,0.212137198317524,0.0565672220837246
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_12_t,t4,1.11698672787661,0.0708781339513307
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_13_t,t1,-1.20552679597252,0.0737543969226238
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_13_t,t2,-0.407010876264466,0.057827951353688
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_13_t,t3,0.507220660586946,0.0588093241211239
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_13_t,t4,1.58926755705139,0.0912187162183189
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_14_t,t1,-1.53819885858406,0.0883322715121973
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_14_t,t2,-0.594765846801678,0.0598657658861242
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_14_t,t3,0.337155076995277,0.057280395336827
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_14_t,t4,1.18504412790781,0.0730569020836807
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_15_t,t1,-1.47579102817917,0.0850683438620056
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_15_t,t2,-0.655726678798253,0.0607175913182715
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_15_t,t3,0.166199440170359,0.0563885384249956
+909,Synthetic - Repeated twin answers (discrepant),twin,SYN09_15_t,t4,1.13589622116731,0.0714626861803656
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_1_h,t1,-1.21596041970732,0.0741174252791908
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_1_h,t2,-0.337155076995277,0.0572803953368272
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_1_h,t3,0.501527398977708,0.0587471840368114
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_1_h,t4,1.353174154548,0.0794131549398938
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_2_h,t1,-1.49085335524666,0.085830773585392
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_2_h,t2,-0.668209299725723,0.0609042739582534
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_2_h,t3,0.161118588510746,0.0563714786293417
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_2_h,t4,1.00271166502655,0.0676629221091285
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_3_h,t1,-1.15522084661195,0.0720764178948666
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_3_h,t2,-0.396142373892698,0.0577355405972306
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_3_h,t3,0.369171362503089,0.0575177710189753
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_3_h,t4,1.27023762239315,0.0760931870663552
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_4_h,t1,-1.00271166502655,0.0676629221091285
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_4_h,t2,-0.161118588510745,0.0563714786293416
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_4_h,t3,0.706302562840087,0.0615005316061367
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_4_h,t4,1.57178681650986,0.0902078566808641
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_5_h,t1,-1.66456286120272,0.095861387477592
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_5_h,t2,-0.719228730439924,0.0617121150500492
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_5_h,t3,0.0351000017727086,0.0561186071096095
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_5_h,t4,1.02789334580214,0.0683265507905362
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_6_h,t1,-1.29303197614424,0.0769681985239948
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_6_h,t2,-0.524400512708041,0.0590016163352361
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_6_h,t3,0.326560927412373,0.0572068424999183
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_6_h,t4,1.21596041970732,0.0741174252791908
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_7_h,t1,-1.36580556257227,0.0799528300625807
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_7_h,t2,-0.478913734112256,0.0585080723316992
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_7_h,t3,0.363809859029696,0.0574764292192022
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_7_h,t4,1.19522278143743,0.0734010221178211
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_8_h,t1,-1.46105626918691,0.08433754353011
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_8_h,t2,-0.631061979059499,0.060361090900611
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_8_h,t3,0.222403226927206,0.0566132032869899
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_8_h,t4,1.27023762239315,0.0760931870663549
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_9_h,t1,-1.8250068211464,0.107524917709956
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_9_h,t2,-1.01103432814182,0.0678795589325489
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_9_h,t3,-0.120609934119307,0.0562545876973723
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_9_h,t4,0.758753544504371,0.0623889540949656
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_10_h,t1,-1.41865370617274,0.0823148623999611
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_10_h,t2,-0.606775363514265,0.0600258446388387
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_10_h,t3,0.25852727731631,0.0567927335555812
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_10_h,t4,1.25908398042707,0.0756749637791781
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_11_h,t1,-1.85217985876905,0.109771902032301
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_11_h,t2,-1.01103432814182,0.067879558932549
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_11_h,t3,-0.217267350341863,0.0565899222814938
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_11_h,t4,0.661955096288162,0.0608102094639922
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_12_h,t1,-1.75068607125217,0.101798229768219
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_12_h,t2,-0.946291357961576,0.0662624232475763
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_12_h,t3,0.0100266811002748,0.0561070711418011
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_12_h,t4,0.877896295051229,0.0647164615258477
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_13_h,t1,-1.8250068211464,0.107524917709956
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_13_h,t2,-1.02789334580214,0.0683265507905363
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_13_h,t3,-0.207012623385187,0.0565450993640221
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_13_h,t4,0.719228730439924,0.0617121150500492
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_14_h,t1,-1.94313375110507,0.117951531903155
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_14_h,t2,-1.03643338949379,0.068557197205094
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_14_h,t3,-0.150969215496778,0.0563390044931248
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_14_h,t4,0.661955096288161,0.0608102094639923
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_15_h,t1,-1.50626172327824,0.0866271489722758
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_15_h,t2,-0.738846849185214,0.0620423818966627
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_15_h,t3,0.080298312892055,0.0561718244840791
+910,Synthetic - Repeated twin answers (inadmissible),human,SYN10_15_h,t4,1.01103432814182,0.067879558932549
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_1_t,t1,-1.25908398042707,0.0756749637791781
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_1_t,t2,-0.337155076995277,0.0572803953368269
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_1_t,t3,0.484543782441079,0.0585664572427259
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_1_t,t4,1.353174154548,0.0794131549398938
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_2_t,t1,-1.64485362695147,0.0945992650866873
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_2_t,t2,-0.637191674504475,0.0604481676358052
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_2_t,t3,0.18656718183652,0.0564623200154459
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_2_t,t4,0.994457883209753,0.0674506742976313
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_3_t,t1,-1.37865872862328,0.080511659471536
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_3_t,t2,-0.39072570019687,0.0576904871541765
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_3_t,t3,0.434397242259781,0.0580728082874001
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_3_t,t4,1.2815515655446,0.0765240574266069
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_4_t,t1,-1.04504969965839,0.0687928161459115
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_4_t,t2,-0.110516203562042,0.0562307313790801
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_4_t,t3,0.706302562840087,0.0615005316061367
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_4_t,t4,1.49085335524666,0.0858307735853921
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_5_t,t1,-1.66456286120272,0.0958613874775921
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_5_t,t2,-0.725737024100805,0.0618204516121696
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_5_t,t3,0.248173718459313,0.0567384438984682
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_5_t,t4,1.1076800921478,0.0705961374636447
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_6_t,t1,-1.29303197614424,0.0769681985239947
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_6_t,t2,-0.423404722394183,0.0579724512651559
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_6_t,t3,0.478913734112255,0.0585080723316993
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_6_t,t4,1.30468538522879,0.0774262784997295
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_7_t,t1,-1.36580556257227,0.0799528300625807
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_7_t,t2,-0.582841507271216,0.0597105071585194
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_7_t,t3,0.39072570019687,0.0576904871541765
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_7_t,t4,1.2815515655446,0.0765240574266069
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_8_t,t1,-1.50626172327824,0.0866271489722758
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_8_t,t2,-0.582841507271216,0.0597105071585195
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_8_t,t3,0.279319034447454,0.0569086809758922
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_8_t,t4,1.27023762239315,0.076093187066355
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_9_t,t1,-1.8250068211464,0.107524917709956
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_9_t,t2,-0.954165253146194,0.0664508927116352
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_9_t,t3,-0.10043372051147,0.0562089932285329
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_9_t,t4,0.725737024100805,0.0618204516121697
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_10_t,t1,-1.49085335524666,0.0858307735853921
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_10_t,t2,-0.507220660586946,0.058809324121124
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_10_t,t3,0.289759805228914,0.0569704097870112
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_10_t,t4,1.21596041970732,0.0741174252791908
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_11_t,t1,-2.09692742916434,0.134446901948745
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_11_t,t2,-1.06251930227087,0.0692796323169604
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_11_t,t3,-0.212137198317524,0.0565672220837247
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_11_t,t4,0.655726678798254,0.0607175913182715
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_12_t,t1,-1.72793432238842,0.100160379341514
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_12_t,t2,-0.877896295051229,0.0647164615258476
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_12_t,t3,0.0050132775489266,0.0561063024952839
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_12_t,t4,0.892733324320856,0.065038239659229
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_13_t,t1,-2.01409081201814,0.12510988692865
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_13_t,t2,-1.09846842033986,0.0703206676538796
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_13_t,t3,-0.289759805228914,0.0569704097870111
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_13_t,t4,0.661955096288162,0.0608102094639922
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_14_t,t1,-1.75068607125217,0.101798229768219
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_14_t,t2,-1.09846842033986,0.0703206676538796
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_14_t,t3,-0.232692749183045,0.0566615215302093
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_14_t,t4,0.661955096288162,0.0608102094639923
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_15_t,t1,-1.8250068211464,0.107524917709956
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_15_t,t2,-0.745449548180789,0.0621560457055305
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_15_t,t3,0.18656718183652,0.0564623200154458
+910,Synthetic - Repeated twin answers (inadmissible),twin,SYN10_15_t,t4,1.03643338949379,0.068557197205094

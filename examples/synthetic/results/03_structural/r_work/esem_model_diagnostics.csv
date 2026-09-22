@@ -1,0 +1,35 @@
+"instrument_id","instrument_name","side","status","note","elapsed_sec"
+901,"Synthetic - Faithful twin","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.474020004272461
+901,"Synthetic - Faithful twin","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.379603862762451
+902,"Synthetic - Miscalibrated twin","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.432651996612549
+902,"Synthetic - Miscalibrated twin","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.429484128952026
+903,"Synthetic - Weakly individuating twin","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.376595973968506
+903,"Synthetic - Weakly individuating twin","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.476279973983765
+904,"Synthetic - Unequal twin loadings","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.387742042541504
+904,"Synthetic - Unequal twin loadings","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.387075901031494
+905,"Synthetic - Repeated twin answers (congruent)","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.340444087982178
+905,"Synthetic - Repeated twin answers (congruent)","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE | warnings: lavaan->lav_samp_step2():  
+   correlation between variables SYN05_2_t and SYN05_1_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN05_3_t and SYN05_1_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN05_3_t and SYN05_2_t is (nearly) 1.0",0.370629072189331
+906,"Synthetic - Mixed instrument with a total score","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.370353937149048
+906,"Synthetic - Mixed instrument with a total score","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.366759777069092
+907,"Synthetic - Short scales","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.222265958786011
+907,"Synthetic - Short scales","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.210728168487549
+909,"Synthetic - Repeated twin answers (discrepant)","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.336216926574707
+909,"Synthetic - Repeated twin answers (discrepant)","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE | warnings: lavaan->lav_samp_step2():  
+   correlation between variables SYN09_2_t and SYN09_1_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN09_3_t and SYN09_1_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN09_3_t and SYN09_2_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN09_7_t and SYN09_6_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN09_8_t and SYN09_6_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN09_8_t and SYN09_7_t is (nearly) 1.0; lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= 5.202939e-14) 
+   is close to zero. This may be a symptom that the model is not identified.",0.418639898300171
+910,"Synthetic - Repeated twin answers (inadmissible)","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.344949007034302
+910,"Synthetic - Repeated twin answers (inadmissible)","twin","inadmissible_heywood","heywood_resid=TRUE; heywood_corr=FALSE | warnings: lavaan->lav_samp_step2():  
+   correlation between variables SYN10_2_t and SYN10_1_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN10_3_t and SYN10_1_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables SYN10_3_t and SYN10_2_t is (nearly) 1.0; lavaan->lav_object_post_check():  
+   some estimated ov variances are negative",0.343042135238647

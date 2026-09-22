@@ -1,0 +1,260 @@
+schema_version: 1
+instruments:
+  148:
+    key: BFI2
+    name_en: Big Five Inventory-2 (BFI-2)
+    name_ru: BFI-2 (2021)
+    item_prefix: BFI2
+    reference: Soto & John (2017)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 148_Extraversion
+      name_en: Extraversion
+      name_ru: Экстраверсия
+      legacy_id: 148_Экстраверсия
+      level: domain
+      scoring: mean
+      items: [BFI2_1, BFI2_6, BFI2_11, BFI2_16, BFI2_21, BFI2_26, BFI2_31, BFI2_36, BFI2_41, BFI2_46, BFI2_51, BFI2_56]
+      reverse_items: [BFI2_11, BFI2_16, BFI2_26, BFI2_31, BFI2_36, BFI2_51]
+      parent: null
+      redundant: false
+    - id: 148_Sociability
+      name_en: Sociability
+      name_ru: Общительность
+      legacy_id: 148_Общительность
+      level: facet
+      scoring: mean
+      items: [BFI2_1, BFI2_16, BFI2_31, BFI2_46]
+      reverse_items: [BFI2_16, BFI2_31]
+      parent: 148_Extraversion
+      redundant: true
+    - id: 148_Persistence
+      name_en: Persistence
+      name_ru: Настойчивость
+      legacy_id: 148_Настойчивость
+      level: facet
+      scoring: mean
+      items: [BFI2_6, BFI2_21, BFI2_36, BFI2_51]
+      reverse_items: [BFI2_36, BFI2_51]
+      parent: 148_Extraversion
+      redundant: true
+    - id: 148_EnergyLevel
+      name_en: Energy Level
+      name_ru: Энергичность
+      legacy_id: 148_Энергичность
+      level: facet
+      scoring: mean
+      items: [BFI2_11, BFI2_26, BFI2_41, BFI2_56]
+      reverse_items: [BFI2_11, BFI2_26]
+      parent: 148_Extraversion
+      redundant: true
+    - id: 148_Agreeableness
+      name_en: Agreeableness
+      name_ru: Доброжелательность
+      legacy_id: 148_Доброжелательность
+      level: domain
+      scoring: mean
+      items: [BFI2_2, BFI2_7, BFI2_12, BFI2_17, BFI2_22, BFI2_27, BFI2_32, BFI2_37, BFI2_42, BFI2_47, BFI2_52, BFI2_57]
+      reverse_items: [BFI2_12, BFI2_17, BFI2_22, BFI2_37, BFI2_42, BFI2_47]
+      parent: null
+      redundant: false
+    - id: 148_Compassion
+      name_en: Compassion
+      name_ru: Сочувствие
+      legacy_id: 148_Сочувствие
+      level: facet
+      scoring: mean
+      items: [BFI2_2, BFI2_17, BFI2_32, BFI2_47]
+      reverse_items: [BFI2_17, BFI2_47]
+      parent: 148_Agreeableness
+      redundant: true
+    - id: 148_Respectfulness
+      name_en: Respectfulness
+      name_ru: Уважительность
+      legacy_id: 148_Уважительность
+      level: facet
+      scoring: mean
+      items: [BFI2_7, BFI2_22, BFI2_37, BFI2_52]
+      reverse_items: [BFI2_22, BFI2_37]
+      parent: 148_Agreeableness
+      redundant: true
+    - id: 148_Trust
+      name_en: Trust
+      name_ru: Доверие
+      legacy_id: 148_Доверие
+      level: facet
+      scoring: mean
+      items: [BFI2_12, BFI2_27, BFI2_42, BFI2_57]
+      reverse_items: [BFI2_12, BFI2_42]
+      parent: 148_Agreeableness
+      redundant: true
+    - id: 148_Conscientiousness
+      name_en: Conscientiousness
+      name_ru: Добросовестность
+      legacy_id: 148_Добросовестность
+      level: domain
+      scoring: mean
+      items: [BFI2_3, BFI2_8, BFI2_13, BFI2_18, BFI2_23, BFI2_28, BFI2_33, BFI2_38, BFI2_43, BFI2_48, BFI2_53, BFI2_58, BFI2_61]
+      reverse_items: [BFI2_3, BFI2_8, BFI2_23, BFI2_28, BFI2_48, BFI2_58, BFI2_61]
+      parent: null
+      redundant: false
+    - id: 148_Organization
+      name_en: Organization
+      name_ru: Организованность
+      legacy_id: 148_Организованность
+      level: facet
+      scoring: mean
+      items: [BFI2_3, BFI2_18, BFI2_33, BFI2_48]
+      reverse_items: [BFI2_3, BFI2_48]
+      parent: 148_Conscientiousness
+      redundant: true
+    - id: 148_Productiveness
+      name_en: Productiveness
+      name_ru: Продуктивность
+      legacy_id: 148_Продуктивность
+      level: facet
+      scoring: mean
+      items: [BFI2_8, BFI2_23, BFI2_38, BFI2_53]
+      reverse_items: [BFI2_8, BFI2_23]
+      parent: 148_Conscientiousness
+      redundant: true
+    - id: 148_Responsibility
+      name_en: Responsibility
+      name_ru: Ответственность
+      legacy_id: 148_Ответственность
+      level: facet
+      scoring: mean
+      items: [BFI2_13, BFI2_28, BFI2_43, BFI2_58, BFI2_61]
+      reverse_items: [BFI2_28, BFI2_58, BFI2_61]
+      parent: 148_Conscientiousness
+      redundant: true
+    - id: 148_NegativeEmotionality
+      name_en: Negative Emotionality
+      name_ru: Нейротизм
+      legacy_id: 148_Нейротизм
+      level: domain
+      scoring: mean
+      items: [BFI2_4, BFI2_9, BFI2_14, BFI2_19, BFI2_24, BFI2_29, BFI2_34, BFI2_39, BFI2_44, BFI2_49, BFI2_54, BFI2_59]
+      reverse_items: [BFI2_4, BFI2_9, BFI2_24, BFI2_29, BFI2_44, BFI2_49]
+      parent: null
+      redundant: false
+    - id: 148_Anxiety
+      name_en: Anxiety
+      name_ru: Тревожность
+      legacy_id: 148_Тревожность
+      level: facet
+      scoring: mean
+      items: [BFI2_4, BFI2_19, BFI2_34, BFI2_49]
+      reverse_items: [BFI2_4, BFI2_49]
+      parent: 148_NegativeEmotionality
+      redundant: true
+    - id: 148_Depression
+      name_en: Depression
+      name_ru: Депрессивность
+      legacy_id: 148_Депрессивность
+      level: facet
+      scoring: mean
+      items: [BFI2_9, BFI2_24, BFI2_39, BFI2_54]
+      reverse_items: [BFI2_9, BFI2_24]
+      parent: 148_NegativeEmotionality
+      redundant: true
+    - id: 148_EmotionalVolatility
+      name_en: Emotional Volatility
+      name_ru: Эмоциональная изменчивость
+      legacy_id: 148_Эмоциональная_изменчивость
+      level: facet
+      scoring: mean
+      items: [BFI2_14, BFI2_29, BFI2_44, BFI2_59]
+      reverse_items: [BFI2_29, BFI2_44]
+      parent: 148_NegativeEmotionality
+      redundant: true
+    - id: 148_OpenMindedness
+      name_en: Open-Mindedness
+      name_ru: Открытость опыту
+      legacy_id: 148_Открытость_опыту
+      level: domain
+      scoring: mean
+      items: [BFI2_5, BFI2_10, BFI2_15, BFI2_20, BFI2_25, BFI2_30, BFI2_35, BFI2_40, BFI2_45, BFI2_50, BFI2_55, BFI2_60]
+      reverse_items: [BFI2_5, BFI2_25, BFI2_30, BFI2_45, BFI2_50, BFI2_55]
+      parent: null
+      redundant: false
+    - id: 148_AestheticSensitivity
+      name_en: Aesthetic Sensitivity
+      name_ru: Эстетичность
+      legacy_id: 148_Эстетичность
+      level: facet
+      scoring: mean
+      items: [BFI2_5, BFI2_20, BFI2_35, BFI2_50]
+      reverse_items: [BFI2_5, BFI2_50]
+      parent: 148_OpenMindedness
+      redundant: true
+    - id: 148_IntellectualCuriosity
+      name_en: Intellectual Curiosity
+      name_ru: Любознательность
+      legacy_id: 148_Любознательность
+      level: facet
+      scoring: mean
+      items: [BFI2_10, BFI2_25, BFI2_40, BFI2_55]
+      reverse_items: [BFI2_25, BFI2_55]
+      parent: 148_OpenMindedness
+      redundant: true
+    - id: 148_CreativeImagination
+      name_en: Creative Imagination
+      name_ru: Творческое воображение
+      legacy_id: 148_Творческое_воображение
+      level: facet
+      scoring: mean
+      items: [BFI2_15, BFI2_30, BFI2_45, BFI2_60]
+      reverse_items: [BFI2_30, BFI2_45]
+      parent: 148_OpenMindedness
+      redundant: true
+  161:
+    key: SPH
+    name_en: Spectrum of Psychological Health
+    name_ru: Спектр психологического здоровья
+    item_prefix: SPH
+    reference: Keyes (2009), Mental Health Continuum - Short Form (MHC-SF)
+    response_min: 1
+    response_max: 6
+    scales:
+    - id: 161_EmotionalWellBeing
+      name_en: Emotional Well-Being
+      name_ru: Эмоциональное благополучие
+      legacy_id: 161_Эмоциональное_благополучие
+      level: subscale
+      scoring: sum
+      items: [SPH_1, SPH_2, SPH_3]
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 161_SocialWellBeing
+      name_en: Social Well-Being
+      name_ru: Социальное благополучие
+      legacy_id: 161_Социальное_благополучие
+      level: subscale
+      scoring: sum
+      items: [SPH_4, SPH_5, SPH_6, SPH_7, SPH_8]
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 161_PsychologicalWellBeing
+      name_en: Psychological Well-Being
+      name_ru: Психологическое благополучие
+      legacy_id: 161_Психологическое_благополучие
+      level: subscale
+      scoring: sum
+      items: [SPH_9, SPH_10, SPH_11, SPH_12, SPH_13, SPH_14]
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 161_OverallScore
+      name_en: Overall Score
+      name_ru: Общий показатель
+      legacy_id: 161_Общий_показатель
+      level: total
+      scoring: sum
+      items: [SPH_1, SPH_2, SPH_3, SPH_4, SPH_5, SPH_6, SPH_7, SPH_8, SPH_9, SPH_10, SPH_11, SPH_12, SPH_13, SPH_14]
+      reverse_items: []
+      parent: null
+      redundant: true

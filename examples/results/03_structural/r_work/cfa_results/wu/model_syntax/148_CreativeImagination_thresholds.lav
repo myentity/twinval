@@ -1,0 +1,81 @@
+## LOADINGS:
+
+Fh =~ NA*it1_h + lambda.1_1*it1_h
+Fh =~ NA*it2_h + lambda.2_1*it2_h
+Fh =~ NA*it3_h + lambda.3_1*it3_h
+Fh =~ NA*it4_h + lambda.4_1*it4_h
+Ft =~ NA*it1_t + lambda.5_2*it1_t
+Ft =~ NA*it2_t + lambda.6_2*it2_t
+Ft =~ NA*it3_t + lambda.7_2*it3_t
+Ft =~ NA*it4_t + lambda.8_2*it4_t
+
+## THRESHOLDS:
+
+it1_h | NA*t1 + it1_h.thr1*t1
+it1_h | NA*t2 + it1_h.thr2*t2
+it1_h | NA*t3 + it1_h.thr3*t3
+it2_h | NA*t1 + it2_h.thr1*t1
+it2_h | NA*t2 + it2_h.thr2*t2
+it2_h | NA*t3 + it2_h.thr3*t3
+it3_h | NA*t1 + it3_h.thr1*t1
+it3_h | NA*t2 + it3_h.thr2*t2
+it3_h | NA*t3 + it3_h.thr3*t3
+it4_h | NA*t1 + it4_h.thr1*t1
+it4_h | NA*t2 + it4_h.thr2*t2
+it4_h | NA*t3 + it4_h.thr3*t3
+it1_t | NA*t1 + it1_h.thr1*t1
+it1_t | NA*t2 + it1_h.thr2*t2
+it1_t | NA*t3 + it1_h.thr3*t3
+it2_t | NA*t1 + it2_h.thr1*t1
+it2_t | NA*t2 + it2_h.thr2*t2
+it2_t | NA*t3 + it2_h.thr3*t3
+it3_t | NA*t1 + it3_h.thr1*t1
+it3_t | NA*t2 + it3_h.thr2*t2
+it3_t | NA*t3 + it3_h.thr3*t3
+it4_t | NA*t1 + it4_h.thr1*t1
+it4_t | NA*t2 + it4_h.thr2*t2
+it4_t | NA*t3 + it4_h.thr3*t3
+
+## INTERCEPTS:
+
+it1_h ~ 0*1 + nu.1*1
+it2_h ~ 0*1 + nu.2*1
+it3_h ~ 0*1 + nu.3*1
+it4_h ~ 0*1 + nu.4*1
+it1_t ~ NA*1 + nu.5*1
+it2_t ~ NA*1 + nu.6*1
+it3_t ~ NA*1 + nu.7*1
+it4_t ~ NA*1 + nu.8*1
+
+## UNIQUE-FACTOR VARIANCES:
+
+it1_h ~~ 1*it1_h + theta.1_1*it1_h
+it2_h ~~ 1*it2_h + theta.2_2*it2_h
+it3_h ~~ 1*it3_h + theta.3_3*it3_h
+it4_h ~~ 1*it4_h + theta.4_4*it4_h
+it1_t ~~ NA*it1_t + theta.5_5*it1_t
+it2_t ~~ NA*it2_t + theta.6_6*it2_t
+it3_t ~~ NA*it3_t + theta.7_7*it3_t
+it4_t ~~ NA*it4_t + theta.8_8*it4_t
+
+## UNIQUE-FACTOR COVARIANCES:
+
+it1_h ~~ NA*it1_t + theta.5_1*it1_t
+it2_h ~~ NA*it2_t + theta.6_2*it2_t
+it3_h ~~ NA*it3_t + theta.7_3*it3_t
+it4_h ~~ NA*it4_t + theta.8_4*it4_t
+
+## LATENT MEANS/INTERCEPTS:
+
+Fh ~ 0*1 + alpha.1*1
+Ft ~ 0*1 + alpha.2*1
+
+## COMMON-FACTOR VARIANCES:
+
+Fh ~~ 1*Fh + psi.1_1*Fh
+Ft ~~ 1*Ft + psi.2_2*Ft
+
+## COMMON-FACTOR COVARIANCES:
+
+Fh ~~ NA*Ft + psi.2_1*Ft
+

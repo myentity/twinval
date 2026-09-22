@@ -1,0 +1,11 @@
+instrument_id,instrument_name,esem_applicable,paired_esem_admissible,phi_mean,phi_min,phi_ci_stable,configural_status,metric_status_millsap_primary,scalar_status_wu_chain,validation_trap_strict,n_scales_metric_supported,n_scales_metric_rejected,n_valid_reps_for_mean_phi,phi_mean_ci_lo,phi_mean_ci_hi
+901,Synthetic - Faithful twin,True,True,0.9928691145536099,0.9894148188950301,True,supported,supported,supported,False,3,0,100.0,0.9801202148699346,0.9902766814805645
+902,Synthetic - Miscalibrated twin,True,True,0.9816727504354374,0.9796506929050157,True,supported,not_supported,supported,False,2,1,100.0,0.9452572340751834,0.9753139804293428
+903,Synthetic - Weakly individuating twin,True,True,0.9919933739567934,0.9886568115741174,True,supported,supported,not_estimable,True,3,0,100.0,0.9775621463273483,0.9901964928035004
+904,Synthetic - Unequal twin loadings,True,True,0.9047541699249438,0.8366648021960952,True,supported,not_supported,not_estimable,False,1,2,100.0,0.8748864202583438,0.9145229858434929
+905,Synthetic - Repeated twin answers (congruent),True,True,0.9757535834881436,0.9453742341687087,False,nonconverged,not_estimable,supported,not_applicable_configural_not_supported,2,0,56.0,0.9622503449983812,0.9781859089562926
+906,Synthetic - Mixed instrument with a total score,True,True,0.977452475548429,0.9591804511375099,True,supported,not_supported,not_estimable,True,2,2,100.0,0.950750096699753,0.9786326742760768
+907,Synthetic - Short scales,True,True,0.9915544374475034,0.9854246091031985,True,supported,supported,supported,False,3,0,96.0,0.9625064629519096,0.9903389345740058
+908,Synthetic - Single-scale instrument,False,False,,,False,nonconverged,supported,not_interpreted_threshold_not_supported,not_applicable,1,0,,,
+909,Synthetic - Repeated twin answers (discrepant),True,True,0.8571558944323109,0.7910857148222376,False,nonconverged,not_supported,not_estimable,not_applicable_configural_not_supported,0,1,27.0,0.7594046324839604,0.8633587152580039
+910,Synthetic - Repeated twin answers (inadmissible),True,False,0.9805897723249669,0.9672101060131474,True,nonconverged,not_supported,supported,not_applicable_configural_not_supported,1,1,,,

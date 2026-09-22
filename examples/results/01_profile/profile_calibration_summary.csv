@@ -1,0 +1,16 @@
+metric,statistic,value,ci_lo,ci_hi,median,iqr_lo,iqr_hi,n_scales,n_instruments,weighting,standardization
+own_ccc_full,mean,0.3492827923781724,0.323338122873798,0.3760553565737318,0.36498767423622325,0.13045758874693728,0.5816972642212878,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+cross_ccc_full_mean,mean,0.021815471636452595,0.01246037865868061,0.031192265306037484,0.008054428126132263,-0.056314164812769046,0.09755498550439731,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+own_ccc_distinctive,mean,0.3788148222167331,0.35361982647136747,0.40459032883738155,0.386229440441107,0.17819788196461311,0.6070554448277043,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+cross_ccc_distinctive_mean,mean,0.011815974233025621,0.009102664513732246,0.01445907205482754,0.007283655784460197,-0.007581174820360144,0.0299837018606035,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+mae_full,mean,0.7978119913058799,0.773165937638132,0.8227382570035799,0.7428123257422339,0.5907200981342495,0.9767032057709331,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+rmse_full,mean,0.9597245574728078,0.9333179045263226,0.9866392243014297,0.8972558458826899,0.7404156855906159,1.1575230378810955,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+mae_bias_corrected,mean,0.7168273463239199,0.6945503593337461,0.7390915117912458,0.6830691502916761,0.5274162014112824,0.8652345589379417,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+rmse_bias_corrected,mean,0.8636493723054922,0.8389410557166953,0.8881481144743162,0.8401271892548521,0.6522708355716249,1.034474748128146,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+own_minus_cross_ccc_full,mean_diff,0.3274673207417198,0.3045526590130039,0.35123972365156825,,,,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+own_minus_cross_ccc_full,cohens_dz,1.2316073976646293,1.1181475321408028,1.3658377457625501,,,,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+own_minus_cross_ccc_distinctive,mean_diff,0.36699884798370747,0.34218963558069104,0.3927283226055328,,,,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+own_minus_cross_ccc_distinctive,cohens_dz,1.2850982807286644,1.160819951484547,1.430519036662653,,,,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+mean_absolute_bias_by_scale,point,0.36138833785375746,,,,,,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+rms_bias_by_scale,point,0.4337538032419887,,,,,,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H
+share_scales_abs_bias_gt_0.5,point,0.375,,,,,,8,2,"equal instrument weight, per-scale weight 1/(k_m*M)",human-based z: (X - mean_H) / SD_H

@@ -1,0 +1,16 @@
+instrument_id,instrument_name,side,status,note,elapsed_sec
+148,Big Five Inventory-2 (BFI-2),human,ok,"heywood_resid=FALSE; heywood_corr=FALSE | warnings: lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= -4.246941e-18) 
+   is smaller than zero. This may be a symptom that the model is not 
+   identified.",5.03468298912048
+148,Big Five Inventory-2 (BFI-2),twin,ok,"heywood_resid=FALSE; heywood_corr=FALSE | warnings: lavaan->lav_samp_step2():  
+   correlation between variables BFI2_43_t and BFI2_13_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables BFI2_58_t and BFI2_28_t is (nearly) 1.0; lavaan->lav_samp_step2():  
+   correlation between variables BFI2_45_t and BFI2_15_t is (nearly) 1.0; lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= -1.996776e-18) 
+   is smaller than zero. This may be a symptom that the model is not 
+   identified.",7.54004216194153
+161,Spectrum of Psychological Health,human,ok,heywood_resid=FALSE; heywood_corr=FALSE,0.348832130432129
+161,Spectrum of Psychological Health,twin,ok,heywood_resid=FALSE; heywood_corr=FALSE,0.441807985305786

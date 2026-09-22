@@ -1,0 +1,2 @@
+n_scales,ledoit_wolf_shrinkage,mahalanobis_own_mean,mahalanobis_own_ci_lo,mahalanobis_own_ci_hi,mahalanobis_cross_mean,mahalanobis_dz,mahalanobis_auc,mean_profile_procrustes_disparity,mean_profile_euclidean,mean_profile_pearson_r,mean_profile_cosine,note
+28,0.35486047974296064,5.153250709870622,5.0917860660158345,5.217157542536617,7.379527072036097,3.0882060966688036,0.9788857715430861,0.2081801177358413,1.4255194912732698,0.8898426165700083,0.997141974801342,mean-profile statistics use raw score units (sum- and mean-scored scales differ in unit)

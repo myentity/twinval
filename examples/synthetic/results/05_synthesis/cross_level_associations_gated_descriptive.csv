@@ -1,0 +1,6 @@
+family,pair,x,y,rho,p_naive,n,n_clusters
+C1_gated_descriptive,Tucker phi (gated) vs scale r,tucker_phi_primary,r,-0.2278260869565217,0.28430742700718314,24,8
+C1_gated_descriptive,Tucker phi (gated) vs scale AUC,tucker_phi_primary,AUC,-0.1591304347826087,0.45765578201494633,24,8
+C1_gated_descriptive,Tucker phi (gated) vs scale CCC,tucker_phi_primary,CCC,-0.13652173913043478,0.5247096194478428,24,8
+C1_gated_descriptive,Tucker phi (gated) vs item loading discrepancy,tucker_phi_primary,item_median_loading_vector_distance,-0.7713043478260868,1.0233451279048095e-05,24,8
+C1_gated_descriptive,Tucker phi (gated) vs item CCC,tucker_phi_primary,item_median_ccc,-0.07565217391304348,0.725335122330957,24,8

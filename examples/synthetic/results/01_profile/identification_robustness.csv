@@ -1,0 +1,9 @@
+spec,n_scales,n_instruments,metric,centred,top1_pct,top5_pct,auc,dz
+"Pearson, all scales",29,10,Pearson,no,49.0,75.6,0.9867174348697395,3.9409231618044136
+"Pearson, all scales",29,10,Pearson,yes,48.8,75.6,0.9869899799599199,4.015031038531302
+"Pearson, non-redundant scales",28,10,Pearson,no,50.0,76.8,0.987254509018036,3.986468998180748
+"Pearson, non-redundant scales",28,10,Pearson,yes,49.6,77.60000000000001,0.9875350701402806,4.05905243596022
+"Equal-weight Fisher-z Pearson, non-redundant",28,9,Fisher-z mean,no,4.3999999999999995,19.400000000000002,0.8756593186372745,2.0258963990386163
+"Equal-weight Fisher-z Pearson, non-redundant",28,9,Fisher-z mean,yes,6.800000000000001,22.400000000000002,0.8827054108216432,2.1953280811172546
+Equal-weight RMS distance (final),28,10,RMS distance,no,41.0,67.80000000000001,0.9793026052104209,3.170180832215574
+Equal-weight RMS distance (final),28,10,RMS distance,yes,43.2,72.39999999999999,0.981623246492986,3.246244890648541

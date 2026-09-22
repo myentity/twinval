@@ -1,0 +1,68 @@
+run:
+  name: synthetic_results
+  seed: 20260922
+  n_jobs: 1
+data:
+  data_dir: examples/synthetic/data
+  id_column: ID
+  instruments: null
+  legacy_file_names: true
+  missing: drop
+thresholds:
+  r_practical: 0.5
+  auc_ci_low: 0.5
+  cb_adequate: 0.8
+  ccc_acceptable: 0.4
+  phi_congruence: 0.85
+  bootstrap_valid_min: 0.8
+  alpha_sig: 0.05
+  cfa_delta_cfi_min: -0.01
+  cfa_delta_rmsea_max: 0.015
+profile:
+  enabled: true
+  n_boot: 2000
+  n_perm: 1000
+  robustness_specs: true
+  leave_one_instrument_out: true
+  mahalanobis_scales: nonredundant
+scale:
+  enabled: true
+  n_boot: 2000
+  n_perm: 1000
+  cv_repeats: 10
+  cv_folds: 5
+  n_nested_boot: 300
+  n_boot_disattenuation: 2000
+item:
+  enabled: true
+  n_boot: 2000
+  n_boot_variance: 1000
+  data_version: harmonized
+structural:
+  enabled: true
+  rscript: Rscript
+  cfa: true
+  cfa_scales: all
+  esem: true
+  order_check_permutations: 3
+  tucker_bootstrap: true
+  bootstrap_admissible_only: true
+  n_boot_tucker: 100
+  resume: true
+synthesis:
+  enabled: true
+  n_boot_cluster: 2000
+  min_clusters_for_cluster_bootstrap: 4
+  type_labels:
+    A: Multidimensionally supported fidelity
+    B: Individuating but miscalibrated
+    C: Structurally supported but weakly individuating
+    D: Structurally discrepant despite acceptable score-level fidelity
+    E: Individuating and calibrated with limited structural support
+    F: Unclassified residual
+    model_inadmissible: Structural model inadmissible (Heywood/nonidentified)
+    not_tested: Structural analysis not conducted/not applicable
+figures:
+  dpi: 200
+output:
+  keep_intermediate: false

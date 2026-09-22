@@ -1,0 +1,6 @@
+"analysis","role","n_total_rows","n_interpretable","n_supported","n_rejected","n_inadmissible_heywood","n_not_testable_nonconvergence","n_not_testable_df","n_not_testable_fit_indices","n_not_interpreted","supported_pct_of_interpretable"
+"Wu W0 -> W1: threshold invariance","PRIMARY threshold result",29,24,20,4,0,5,0,0,0,83.3333333333333
+"Millsap/Liu M0 -> M1: loading invariance","PRIMARY loading result",29,25,18,7,3,1,0,0,0,72
+"Millsap/Liu M1 -> M2: thresholds after loading invariance","CONDITIONAL: only after loading supported",29,18,16,2,0,0,0,0,11,88.8888888888889
+"Millsap/Liu M2 -> M3: unique/residual variances","CONDITIONAL: only after loading+threshold supported",29,15,15,0,0,1,0,0,13,100
+"Wu W1 -> W2: loadings conditional on threshold invariance","DIAGNOSTIC only; do NOT use as unconditional metric rate",29,20,14,6,0,0,0,0,9,70

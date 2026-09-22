@@ -1,0 +1,2401 @@
+"instrument_id","instrument_name","factor","rep","phi","valid"
+901,"Synthetic - Faithful twin","901_Alpha",1,0.989433323087301,TRUE
+901,"Synthetic - Faithful twin","901_Beta",1,0.98301210905119,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",1,0.980739477927893,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",1,0.9618150259353,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",1,0.955162582179496,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",1,0.966551717264926,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",1,0.990890165249658,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",1,0.983125894075658,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",1,0.979773035603816,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",1,0.83318378322549,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",1,0.885996724167546,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",1,0.985548987850166,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",1,0.942356793485641,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",1,0.987622653281549,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",1,0.994112653127624,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",1,0.964945320876811,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",1,0.978366828142063,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",1,0.983637570096402,TRUE
+907,"Synthetic - Short scales","907_ShortA",1,NA,FALSE
+907,"Synthetic - Short scales","907_ShortB",1,NA,FALSE
+907,"Synthetic - Short scales","907_ShortC",1,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",1,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",1,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",1,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",2,0.986352662460911,TRUE
+901,"Synthetic - Faithful twin","901_Beta",2,0.982781212369592,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",2,0.990217446098703,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",2,0.977339189496101,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",2,0.959170549476483,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",2,0.973686163861306,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",2,0.99041019897295,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",2,0.982423242569712,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",2,0.967878392282565,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",2,0.804661400138756,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",2,0.850290489970876,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",2,0.966631441875692,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",2,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",2,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",2,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",2,0.960979438809284,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",2,0.967757700876696,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",2,0.988422905090471,TRUE
+907,"Synthetic - Short scales","907_ShortA",2,0.992182386449148,TRUE
+907,"Synthetic - Short scales","907_ShortB",2,0.985992129865924,TRUE
+907,"Synthetic - Short scales","907_ShortC",2,0.996387786634006,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",2,0.796156486088965,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",2,0.526119254201653,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",2,0.94222756055825,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",3,0.991131026487016,TRUE
+901,"Synthetic - Faithful twin","901_Beta",3,0.982423422525285,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",3,0.98232025300326,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",3,0.961887399151867,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",3,0.957320901668615,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",3,0.97026658467364,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",3,0.991086923345326,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",3,0.984491669565548,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",3,0.979018966608035,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",3,0.857494175561671,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",3,0.88138551188279,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",3,0.975642184086006,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",3,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",3,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",3,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",3,0.960787684935053,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",3,0.967355672064294,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",3,0.992709736946924,TRUE
+907,"Synthetic - Short scales","907_ShortA",3,0.979946243596684,TRUE
+907,"Synthetic - Short scales","907_ShortB",3,0.976292382104893,TRUE
+907,"Synthetic - Short scales","907_ShortC",3,0.995271908917964,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",3,0.76044593794952,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",3,0.812918406489119,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",3,0.965060554162874,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",4,0.985026110193882,TRUE
+901,"Synthetic - Faithful twin","901_Beta",4,0.974876743087683,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",4,0.98570660780271,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",4,0.945538841587616,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",4,0.984162219749097,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",4,0.979264650191199,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",4,0.987508772537882,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",4,0.979683825295871,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",4,0.980386528200832,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",4,0.821300131212785,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",4,0.856564386617402,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",4,0.967816705889914,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",4,0.937558834723271,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",4,0.988203414292656,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",4,0.985619083717217,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",4,0.963074845143641,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",4,0.988078356584607,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",4,0.983873690294523,TRUE
+907,"Synthetic - Short scales","907_ShortA",4,0.985294154937252,TRUE
+907,"Synthetic - Short scales","907_ShortB",4,0.991574596719551,TRUE
+907,"Synthetic - Short scales","907_ShortC",4,0.988199602816041,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",4,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",4,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",4,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",5,0.986627321708971,TRUE
+901,"Synthetic - Faithful twin","901_Beta",5,0.976187935520877,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",5,0.987955873975516,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",5,0.961294245133589,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",5,0.949977848692173,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",5,0.968733656596622,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",5,0.987214571869449,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",5,0.993460518110487,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",5,0.982892879605265,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",5,0.843901992338628,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",5,0.881259735894336,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",5,0.984122965117823,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",5,0.960208495502919,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",5,0.991585426495882,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",5,0.984088462266554,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",5,0.973713756900996,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",5,0.957676651268272,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",5,0.979366390874319,TRUE
+907,"Synthetic - Short scales","907_ShortA",5,0.98816291394221,TRUE
+907,"Synthetic - Short scales","907_ShortB",5,0.981485835284059,TRUE
+907,"Synthetic - Short scales","907_ShortC",5,0.997064345054677,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",5,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",5,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",5,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",6,0.986569234303617,TRUE
+901,"Synthetic - Faithful twin","901_Beta",6,0.977052836601371,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",6,0.984440889484861,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",6,0.964146070805739,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",6,0.966022142319548,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",6,0.971382428742803,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",6,0.987763154521036,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",6,0.993188470964915,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",6,0.976987206563723,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",6,0.832372567573912,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",6,0.899976584515223,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",6,0.983136968134178,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",6,0.923656791053255,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",6,0.974695334003842,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",6,0.990882216579151,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",6,0.965743914344929,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",6,0.966426073548541,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",6,0.97177482832478,TRUE
+907,"Synthetic - Short scales","907_ShortA",6,0.975139668231144,TRUE
+907,"Synthetic - Short scales","907_ShortB",6,0.966679857707491,TRUE
+907,"Synthetic - Short scales","907_ShortC",6,0.990153665167061,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",6,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",6,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",6,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",7,0.985301841731128,TRUE
+901,"Synthetic - Faithful twin","901_Beta",7,0.982494229429433,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",7,0.980419629215929,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",7,0.983057530832347,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",7,0.961147214013699,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",7,0.969828151854825,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",7,0.979767351230433,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",7,0.987611304719476,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",7,0.989263299770198,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",7,0.844627774335136,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",7,0.86490718366878,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",7,0.976374202778904,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",7,0.944315626832506,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",7,0.981435878248643,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",7,0.984175677337673,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",7,0.93473771913813,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",7,0.959115149396139,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",7,0.974594042962267,TRUE
+907,"Synthetic - Short scales","907_ShortA",7,0.985362073646446,TRUE
+907,"Synthetic - Short scales","907_ShortB",7,0.969828430461494,TRUE
+907,"Synthetic - Short scales","907_ShortC",7,0.996266526532873,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",7,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",7,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",7,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",8,0.986513147585692,TRUE
+901,"Synthetic - Faithful twin","901_Beta",8,0.975927890844172,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",8,0.98945323439814,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",8,0.981226790846696,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",8,0.949500543906645,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",8,0.973423562583543,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",8,0.982213330060847,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",8,0.979927330666869,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",8,0.973130870666588,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",8,0.838222132432865,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",8,0.887270151731806,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",8,0.976025170360069,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",8,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",8,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",8,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",8,0.943304799126517,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",8,0.94750212189789,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",8,0.981245734054122,TRUE
+907,"Synthetic - Short scales","907_ShortA",8,0.922415593115169,TRUE
+907,"Synthetic - Short scales","907_ShortB",8,0.967723896537429,TRUE
+907,"Synthetic - Short scales","907_ShortC",8,0.993500075950157,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",8,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",8,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",8,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",9,0.976909515393233,TRUE
+901,"Synthetic - Faithful twin","901_Beta",9,0.983284952993786,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",9,0.986790497779088,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",9,0.969452209697236,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",9,0.971009687835453,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",9,0.976148080997924,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",9,0.989936371825084,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",9,0.984248888188489,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",9,0.98764368672961,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",9,0.837224277523028,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",9,0.899084450698475,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",9,0.985459862291503,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",9,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",9,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",9,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",9,0.945256106992002,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",9,0.954712141546996,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",9,0.981437333174126,TRUE
+907,"Synthetic - Short scales","907_ShortA",9,0.97118583552387,TRUE
+907,"Synthetic - Short scales","907_ShortB",9,0.989335238981458,TRUE
+907,"Synthetic - Short scales","907_ShortC",9,0.993647724559422,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",9,0.770072824135677,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",9,0.823536358550469,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",9,0.983742804439873,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",10,0.988362812525169,TRUE
+901,"Synthetic - Faithful twin","901_Beta",10,0.973070405427502,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",10,0.991717332252375,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",10,0.972051985702049,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",10,0.973129370618745,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",10,0.978341850523188,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",10,0.990871336797235,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",10,0.992352181819689,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",10,0.984482358625399,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",10,0.814584282611136,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",10,0.873447440884601,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",10,0.972082797976206,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",10,0.953535803351227,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",10,0.984546256048537,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",10,0.992056415305677,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",10,0.930394126102466,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",10,0.957998693735359,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",10,0.979755723170535,TRUE
+907,"Synthetic - Short scales","907_ShortA",10,0.978944489982117,TRUE
+907,"Synthetic - Short scales","907_ShortB",10,0.99037647009529,TRUE
+907,"Synthetic - Short scales","907_ShortC",10,0.988490292652855,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",10,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",10,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",10,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",11,0.98174819948767,TRUE
+901,"Synthetic - Faithful twin","901_Beta",11,0.980715560309333,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",11,0.986499088241381,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",11,0.97407558403546,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",11,0.933428343343731,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",11,0.978917895152432,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",11,0.979647334120799,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",11,0.9774849650681,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",11,0.981612209020727,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",11,0.817754952613052,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",11,0.852581891469226,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",11,0.972690668523705,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",11,0.956858728084936,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",11,0.988438837275385,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",11,0.988495177560675,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",11,0.960495133421209,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",11,0.935824477375227,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",11,0.99002814197426,TRUE
+907,"Synthetic - Short scales","907_ShortA",11,0.960877865497511,TRUE
+907,"Synthetic - Short scales","907_ShortB",11,0.987501646825109,TRUE
+907,"Synthetic - Short scales","907_ShortC",11,0.994221467999964,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",11,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",11,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",11,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",12,0.984053974064781,TRUE
+901,"Synthetic - Faithful twin","901_Beta",12,0.983070146107873,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",12,0.988816942619486,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",12,0.986745709594313,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",12,0.924948001338646,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",12,0.977677386656276,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",12,0.989298086259701,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",12,0.984245381479993,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",12,0.980099560822026,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",12,0.860464677287584,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",12,0.86673950264269,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",12,0.956129890193368,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",12,0.938765586221912,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",12,0.993322224859916,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",12,0.995106934949748,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",12,0.935698717498752,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",12,0.96461278331325,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",12,0.988719794104884,TRUE
+907,"Synthetic - Short scales","907_ShortA",12,0.939354168032423,TRUE
+907,"Synthetic - Short scales","907_ShortB",12,0.983389651298553,TRUE
+907,"Synthetic - Short scales","907_ShortC",12,0.987184668582978,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",12,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",12,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",12,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",13,0.992685702435975,TRUE
+901,"Synthetic - Faithful twin","901_Beta",13,0.977114750143927,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",13,0.993752128642681,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",13,0.952135194913467,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",13,0.958815201732697,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",13,0.97914259785508,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",13,0.994589599453648,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",13,0.975207445617994,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",13,0.97811909136285,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",13,0.807598594192218,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",13,0.880516752699446,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",13,0.973035211148411,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",13,0.924532715261269,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",13,0.978257538488946,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",13,0.98499020539553,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",13,0.944250216691754,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",13,0.956877854814808,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",13,0.97414235395538,TRUE
+907,"Synthetic - Short scales","907_ShortA",13,0.985046475959481,TRUE
+907,"Synthetic - Short scales","907_ShortB",13,0.971818422267311,TRUE
+907,"Synthetic - Short scales","907_ShortC",13,0.986928567662278,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",13,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",13,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",13,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",14,0.987300561587378,TRUE
+901,"Synthetic - Faithful twin","901_Beta",14,0.974021925721087,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",14,0.992100688500905,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",14,0.970767065950313,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",14,0.949436165678751,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",14,0.978618138280734,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",14,0.991884971824511,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",14,0.991414424214322,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",14,0.987153373294319,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",14,0.845548481299613,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",14,0.884524904033514,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",14,0.970631099562283,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",14,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",14,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",14,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",14,0.929293674684345,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",14,0.931416666523272,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",14,0.983678508973109,TRUE
+907,"Synthetic - Short scales","907_ShortA",14,0.975705720394608,TRUE
+907,"Synthetic - Short scales","907_ShortB",14,0.960140213672741,TRUE
+907,"Synthetic - Short scales","907_ShortC",14,0.985417879895682,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",14,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",14,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",14,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",15,0.989146373565365,TRUE
+901,"Synthetic - Faithful twin","901_Beta",15,0.989763768660917,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",15,0.987903007266114,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",15,0.960623983727345,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",15,0.932983280334367,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",15,0.959727733867809,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",15,0.984907951737868,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",15,0.972833766502342,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",15,0.974849254799638,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",15,0.834354465363487,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",15,0.89593493323521,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",15,0.984252150733786,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",15,0.931552674199996,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",15,0.983352014709,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",15,0.991735311035885,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",15,0.945234597083603,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",15,0.951792615373981,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",15,0.991130681988803,TRUE
+907,"Synthetic - Short scales","907_ShortA",15,0.989374297060019,TRUE
+907,"Synthetic - Short scales","907_ShortB",15,0.99497626684822,TRUE
+907,"Synthetic - Short scales","907_ShortC",15,0.987070175242225,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",15,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",15,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",15,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",16,0.988638770683778,TRUE
+901,"Synthetic - Faithful twin","901_Beta",16,0.980682001252328,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",16,0.984157658666258,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",16,0.967450295075286,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",16,0.91034371673708,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",16,0.956093079229217,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",16,0.985057702646374,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",16,0.980502466826255,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",16,0.984637874325558,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",16,0.8122455682426,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",16,0.915476295309784,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",16,0.982479186260519,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",16,0.933833798916525,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",16,0.979307107883232,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",16,0.986744283162505,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",16,0.939446049842017,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",16,0.962884400094883,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",16,0.981104100217391,TRUE
+907,"Synthetic - Short scales","907_ShortA",16,0.976519349628693,TRUE
+907,"Synthetic - Short scales","907_ShortB",16,0.994653990247712,TRUE
+907,"Synthetic - Short scales","907_ShortC",16,0.990855044930648,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",16,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",16,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",16,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",17,0.984830807318044,TRUE
+901,"Synthetic - Faithful twin","901_Beta",17,0.978486494425254,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",17,0.989950567631677,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",17,0.97653317210408,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",17,0.96196087282942,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",17,0.978530625246167,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",17,0.980849590647635,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",17,0.9755642179639,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",17,0.98103174413232,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",17,0.829027971638375,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",17,0.886701058276848,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",17,0.981341667946271,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",17,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",17,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",17,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",17,0.959256219932557,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",17,0.975187915729084,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",17,0.981623282738809,TRUE
+907,"Synthetic - Short scales","907_ShortA",17,0.983541306474073,TRUE
+907,"Synthetic - Short scales","907_ShortB",17,0.96377781750221,TRUE
+907,"Synthetic - Short scales","907_ShortC",17,0.987993117338897,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",17,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",17,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",17,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",18,0.984283283310351,TRUE
+901,"Synthetic - Faithful twin","901_Beta",18,0.980291534796604,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",18,0.991855526724725,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",18,0.967052304052154,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",18,0.93675190336541,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",18,0.987513901604479,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",18,0.988430994276149,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",18,0.988029455930422,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",18,0.988863753427049,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",18,0.815939348534238,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",18,0.865100562026522,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",18,0.981285487770286,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",18,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",18,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",18,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",18,0.96738893267632,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",18,0.94513886773266,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",18,0.98415216901647,TRUE
+907,"Synthetic - Short scales","907_ShortA",18,0.978591469032279,TRUE
+907,"Synthetic - Short scales","907_ShortB",18,0.976605937220897,TRUE
+907,"Synthetic - Short scales","907_ShortC",18,0.996391579169517,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",18,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",18,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",18,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",19,0.98996838279016,TRUE
+901,"Synthetic - Faithful twin","901_Beta",19,0.98078988829517,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",19,0.991585622007737,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",19,0.976309459088836,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",19,0.96677099253245,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",19,0.977691691028575,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",19,0.988783241721051,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",19,0.985511426783507,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",19,0.984288842925111,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",19,0.843975789971086,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",19,0.870468299895065,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",19,0.977819423150045,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",19,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",19,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",19,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",19,0.920561124278656,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",19,0.957068273153759,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",19,0.984119222768103,TRUE
+907,"Synthetic - Short scales","907_ShortA",19,0.969466961486429,TRUE
+907,"Synthetic - Short scales","907_ShortB",19,0.982099265846109,TRUE
+907,"Synthetic - Short scales","907_ShortC",19,0.992624122179354,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",19,0.766685133550753,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",19,0.819073630076685,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",19,0.988309966990118,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",20,0.988747389796037,TRUE
+901,"Synthetic - Faithful twin","901_Beta",20,0.97749709843796,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",20,0.994585283707508,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",20,0.96500912773634,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",20,0.963509802912826,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",20,0.971101295077086,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",20,0.994005013315361,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",20,0.984717757370141,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",20,0.970281074015119,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",20,0.842903825584976,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",20,0.871511515242384,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",20,0.985398677913598,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",20,0.945645476315671,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",20,0.98654276005474,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",20,0.9930534984084,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",20,0.959594377873014,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",20,0.95974406490219,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",20,0.988583953954502,TRUE
+907,"Synthetic - Short scales","907_ShortA",20,0.977154053333613,TRUE
+907,"Synthetic - Short scales","907_ShortB",20,0.989563108191862,TRUE
+907,"Synthetic - Short scales","907_ShortC",20,0.978173521511745,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",20,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",20,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",20,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",21,0.995006676260749,TRUE
+901,"Synthetic - Faithful twin","901_Beta",21,0.988709394345475,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",21,0.984226838496744,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",21,0.964849830053165,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",21,0.937788299004217,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",21,0.974362005351827,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",21,0.987553139873745,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",21,0.972996951682569,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",21,0.985993066430789,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",21,0.860352234508476,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",21,0.9108517355754,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",21,0.96316832788027,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",21,0.937623188323788,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",21,0.981603281638602,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",21,0.973459474831599,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",21,0.96842175122962,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",21,0.959868659144121,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",21,0.986922056080487,TRUE
+907,"Synthetic - Short scales","907_ShortA",21,0.98103183278308,TRUE
+907,"Synthetic - Short scales","907_ShortB",21,0.987965218378084,TRUE
+907,"Synthetic - Short scales","907_ShortC",21,0.989217109528634,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",21,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",21,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",21,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",22,0.990137635800594,TRUE
+901,"Synthetic - Faithful twin","901_Beta",22,0.974718935852019,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",22,0.992968646354648,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",22,0.966513920185231,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",22,0.948703510067792,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",22,0.970839231203037,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",22,0.989745676093852,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",22,0.988408728162985,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",22,0.981739691483593,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",22,0.829738604536906,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",22,0.893697615349537,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",22,0.985193765737404,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",22,0.931814562847143,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",22,0.978292224400935,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",22,0.98725583746168,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",22,0.93646049232217,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",22,0.963727274423458,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",22,0.985732392767638,TRUE
+907,"Synthetic - Short scales","907_ShortA",22,0.977353480951311,TRUE
+907,"Synthetic - Short scales","907_ShortB",22,0.984185926896375,TRUE
+907,"Synthetic - Short scales","907_ShortC",22,0.994035147745052,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",22,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",22,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",22,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",23,0.990457856051623,TRUE
+901,"Synthetic - Faithful twin","901_Beta",23,0.984839684540639,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",23,0.989051950313508,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",23,0.972909300588805,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",23,0.945791700159848,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",23,0.944754409575664,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",23,0.988283917254345,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",23,0.987541217367499,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",23,0.983645060090987,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",23,0.828201063583819,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",23,0.896247241300459,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",23,0.990548428622875,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",23,0.943471780123881,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",23,0.981003004339131,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",23,0.983623836244393,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",23,0.964950745343895,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",23,0.948494227573181,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",23,0.981257860391553,TRUE
+907,"Synthetic - Short scales","907_ShortA",23,0.96226981900911,TRUE
+907,"Synthetic - Short scales","907_ShortB",23,0.984844757439562,TRUE
+907,"Synthetic - Short scales","907_ShortC",23,0.991682262156583,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",23,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",23,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",23,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",24,0.994354053525372,TRUE
+901,"Synthetic - Faithful twin","901_Beta",24,0.980877381820305,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",24,0.984877132491248,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",24,0.982467768817929,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",24,0.963154233530984,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",24,0.976329610028118,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",24,0.988557659685148,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",24,0.987334103192623,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",24,0.978140624812397,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",24,0.836009246766556,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",24,0.913245483953747,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",24,0.966273615767503,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",24,0.945122961330982,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",24,0.978452984644823,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",24,0.991109364228172,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",24,0.944990203570808,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",24,0.964458898772359,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",24,0.980605812944129,TRUE
+907,"Synthetic - Short scales","907_ShortA",24,0.952104644082577,TRUE
+907,"Synthetic - Short scales","907_ShortB",24,0.988867976367151,TRUE
+907,"Synthetic - Short scales","907_ShortC",24,0.984359870790543,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",24,0.757393798186285,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",24,0.76049984359686,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",24,0.971662067538008,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",25,0.991134933051297,TRUE
+901,"Synthetic - Faithful twin","901_Beta",25,0.989755733984445,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",25,0.986949127796202,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",25,0.971928736372064,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",25,0.964313817733098,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",25,0.96852143071076,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",25,0.990351146234605,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",25,0.983591615446344,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",25,0.984064699422234,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",25,0.838644756695644,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",25,0.894316773181516,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",25,0.973552976426349,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",25,0.921993016124705,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",25,0.98045133607635,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",25,0.995145305583329,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",25,0.929172569551604,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",25,0.96275984707851,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",25,0.988574624361104,TRUE
+907,"Synthetic - Short scales","907_ShortA",25,0.95996307590271,TRUE
+907,"Synthetic - Short scales","907_ShortB",25,0.97459372829181,TRUE
+907,"Synthetic - Short scales","907_ShortC",25,0.993207084794479,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",25,0.794296876775311,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",25,0.781685129613815,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",25,0.973572292932662,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",26,0.995136413637792,TRUE
+901,"Synthetic - Faithful twin","901_Beta",26,0.98700549196378,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",26,0.983722563233187,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",26,0.960936504777293,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",26,0.979367096158544,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",26,0.975748325276837,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",26,0.98536826607261,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",26,0.97344539656238,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",26,0.976430461704095,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",26,0.875703323541517,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",26,0.919890599207311,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",26,0.984532277092501,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",26,0.937438201690088,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",26,0.987649907582902,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",26,0.980899115092089,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",26,0.954027448514417,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",26,0.977063675712911,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",26,0.977283599293655,TRUE
+907,"Synthetic - Short scales","907_ShortA",26,0.981535747377944,TRUE
+907,"Synthetic - Short scales","907_ShortB",26,0.97756590559241,TRUE
+907,"Synthetic - Short scales","907_ShortC",26,0.994015176451805,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",26,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",26,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",26,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",27,0.991332146422399,TRUE
+901,"Synthetic - Faithful twin","901_Beta",27,0.97615518606233,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",27,0.982879495012505,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",27,0.963380780840391,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",27,0.969057096302919,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",27,0.977666111584383,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",27,0.987423988462836,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",27,0.983656800420062,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",27,0.978629040425037,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",27,0.856066056012722,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",27,0.889349539105262,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",27,0.981735429438997,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",27,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",27,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",27,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",27,0.955812276038608,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",27,0.949160978263676,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",27,0.987549056805712,TRUE
+907,"Synthetic - Short scales","907_ShortA",27,0.980549375359934,TRUE
+907,"Synthetic - Short scales","907_ShortB",27,0.989509482747158,TRUE
+907,"Synthetic - Short scales","907_ShortC",27,0.98529876279706,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",27,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",27,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",27,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",28,0.978338282974074,TRUE
+901,"Synthetic - Faithful twin","901_Beta",28,0.982309247289731,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",28,0.994054832749871,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",28,0.97401521391759,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",28,0.918112903145902,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",28,0.978525112513141,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",28,0.99121857287238,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",28,0.983337630922454,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",28,0.980683492413704,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",28,0.825301983046003,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",28,0.910271714662514,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",28,0.965317043696568,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",28,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",28,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",28,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",28,0.943108519124084,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",28,0.974945512170696,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",28,0.96139219645798,TRUE
+907,"Synthetic - Short scales","907_ShortA",28,0.984205119034787,TRUE
+907,"Synthetic - Short scales","907_ShortB",28,0.993116727381459,TRUE
+907,"Synthetic - Short scales","907_ShortC",28,0.992419439139704,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",28,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",28,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",28,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",29,0.985034420992572,TRUE
+901,"Synthetic - Faithful twin","901_Beta",29,0.987069557472369,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",29,0.99183529785411,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",29,0.97464791658719,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",29,0.953659350814801,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",29,0.971314590068504,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",29,0.990893965643625,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",29,0.977771080835868,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",29,0.979384167801759,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",29,0.837059911389194,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",29,0.896228138991188,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",29,0.974647147705315,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",29,0.929389611449836,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",29,0.981293073549861,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",29,0.991357867210681,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",29,0.940460884003373,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",29,0.976328093739564,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",29,0.984955774557977,TRUE
+907,"Synthetic - Short scales","907_ShortA",29,0.984140393021443,TRUE
+907,"Synthetic - Short scales","907_ShortB",29,0.983810524451822,TRUE
+907,"Synthetic - Short scales","907_ShortC",29,0.987850468422714,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",29,0.770401090277322,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",29,0.786358910661641,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",29,0.971022977406043,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",30,0.992389908183749,TRUE
+901,"Synthetic - Faithful twin","901_Beta",30,0.987951337619646,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",30,0.984395352798933,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",30,0.969671962536712,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",30,0.939298277389404,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",30,0.957620943085445,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",30,0.978931927796846,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",30,0.965757826438986,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",30,0.99062393640495,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",30,0.856042529487062,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",30,0.882752957146368,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",30,0.956899019266192,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",30,0.94718537591632,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",30,0.956619081828433,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",30,0.990321156954754,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",30,0.95458996927293,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",30,0.967354196441751,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",30,0.986231519744183,TRUE
+907,"Synthetic - Short scales","907_ShortA",30,0.984870801737769,TRUE
+907,"Synthetic - Short scales","907_ShortB",30,0.988207221525953,TRUE
+907,"Synthetic - Short scales","907_ShortC",30,0.993966332855605,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",30,0.811500068454203,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",30,0.780846505345922,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",30,0.979779186708752,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",31,0.991861365712041,TRUE
+901,"Synthetic - Faithful twin","901_Beta",31,0.97185539191791,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",31,0.985783457543448,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",31,0.945541906361175,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",31,0.95435841263149,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",31,0.961582558647183,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",31,0.991420149644602,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",31,0.986987390168184,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",31,0.980010403267296,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",31,0.817569560918946,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",31,0.8964916355504,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",31,0.971346100524562,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",31,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",31,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",31,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",31,0.948687580722768,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",31,0.955411928486033,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",31,0.986400095955145,TRUE
+907,"Synthetic - Short scales","907_ShortA",31,0.982364399163278,TRUE
+907,"Synthetic - Short scales","907_ShortB",31,0.983450447378814,TRUE
+907,"Synthetic - Short scales","907_ShortC",31,0.995637031998342,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",31,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",31,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",31,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",32,0.986106891200191,TRUE
+901,"Synthetic - Faithful twin","901_Beta",32,0.983503767550953,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",32,0.983121808579077,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",32,0.959238533399457,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",32,0.967203990411945,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",32,0.970587110412835,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",32,0.993053990494723,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",32,0.990633983446848,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",32,0.985469617618793,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",32,0.860576780716835,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",32,0.861809876017754,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",32,0.980496656206993,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",32,0.948536686516969,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",32,0.971895088681033,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",32,0.989291817946259,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",32,0.93337584234078,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",32,0.979740855887107,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",32,0.994041333226466,TRUE
+907,"Synthetic - Short scales","907_ShortA",32,0.948931548022656,TRUE
+907,"Synthetic - Short scales","907_ShortB",32,0.983681075218618,TRUE
+907,"Synthetic - Short scales","907_ShortC",32,0.989781820741752,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",32,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",32,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",32,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",33,0.983575059017675,TRUE
+901,"Synthetic - Faithful twin","901_Beta",33,0.983919237587665,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",33,0.987759727886959,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",33,0.968385541574164,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",33,0.930429104503972,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",33,0.968690068399122,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",33,0.987481180567296,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",33,0.988874478625902,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",33,0.985745792042877,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",33,0.845598670623143,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",33,0.899549298243522,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",33,0.985558842940813,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",33,0.945836179734695,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",33,0.984008287861512,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",33,0.996449534355415,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",33,0.975792818653422,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",33,0.960052077048118,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",33,0.986368884158897,TRUE
+907,"Synthetic - Short scales","907_ShortA",33,0.97889135488556,TRUE
+907,"Synthetic - Short scales","907_ShortB",33,0.988654490169471,TRUE
+907,"Synthetic - Short scales","907_ShortC",33,0.994569477020901,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",33,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",33,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",33,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",34,0.992032550710133,TRUE
+901,"Synthetic - Faithful twin","901_Beta",34,0.978571612445681,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",34,0.983972722169685,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",34,0.940563549160838,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",34,0.948986605348165,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",34,0.961980847495848,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",34,0.981489276187512,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",34,0.97948237386661,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",34,0.985862116432822,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",34,0.858734543498241,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",34,0.886819511269837,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",34,0.984828942704937,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",34,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",34,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",34,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",34,0.964534993618871,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",34,0.968372092016189,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",34,0.979796422890366,TRUE
+907,"Synthetic - Short scales","907_ShortA",34,0.985363073659567,TRUE
+907,"Synthetic - Short scales","907_ShortB",34,0.990867804982134,TRUE
+907,"Synthetic - Short scales","907_ShortC",34,0.988569270912838,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",34,0.766175008081461,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",34,0.816140514756317,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",34,0.976134062268064,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",35,0.990494675919241,TRUE
+901,"Synthetic - Faithful twin","901_Beta",35,0.985500632966025,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",35,0.983654706653108,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",35,0.958981140735924,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",35,0.941105809206104,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",35,0.987290010283146,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",35,0.984722727790094,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",35,0.985662884572835,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",35,0.986819634900283,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",35,0.775228438722676,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",35,0.885964335300958,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",35,0.982993730322547,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",35,0.946354335582957,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",35,0.985081214771579,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",35,0.990645529596837,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",35,0.936720138863382,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",35,0.976138334976348,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",35,0.989624738155038,TRUE
+907,"Synthetic - Short scales","907_ShortA",35,0.982856608868936,TRUE
+907,"Synthetic - Short scales","907_ShortB",35,0.991023045058734,TRUE
+907,"Synthetic - Short scales","907_ShortC",35,0.992408020732812,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",35,0.806038548868546,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",35,0.777675626888683,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",35,0.971355824955069,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",36,0.991422830756676,TRUE
+901,"Synthetic - Faithful twin","901_Beta",36,0.983332934143503,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",36,0.989848160263549,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",36,0.957830305544854,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",36,0.908250053172514,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",36,0.971774334816777,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",36,0.988773595545197,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",36,0.987933081122869,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",36,0.98609478063667,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",36,0.827665872248957,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",36,0.872350650753846,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",36,0.986327208930903,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",36,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",36,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",36,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",36,0.949936432723463,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",36,0.933921173351637,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",36,0.983126084024123,TRUE
+907,"Synthetic - Short scales","907_ShortA",36,0.927417249223251,TRUE
+907,"Synthetic - Short scales","907_ShortB",36,0.971765317329039,TRUE
+907,"Synthetic - Short scales","907_ShortC",36,0.983329278185191,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",36,0.788252670136313,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",36,0.786423930555526,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",36,0.985696693576596,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",37,0.990793503853335,TRUE
+901,"Synthetic - Faithful twin","901_Beta",37,0.988045917027328,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",37,0.993265036460054,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",37,0.97693087475792,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",37,0.948714338956146,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",37,0.986063479176767,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",37,0.988411051889846,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",37,0.98097619938572,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",37,0.982938177186341,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",37,0.827453477137274,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",37,0.862300164921404,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",37,0.969969839408801,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",37,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",37,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",37,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",37,0.966982244786324,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",37,0.968524040720714,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",37,0.983299068395276,TRUE
+907,"Synthetic - Short scales","907_ShortA",37,0.988308170595982,TRUE
+907,"Synthetic - Short scales","907_ShortB",37,0.98346641231502,TRUE
+907,"Synthetic - Short scales","907_ShortC",37,0.989440573656376,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",37,0.811741032751281,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",37,0.804380510458461,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",37,0.97172471406801,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",38,0.988875695158914,TRUE
+901,"Synthetic - Faithful twin","901_Beta",38,0.982591949225275,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",38,0.990710247299694,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",38,0.952516957947694,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",38,0.943589620634535,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",38,0.964500991220302,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",38,0.986603872699371,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",38,0.985914089349029,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",38,0.980983316782294,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",38,0.855156031628298,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",38,0.860144680037122,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",38,0.986582167989001,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",38,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",38,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",38,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",38,0.954215039828704,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",38,0.942763574678508,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",38,0.982161677043852,TRUE
+907,"Synthetic - Short scales","907_ShortA",38,0.943585218648789,TRUE
+907,"Synthetic - Short scales","907_ShortB",38,0.967870981849168,TRUE
+907,"Synthetic - Short scales","907_ShortC",38,0.982529560446062,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",38,0.807190980259586,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",38,0.629536701431433,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",38,0.976507357376409,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",39,0.990883165560601,TRUE
+901,"Synthetic - Faithful twin","901_Beta",39,0.973014755717579,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",39,0.989782353312832,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",39,0.964683168295026,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",39,0.909810121987956,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",39,0.957541147837669,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",39,0.980157222257516,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",39,0.987508786548041,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",39,0.984050176579985,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",39,0.809789614381411,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",39,0.878689892548617,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",39,0.988111145078063,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",39,0.931563676863004,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",39,0.973661481536298,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",39,0.988662094844904,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",39,0.911851327792052,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",39,0.943061245869835,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",39,0.982572694524603,TRUE
+907,"Synthetic - Short scales","907_ShortA",39,0.983123263768393,TRUE
+907,"Synthetic - Short scales","907_ShortB",39,0.96640682946501,TRUE
+907,"Synthetic - Short scales","907_ShortC",39,0.989385152049413,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",39,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",39,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",39,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",40,0.992610550822594,TRUE
+901,"Synthetic - Faithful twin","901_Beta",40,0.983876637571928,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",40,0.99506242616533,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",40,0.952107565770849,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",40,0.974939588609397,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",40,0.981684450740202,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",40,0.990289777403808,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",40,0.990523714747736,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",40,0.983107626267871,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",40,0.78959367210311,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",40,0.895512452362702,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",40,0.963064329982836,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",40,0.942093095799763,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",40,0.970956976109062,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",40,0.98653620611169,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",40,0.967122170146365,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",40,0.945995086623429,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",40,0.980433146321406,TRUE
+907,"Synthetic - Short scales","907_ShortA",40,0.989089290816963,TRUE
+907,"Synthetic - Short scales","907_ShortB",40,0.973956240531767,TRUE
+907,"Synthetic - Short scales","907_ShortC",40,0.990742611257521,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",40,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",40,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",40,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",41,0.985797127720339,TRUE
+901,"Synthetic - Faithful twin","901_Beta",41,0.969600763533026,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",41,0.983315203147224,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",41,0.983696858980573,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",41,0.970546960167727,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",41,0.973709225872013,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",41,0.989935930116032,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",41,0.984937830242525,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",41,0.980994532905684,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",41,0.875121877092977,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",41,0.88115201912662,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",41,0.990645075759949,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",41,0.942931522745726,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",41,0.984039459429267,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",41,0.992926751159355,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",41,0.949460239656589,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",41,0.93575916597456,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",41,0.986629267407898,TRUE
+907,"Synthetic - Short scales","907_ShortA",41,0.968198450455634,TRUE
+907,"Synthetic - Short scales","907_ShortB",41,0.978606102251575,TRUE
+907,"Synthetic - Short scales","907_ShortC",41,0.992363156627803,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",41,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",41,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",41,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",42,0.985861415592027,TRUE
+901,"Synthetic - Faithful twin","901_Beta",42,0.986332637897361,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",42,0.990991061313196,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",42,0.982762987320297,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",42,0.942754280916016,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",42,0.9790782176253,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",42,0.992730644138532,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",42,0.995850352793404,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",42,0.986426082063706,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",42,0.867797999736662,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",42,0.859209601616421,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",42,0.979924841556461,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",42,0.942958266324176,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",42,0.983737909683693,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",42,0.988058034944018,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",42,0.942534747706742,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",42,0.977690018323616,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",42,0.987986368326717,TRUE
+907,"Synthetic - Short scales","907_ShortA",42,0.971483807491477,TRUE
+907,"Synthetic - Short scales","907_ShortB",42,0.989713047667537,TRUE
+907,"Synthetic - Short scales","907_ShortC",42,0.991837706502449,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",42,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",42,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",42,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",43,0.989813015516578,TRUE
+901,"Synthetic - Faithful twin","901_Beta",43,0.987188449595594,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",43,0.99253751936606,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",43,0.971657112409057,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",43,0.944700005635974,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",43,0.974188097776742,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",43,0.994184599684502,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",43,0.981017137904359,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",43,0.987227364280752,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",43,0.823914810577412,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",43,0.867400458520905,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",43,0.976818860188117,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",43,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",43,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",43,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",43,0.97749361123836,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",43,0.975147672854943,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",43,0.985497003812013,TRUE
+907,"Synthetic - Short scales","907_ShortA",43,0.956316111002842,TRUE
+907,"Synthetic - Short scales","907_ShortB",43,0.990794275174833,TRUE
+907,"Synthetic - Short scales","907_ShortC",43,0.990190435387738,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",43,0.762157321044237,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",43,0.841168956680476,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",43,0.965814623389823,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",44,0.986387388282604,TRUE
+901,"Synthetic - Faithful twin","901_Beta",44,0.978254311953576,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",44,0.985482181387688,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",44,0.972767852972738,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",44,0.953397427738536,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",44,0.980817427805424,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",44,0.986117981175093,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",44,0.981668529913781,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",44,0.984437970470583,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",44,0.821187325218325,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",44,0.891460643391267,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",44,0.962966176204476,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",44,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",44,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",44,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",44,0.965253790422532,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",44,0.95506779889866,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",44,0.973822851422571,TRUE
+907,"Synthetic - Short scales","907_ShortA",44,0.989151033397908,TRUE
+907,"Synthetic - Short scales","907_ShortB",44,0.990800980050351,TRUE
+907,"Synthetic - Short scales","907_ShortC",44,0.989653020807263,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",44,0.818757914721839,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",44,0.794868914256923,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",44,0.980590538288303,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",45,0.982142292374714,TRUE
+901,"Synthetic - Faithful twin","901_Beta",45,0.97375649076916,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",45,0.987110794152426,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",45,0.946090913025362,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",45,0.951497674821144,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",45,0.974877642785627,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",45,0.993334722451713,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",45,0.972841066312917,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",45,0.986468565545786,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",45,0.780706494488458,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",45,0.872322429825293,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",45,0.963682693324751,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",45,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",45,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",45,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",45,0.940597440417039,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",45,0.954948389247162,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",45,0.991630379585804,TRUE
+907,"Synthetic - Short scales","907_ShortA",45,0.969486671725981,TRUE
+907,"Synthetic - Short scales","907_ShortB",45,0.96445000713584,TRUE
+907,"Synthetic - Short scales","907_ShortC",45,0.982059467154068,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",45,0.797887190395099,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",45,0.781085904364989,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",45,0.957266753940503,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",46,0.980517627328996,TRUE
+901,"Synthetic - Faithful twin","901_Beta",46,0.976248388457279,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",46,0.993086487148389,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",46,0.963155415487567,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",46,0.945614880385078,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",46,0.970683977632227,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",46,0.994597311483251,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",46,0.984197633691225,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",46,0.981340252113982,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",46,0.82656025501205,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",46,0.889330561542399,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",46,0.982176500860607,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",46,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",46,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",46,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",46,0.948547880881538,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",46,0.941914170862833,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",46,0.985879720218076,TRUE
+907,"Synthetic - Short scales","907_ShortA",46,0.948478508954757,TRUE
+907,"Synthetic - Short scales","907_ShortB",46,0.980187311217605,TRUE
+907,"Synthetic - Short scales","907_ShortC",46,0.983647826108335,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",46,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",46,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",46,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",47,0.990180297534296,TRUE
+901,"Synthetic - Faithful twin","901_Beta",47,0.983912043567542,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",47,0.981642763930166,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",47,0.938502570705345,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",47,0.969074748521333,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",47,0.968250990255213,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",47,0.993145428080042,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",47,0.978999744706437,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",47,0.98610240261527,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",47,0.810771870950266,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",47,0.837502622087823,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",47,0.971767286298554,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",47,0.945618898216104,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",47,0.975006066538887,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",47,0.987204002551454,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",47,0.958174796253694,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",47,0.960748564944158,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",47,0.991480156452336,TRUE
+907,"Synthetic - Short scales","907_ShortA",47,0.968573646556882,TRUE
+907,"Synthetic - Short scales","907_ShortB",47,0.98341807020024,TRUE
+907,"Synthetic - Short scales","907_ShortC",47,0.991605737044608,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",47,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",47,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",47,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",48,0.992205851136774,TRUE
+901,"Synthetic - Faithful twin","901_Beta",48,0.985167946856677,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",48,0.991703754269104,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",48,0.929451481533114,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",48,0.950087782686033,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",48,0.972216982533136,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",48,0.986006282322073,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",48,0.985729289296772,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",48,0.97557773592668,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",48,0.82647496733061,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",48,0.916526399202087,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",48,0.970320196393293,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",48,0.933177697287059,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",48,0.980338869838211,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",48,0.981693007086168,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",48,0.966878088997045,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",48,0.969535092672166,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",48,0.985239441461478,TRUE
+907,"Synthetic - Short scales","907_ShortA",48,0.948485593284978,TRUE
+907,"Synthetic - Short scales","907_ShortB",48,0.970339524677332,TRUE
+907,"Synthetic - Short scales","907_ShortC",48,0.995017302850117,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",48,0.796143904217081,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",48,0.676789574234449,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",48,0.979232365674668,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",49,0.991247973376251,TRUE
+901,"Synthetic - Faithful twin","901_Beta",49,0.977373769071824,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",49,0.989243864531014,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",49,0.953212709037378,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",49,0.955821280972345,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",49,0.973960414921284,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",49,0.993036562295346,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",49,0.984989417276755,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",49,0.985313897746143,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",49,0.838762075281147,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",49,0.879967979224417,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",49,0.97657300282812,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",49,0.935741715585272,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",49,0.988192111107406,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",49,0.981261222439258,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",49,0.959526013063191,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",49,0.975047784347942,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",49,0.982815796758228,TRUE
+907,"Synthetic - Short scales","907_ShortA",49,0.962483892655956,TRUE
+907,"Synthetic - Short scales","907_ShortB",49,0.990498633534201,TRUE
+907,"Synthetic - Short scales","907_ShortC",49,0.987867865657361,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",49,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",49,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",49,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",50,0.974311812437023,TRUE
+901,"Synthetic - Faithful twin","901_Beta",50,0.982234998880012,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",50,0.983979732674172,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",50,0.986482680218493,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",50,0.96140078964915,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",50,0.982526115837416,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",50,0.984093078717794,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",50,0.981327265816595,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",50,0.976184750147725,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",50,0.82929447110983,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",50,0.894472399661954,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",50,0.988538828329365,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",50,0.930435975277846,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",50,0.979972520671265,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",50,0.995017528231825,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",50,0.961646211060144,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",50,0.9640239265871,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",50,0.983264865979486,TRUE
+907,"Synthetic - Short scales","907_ShortA",50,0.968671190072546,TRUE
+907,"Synthetic - Short scales","907_ShortB",50,0.985300963230912,TRUE
+907,"Synthetic - Short scales","907_ShortC",50,0.996969448530454,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",50,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",50,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",50,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",51,0.99519250194306,TRUE
+901,"Synthetic - Faithful twin","901_Beta",51,0.975850783732892,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",51,0.993790907123463,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",51,0.955150650934209,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",51,0.924499381745949,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",51,0.967654948111323,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",51,0.992640693685038,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",51,0.98485838991833,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",51,0.977902322228206,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",51,0.82845408607892,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",51,0.897814718943941,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",51,0.976101005603443,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",51,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",51,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",51,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",51,0.931601337778995,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",51,0.971229782850281,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",51,0.974877119550048,TRUE
+907,"Synthetic - Short scales","907_ShortA",51,0.971951175397714,TRUE
+907,"Synthetic - Short scales","907_ShortB",51,0.993135592508722,TRUE
+907,"Synthetic - Short scales","907_ShortC",51,0.981551664501817,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",51,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",51,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",51,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",52,0.990076824190043,TRUE
+901,"Synthetic - Faithful twin","901_Beta",52,0.974554148191219,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",52,0.991812938540892,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",52,0.961107590759967,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",52,0.954568847851729,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",52,0.961123287186182,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",52,0.98617085117202,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",52,0.980958274209884,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",52,0.977337290810158,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",52,0.848514924700491,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",52,0.869800780452502,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",52,0.963877108904502,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",52,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",52,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",52,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",52,0.919113482577132,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",52,0.9729622598012,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",52,0.981930535541059,TRUE
+907,"Synthetic - Short scales","907_ShortA",52,0.976606794278532,TRUE
+907,"Synthetic - Short scales","907_ShortB",52,0.975085249527661,TRUE
+907,"Synthetic - Short scales","907_ShortC",52,0.994984617695047,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",52,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",52,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",52,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",53,0.970071023542462,TRUE
+901,"Synthetic - Faithful twin","901_Beta",53,0.981244782243788,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",53,0.988894739383237,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",53,0.97153352345887,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",53,0.950771078825574,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",53,0.977750323056142,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",53,0.988692218721282,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",53,0.976885812574204,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",53,0.984554009873477,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",53,0.815549903570302,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",53,0.903826907048526,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",53,0.965455593785466,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",53,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",53,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",53,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",53,0.947603330081411,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",53,0.959646881102671,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",53,0.969531619815133,TRUE
+907,"Synthetic - Short scales","907_ShortA",53,0.969510801355976,TRUE
+907,"Synthetic - Short scales","907_ShortB",53,0.970802290819559,TRUE
+907,"Synthetic - Short scales","907_ShortC",53,0.994466826570744,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",53,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",53,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",53,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",54,0.993457640855964,TRUE
+901,"Synthetic - Faithful twin","901_Beta",54,0.980016310714797,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",54,0.976988535284537,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",54,0.964111937735316,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",54,0.916554568474256,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",54,0.964332051155137,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",54,0.995772318951154,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",54,0.985569558732188,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",54,0.976272643774631,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",54,0.826324810903911,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",54,0.873827491290824,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",54,0.976049162883846,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",54,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",54,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",54,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",54,0.933267042903705,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",54,0.923600788010892,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",54,0.989027829079185,TRUE
+907,"Synthetic - Short scales","907_ShortA",54,0.974911398832258,TRUE
+907,"Synthetic - Short scales","907_ShortB",54,0.978152976503636,TRUE
+907,"Synthetic - Short scales","907_ShortC",54,0.99721514480086,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",54,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",54,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",54,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",55,0.982392357176872,TRUE
+901,"Synthetic - Faithful twin","901_Beta",55,0.992357284424091,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",55,0.993878774248088,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",55,0.981978850309082,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",55,0.966947431063862,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",55,0.974792861053085,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",55,0.983108263746156,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",55,0.977828796038508,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",55,0.986698697072129,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",55,0.804422763167845,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",55,0.894459710361767,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",55,0.972246441750539,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",55,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",55,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",55,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",55,0.938252451582106,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",55,0.95349811140997,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",55,0.98304033568383,TRUE
+907,"Synthetic - Short scales","907_ShortA",55,0.977145786274719,TRUE
+907,"Synthetic - Short scales","907_ShortB",55,0.964012144712662,TRUE
+907,"Synthetic - Short scales","907_ShortC",55,0.990140097762532,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",55,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",55,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",55,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",56,0.993551499232823,TRUE
+901,"Synthetic - Faithful twin","901_Beta",56,0.983455836028964,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",56,0.98724085018408,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",56,0.957320288366962,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",56,0.909115387049712,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",56,0.974555027922615,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",56,0.984813577885077,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",56,0.987553799129939,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",56,0.96624389381603,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",56,0.854665798113424,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",56,0.890613637614506,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",56,0.980259436169888,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",56,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",56,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",56,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",56,0.955327201887199,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",56,0.984456947916583,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",56,0.981000316858873,TRUE
+907,"Synthetic - Short scales","907_ShortA",56,0.967854401448018,TRUE
+907,"Synthetic - Short scales","907_ShortB",56,0.988398350193695,TRUE
+907,"Synthetic - Short scales","907_ShortC",56,0.984838692299846,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",56,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",56,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",56,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",57,0.981858829893168,TRUE
+901,"Synthetic - Faithful twin","901_Beta",57,0.982455347322959,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",57,0.994989150880514,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",57,0.967513692985316,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",57,0.955537799521075,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",57,0.973064606931117,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",57,0.99058220342879,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",57,0.984575865459462,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",57,0.974377879556115,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",57,0.832657677852993,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",57,0.899075714631624,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",57,0.97315587275517,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",57,0.932212043008056,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",57,0.986937198558445,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",57,0.977369738270393,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",57,0.984891059970564,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",57,0.97914851577492,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",57,0.98460932861392,TRUE
+907,"Synthetic - Short scales","907_ShortA",57,0.95510516728363,TRUE
+907,"Synthetic - Short scales","907_ShortB",57,0.969445590143731,TRUE
+907,"Synthetic - Short scales","907_ShortC",57,0.994392864261467,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",57,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",57,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",57,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",58,0.976890945018109,TRUE
+901,"Synthetic - Faithful twin","901_Beta",58,0.977316589557379,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",58,0.983336631261797,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",58,0.976901568293483,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",58,0.945043938449904,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",58,0.972831059889607,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",58,0.992827809396406,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",58,0.977175895270643,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",58,0.983598511147599,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",58,0.843963773493575,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",58,0.87988473865143,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",58,0.984197337424882,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",58,0.936665515185768,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",58,0.964287225819639,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",58,0.985476239353385,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",58,0.955770047541049,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",58,0.988796349216961,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",58,0.991248318545109,TRUE
+907,"Synthetic - Short scales","907_ShortA",58,0.985405202510255,TRUE
+907,"Synthetic - Short scales","907_ShortB",58,0.983383476729333,TRUE
+907,"Synthetic - Short scales","907_ShortC",58,0.994972402521515,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",58,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",58,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",58,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",59,0.988550378656722,TRUE
+901,"Synthetic - Faithful twin","901_Beta",59,0.970535400242658,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",59,0.984375394202607,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",59,0.966076727637225,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",59,0.911353794440338,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",59,0.975044181980099,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",59,0.99328420221351,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",59,0.98214889348394,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",59,0.967331750508793,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",59,0.840052362099931,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",59,0.88945809001356,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",59,0.973805579178979,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",59,0.951325236852057,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",59,0.979591869855181,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",59,0.990569720767035,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",59,0.941560289158828,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",59,0.948488959279265,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",59,0.975724362268576,TRUE
+907,"Synthetic - Short scales","907_ShortA",59,0.97069376347359,TRUE
+907,"Synthetic - Short scales","907_ShortB",59,0.981551656872432,TRUE
+907,"Synthetic - Short scales","907_ShortC",59,0.994666433342206,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",59,0.787364890269702,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",59,0.544592041326325,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",59,0.953639594795938,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",60,0.986684102175946,TRUE
+901,"Synthetic - Faithful twin","901_Beta",60,0.981968868100375,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",60,0.984799327648084,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",60,0.96172245647837,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",60,0.959654104076829,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",60,0.969270489994992,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",60,0.991325046347408,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",60,0.976645268297607,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",60,0.972976080713901,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",60,0.843057663393008,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",60,0.894953173151036,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",60,0.984919790523701,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",60,0.925187598621509,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",60,0.984677948640148,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",60,0.983912894750251,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",60,0.941354509507198,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",60,0.962668376513134,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",60,0.988620896974847,TRUE
+907,"Synthetic - Short scales","907_ShortA",60,0.982716824386838,TRUE
+907,"Synthetic - Short scales","907_ShortB",60,0.996674773667813,TRUE
+907,"Synthetic - Short scales","907_ShortC",60,0.988716842843043,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",60,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",60,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",60,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",61,0.993482297697897,TRUE
+901,"Synthetic - Faithful twin","901_Beta",61,0.973954553641259,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",61,0.984127837442389,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",61,0.968411677981108,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",61,0.959519673186371,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",61,0.972998442995798,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",61,0.987429754376631,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",61,0.98449463708207,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",61,0.99088615465134,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",61,0.839095261007521,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",61,0.892324552117058,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",61,0.990056168427324,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",61,0.925941813671303,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",61,0.984697387970773,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",61,0.979587128663632,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",61,0.959753493740043,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",61,0.965189959667088,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",61,0.974130593318729,TRUE
+907,"Synthetic - Short scales","907_ShortA",61,0.937143849189288,TRUE
+907,"Synthetic - Short scales","907_ShortB",61,0.977122107654749,TRUE
+907,"Synthetic - Short scales","907_ShortC",61,0.993804106459525,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",61,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",61,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",61,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",62,0.993545855061777,TRUE
+901,"Synthetic - Faithful twin","901_Beta",62,0.98469344397963,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",62,0.98357649351943,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",62,0.977326936842542,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",62,0.938332642383072,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",62,0.985496934050469,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",62,0.97799101660139,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",62,0.984738007465581,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",62,0.985652265841028,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",62,0.849804472098179,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",62,0.892717567920832,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",62,0.973396005761246,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",62,0.950999469445275,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",62,0.976855496374873,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",62,0.991835286132221,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",62,0.948472433718025,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",62,0.982489175065731,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",62,0.98869283996749,TRUE
+907,"Synthetic - Short scales","907_ShortA",62,0.977921318668768,TRUE
+907,"Synthetic - Short scales","907_ShortB",62,0.993096132758401,TRUE
+907,"Synthetic - Short scales","907_ShortC",62,0.97418267220109,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",62,0.768098420506064,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",62,0.755080715883357,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",62,0.983746066332203,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",63,0.990685244673533,TRUE
+901,"Synthetic - Faithful twin","901_Beta",63,0.985113630308255,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",63,0.987531119944412,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",63,0.970860868655435,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",63,0.917601597910157,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",63,0.969104435989472,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",63,0.98567323184256,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",63,0.984626003883415,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",63,0.970887110904676,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",63,0.865422544939753,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",63,0.832126529463214,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",63,0.977118942300133,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",63,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",63,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",63,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",63,0.933426053236314,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",63,0.970873597642598,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",63,0.989396901495816,TRUE
+907,"Synthetic - Short scales","907_ShortA",63,0.968513125526122,TRUE
+907,"Synthetic - Short scales","907_ShortB",63,0.990693905264199,TRUE
+907,"Synthetic - Short scales","907_ShortC",63,0.986466631961721,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",63,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",63,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",63,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",64,0.992521883205877,TRUE
+901,"Synthetic - Faithful twin","901_Beta",64,0.973161870465968,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",64,0.981764008160722,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",64,0.975472229553742,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",64,0.982931783631304,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",64,0.973011164965926,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",64,0.989123578821533,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",64,0.98077884796624,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",64,0.980616778242099,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",64,0.849600520024275,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",64,0.899279946399816,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",64,0.979109308304083,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",64,0.943816382689497,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",64,0.987760323146508,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",64,0.995576642470851,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",64,0.95363954815836,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",64,0.963615468747501,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",64,0.984252564506869,TRUE
+907,"Synthetic - Short scales","907_ShortA",64,0.966144926277236,TRUE
+907,"Synthetic - Short scales","907_ShortB",64,0.992177708898135,TRUE
+907,"Synthetic - Short scales","907_ShortC",64,0.995758175875165,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",64,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",64,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",64,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",65,0.990187219599314,TRUE
+901,"Synthetic - Faithful twin","901_Beta",65,0.982544675778367,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",65,0.992437533200544,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",65,0.968433262166142,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",65,0.951304856865725,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",65,0.973312570455623,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",65,0.989944845491502,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",65,0.985936385887063,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",65,0.985186343601748,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",65,0.857375535901887,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",65,0.868798443310057,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",65,0.970192411893151,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",65,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",65,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",65,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",65,0.936879364365587,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",65,0.961927973175901,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",65,0.982374188760859,TRUE
+907,"Synthetic - Short scales","907_ShortA",65,0.969059918060755,TRUE
+907,"Synthetic - Short scales","907_ShortB",65,0.984975355351674,TRUE
+907,"Synthetic - Short scales","907_ShortC",65,0.992144610991477,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",65,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",65,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",65,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",66,0.990357998944395,TRUE
+901,"Synthetic - Faithful twin","901_Beta",66,0.984114689205791,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",66,0.988609431278517,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",66,0.97236944459077,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",66,0.975933481848199,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",66,0.962604765667093,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",66,0.990836093420857,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",66,0.983608758363393,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",66,0.983490534337756,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",66,0.850550203560222,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",66,0.87196517562502,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",66,0.983901676148943,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",66,0.926060596456565,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",66,0.984926993368021,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",66,0.990931103920072,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",66,0.9365625395841,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",66,0.980970076470478,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",66,0.987293552058558,TRUE
+907,"Synthetic - Short scales","907_ShortA",66,NA,FALSE
+907,"Synthetic - Short scales","907_ShortB",66,NA,FALSE
+907,"Synthetic - Short scales","907_ShortC",66,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",66,0.805326842628749,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",66,0.73986943194347,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",66,0.947171984340873,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",67,0.986650781809181,TRUE
+901,"Synthetic - Faithful twin","901_Beta",67,0.976555159083961,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",67,0.984022221670258,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",67,0.957057390883776,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",67,0.938959583627227,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",67,0.97234157599896,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",67,0.983432288366021,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",67,0.973271291803587,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",67,0.982215102957396,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",67,0.81051711949528,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",67,0.884101144219086,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",67,0.980825780861943,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",67,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",67,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",67,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",67,0.928770431621405,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",67,0.971178361864029,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",67,0.980693503137156,TRUE
+907,"Synthetic - Short scales","907_ShortA",67,0.992932286172995,TRUE
+907,"Synthetic - Short scales","907_ShortB",67,0.985759904457107,TRUE
+907,"Synthetic - Short scales","907_ShortC",67,0.988412232476044,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",67,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",67,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",67,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",68,0.990557130289426,TRUE
+901,"Synthetic - Faithful twin","901_Beta",68,0.989902712957045,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",68,0.986449620026261,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",68,0.949704154765809,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",68,0.936440098687815,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",68,0.976114780026618,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",68,0.991347786751348,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",68,0.978285085695543,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",68,0.979021396774796,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",68,0.832013221781187,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",68,0.880478245436569,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",68,0.977647208398105,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",68,0.926586211369764,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",68,0.97854623811833,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",68,0.98446622152475,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",68,0.952110481152489,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",68,0.972758946074703,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",68,0.993413952852672,TRUE
+907,"Synthetic - Short scales","907_ShortA",68,0.96378682555881,TRUE
+907,"Synthetic - Short scales","907_ShortB",68,0.973342037678857,TRUE
+907,"Synthetic - Short scales","907_ShortC",68,0.995823301159344,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",68,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",68,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",68,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",69,0.988446809365828,TRUE
+901,"Synthetic - Faithful twin","901_Beta",69,0.984702602416931,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",69,0.987143836501239,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",69,0.974325764334484,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",69,0.961219003866306,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",69,0.968470630069792,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",69,0.987376913955864,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",69,0.985568868885664,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",69,0.988040286749347,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",69,0.82113473961842,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",69,0.85521797779018,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",69,0.974317170372133,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",69,0.942060553422944,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",69,0.984244759391439,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",69,0.976734198510485,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",69,0.953520666787945,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",69,0.975493332560449,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",69,0.964151085974068,TRUE
+907,"Synthetic - Short scales","907_ShortA",69,0.991979828474711,TRUE
+907,"Synthetic - Short scales","907_ShortB",69,0.982457350485011,TRUE
+907,"Synthetic - Short scales","907_ShortC",69,0.990061620258657,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",69,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",69,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",69,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",70,0.979634994606554,TRUE
+901,"Synthetic - Faithful twin","901_Beta",70,0.977398590895483,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",70,0.990558063501676,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",70,0.972322425896914,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",70,0.950620786265787,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",70,0.974277489389466,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",70,0.98489699078481,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",70,0.979444873911942,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",70,0.97436991491904,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",70,0.85625566086418,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",70,0.857722126963173,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",70,0.971879395659225,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",70,0.951518955658791,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",70,0.974285771088859,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",70,0.982762307686488,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",70,0.967052934839759,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",70,0.97301135009814,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",70,0.987841127615882,TRUE
+907,"Synthetic - Short scales","907_ShortA",70,0.987116714037987,TRUE
+907,"Synthetic - Short scales","907_ShortB",70,0.980895098833656,TRUE
+907,"Synthetic - Short scales","907_ShortC",70,0.994687201104057,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",70,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",70,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",70,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",71,0.987144938648009,TRUE
+901,"Synthetic - Faithful twin","901_Beta",71,0.980741750451,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",71,0.979975203577067,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",71,0.963345260639932,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",71,0.963809655069953,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",71,0.972994915627654,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",71,0.992454744569787,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",71,0.984398151166149,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",71,0.978994052037474,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",71,0.826031561058364,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",71,0.876414495044924,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",71,0.972129035181827,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",71,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",71,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",71,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",71,0.96190830682551,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",71,0.920459515397814,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",71,0.979394286352462,TRUE
+907,"Synthetic - Short scales","907_ShortA",71,0.978082226592448,TRUE
+907,"Synthetic - Short scales","907_ShortB",71,0.973282317515167,TRUE
+907,"Synthetic - Short scales","907_ShortC",71,0.99558105310536,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",71,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",71,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",71,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",72,0.99189227041721,TRUE
+901,"Synthetic - Faithful twin","901_Beta",72,0.979566915164581,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",72,0.994469364027282,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",72,0.950509788262149,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",72,0.952904923425803,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",72,0.964969986452258,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",72,0.985582516396402,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",72,0.989819085339267,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",72,0.982792971829932,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",72,0.846974743433073,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",72,0.914012406127585,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",72,0.982940574180659,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",72,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",72,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",72,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",72,0.953229552736709,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",72,0.94669592548118,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",72,0.989249287974134,TRUE
+907,"Synthetic - Short scales","907_ShortA",72,NA,FALSE
+907,"Synthetic - Short scales","907_ShortB",72,NA,FALSE
+907,"Synthetic - Short scales","907_ShortC",72,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",72,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",72,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",72,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",73,0.991218957041538,TRUE
+901,"Synthetic - Faithful twin","901_Beta",73,0.985106118981307,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",73,0.985390239110275,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",73,0.965966284501357,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",73,0.964486238003832,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",73,0.969550697583985,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",73,0.991139205602176,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",73,0.979978716664542,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",73,0.973326870315829,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",73,0.839852977883919,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",73,0.910360610523831,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",73,0.9830373269351,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",73,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",73,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",73,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",73,0.961498542926915,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",73,0.957341672450423,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",73,0.988883635272683,TRUE
+907,"Synthetic - Short scales","907_ShortA",73,0.988640591702733,TRUE
+907,"Synthetic - Short scales","907_ShortB",73,0.981019754815148,TRUE
+907,"Synthetic - Short scales","907_ShortC",73,0.998074360167137,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",73,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",73,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",73,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",74,0.992926325456264,TRUE
+901,"Synthetic - Faithful twin","901_Beta",74,0.979164979962334,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",74,0.986135427922585,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",74,0.966370731960889,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",74,0.953726646258327,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",74,0.985391031387801,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",74,0.975012042618318,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",74,0.978870022269351,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",74,0.976743626107313,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",74,0.863912202778086,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",74,0.88679215181874,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",74,0.980028569308839,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",74,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",74,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",74,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",74,0.949271196786144,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",74,0.971147565650093,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",74,0.980110784261817,TRUE
+907,"Synthetic - Short scales","907_ShortA",74,0.948042178008233,TRUE
+907,"Synthetic - Short scales","907_ShortB",74,0.9909174190101,TRUE
+907,"Synthetic - Short scales","907_ShortC",74,0.990090640811108,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",74,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",74,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",74,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",75,0.982610359168708,TRUE
+901,"Synthetic - Faithful twin","901_Beta",75,0.984419325101382,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",75,0.985438585188399,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",75,0.958021421504069,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",75,0.941393653846156,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",75,0.969022481618828,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",75,0.982321317928987,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",75,0.978764553015228,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",75,0.989552850785138,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",75,0.841988847635158,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",75,0.864118677690323,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",75,0.975004532476431,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",75,0.936501256244754,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",75,0.987600152791535,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",75,0.991500673107405,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",75,0.969991958519134,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",75,0.970932486138175,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",75,0.983859844068265,TRUE
+907,"Synthetic - Short scales","907_ShortA",75,0.980551566391951,TRUE
+907,"Synthetic - Short scales","907_ShortB",75,0.977149516125461,TRUE
+907,"Synthetic - Short scales","907_ShortC",75,0.98362045269522,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",75,0.788032253644167,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",75,0.762856752560817,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",75,0.979133592369794,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",76,0.992614900649511,TRUE
+901,"Synthetic - Faithful twin","901_Beta",76,0.98749344146433,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",76,0.989481863973949,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",76,0.953461294868314,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",76,0.951901682281616,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",76,0.964170847706738,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",76,0.988145800270232,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",76,0.985846582284028,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",76,0.978678729196808,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",76,0.82744439910136,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",76,0.853435852818443,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",76,0.971351267760427,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",76,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",76,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",76,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",76,0.96239543245062,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",76,0.984704739331236,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",76,0.988603533511111,TRUE
+907,"Synthetic - Short scales","907_ShortA",76,0.950195859953875,TRUE
+907,"Synthetic - Short scales","907_ShortB",76,0.983138005848317,TRUE
+907,"Synthetic - Short scales","907_ShortC",76,0.9857775349229,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",76,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",76,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",76,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",77,0.990090289851437,TRUE
+901,"Synthetic - Faithful twin","901_Beta",77,0.990901831992922,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",77,0.981984600731533,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",77,0.956374351754088,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",77,0.956566079157435,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",77,0.978249247622398,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",77,0.988172685793627,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",77,0.988785379978005,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",77,0.975082239093601,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",77,0.842631334066088,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",77,0.875237391104217,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",77,0.986105167694254,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",77,0.960299014688907,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",77,0.981242072020055,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",77,0.993475630528645,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",77,0.967494348245787,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",77,0.982564328032936,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",77,0.980792045846958,TRUE
+907,"Synthetic - Short scales","907_ShortA",77,0.952705880864447,TRUE
+907,"Synthetic - Short scales","907_ShortB",77,0.98317351884317,TRUE
+907,"Synthetic - Short scales","907_ShortC",77,0.988186886587304,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",77,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",77,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",77,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",78,0.992462830873041,TRUE
+901,"Synthetic - Faithful twin","901_Beta",78,0.989240784382778,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",78,0.990968167118913,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",78,0.968534697206233,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",78,0.926744408389153,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",78,0.967733180658516,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",78,0.985963976020287,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",78,0.971285085220617,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",78,0.982246593589999,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",78,0.83828534401514,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",78,0.892587266145625,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",78,0.9811670495617,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",78,0.955828735822375,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",78,0.986936252365069,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",78,0.982671291075522,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",78,0.953695330064402,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",78,0.95751558578223,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",78,0.981371681199521,TRUE
+907,"Synthetic - Short scales","907_ShortA",78,0.991716869762859,TRUE
+907,"Synthetic - Short scales","907_ShortB",78,0.98605905713742,TRUE
+907,"Synthetic - Short scales","907_ShortC",78,0.989998661581593,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",78,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",78,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",78,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",79,0.983965469495803,TRUE
+901,"Synthetic - Faithful twin","901_Beta",79,0.981844046962581,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",79,0.990693098233373,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",79,0.962420277928081,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",79,0.940164510023634,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",79,0.982871915643979,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",79,0.976889574188293,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",79,0.985080981244819,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",79,0.98012049498434,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",79,0.851150297415177,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",79,0.885709605804459,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",79,0.978835166180637,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",79,0.958612135270342,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",79,0.977918834457223,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",79,0.983692969811216,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",79,0.948290900695225,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",79,0.977523873740753,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",79,0.992844087129123,TRUE
+907,"Synthetic - Short scales","907_ShortA",79,0.984072122687252,TRUE
+907,"Synthetic - Short scales","907_ShortB",79,0.993671133660721,TRUE
+907,"Synthetic - Short scales","907_ShortC",79,0.992600321659966,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",79,0.8176125365323,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",79,0.768262759380222,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",79,0.977517513681113,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",80,0.993226823660968,TRUE
+901,"Synthetic - Faithful twin","901_Beta",80,0.983893458787031,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",80,0.992914447652572,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",80,0.951976654456993,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",80,0.962390033748568,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",80,0.971911056998556,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",80,0.987769111977346,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",80,0.982388524907485,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",80,0.970938197668518,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",80,0.812269418599207,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",80,0.884624005842489,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",80,0.973975167464648,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",80,0.928464466744811,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",80,0.977075652810782,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",80,0.975509832270482,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",80,0.936425042389336,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",80,0.964623748334636,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",80,0.98025191677358,TRUE
+907,"Synthetic - Short scales","907_ShortA",80,0.972182005519674,TRUE
+907,"Synthetic - Short scales","907_ShortB",80,0.98205893749008,TRUE
+907,"Synthetic - Short scales","907_ShortC",80,0.99471165011604,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",80,0.798883032700179,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",80,0.797475454414321,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",80,0.9506077044104,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",81,0.988476277609902,TRUE
+901,"Synthetic - Faithful twin","901_Beta",81,0.983613851959174,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",81,0.991141218652354,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",81,0.984481735921642,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",81,0.952915269922151,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",81,0.980439547880951,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",81,0.982073232985167,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",81,0.97586761836399,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",81,0.970076838377073,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",81,0.826880932410819,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",81,0.915017431690833,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",81,0.974217590257903,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",81,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",81,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",81,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",81,0.941171219186347,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",81,0.961356992771063,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",81,0.982285760303909,TRUE
+907,"Synthetic - Short scales","907_ShortA",81,0.997198102695528,TRUE
+907,"Synthetic - Short scales","907_ShortB",81,0.97534142652642,TRUE
+907,"Synthetic - Short scales","907_ShortC",81,0.985989155128332,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",81,0.811739857695861,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",81,0.686686594306324,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",81,0.979657664787683,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",82,0.988250152017469,TRUE
+901,"Synthetic - Faithful twin","901_Beta",82,0.988613609259542,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",82,0.993021307654117,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",82,0.966697815268263,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",82,0.924253647107816,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",82,0.96485914927377,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",82,0.98306118582321,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",82,0.976794951173863,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",82,0.972935816973716,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",82,0.843155427364507,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",82,0.90663287866121,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",82,0.981556849576477,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",82,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",82,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",82,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",82,0.957879746989883,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",82,0.95922651355685,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",82,0.980614585589019,TRUE
+907,"Synthetic - Short scales","907_ShortA",82,0.976868395846665,TRUE
+907,"Synthetic - Short scales","907_ShortB",82,0.987237587639967,TRUE
+907,"Synthetic - Short scales","907_ShortC",82,0.984992745390576,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",82,0.790860622377279,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",82,0.647868336100079,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",82,0.971481359746715,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",83,0.990121504928173,TRUE
+901,"Synthetic - Faithful twin","901_Beta",83,0.981358581397549,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",83,0.984451389398317,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",83,0.950614697902696,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",83,0.935147276383193,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",83,0.987833761211348,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",83,0.987162109041183,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",83,0.974969660203887,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",83,0.981908503011492,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",83,0.82716864768427,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",83,0.890613424506575,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",83,0.969541015922539,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",83,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",83,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",83,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",83,0.947505493894145,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",83,0.972231264170324,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",83,0.980149938304471,TRUE
+907,"Synthetic - Short scales","907_ShortA",83,0.975675649198816,TRUE
+907,"Synthetic - Short scales","907_ShortB",83,0.993964084648668,TRUE
+907,"Synthetic - Short scales","907_ShortC",83,0.994231608224249,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",83,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",83,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",83,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",84,0.992552830557243,TRUE
+901,"Synthetic - Faithful twin","901_Beta",84,0.98081218582404,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",84,0.984860973429885,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",84,0.967953396816433,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",84,0.921079534353188,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",84,0.972818167185381,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",84,0.987066830394425,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",84,0.978804876815258,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",84,0.968309658211434,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",84,0.837984380600137,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",84,0.890927177438213,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",84,0.978683765452571,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",84,0.922979100915274,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",84,0.981232658732929,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",84,0.983076033074194,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",84,0.937267227469942,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",84,0.965019505170196,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",84,0.982008897859953,TRUE
+907,"Synthetic - Short scales","907_ShortA",84,0.966491183533902,TRUE
+907,"Synthetic - Short scales","907_ShortB",84,0.988179838933488,TRUE
+907,"Synthetic - Short scales","907_ShortC",84,0.995582548930361,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",84,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",84,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",84,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",85,0.990178035855896,TRUE
+901,"Synthetic - Faithful twin","901_Beta",85,0.981207468368981,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",85,0.980643019848582,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",85,0.976158770484927,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",85,0.949321797551134,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",85,0.967924629948232,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",85,0.995675491661448,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",85,0.984507098731573,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",85,0.983421039803121,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",85,0.793696034287861,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",85,0.871984691623546,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",85,0.962378245631196,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",85,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",85,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",85,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",85,0.94352995451694,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",85,0.947930629060752,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",85,0.989291690276334,TRUE
+907,"Synthetic - Short scales","907_ShortA",85,0.959828333993873,TRUE
+907,"Synthetic - Short scales","907_ShortB",85,0.973528325598452,TRUE
+907,"Synthetic - Short scales","907_ShortC",85,0.996639389458201,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",85,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",85,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",85,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",86,0.992890211031873,TRUE
+901,"Synthetic - Faithful twin","901_Beta",86,0.983241486206716,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",86,0.988937723073734,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",86,0.969440962346238,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",86,0.940377488660009,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",86,0.974983791017229,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",86,0.987210481718122,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",86,0.982917807916445,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",86,0.970408560715228,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",86,0.82532035992176,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",86,0.854928761321371,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",86,0.969888298428128,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",86,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",86,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",86,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",86,0.932016570437771,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",86,0.955277394193733,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",86,0.985708755155108,TRUE
+907,"Synthetic - Short scales","907_ShortA",86,0.997030548832161,TRUE
+907,"Synthetic - Short scales","907_ShortB",86,0.98932876753728,TRUE
+907,"Synthetic - Short scales","907_ShortC",86,0.994094462462411,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",86,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",86,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",86,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",87,0.990254335755257,TRUE
+901,"Synthetic - Faithful twin","901_Beta",87,0.984889765891964,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",87,0.979980625819666,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",87,0.953919569066813,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",87,0.973486725119039,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",87,0.978640478928071,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",87,0.989950868674362,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",87,0.985529186848615,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",87,0.985439608119355,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",87,0.836126694510976,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",87,0.852459009264734,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",87,0.984211894843855,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",87,0.94426363031437,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",87,0.98131548044531,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",87,0.983440837694073,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",87,0.949890184811551,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",87,0.95887797576544,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",87,0.987257781678476,TRUE
+907,"Synthetic - Short scales","907_ShortA",87,0.984160454705581,TRUE
+907,"Synthetic - Short scales","907_ShortB",87,0.980424470596473,TRUE
+907,"Synthetic - Short scales","907_ShortC",87,0.989245890230113,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",87,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",87,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",87,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",88,0.988452274491903,TRUE
+901,"Synthetic - Faithful twin","901_Beta",88,0.982513416245052,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",88,0.980715075827072,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",88,0.981347788081723,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",88,0.962783319453748,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",88,0.975548366313688,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",88,0.973408119830682,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",88,0.986532218689464,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",88,0.984815843320727,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",88,0.829903209292236,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",88,0.886318523050439,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",88,0.980469857621203,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",88,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",88,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",88,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",88,0.95690813880927,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",88,0.944219882183822,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",88,0.976246032501397,TRUE
+907,"Synthetic - Short scales","907_ShortA",88,0.968355712905061,TRUE
+907,"Synthetic - Short scales","907_ShortB",88,0.980045388517994,TRUE
+907,"Synthetic - Short scales","907_ShortC",88,0.987018854468137,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",88,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",88,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",88,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",89,0.988465669193176,TRUE
+901,"Synthetic - Faithful twin","901_Beta",89,0.978149391439204,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",89,0.98953213527222,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",89,0.961117616907918,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",89,0.967195144718829,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",89,0.976133475874818,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",89,0.994829129816631,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",89,0.99154823688512,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",89,0.991558912053716,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",89,0.836852737038843,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",89,0.851710463767132,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",89,0.990900774073457,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",89,0.932217266137633,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",89,0.973725693910226,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",89,0.983380598544974,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",89,0.936926349738689,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",89,0.96644246294264,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",89,0.968774774405202,TRUE
+907,"Synthetic - Short scales","907_ShortA",89,0.960642197063709,TRUE
+907,"Synthetic - Short scales","907_ShortB",89,0.985293739562287,TRUE
+907,"Synthetic - Short scales","907_ShortC",89,0.992370385484709,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",89,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",89,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",89,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",90,0.985087823385835,TRUE
+901,"Synthetic - Faithful twin","901_Beta",90,0.980208577085613,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",90,0.984996639893982,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",90,0.96283929183917,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",90,0.961690315440401,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",90,0.972588541962085,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",90,0.994740089617382,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",90,0.989210797399839,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",90,0.986762280558501,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",90,0.801506155333974,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",90,0.871463009135447,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",90,0.974418850859957,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",90,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",90,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",90,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",90,0.944346360632509,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",90,0.961707285922477,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",90,0.978690735825829,TRUE
+907,"Synthetic - Short scales","907_ShortA",90,0.989666949202439,TRUE
+907,"Synthetic - Short scales","907_ShortB",90,0.981672226516404,TRUE
+907,"Synthetic - Short scales","907_ShortC",90,0.987398495980302,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",90,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",90,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",90,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",91,0.988892047831144,TRUE
+901,"Synthetic - Faithful twin","901_Beta",91,0.975141674198183,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",91,0.981755929721105,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",91,0.979655827276979,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",91,0.896000178747326,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",91,0.957731665419569,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",91,0.986083594971042,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",91,0.979685545621038,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",91,0.986794151379838,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",91,0.83345215484628,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",91,0.899295713445056,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",91,0.980348489140979,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",91,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",91,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",91,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",91,0.937258754717513,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",91,0.94156619692309,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",91,0.980448876996288,TRUE
+907,"Synthetic - Short scales","907_ShortA",91,0.985219625530748,TRUE
+907,"Synthetic - Short scales","907_ShortB",91,0.976440631075773,TRUE
+907,"Synthetic - Short scales","907_ShortC",91,0.997219782790977,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",91,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",91,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",91,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",92,0.99558194585836,TRUE
+901,"Synthetic - Faithful twin","901_Beta",92,0.979737941648674,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",92,0.990116674097819,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",92,0.975425724015057,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",92,0.947839072189911,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",92,0.981083036705272,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",92,0.987227687664189,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",92,0.979183293960845,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",92,0.969961385918704,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",92,0.836239096294013,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",92,0.884789119242386,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",92,0.974546628523835,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",92,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",92,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",92,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",92,0.928517864715328,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",92,0.954936550816932,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",92,0.977576946837369,TRUE
+907,"Synthetic - Short scales","907_ShortA",92,0.962024278710003,TRUE
+907,"Synthetic - Short scales","907_ShortB",92,0.992768471895006,TRUE
+907,"Synthetic - Short scales","907_ShortC",92,0.982358052534621,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",92,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",92,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",92,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",93,0.985904250553825,TRUE
+901,"Synthetic - Faithful twin","901_Beta",93,0.98447772847063,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",93,0.991539679355862,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",93,0.971369409146497,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",93,0.944626589949258,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",93,0.965997470432256,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",93,0.985625135001763,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",93,0.990536322193764,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",93,0.974703842805156,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",93,0.852038233992686,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",93,0.902547766962581,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",93,0.988586425500075,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",93,0.94190353193093,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",93,0.979662695363014,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",93,0.985746442909308,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",93,0.945385378861136,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",93,0.96344008704423,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",93,0.988779289952368,TRUE
+907,"Synthetic - Short scales","907_ShortA",93,0.979576471915435,TRUE
+907,"Synthetic - Short scales","907_ShortB",93,0.991141280962227,TRUE
+907,"Synthetic - Short scales","907_ShortC",93,0.994820219574381,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",93,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",93,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",93,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",94,0.990891046103267,TRUE
+901,"Synthetic - Faithful twin","901_Beta",94,0.983303399912678,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",94,0.995408932901593,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",94,0.975734184021571,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",94,0.941303011732194,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",94,0.978090572501341,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",94,0.981732133357809,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",94,0.990039170625452,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",94,0.985259628690956,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",94,0.821921692477701,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",94,0.87839484730882,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",94,0.965962649052836,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",94,0.950356473714736,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",94,0.971339911952336,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",94,0.991493006617748,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",94,0.958473390896426,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",94,0.981599546563654,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",94,0.985896906236348,TRUE
+907,"Synthetic - Short scales","907_ShortA",94,0.979990206917307,TRUE
+907,"Synthetic - Short scales","907_ShortB",94,0.989078483297822,TRUE
+907,"Synthetic - Short scales","907_ShortC",94,0.9905849351586,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",94,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",94,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",94,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",95,0.988483367959812,TRUE
+901,"Synthetic - Faithful twin","901_Beta",95,0.987877688915137,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",95,0.992300902657472,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",95,0.952430322317547,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",95,0.964273576679834,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",95,0.969273980608333,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",95,0.987817796085033,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",95,0.979878321874477,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",95,0.987466849520326,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",95,0.814320067161839,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",95,0.843664810455516,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",95,0.976278022161467,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",95,0.940689524316851,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",95,0.983826601692313,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",95,0.981292186846525,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",95,0.95089574951143,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",95,0.98404635039151,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",95,0.98098390332829,TRUE
+907,"Synthetic - Short scales","907_ShortA",95,0.951366072720573,TRUE
+907,"Synthetic - Short scales","907_ShortB",95,0.98512172230901,TRUE
+907,"Synthetic - Short scales","907_ShortC",95,0.982837624349776,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",95,0.757416644154416,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",95,0.779257642098106,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",95,0.964423858152236,TRUE
+901,"Synthetic - Faithful twin","901_Alpha",96,0.982198239560969,TRUE
+901,"Synthetic - Faithful twin","901_Beta",96,0.982909306068446,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",96,0.989064169340176,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",96,0.9717298486541,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",96,0.974883293246413,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",96,0.970508052182616,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",96,0.985928398647579,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",96,0.977732825796754,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",96,0.977755952425924,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",96,0.86190654097415,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",96,0.866184720975241,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",96,0.957717125581271,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",96,0.928360957704475,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",96,0.978420178589103,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",96,0.988659629816131,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",96,0.953920903905678,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",96,0.961259797434814,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",96,0.98586173671345,TRUE
+907,"Synthetic - Short scales","907_ShortA",96,NA,FALSE
+907,"Synthetic - Short scales","907_ShortB",96,NA,FALSE
+907,"Synthetic - Short scales","907_ShortC",96,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",96,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",96,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",96,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",97,0.990813424009251,TRUE
+901,"Synthetic - Faithful twin","901_Beta",97,0.988311233957249,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",97,0.990589058337202,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",97,0.968135978919763,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",97,0.964608198475858,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",97,0.973216165585869,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",97,0.98161231014651,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",97,0.973477800754468,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",97,0.981471696863084,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",97,0.803190213419718,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",97,0.869024182061994,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",97,0.982346797167692,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",97,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",97,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",97,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",97,0.948553057639941,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",97,0.96215280748777,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",97,0.98342657009395,TRUE
+907,"Synthetic - Short scales","907_ShortA",97,0.971688611358819,TRUE
+907,"Synthetic - Short scales","907_ShortB",97,0.982632935295781,TRUE
+907,"Synthetic - Short scales","907_ShortC",97,0.969897716794799,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",97,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",97,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",97,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",98,0.986101875982062,TRUE
+901,"Synthetic - Faithful twin","901_Beta",98,0.978587168023501,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",98,0.985787535065321,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",98,0.966342679060681,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",98,0.94801614350252,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",98,0.954259312950662,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",98,0.986439739081653,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",98,0.985929244187846,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",98,0.988363577760656,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",98,0.838651341094732,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",98,0.861531424630289,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",98,0.986448700112677,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",98,0.948359521035442,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",98,0.975611620463749,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",98,0.989211186718402,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",98,0.955879562875335,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",98,0.956809543262511,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",98,0.986504635361592,TRUE
+907,"Synthetic - Short scales","907_ShortA",98,0.986663070130807,TRUE
+907,"Synthetic - Short scales","907_ShortB",98,0.989683142051381,TRUE
+907,"Synthetic - Short scales","907_ShortC",98,0.991880076901633,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",98,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",98,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",98,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",99,0.992985268416083,TRUE
+901,"Synthetic - Faithful twin","901_Beta",99,0.977170319550797,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",99,0.980691415612365,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",99,0.950208987562091,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",99,0.939265099675699,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",99,0.976016569643128,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",99,0.986095765841106,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",99,0.98115332848784,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",99,0.986437506771745,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",99,0.824939141217639,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",99,0.858549147360877,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",99,0.973363401450443,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",99,0.942137623336197,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",99,0.980912791418502,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",99,0.993327480237781,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",99,0.963424481068135,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",99,0.986332536152354,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",99,0.984721905072095,TRUE
+907,"Synthetic - Short scales","907_ShortA",99,0.967038251180818,TRUE
+907,"Synthetic - Short scales","907_ShortB",99,0.96466291764882,TRUE
+907,"Synthetic - Short scales","907_ShortC",99,0.998819899079253,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",99,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",99,NA,FALSE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",99,NA,FALSE
+901,"Synthetic - Faithful twin","901_Alpha",100,0.986570775868308,TRUE
+901,"Synthetic - Faithful twin","901_Beta",100,0.980652744402829,TRUE
+901,"Synthetic - Faithful twin","901_Gamma",100,0.988541464348365,TRUE
+902,"Synthetic - Miscalibrated twin","902_Shifted",100,0.978705760196489,TRUE
+902,"Synthetic - Miscalibrated twin","902_Compressed",100,0.943899574937758,TRUE
+902,"Synthetic - Miscalibrated twin","902_Lowered",100,0.976916245505175,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic1",100,0.987018375659201,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic2",100,0.991301673512414,TRUE
+903,"Synthetic - Weakly individuating twin","903_Generic3",100,0.982072561430509,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven1",100,0.835385978310267,TRUE
+904,"Synthetic - Unequal twin loadings","904_Uneven2",100,0.864883503389686,TRUE
+904,"Synthetic - Unequal twin loadings","904_Even",100,0.977781607985626,TRUE
+905,"Synthetic - Repeated twin answers (congruent)","905_Duplicated",100,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain1",100,NA,FALSE
+905,"Synthetic - Repeated twin answers (congruent)","905_Plain2",100,NA,FALSE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed1",100,0.966897926163681,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed2",100,0.978426299205714,TRUE
+906,"Synthetic - Mixed instrument with a total score","906_Mixed3",100,0.990649170933936,TRUE
+907,"Synthetic - Short scales","907_ShortA",100,0.928866194297987,TRUE
+907,"Synthetic - Short scales","907_ShortB",100,0.970293298120344,TRUE
+907,"Synthetic - Short scales","907_ShortC",100,0.977934081514357,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupD",100,0.793943860832405,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_DupF",100,0.703308398680149,TRUE
+909,"Synthetic - Repeated twin answers (discrepant)","909_Plain",100,0.983228669508268,TRUE

@@ -1,0 +1,144 @@
+item_id,n_categories_human,n_categories_twin,zero_variance_human,zero_variance_twin,twin_top2_categories_share,twin_near_degenerate_flag,instrument_id,instrument_name,scale_id,scale_name,reverse_keyed,item_min,item_max,n_categories,data_version
+SYN01_1,5,5,False,False,0.646,False,901,Synthetic - Faithful twin,901_Alpha,Alpha,False,1.0,5.0,5,harmonized
+SYN01_2,5,5,False,False,0.588,False,901,Synthetic - Faithful twin,901_Alpha,Alpha,False,1.0,5.0,5,harmonized
+SYN01_3,5,5,False,False,0.5920000000000001,False,901,Synthetic - Faithful twin,901_Alpha,Alpha,False,1.0,5.0,5,harmonized
+SYN01_4,5,5,False,False,0.63,False,901,Synthetic - Faithful twin,901_Alpha,Alpha,False,1.0,5.0,5,harmonized
+SYN01_5,5,5,False,False,0.642,False,901,Synthetic - Faithful twin,901_Alpha,Alpha,False,1.0,5.0,5,harmonized
+SYN01_6,5,5,False,False,0.632,False,901,Synthetic - Faithful twin,901_Alpha,Alpha,False,1.0,5.0,5,harmonized
+SYN01_7,5,5,False,False,0.594,False,901,Synthetic - Faithful twin,901_Beta,Beta,False,1.0,5.0,5,harmonized
+SYN01_8,5,5,False,False,0.63,False,901,Synthetic - Faithful twin,901_Beta,Beta,False,1.0,5.0,5,harmonized
+SYN01_9,5,5,False,False,0.5760000000000001,False,901,Synthetic - Faithful twin,901_Beta,Beta,False,1.0,5.0,5,harmonized
+SYN01_10,5,5,False,False,0.6200000000000001,False,901,Synthetic - Faithful twin,901_Beta,Beta,False,1.0,5.0,5,harmonized
+SYN01_11,5,5,False,False,0.5680000000000001,False,901,Synthetic - Faithful twin,901_Beta,Beta,False,1.0,5.0,5,harmonized
+SYN01_12,5,5,False,False,0.602,False,901,Synthetic - Faithful twin,901_Gamma,Gamma,False,1.0,5.0,5,harmonized
+SYN01_13,5,5,False,False,0.616,False,901,Synthetic - Faithful twin,901_Gamma,Gamma,False,1.0,5.0,5,harmonized
+SYN01_14,5,5,False,False,0.592,False,901,Synthetic - Faithful twin,901_Gamma,Gamma,False,1.0,5.0,5,harmonized
+SYN01_15,5,5,False,False,0.616,False,901,Synthetic - Faithful twin,901_Gamma,Gamma,False,1.0,5.0,5,harmonized
+SYN01_16,5,5,False,False,0.5720000000000001,False,901,Synthetic - Faithful twin,901_Gamma,Gamma,False,1.0,5.0,5,harmonized
+SYN01_17,5,5,False,False,0.596,False,901,Synthetic - Faithful twin,901_Gamma,Gamma,False,1.0,5.0,5,harmonized
+SYN02_1,7,7,False,False,0.538,False,902,Synthetic - Miscalibrated twin,902_Shifted,Shifted,False,1.0,7.0,7,harmonized
+SYN02_2,6,6,False,False,0.558,False,902,Synthetic - Miscalibrated twin,902_Shifted,Shifted,False,1.0,7.0,7,harmonized
+SYN02_3,7,7,False,False,0.592,False,902,Synthetic - Miscalibrated twin,902_Shifted,Shifted,False,1.0,7.0,7,harmonized
+SYN02_4,7,7,False,False,0.562,False,902,Synthetic - Miscalibrated twin,902_Shifted,Shifted,False,1.0,7.0,7,harmonized
+SYN02_5,6,6,False,False,0.546,False,902,Synthetic - Miscalibrated twin,902_Shifted,Shifted,False,1.0,7.0,7,harmonized
+SYN02_6,6,6,False,False,0.5780000000000001,False,902,Synthetic - Miscalibrated twin,902_Shifted,Shifted,False,1.0,7.0,7,harmonized
+SYN02_7,6,6,False,False,0.5720000000000001,False,902,Synthetic - Miscalibrated twin,902_Compressed,Compressed,False,1.0,7.0,7,harmonized
+SYN02_8,6,6,False,False,0.606,False,902,Synthetic - Miscalibrated twin,902_Compressed,Compressed,False,1.0,7.0,7,harmonized
+SYN02_9,7,7,False,False,0.602,False,902,Synthetic - Miscalibrated twin,902_Compressed,Compressed,False,1.0,7.0,7,harmonized
+SYN02_10,7,7,False,False,0.5640000000000001,False,902,Synthetic - Miscalibrated twin,902_Compressed,Compressed,False,1.0,7.0,7,harmonized
+SYN02_11,6,6,False,False,0.614,False,902,Synthetic - Miscalibrated twin,902_Compressed,Compressed,False,1.0,7.0,7,harmonized
+SYN02_12,6,6,False,False,0.54,False,902,Synthetic - Miscalibrated twin,902_Lowered,Lowered,False,1.0,7.0,7,harmonized
+SYN02_13,6,6,False,False,0.45599999999999996,False,902,Synthetic - Miscalibrated twin,902_Lowered,Lowered,False,1.0,7.0,7,harmonized
+SYN02_14,6,6,False,False,0.554,False,902,Synthetic - Miscalibrated twin,902_Lowered,Lowered,False,1.0,7.0,7,harmonized
+SYN02_15,6,6,False,False,0.526,False,902,Synthetic - Miscalibrated twin,902_Lowered,Lowered,False,1.0,7.0,7,harmonized
+SYN02_16,6,6,False,False,0.504,False,902,Synthetic - Miscalibrated twin,902_Lowered,Lowered,False,1.0,7.0,7,harmonized
+SYN02_17,6,6,False,False,0.512,False,902,Synthetic - Miscalibrated twin,902_Lowered,Lowered,False,1.0,7.0,7,harmonized
+SYN03_1,5,5,False,False,0.598,False,903,Synthetic - Weakly individuating twin,903_Generic1,Generic1,False,1.0,5.0,5,harmonized
+SYN03_2,5,5,False,False,0.582,False,903,Synthetic - Weakly individuating twin,903_Generic1,Generic1,False,1.0,5.0,5,harmonized
+SYN03_3,5,5,False,False,0.618,False,903,Synthetic - Weakly individuating twin,903_Generic1,Generic1,False,1.0,5.0,5,harmonized
+SYN03_4,5,5,False,False,0.602,False,903,Synthetic - Weakly individuating twin,903_Generic1,Generic1,False,1.0,5.0,5,harmonized
+SYN03_5,5,5,False,False,0.626,False,903,Synthetic - Weakly individuating twin,903_Generic1,Generic1,False,1.0,5.0,5,harmonized
+SYN03_6,5,5,False,False,0.634,False,903,Synthetic - Weakly individuating twin,903_Generic1,Generic1,False,1.0,5.0,5,harmonized
+SYN03_7,5,5,False,False,0.6140000000000001,False,903,Synthetic - Weakly individuating twin,903_Generic2,Generic2,False,1.0,5.0,5,harmonized
+SYN03_8,5,5,False,False,0.596,False,903,Synthetic - Weakly individuating twin,903_Generic2,Generic2,False,1.0,5.0,5,harmonized
+SYN03_9,5,5,False,False,0.5780000000000001,False,903,Synthetic - Weakly individuating twin,903_Generic2,Generic2,False,1.0,5.0,5,harmonized
+SYN03_10,5,5,False,False,0.5860000000000001,False,903,Synthetic - Weakly individuating twin,903_Generic2,Generic2,False,1.0,5.0,5,harmonized
+SYN03_11,5,5,False,False,0.618,False,903,Synthetic - Weakly individuating twin,903_Generic2,Generic2,False,1.0,5.0,5,harmonized
+SYN03_12,5,5,False,False,0.5640000000000001,False,903,Synthetic - Weakly individuating twin,903_Generic3,Generic3,False,1.0,5.0,5,harmonized
+SYN03_13,5,5,False,False,0.63,False,903,Synthetic - Weakly individuating twin,903_Generic3,Generic3,False,1.0,5.0,5,harmonized
+SYN03_14,5,5,False,False,0.5820000000000001,False,903,Synthetic - Weakly individuating twin,903_Generic3,Generic3,False,1.0,5.0,5,harmonized
+SYN03_15,5,5,False,False,0.608,False,903,Synthetic - Weakly individuating twin,903_Generic3,Generic3,False,1.0,5.0,5,harmonized
+SYN03_16,5,5,False,False,0.626,False,903,Synthetic - Weakly individuating twin,903_Generic3,Generic3,False,1.0,5.0,5,harmonized
+SYN03_17,5,5,False,False,0.62,False,903,Synthetic - Weakly individuating twin,903_Generic3,Generic3,False,1.0,5.0,5,harmonized
+SYN04_1,5,5,False,False,0.5900000000000001,False,904,Synthetic - Unequal twin loadings,904_Uneven1,Uneven1,False,1.0,5.0,5,harmonized
+SYN04_2,5,5,False,False,0.642,False,904,Synthetic - Unequal twin loadings,904_Uneven1,Uneven1,False,1.0,5.0,5,harmonized
+SYN04_3,5,5,False,False,0.5940000000000001,False,904,Synthetic - Unequal twin loadings,904_Uneven1,Uneven1,False,1.0,5.0,5,harmonized
+SYN04_4,5,5,False,False,0.642,False,904,Synthetic - Unequal twin loadings,904_Uneven1,Uneven1,False,1.0,5.0,5,harmonized
+SYN04_5,5,5,False,False,0.604,False,904,Synthetic - Unequal twin loadings,904_Uneven1,Uneven1,False,1.0,5.0,5,harmonized
+SYN04_6,5,5,False,False,0.608,False,904,Synthetic - Unequal twin loadings,904_Uneven1,Uneven1,False,1.0,5.0,5,harmonized
+SYN04_7,5,5,False,False,0.614,False,904,Synthetic - Unequal twin loadings,904_Uneven2,Uneven2,False,1.0,5.0,5,harmonized
+SYN04_8,5,5,False,False,0.648,False,904,Synthetic - Unequal twin loadings,904_Uneven2,Uneven2,False,1.0,5.0,5,harmonized
+SYN04_9,5,5,False,False,0.618,False,904,Synthetic - Unequal twin loadings,904_Uneven2,Uneven2,False,1.0,5.0,5,harmonized
+SYN04_10,5,5,False,False,0.576,False,904,Synthetic - Unequal twin loadings,904_Uneven2,Uneven2,False,1.0,5.0,5,harmonized
+SYN04_11,5,5,False,False,0.6100000000000001,False,904,Synthetic - Unequal twin loadings,904_Uneven2,Uneven2,False,1.0,5.0,5,harmonized
+SYN04_12,5,5,False,False,0.614,False,904,Synthetic - Unequal twin loadings,904_Uneven2,Uneven2,False,1.0,5.0,5,harmonized
+SYN04_13,5,5,False,False,0.62,False,904,Synthetic - Unequal twin loadings,904_Even,Even,False,1.0,5.0,5,harmonized
+SYN04_14,5,5,False,False,0.5980000000000001,False,904,Synthetic - Unequal twin loadings,904_Even,Even,False,1.0,5.0,5,harmonized
+SYN04_15,5,5,False,False,0.562,False,904,Synthetic - Unequal twin loadings,904_Even,Even,False,1.0,5.0,5,harmonized
+SYN04_16,5,5,False,False,0.6040000000000001,False,904,Synthetic - Unequal twin loadings,904_Even,Even,False,1.0,5.0,5,harmonized
+SYN04_17,5,5,False,False,0.594,False,904,Synthetic - Unequal twin loadings,904_Even,Even,False,1.0,5.0,5,harmonized
+SYN05_1,5,5,False,False,0.632,False,905,Synthetic - Repeated twin answers (congruent),905_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN05_2,5,5,False,False,0.6000000000000001,False,905,Synthetic - Repeated twin answers (congruent),905_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN05_3,5,5,False,False,0.63,False,905,Synthetic - Repeated twin answers (congruent),905_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN05_4,5,5,False,False,0.586,False,905,Synthetic - Repeated twin answers (congruent),905_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN05_5,5,5,False,False,0.5980000000000001,False,905,Synthetic - Repeated twin answers (congruent),905_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN05_6,5,5,False,False,0.608,False,905,Synthetic - Repeated twin answers (congruent),905_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN05_7,5,5,False,False,0.612,False,905,Synthetic - Repeated twin answers (congruent),905_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN05_8,5,5,False,False,0.622,False,905,Synthetic - Repeated twin answers (congruent),905_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN05_9,5,5,False,False,0.5800000000000001,False,905,Synthetic - Repeated twin answers (congruent),905_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN05_10,5,5,False,False,0.606,False,905,Synthetic - Repeated twin answers (congruent),905_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN05_11,5,5,False,False,0.652,False,905,Synthetic - Repeated twin answers (congruent),905_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN05_12,5,5,False,False,0.614,False,905,Synthetic - Repeated twin answers (congruent),905_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN05_13,5,5,False,False,0.636,False,905,Synthetic - Repeated twin answers (congruent),905_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN05_14,5,5,False,False,0.6499999999999999,False,905,Synthetic - Repeated twin answers (congruent),905_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN05_15,5,5,False,False,0.5720000000000001,False,905,Synthetic - Repeated twin answers (congruent),905_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN06_1,6,6,False,False,0.55,False,906,Synthetic - Mixed instrument with a total score,906_Mixed1,Mixed1,False,1.0,6.0,6,harmonized
+SYN06_2,6,6,False,False,0.506,False,906,Synthetic - Mixed instrument with a total score,906_Mixed1,Mixed1,True,1.0,6.0,6,harmonized
+SYN06_3,6,6,False,False,0.56,False,906,Synthetic - Mixed instrument with a total score,906_Mixed1,Mixed1,False,1.0,6.0,6,harmonized
+SYN06_4,6,6,False,False,0.544,False,906,Synthetic - Mixed instrument with a total score,906_Mixed1,Mixed1,True,1.0,6.0,6,harmonized
+SYN06_5,6,6,False,False,0.544,False,906,Synthetic - Mixed instrument with a total score,906_Mixed1,Mixed1,False,1.0,6.0,6,harmonized
+SYN06_6,6,6,False,False,0.524,False,906,Synthetic - Mixed instrument with a total score,906_Mixed1,Mixed1,False,1.0,6.0,6,harmonized
+SYN06_7,5,5,False,False,0.734,False,906,Synthetic - Mixed instrument with a total score,906_Mixed2,Mixed2,False,1.0,6.0,6,harmonized
+SYN06_8,5,5,False,False,0.716,False,906,Synthetic - Mixed instrument with a total score,906_Mixed2,Mixed2,False,1.0,6.0,6,harmonized
+SYN06_9,5,5,False,False,0.608,False,906,Synthetic - Mixed instrument with a total score,906_Mixed2,Mixed2,False,1.0,6.0,6,harmonized
+SYN06_10,5,5,False,False,0.632,False,906,Synthetic - Mixed instrument with a total score,906_Mixed2,Mixed2,False,1.0,6.0,6,harmonized
+SYN06_11,5,5,False,False,0.6719999999999999,False,906,Synthetic - Mixed instrument with a total score,906_Mixed2,Mixed2,False,1.0,6.0,6,harmonized
+SYN06_12,6,6,False,False,0.54,False,906,Synthetic - Mixed instrument with a total score,906_Mixed3,Mixed3,False,1.0,6.0,6,harmonized
+SYN06_13,6,6,False,False,0.542,False,906,Synthetic - Mixed instrument with a total score,906_Mixed3,Mixed3,False,1.0,6.0,6,harmonized
+SYN06_14,6,6,False,False,0.562,False,906,Synthetic - Mixed instrument with a total score,906_Mixed3,Mixed3,False,1.0,6.0,6,harmonized
+SYN06_15,6,6,False,False,0.524,False,906,Synthetic - Mixed instrument with a total score,906_Mixed3,Mixed3,False,1.0,6.0,6,harmonized
+SYN06_16,6,6,False,False,0.536,False,906,Synthetic - Mixed instrument with a total score,906_Mixed3,Mixed3,False,1.0,6.0,6,harmonized
+SYN07_1,5,5,False,False,0.6040000000000001,False,907,Synthetic - Short scales,907_ShortA,ShortA,False,1.0,5.0,5,harmonized
+SYN07_2,5,5,False,False,0.5960000000000001,False,907,Synthetic - Short scales,907_ShortA,ShortA,False,1.0,5.0,5,harmonized
+SYN07_3,5,5,False,False,0.5960000000000001,False,907,Synthetic - Short scales,907_ShortA,ShortA,False,1.0,5.0,5,harmonized
+SYN07_4,5,5,False,False,0.614,False,907,Synthetic - Short scales,907_ShortB,ShortB,False,1.0,5.0,5,harmonized
+SYN07_5,5,5,False,False,0.5960000000000001,False,907,Synthetic - Short scales,907_ShortB,ShortB,False,1.0,5.0,5,harmonized
+SYN07_6,5,5,False,False,0.626,False,907,Synthetic - Short scales,907_ShortB,ShortB,False,1.0,5.0,5,harmonized
+SYN07_7,5,5,False,False,0.6100000000000001,False,907,Synthetic - Short scales,907_ShortC,ShortC,False,1.0,5.0,5,harmonized
+SYN07_8,5,5,False,False,0.636,False,907,Synthetic - Short scales,907_ShortC,ShortC,False,1.0,5.0,5,harmonized
+SYN07_9,5,5,False,False,0.6719999999999999,False,907,Synthetic - Short scales,907_ShortC,ShortC,False,1.0,5.0,5,harmonized
+SYN07_10,5,5,False,False,0.5920000000000001,False,907,Synthetic - Short scales,907_ShortC,ShortC,False,1.0,5.0,5,harmonized
+SYN08_1,5,5,False,False,0.6639999999999999,False,908,Synthetic - Single-scale instrument,908_Solo,Solo,False,1.0,5.0,5,harmonized
+SYN08_2,5,5,False,False,0.6639999999999999,False,908,Synthetic - Single-scale instrument,908_Solo,Solo,False,1.0,5.0,5,harmonized
+SYN08_3,5,5,False,False,0.6659999999999999,False,908,Synthetic - Single-scale instrument,908_Solo,Solo,False,1.0,5.0,5,harmonized
+SYN08_4,5,5,False,False,0.6619999999999999,False,908,Synthetic - Single-scale instrument,908_Solo,Solo,False,1.0,5.0,5,harmonized
+SYN09_1,5,5,False,False,0.596,False,909,Synthetic - Repeated twin answers (discrepant),909_DupD,DupD,False,1.0,5.0,5,harmonized
+SYN09_2,5,5,False,False,0.604,False,909,Synthetic - Repeated twin answers (discrepant),909_DupD,DupD,False,1.0,5.0,5,harmonized
+SYN09_3,5,5,False,False,0.596,False,909,Synthetic - Repeated twin answers (discrepant),909_DupD,DupD,False,1.0,5.0,5,harmonized
+SYN09_4,5,5,False,False,0.6160000000000001,False,909,Synthetic - Repeated twin answers (discrepant),909_DupD,DupD,False,1.0,5.0,5,harmonized
+SYN09_5,5,5,False,False,0.652,False,909,Synthetic - Repeated twin answers (discrepant),909_DupD,DupD,False,1.0,5.0,5,harmonized
+SYN09_6,5,5,False,False,0.6479999999999999,False,909,Synthetic - Repeated twin answers (discrepant),909_DupF,DupF,False,1.0,5.0,5,harmonized
+SYN09_7,5,5,False,False,0.658,False,909,Synthetic - Repeated twin answers (discrepant),909_DupF,DupF,False,1.0,5.0,5,harmonized
+SYN09_8,5,5,False,False,0.5960000000000001,False,909,Synthetic - Repeated twin answers (discrepant),909_DupF,DupF,False,1.0,5.0,5,harmonized
+SYN09_9,5,5,False,False,0.602,False,909,Synthetic - Repeated twin answers (discrepant),909_DupF,DupF,False,1.0,5.0,5,harmonized
+SYN09_10,5,5,False,False,0.612,False,909,Synthetic - Repeated twin answers (discrepant),909_DupF,DupF,False,1.0,5.0,5,harmonized
+SYN09_11,5,5,False,False,0.616,False,909,Synthetic - Repeated twin answers (discrepant),909_Plain,Plain,False,1.0,5.0,5,harmonized
+SYN09_12,5,5,False,False,0.622,False,909,Synthetic - Repeated twin answers (discrepant),909_Plain,Plain,False,1.0,5.0,5,harmonized
+SYN09_13,5,5,False,False,0.602,False,909,Synthetic - Repeated twin answers (discrepant),909_Plain,Plain,False,1.0,5.0,5,harmonized
+SYN09_14,5,5,False,False,0.606,False,909,Synthetic - Repeated twin answers (discrepant),909_Plain,Plain,False,1.0,5.0,5,harmonized
+SYN09_15,5,5,False,False,0.616,False,909,Synthetic - Repeated twin answers (discrepant),909_Plain,Plain,False,1.0,5.0,5,harmonized
+SYN10_1,5,5,False,False,0.5820000000000001,False,910,Synthetic - Repeated twin answers (inadmissible),910_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN10_2,5,5,False,False,0.5780000000000001,False,910,Synthetic - Repeated twin answers (inadmissible),910_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN10_3,5,5,False,False,0.5840000000000001,False,910,Synthetic - Repeated twin answers (inadmissible),910_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN10_4,5,5,False,False,0.612,False,910,Synthetic - Repeated twin answers (inadmissible),910_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN10_5,5,5,False,False,0.632,False,910,Synthetic - Repeated twin answers (inadmissible),910_Duplicated,Duplicated,False,1.0,5.0,5,harmonized
+SYN10_6,5,5,False,False,0.586,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN10_7,5,5,False,False,0.62,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN10_8,5,5,False,False,0.618,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN10_9,5,5,False,False,0.596,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN10_10,5,5,False,False,0.5820000000000001,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain1,Plain1,False,1.0,5.0,5,harmonized
+SYN10_11,5,5,False,False,0.6000000000000001,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN10_12,5,5,False,False,0.624,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN10_13,5,5,False,False,0.614,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN10_14,5,5,False,False,0.6100000000000001,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain2,Plain2,False,1.0,5.0,5,harmonized
+SYN10_15,5,5,False,False,0.622,False,910,Synthetic - Repeated twin answers (inadmissible),910_Plain2,Plain2,False,1.0,5.0,5,harmonized

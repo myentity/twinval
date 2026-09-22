@@ -1,0 +1,39 @@
+[1/5] 905_Duplicated (k=5, n=500)
+[2/5] 908_Solo (k=4, n=500)
+[3/5] 909_DupD (k=5, n=500)
+[4/5] 909_DupF (k=5, n=500)
+[5/5] 910_Duplicated (k=5, n=500)
+Было 50 или более предупреждений (введите warnings() чтобы просмотреть первые 50)
+
+Done. Main outputs:
+  examples/synthetic/results/03_structural/r_work/order_check/perm1/results/invariance_results.csv
+  examples/synthetic/results/03_structural/r_work/order_check/perm1/results/invariance_reporting_table.csv
+  examples/synthetic/results/03_structural/r_work/order_check/perm1/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/synthetic/results/03_structural/r_work/order_check/perm1/results
+[1/5] 905_Duplicated (k=5, n=500)
+[2/5] 908_Solo (k=4, n=500)
+[3/5] 909_DupD (k=5, n=500)
+[4/5] 909_DupF (k=5, n=500)
+[5/5] 910_Duplicated (k=5, n=500)
+Было 50 или более предупреждений (введите warnings() чтобы просмотреть первые 50)
+
+Done. Main outputs:
+  examples/synthetic/results/03_structural/r_work/order_check/perm2/results/invariance_results.csv
+  examples/synthetic/results/03_structural/r_work/order_check/perm2/results/invariance_reporting_table.csv
+  examples/synthetic/results/03_structural/r_work/order_check/perm2/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/synthetic/results/03_structural/r_work/order_check/perm2/results
+[1/5] 905_Duplicated (k=5, n=500)
+[2/5] 908_Solo (k=4, n=500)
+[3/5] 909_DupD (k=5, n=500)
+[4/5] 909_DupF (k=5, n=500)
+[5/5] 910_Duplicated (k=5, n=500)
+Было 50 или более предупреждений (введите warnings() чтобы просмотреть первые 50)
+
+Done. Main outputs:
+  examples/synthetic/results/03_structural/r_work/order_check/perm3/results/invariance_results.csv
+  examples/synthetic/results/03_structural/r_work/order_check/perm3/results/invariance_reporting_table.csv
+  examples/synthetic/results/03_structural/r_work/order_check/perm3/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/synthetic/results/03_structural/r_work/order_check/perm3/results

@@ -1,0 +1,545 @@
+schema_version: 1
+instruments:
+  901:
+    key: SYN01
+    name_en: Synthetic - Faithful twin
+    name_ru: Synthetic - Faithful twin
+    item_prefix: SYN01
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 901_Alpha
+      name_en: Alpha
+      name_ru: Alpha
+      legacy_id: 901_Alpha
+      level: scale
+      scoring: mean
+      items:
+      - SYN01_1
+      - SYN01_2
+      - SYN01_3
+      - SYN01_4
+      - SYN01_5
+      - SYN01_6
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 901_Beta
+      name_en: Beta
+      name_ru: Beta
+      legacy_id: 901_Beta
+      level: scale
+      scoring: mean
+      items:
+      - SYN01_7
+      - SYN01_8
+      - SYN01_9
+      - SYN01_10
+      - SYN01_11
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 901_Gamma
+      name_en: Gamma
+      name_ru: Gamma
+      legacy_id: 901_Gamma
+      level: scale
+      scoring: mean
+      items:
+      - SYN01_12
+      - SYN01_13
+      - SYN01_14
+      - SYN01_15
+      - SYN01_16
+      - SYN01_17
+      reverse_items: []
+      parent: null
+      redundant: false
+  902:
+    key: SYN02
+    name_en: Synthetic - Miscalibrated twin
+    name_ru: Synthetic - Miscalibrated twin
+    item_prefix: SYN02
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 7
+    scales:
+    - id: 902_Shifted
+      name_en: Shifted
+      name_ru: Shifted
+      legacy_id: 902_Shifted
+      level: scale
+      scoring: mean
+      items:
+      - SYN02_1
+      - SYN02_2
+      - SYN02_3
+      - SYN02_4
+      - SYN02_5
+      - SYN02_6
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 902_Compressed
+      name_en: Compressed
+      name_ru: Compressed
+      legacy_id: 902_Compressed
+      level: scale
+      scoring: mean
+      items:
+      - SYN02_7
+      - SYN02_8
+      - SYN02_9
+      - SYN02_10
+      - SYN02_11
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 902_Lowered
+      name_en: Lowered
+      name_ru: Lowered
+      legacy_id: 902_Lowered
+      level: scale
+      scoring: mean
+      items:
+      - SYN02_12
+      - SYN02_13
+      - SYN02_14
+      - SYN02_15
+      - SYN02_16
+      - SYN02_17
+      reverse_items: []
+      parent: null
+      redundant: false
+  903:
+    key: SYN03
+    name_en: Synthetic - Weakly individuating twin
+    name_ru: Synthetic - Weakly individuating twin
+    item_prefix: SYN03
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 903_Generic1
+      name_en: Generic1
+      name_ru: Generic1
+      legacy_id: 903_Generic1
+      level: scale
+      scoring: mean
+      items:
+      - SYN03_1
+      - SYN03_2
+      - SYN03_3
+      - SYN03_4
+      - SYN03_5
+      - SYN03_6
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 903_Generic2
+      name_en: Generic2
+      name_ru: Generic2
+      legacy_id: 903_Generic2
+      level: scale
+      scoring: mean
+      items:
+      - SYN03_7
+      - SYN03_8
+      - SYN03_9
+      - SYN03_10
+      - SYN03_11
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 903_Generic3
+      name_en: Generic3
+      name_ru: Generic3
+      legacy_id: 903_Generic3
+      level: scale
+      scoring: mean
+      items:
+      - SYN03_12
+      - SYN03_13
+      - SYN03_14
+      - SYN03_15
+      - SYN03_16
+      - SYN03_17
+      reverse_items: []
+      parent: null
+      redundant: false
+  904:
+    key: SYN04
+    name_en: Synthetic - Unequal twin loadings
+    name_ru: Synthetic - Unequal twin loadings
+    item_prefix: SYN04
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 904_Uneven1
+      name_en: Uneven1
+      name_ru: Uneven1
+      legacy_id: 904_Uneven1
+      level: scale
+      scoring: mean
+      items:
+      - SYN04_1
+      - SYN04_2
+      - SYN04_3
+      - SYN04_4
+      - SYN04_5
+      - SYN04_6
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 904_Uneven2
+      name_en: Uneven2
+      name_ru: Uneven2
+      legacy_id: 904_Uneven2
+      level: scale
+      scoring: mean
+      items:
+      - SYN04_7
+      - SYN04_8
+      - SYN04_9
+      - SYN04_10
+      - SYN04_11
+      - SYN04_12
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 904_Even
+      name_en: Even
+      name_ru: Even
+      legacy_id: 904_Even
+      level: scale
+      scoring: mean
+      items:
+      - SYN04_13
+      - SYN04_14
+      - SYN04_15
+      - SYN04_16
+      - SYN04_17
+      reverse_items: []
+      parent: null
+      redundant: false
+  905:
+    key: SYN05
+    name_en: Synthetic - Repeated twin answers (congruent)
+    name_ru: Synthetic - Repeated twin answers (congruent)
+    item_prefix: SYN05
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 905_Duplicated
+      name_en: Duplicated
+      name_ru: Duplicated
+      legacy_id: 905_Duplicated
+      level: scale
+      scoring: mean
+      items:
+      - SYN05_1
+      - SYN05_2
+      - SYN05_3
+      - SYN05_4
+      - SYN05_5
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 905_Plain1
+      name_en: Plain1
+      name_ru: Plain1
+      legacy_id: 905_Plain1
+      level: scale
+      scoring: mean
+      items:
+      - SYN05_6
+      - SYN05_7
+      - SYN05_8
+      - SYN05_9
+      - SYN05_10
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 905_Plain2
+      name_en: Plain2
+      name_ru: Plain2
+      legacy_id: 905_Plain2
+      level: scale
+      scoring: mean
+      items:
+      - SYN05_11
+      - SYN05_12
+      - SYN05_13
+      - SYN05_14
+      - SYN05_15
+      reverse_items: []
+      parent: null
+      redundant: false
+  906:
+    key: SYN06
+    name_en: Synthetic - Mixed instrument with a total score
+    name_ru: Synthetic - Mixed instrument with a total score
+    item_prefix: SYN06
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 6
+    scales:
+    - id: 906_Mixed1
+      name_en: Mixed1
+      name_ru: Mixed1
+      legacy_id: 906_Mixed1
+      level: scale
+      scoring: mean
+      items:
+      - SYN06_1
+      - SYN06_2
+      - SYN06_3
+      - SYN06_4
+      - SYN06_5
+      - SYN06_6
+      reverse_items:
+      - SYN06_2
+      - SYN06_4
+      parent: null
+      redundant: false
+    - id: 906_Mixed2
+      name_en: Mixed2
+      name_ru: Mixed2
+      legacy_id: 906_Mixed2
+      level: scale
+      scoring: mean
+      items:
+      - SYN06_7
+      - SYN06_8
+      - SYN06_9
+      - SYN06_10
+      - SYN06_11
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 906_Mixed3
+      name_en: Mixed3
+      name_ru: Mixed3
+      legacy_id: 906_Mixed3
+      level: scale
+      scoring: mean
+      items:
+      - SYN06_12
+      - SYN06_13
+      - SYN06_14
+      - SYN06_15
+      - SYN06_16
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 906_Total
+      name_en: Total
+      name_ru: Total
+      legacy_id: 906_Total
+      level: total
+      scoring: sum
+      items:
+      - SYN06_1
+      - SYN06_2
+      - SYN06_3
+      - SYN06_4
+      - SYN06_5
+      - SYN06_6
+      - SYN06_7
+      - SYN06_8
+      - SYN06_9
+      - SYN06_10
+      - SYN06_11
+      - SYN06_12
+      - SYN06_13
+      - SYN06_14
+      - SYN06_15
+      - SYN06_16
+      reverse_items:
+      - SYN06_2
+      - SYN06_4
+      parent: null
+      redundant: true
+  907:
+    key: SYN07
+    name_en: Synthetic - Short scales
+    name_ru: Synthetic - Short scales
+    item_prefix: SYN07
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 907_ShortA
+      name_en: ShortA
+      name_ru: ShortA
+      legacy_id: 907_ShortA
+      level: scale
+      scoring: mean
+      items:
+      - SYN07_1
+      - SYN07_2
+      - SYN07_3
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 907_ShortB
+      name_en: ShortB
+      name_ru: ShortB
+      legacy_id: 907_ShortB
+      level: scale
+      scoring: mean
+      items:
+      - SYN07_4
+      - SYN07_5
+      - SYN07_6
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 907_ShortC
+      name_en: ShortC
+      name_ru: ShortC
+      legacy_id: 907_ShortC
+      level: scale
+      scoring: mean
+      items:
+      - SYN07_7
+      - SYN07_8
+      - SYN07_9
+      - SYN07_10
+      reverse_items: []
+      parent: null
+      redundant: false
+  908:
+    key: SYN08
+    name_en: Synthetic - Single-scale instrument
+    name_ru: Synthetic - Single-scale instrument
+    item_prefix: SYN08
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 908_Solo
+      name_en: Solo
+      name_ru: Solo
+      legacy_id: 908_Solo
+      level: scale
+      scoring: mean
+      items:
+      - SYN08_1
+      - SYN08_2
+      - SYN08_3
+      - SYN08_4
+      reverse_items: []
+      parent: null
+      redundant: false
+  909:
+    key: SYN09
+    name_en: Synthetic - Repeated twin answers (discrepant)
+    name_ru: Synthetic - Repeated twin answers (discrepant)
+    item_prefix: SYN09
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 909_DupD
+      name_en: DupD
+      name_ru: DupD
+      legacy_id: 909_DupD
+      level: scale
+      scoring: mean
+      items:
+      - SYN09_1
+      - SYN09_2
+      - SYN09_3
+      - SYN09_4
+      - SYN09_5
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 909_DupF
+      name_en: DupF
+      name_ru: DupF
+      legacy_id: 909_DupF
+      level: scale
+      scoring: mean
+      items:
+      - SYN09_6
+      - SYN09_7
+      - SYN09_8
+      - SYN09_9
+      - SYN09_10
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 909_Plain
+      name_en: Plain
+      name_ru: Plain
+      legacy_id: 909_Plain
+      level: scale
+      scoring: mean
+      items:
+      - SYN09_11
+      - SYN09_12
+      - SYN09_13
+      - SYN09_14
+      - SYN09_15
+      reverse_items: []
+      parent: null
+      redundant: false
+  910:
+    key: SYN10
+    name_en: Synthetic - Repeated twin answers (inadmissible)
+    name_ru: Synthetic - Repeated twin answers (inadmissible)
+    item_prefix: SYN10
+    reference: synthetic (twinval simulate)
+    response_min: 1
+    response_max: 5
+    scales:
+    - id: 910_Duplicated
+      name_en: Duplicated
+      name_ru: Duplicated
+      legacy_id: 910_Duplicated
+      level: scale
+      scoring: mean
+      items:
+      - SYN10_1
+      - SYN10_2
+      - SYN10_3
+      - SYN10_4
+      - SYN10_5
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 910_Plain1
+      name_en: Plain1
+      name_ru: Plain1
+      legacy_id: 910_Plain1
+      level: scale
+      scoring: mean
+      items:
+      - SYN10_6
+      - SYN10_7
+      - SYN10_8
+      - SYN10_9
+      - SYN10_10
+      reverse_items: []
+      parent: null
+      redundant: false
+    - id: 910_Plain2
+      name_en: Plain2
+      name_ru: Plain2
+      legacy_id: 910_Plain2
+      level: scale
+      scoring: mean
+      items:
+      - SYN10_11
+      - SYN10_12
+      - SYN10_13
+      - SYN10_14
+      - SYN10_15
+      reverse_items: []
+      parent: null
+      redundant: false

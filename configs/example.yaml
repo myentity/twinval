@@ -1,0 +1,10 @@
+# Settings used for the results published in examples/results (BFI-2 + Spectrum of Psychological Health).
+# All resampling sizes are the defaults of the study (5000 bootstrap replicates, 2000 permutations, 500 Tucker replicates).
+# Re-create:  twinval run --data examples/data --out examples/results --config configs/example.yaml
+run:
+  name: example_results
+  seed: 20260915
+structural:
+  order_check_permutations: 5      # refit non-clean CFA models on 5 random row orders (numerical-stability check)
+output:
+  keep_intermediate: false         # do not copy the input data into the results folder

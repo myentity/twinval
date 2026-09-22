@@ -1,0 +1,11 @@
+instrument_id,instrument_name,n_scales,configural_status,n_scales_configural_ok,metric_status_millsap_primary,metric_status_wu_conditional,scalar_status_wu_chain,n_scales_metric_supported,n_scales_metric_rejected,n_scales_scalar_supported_of_interpretable,n_scales_scalar_rejected_of_interpretable,n_scales_scalar_not_interpretable
+901,Synthetic - Faithful twin,3,supported,3,supported,supported,supported,3,0,3,0,0
+902,Synthetic - Miscalibrated twin,3,supported,3,not_supported,supported,supported,2,1,2,0,1
+903,Synthetic - Weakly individuating twin,3,supported,3,supported,not_supported,not_estimable,3,0,1,0,1
+904,Synthetic - Unequal twin loadings,3,supported,3,not_supported,not_supported,not_estimable,1,2,1,0,0
+905,Synthetic - Repeated twin answers (congruent),3,nonconverged,2,not_estimable,supported,supported,2,0,1,0,2
+906,Synthetic - Mixed instrument with a total score,4,supported,4,not_supported,not_supported,not_estimable,2,2,1,0,1
+907,Synthetic - Short scales,3,supported,3,supported,supported,supported,3,0,3,0,0
+908,Synthetic - Single-scale instrument,1,nonconverged,0,supported,not_interpreted_threshold_not_supported,not_interpreted_threshold_not_supported,1,0,0,0,1
+909,Synthetic - Repeated twin answers (discrepant),3,nonconverged,1,not_supported,not_supported,not_estimable,0,1,0,0,2
+910,Synthetic - Repeated twin answers (inadmissible),3,nonconverged,2,not_supported,supported,supported,1,1,2,0,1

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "twinval"
+version = "0.1.0"
+description = "A multi-level psychometric validation framework for LLM-based digital twins of human questionnaire respondents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "statsmodels>=0.14",
+    "scikit-learn>=1.3",
+    "matplotlib>=3.7",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.urls]
+Repository = "https://github.com/myentity/digital-twin-fidelity-framework"
+Homepage = "https://github.com/myentity/digital-twin-fidelity-framework"
+
+[project.scripts]
+twinval = "twinval.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+twinval = ["registry/*.yaml", "r/*.R", "configs/*.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["r: tests that need Rscript with lavaan/semTools", "reference: comparison with published-paper reference values"]
