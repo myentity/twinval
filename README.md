@@ -286,11 +286,11 @@ Every scale is assigned to one type by explicit, pre-specified rules on three ax
 
 | Type | Short label | I | C | S | Rule |
 |---|---|---|---|---|---|
-| A | Multidimensionally supported fidelity | + | + | scalar or metric | r >= .50 and lower AUC CI > .50; C_b >= .80; metric or scalar invariance |
-| B | Individuating but miscalibrated | + | - | any eligible | practically adequate individuation and C_b < .80; evaluated **before** D |
-| C | Structurally supported but weakly individuating | - | +/- | scalar, metric, configural or congruence | individuation not established, admissible structural evidence exists |
-| D | Structurally discrepant despite acceptable score-level fidelity | conditional | conditional | discrepant | CFA-configural inadmissible, an **admissible** ESEM gives phi < .85, and (I adequate or CCC >= .40) |
-| E | Individuating and calibrated with limited structural support | + | + | configural or congruence | I and C adequate; metric/scalar not established, but admissible configural CFA or ESEM congruence exists |
+| A | Score fidelity with metric-level support | + | + | scalar or metric | r >= .50 and lower AUC CI > .50; C_b >= .80; metric or scalar invariance |
+| B | Individuation without calibration | + | - | any eligible | practically adequate individuation and C_b < .80; evaluated **before** D |
+| C | Structural support without adequate individuation | - | +/- | scalar, metric, configural or congruence | individuation not established, admissible structural evidence exists |
+| D | Score–structure discrepancy | conditional | conditional | discrepant | CFA-configural inadmissible, an **admissible** ESEM gives phi < .85, and (I adequate or CCC >= .40) |
+| E | Score fidelity with limited structural support | + | + | configural or congruence | I and C adequate; metric/scalar not established, but admissible configural CFA or ESEM congruence exists |
 | - | Structural model inadmissible | | | unknown | ESEM applies but Human or Twin solution is inadmissible (Heywood case ...) |
 | - | Structural analysis not conducted / not applicable | | | unknown | no structural evidence |
 | F | Unclassified residual | | | | defensive catch-all (empty in the study) |
@@ -357,11 +357,11 @@ Bootstrap intervals differ slightly between a `--fast` and a full run, the types
 
 | type | n | scales (examples) |
 |---|---|---|
-| A. Multidimensionally supported fidelity | 11 | Extraversion, Sociability, Persistence, ..., SPH Overall Score |
-| B. Individuating but miscalibrated | 3 | Agreeableness, Compassion, Psychological Well-Being |
-| C. Structurally supported but weakly individuating | 6 | Respectfulness, Trust, Organization, ... |
-| D. Structurally discrepant despite acceptable score-level fidelity | 1 | Emotional Well-Being |
-| E. Individuating and calibrated with limited structural support | 1 | Social Well-Being |
+| A. Score fidelity with metric-level support | 11 | Extraversion, Sociability, Persistence, ..., SPH Overall Score |
+| B. Individuation without calibration | 3 | Agreeableness, Compassion, Psychological Well-Being |
+| C. Structural support without adequate individuation | 6 | Respectfulness, Trust, Organization, ... |
+| D. Score–structure discrepancy | 1 | Emotional Well-Being |
+| E. Score fidelity with limited structural support | 1 | Social Well-Being |
 | Structural analysis not conducted / not applicable | 2 | Energy Level, Creative Imagination |
 
 These types are identical to those of the article for the same 24 scales (they do not depend on the number of bootstrap replicates).

@@ -54,11 +54,11 @@ synthesis:
   n_boot_cluster: 2000
   min_clusters_for_cluster_bootstrap: 4
   type_labels:
-    A: Multidimensionally supported fidelity
-    B: Individuating but miscalibrated
-    C: Structurally supported but weakly individuating
-    D: Structurally discrepant despite acceptable score-level fidelity
-    E: Individuating and calibrated with limited structural support
+    A: Score fidelity with metric-level support
+    B: Individuation without calibration
+    C: Structural support without adequate individuation
+    D: Score–structure discrepancy
+    E: Score fidelity with limited structural support
     F: Unclassified residual
     model_inadmissible: Structural model inadmissible (Heywood/nonidentified)
     not_tested: Structural analysis not conducted/not applicable

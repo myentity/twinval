@@ -39,11 +39,11 @@ Different units of analysis are shown side by side and are never averaged into o
 
 | type | n | % | example scales |
 |---|---|---|---|
-| A. Multidimensionally supported fidelity | 11 | 37.9 | Alpha; Beta; Gamma |
-| B. Individuating but miscalibrated | 4 | 13.8 | Shifted; Compressed; Lowered |
-| C. Structurally supported but weakly individuating | 5 | 17.2 | Generic1; Generic2; Generic3 |
-| D. Structurally discrepant despite acceptable score-level fidelity | 1 | 3.4 | DupD |
-| E. Individuating and calibrated with limited structural support | 5 | 17.2 | Uneven1; Uneven2; Duplicated |
+| A. Score fidelity with metric-level support | 11 | 37.9 | Alpha; Beta; Gamma |
+| B. Individuation without calibration | 4 | 13.8 | Shifted; Compressed; Lowered |
+| C. Structural support without adequate individuation | 5 | 17.2 | Generic1; Generic2; Generic3 |
+| D. Score–structure discrepancy | 1 | 3.4 | DupD |
+| E. Score fidelity with limited structural support | 5 | 17.2 | Uneven1; Uneven2; Duplicated |
 | F. Unclassified residual | 1 | 3.4 | DupF |
 | Structural model inadmissible (Heywood/nonidentified) | 1 | 3.4 | Duplicated |
 | Structural analysis not conducted/not applicable | 1 | 3.4 | Solo |

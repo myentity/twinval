@@ -1,9 +1,9 @@
 final_type,n,pct,label,example_scales
-A,11,37.9,Multidimensionally supported fidelity,Alpha; Beta; Gamma
-B,4,13.8,Individuating but miscalibrated,Shifted; Compressed; Lowered
-C,5,17.2,Structurally supported but weakly individuating,Generic1; Generic2; Generic3
-D,1,3.4,Structurally discrepant despite acceptable score-level fidelity,DupD
-E,5,17.2,Individuating and calibrated with limited structural support,Uneven1; Uneven2; Duplicated
+A,11,37.9,Score fidelity with metric-level support,Alpha; Beta; Gamma
+B,4,13.8,Individuation without calibration,Shifted; Compressed; Lowered
+C,5,17.2,Structural support without adequate individuation,Generic1; Generic2; Generic3
+D,1,3.4,Score–structure discrepancy,DupD
+E,5,17.2,Score fidelity with limited structural support,Uneven1; Uneven2; Duplicated
 F,1,3.4,Unclassified residual,DupF
 model_inadmissible,1,3.4,Structural model inadmissible (Heywood/nonidentified),Duplicated
 not_tested,1,3.4,Structural analysis not conducted/not applicable,Solo

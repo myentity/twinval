@@ -39,11 +39,11 @@ Different units of analysis are shown side by side and are never averaged into o
 
 | type | n | % | example scales |
 |---|---|---|---|
-| A. Multidimensionally supported fidelity | 11 | 45.8 | Extraversion; Sociability; Persistence |
-| B. Individuating but miscalibrated | 3 | 12.5 | Agreeableness; Compassion; Psychological Well-Being |
-| C. Structurally supported but weakly individuating | 6 | 25.0 | Respectfulness; Trust; Organization |
-| D. Structurally discrepant despite acceptable score-level fidelity | 1 | 4.2 | Emotional Well-Being |
-| E. Individuating and calibrated with limited structural support | 1 | 4.2 | Social Well-Being |
+| A. Score fidelity with metric-level support | 11 | 45.8 | Extraversion; Sociability; Persistence |
+| B. Individuation without calibration | 3 | 12.5 | Agreeableness; Compassion; Psychological Well-Being |
+| C. Structural support without adequate individuation | 6 | 25.0 | Respectfulness; Trust; Organization |
+| D. Score–structure discrepancy | 1 | 4.2 | Emotional Well-Being |
+| E. Score fidelity with limited structural support | 1 | 4.2 | Social Well-Being |
 | Structural analysis not conducted/not applicable | 2 | 8.3 | Energy Level; Creative Imagination |
 
 ## Associations between levels (Spearman)
