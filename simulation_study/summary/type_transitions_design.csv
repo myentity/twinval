@@ -1,0 +1,15 @@
+block,type_design,A,B,C,E,model_not_estimable
+C_calibration,A,4395,558,1,446,0
+C_calibration,B,192,5177,3,28,0
+I_threshold,A,2712,0,1583,205,0
+I_threshold,C,1162,0,2348,90,0
+I_tracking,A,7306,0,108,686,0
+I_tracking,C,15,0,5382,3,0
+K_short,A,2100,0,0,600,0
+K_short,model_not_estimable,0,0,0,27,2673
+P_duplicates,no expectation,77,0,0,120,703
+R_rare,A,1688,0,0,112,0
+S_loadings,E,2,0,0,2698,0
+S_thresholds,A,2468,0,0,232,0
+X_combined,C,0,0,899,1,0
+X_combined,E,1,0,3,896,0

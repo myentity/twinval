@@ -1,0 +1,11 @@
+block,S_ref,configural_fit,congruence_supported,metric_invariance,model_not_estimable,scalar_invariance
+C_calibration,scalar_invariance,970,61,275,0,9494
+I_threshold,scalar_invariance,592,0,178,0,7330
+I_tracking,scalar_invariance,1033,0,275,0,12192
+K_short,model_not_estimable,0,27,0,2673,0
+K_short,scalar_invariance,578,22,146,0,1954
+P_duplicates,model_not_estimable,51,69,4,703,73
+R_rare,scalar_invariance,112,0,53,0,1635
+S_loadings,configural_fit,2698,0,1,0,1
+S_thresholds,metric_invariance,232,0,2468,0,0
+X_combined,configural_fit,1799,0,0,0,1

@@ -7,3 +7,7 @@ __pycache__/
 # never commit respondent-level data or id mappings
 *PRIVATE*
 id_map*
+
+# Monte Carlo study: regenerable working data
+/simulation_study/work_*/
+/simulation_study/*.log
