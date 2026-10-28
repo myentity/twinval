@@ -47,10 +47,10 @@ def typology_r_cb(r: float, cb: float, r_thr: float = 0.50, cb_thr: float = 0.80
     if r >= r_thr and cb >= cb_thr:
         return "Good reconstruction"
     if r >= r_thr:
-        return "Correct ranking, wrong calibration"
+        return "Ordering preserved / inadequate calibration"
     if cb >= cb_thr:
-        return "Failure of individuation"
-    return "Combined failure"
+        return "Limited individuation"
+    return "Combined limitations"
 
 
 def core_table(study: Study, cfg, rng: np.random.Generator) -> pd.DataFrame:

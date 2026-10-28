@@ -23,7 +23,8 @@ stays visible (twin scores are never re-centred on their own mean, except in the
 ## Level 2 - scale (`scale.py`)
 * Pearson r, Spearman rho (BH-adjusted p across scales); scale-level AUC from `|zH_i - zT_j|` with permutation p; CCC and its decomposition
   `CCC = r * C_b`, `C_b = 2 / (v + 1/v + u^2)`, `v = SD_T/SD_H`, `u = (mean_T - mean_H)/sqrt(SD_H SD_T)` (computed directly, not as CCC/r).
-  All CIs from one set of person-level bootstrap resamples. Descriptive two-component classification by r and C_b (`Good reconstruction`, ...).
+  All CIs from one set of person-level bootstrap resamples. Descriptive two-component classification by r and C_b (`Good reconstruction`, `Ordering preserved / inadequate
+  calibration`, `Limited individuation`, `Combined limitations`).
 * **CV recalibration.** Repeated (10 x) 5-fold CV; location-scale `b = SD_H,train/SD_T,train` (corrects location and scale only) versus OLS `b = cov/var(T_train)`
   (also shrinks by r). Out-of-fold CCC/C_b/MAE/RMSE (MAE/RMSE also in units of the human SD). Uncertainty: nested person-level bootstrap in which **all copies of
   a resampled respondent are kept in one fold** (otherwise duplicated respondents leak between training and test folds).
