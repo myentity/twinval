@@ -52,8 +52,8 @@ to demonstrate result types the two real instruments cannot produce.
 ## Installation
 
 ```bash
-git clone https://github.com/myentity/digital-twin-fidelity-framework.git
-cd digital-twin-fidelity-framework
+git clone https://github.com/myentity/twinval.git
+cd twinval
 pip install -e .            # Python >= 3.10: numpy, pandas, scipy, statsmodels, scikit-learn, matplotlib, pyyaml
 twinval check-r             # optional: Rscript + lavaan + semTools (needed for the structural level only)
 ```

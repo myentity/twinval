@@ -22,8 +22,8 @@ dependencies = [
 dev = ["pytest>=7"]
 
 [project.urls]
-Repository = "https://github.com/myentity/digital-twin-fidelity-framework"
-Homepage = "https://github.com/myentity/digital-twin-fidelity-framework"
+Repository = "https://github.com/myentity/twinval"
+Homepage = "https://github.com/myentity/twinval"
 
 [project.scripts]
 twinval = "twinval.cli:main"
