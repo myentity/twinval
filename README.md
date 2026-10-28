@@ -406,8 +406,8 @@ twinval compare-truth --truth examples/synthetic/scenario_truth.csv --results my
 
 ## Data and privacy
 
-`examples/synthetic` contains only simulated data (fictional instruments, no personal information). `examples/data` contains the answers of 484 real respondents and of their GPT-5 twins for BFI-2 and the Spectrum of
-Psychological Health. **Respondent identifiers were replaced by random codes** (`TW0001` ...); one mapping was applied to all files, so
+`examples/synthetic` contains only simulated data (fictional instruments, no personal information). `examples/data` contains the answers of 484 real respondents and of their GPT-5 twins for BFI-2 and the Mental
+Health Continuum. **Respondent identifiers were replaced by random codes** (`TW0001` ...); one mapping was applied to all files, so
 respondents stay aligned across scales. No other personal information is included. If you use your own data, do not commit it.
 
 ## Caveats
