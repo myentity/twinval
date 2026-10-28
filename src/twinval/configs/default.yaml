@@ -1,8 +1,7 @@
 # Default configuration of the twinval framework.
 # Every threshold and resampling setting lives here so that an analysis can be
 # pre-registered: copy this file, edit it, and pass it with `twinval run --config my.yaml`.
-# Values below reproduce the settings of the original study (N = 484, 13 instruments); the structural status and
-# typology use the revised rules (structural.rules_version: 2), version 1 reproduces the first submitted typology.
+# Values below reproduce the settings of the original study (N = 484, 13 instruments).
 
 run:
   name: run
@@ -20,16 +19,15 @@ thresholds:
   r_practical: 0.50              # practically adequate individuation: r >= 0.50 ...
   auc_ci_low: 0.50               # ... and lower 95% CI bound of scale-level AUC > 0.50
   cb_adequate: 0.80              # calibration adequate if C_b >= 0.80
-  ccc_acceptable: 0.40           # rules_version 1 only: type D branch (b), CCC >= 0.40 (removed in rules_version 2)
   phi_congruence: 0.85           # Tucker's phi >= 0.85 => congruence supported
   bootstrap_valid_min: 0.80      # a Tucker bootstrap CI is stable if >= 80% replicates are admissible
   alpha_sig: 0.05
-  # ---- invariance step decision: ALL of the following must hold (rules_version 2; version 1 uses CFI and RMSEA only)
+  # ---- invariance step decision: ALL of the following must hold
   cfa_delta_cfi_min: -0.010      # delta CFI (scaled) >= -0.010
   cfa_delta_rmsea_max: 0.015     # delta RMSEA (scaled) <= 0.015
   cfa_delta_srmr_loadings_max: 0.030    # delta SRMR <= 0.030 for steps that add loading constraints
   cfa_delta_srmr_thresholds_max: 0.010  # delta SRMR <= 0.010 for threshold / intercept (scalar) steps
-  # ---- estimability of every CFA model (rules_version 2)
+  # ---- estimability of every CFA model
   cfa_pd_tolerance: 1.0e-6       # residual / latent covariance matrix not PD if its smallest eigenvalue < -tolerance
   cfa_bound_tolerance: 1.0e-6    # |standardised residual or latent correlation| > 1 + tolerance is inadmissible
   # ---- absolute fit of the baseline model (only when df > 0)
@@ -78,8 +76,6 @@ structural:
   n_boot_tucker: 500             # the published analysis used 500 (~11 h for 11 instruments)
   resume: true
   # ---- structural status S and typology rules
-  rules_version: 2               # 2 = revised rules (estimability, absolute fit and invariance kept apart; Wu primary);
-                                 # 1 = rules of the first submitted version (reproduces the published typology)
   primary_branch: wu             # wu (Wu & Estabrook 2016) | millsap (Millsap & Tein 2004 / Liu et al. 2017; sensitivity)
   use_delta_srmr: true           # sensitivity: false drops the delta-SRMR condition from the step decision
   exclude_near_boundary: false   # sensitivity: true treats models with near-boundary flags as not usable
@@ -89,7 +85,7 @@ synthesis:
   enabled: true
   n_boot_cluster: 5000
   min_clusters_for_cluster_bootstrap: 4   # with fewer instruments the cluster-bootstrap CI is reported as NaN
-  type_labels:                   # rules_version 2
+  type_labels:
     A: Score fidelity with measurement-invariance support
     B: Individuation without adequate calibration
     C: Limited individuation with structural evidence
@@ -99,15 +95,6 @@ synthesis:
     cfa_misfit: Structural evidence not established (baseline CFA misfit)
     cfa_fit_not_testable: Structural evidence not established (baseline fit not testable)
     model_not_estimable: Structural model not estimable (nonconverged, not identified or inadmissible)
-    not_tested: Structural analysis not conducted/not applicable
-  type_labels_v1:                # rules_version 1 (first submitted version)
-    A: Score fidelity with metric-level support
-    B: Individuation without calibration
-    C: Structural support without adequate individuation
-    D: Score–structure discrepancy
-    E: Score fidelity with limited structural support
-    F: Unclassified residual
-    model_inadmissible: Structural model inadmissible (Heywood/nonidentified)
     not_tested: Structural analysis not conducted/not applicable
 
 figures:

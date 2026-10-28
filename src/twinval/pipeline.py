@@ -178,15 +178,10 @@ class Pipeline:
             self._w("structural", "invariance_results", results)
             for k, v in S.parse_cfa(results).items():
                 self._w("structural", k, v)
-            if int(cfg.structural.rules_version) >= 2:
-                cfa_status = S.cfa_scale_status_v2(results, cfg)
-                self._w("structural", "cfa_scale_status", cfa_status)
-                self._w("structural", "cfa_step_diagnostics", S.cfa_step_diagnostics(results, cfg))
-                self._w("structural", "cfa_status_by_instrument", S.cfa_by_instrument(results, st, cfa_status))
-            else:
-                cfa_status = S.cfa_scale_status(results)
-                self._w("structural", "cfa_scale_status", cfa_status)
-                self._w("structural", "cfa_status_by_instrument", S.cfa_by_instrument(results, st))
+            cfa_status = S.cfa_scale_status(results, cfg)
+            self._w("structural", "cfa_scale_status", cfa_status)
+            self._w("structural", "cfa_step_diagnostics", S.cfa_step_diagnostics(results, cfg))
+            self._w("structural", "cfa_status_by_instrument", S.cfa_by_instrument(st, cfa_status))
             if cfg.structural.order_check_permutations > 0:
                 oc = S.cfa_order_sensitivity(results, inp["manifest"], wd, cfg.structural.order_check_permutations,
                                              int(cfg.run.seed), cfg, logs)

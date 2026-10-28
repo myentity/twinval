@@ -154,33 +154,7 @@ def parse_cfa(results: pd.DataFrame) -> dict[str, pd.DataFrame]:
     return {"paired_cfa_invariance_fit": fit, "invariance_decisions": decisions, "cfa_reliability": rel}
 
 
-def cfa_scale_status(results: pd.DataFrame) -> pd.DataFrame:
-    """Per scale: admissibility of the configural model and the metric / scalar invariance verdicts.
-
-    * ``configural_cfa_admissible`` - the configural Wu model converged without a Heywood case;
-    * ``metric``  - loading invariance from the Millsap/Liu scheme (unconditional);
-    * ``scalar``  - Wu chain thresholds + loadings + intercepts, interpretable only if thresholds are supported.
-    Scales whose configural model is inadmissible get ``not_tested`` for both.
-    """
-    out = []
-    for r in results.to_dict("records"):
-        ok = bool(r.get("wu_configural_converged") is True or r.get("wu_configural_converged") == True) and \
-            not (r.get("wu_configural_heywood") is True or r.get("wu_configural_heywood") == True)
-        metric, scalar = "not_tested", "not_tested"
-        if ok:
-            s = r.get("ms_loading_status")
-            metric = "yes" if s == "supported" else "no" if s == "rejected" else "not_tested"
-            if r.get("wu_threshold_status") == "supported":
-                s = r.get("wu_conditional_scalar_status")
-                scalar = "yes" if s == "supported" else "no" if s == "rejected" else "not_tested"
-        out.append({"scale_id": r["scale_id"], "configural_cfa_admissible": ok, "metric_invariance": metric,
-                    "scalar_invariance": scalar, "wu_threshold_status": r.get("wu_threshold_status"),
-                    "metric_test_available": ok and r.get("ms_loading_status") in ("supported", "rejected"),
-                    "scalar_test_available": ok and r.get("wu_threshold_status") == "supported"})
-    return pd.DataFrame(out)
-
-
-# =============================================================================== CFA status, rules_version 2
+# =============================================================================== CFA status
 # Three properties are kept apart for EVERY model that a conclusion uses (DECISIONS.md):
 #   estimability  - nonconverged / identification_not_established / inadmissible / admissible (+ warning flags)
 #   absolute fit  - only for the baseline model with df > 0 (SRMR primary, CFI/TLI/RMSEA CI as diagnostics)
@@ -319,8 +293,8 @@ def _branch_status(r, branch: str, cfg) -> dict:
     return out
 
 
-def cfa_scale_status_v2(results: pd.DataFrame, cfg) -> pd.DataFrame:
-    """Per scale (rules_version 2): estimability and fit of the baseline, every step decision of the primary branch,
+def cfa_scale_status(results: pd.DataFrame, cfg) -> pd.DataFrame:
+    """Per scale: estimability and fit of the baseline, every step decision of the primary branch,
     the CFA conclusion, and the secondary branch as a sensitivity result (flags ``identification_scheme_sensitive`` and
     ``identification_route_dependent``)."""
     primary = cfg.structural.primary_branch
@@ -364,11 +338,11 @@ def cfa_scale_status_v2(results: pd.DataFrame, cfg) -> pd.DataFrame:
 
 
 def cfa_step_diagnostics(results: pd.DataFrame, cfg) -> pd.DataFrame:
-    """Machine-readable basis of every CFA decision (rules_version 2): one row per scale and fitted model of both sequences.
+    """Machine-readable basis of every CFA decision: one row per scale and fitted model of both sequences.
 
     Columns: the model and the model it is compared with, its estimability status and near-boundary flags, the numerical
     diagnostics used for the status, absolute fit (df, scaled chi-square, CFI, TLI, RMSEA with 90% CI, SRMR), and for
-    comparisons the change in df and in CFI / RMSEA / SRMR with the step decision of ``cfa_scale_status_v2``.
+    comparisons the change in df and in CFI / RMSEA / SRMR with the step decision of ``cfa_scale_status``.
     """
     t = cfg.thresholds
     diag_cols = ("converged", "heywood", "post_check", "vcov_min_eigen", "theta_min_eigen", "psi_min_eigen", "max_std_loading",
@@ -399,10 +373,10 @@ def cfa_step_diagnostics(results: pd.DataFrame, cfg) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def structural_evidence_level_v2(conclusion: str, reason: str, cfa_run: bool, esem_applicable: bool,
-                                 paired_admissible: bool, phi: float, phi_congruence: float = 0.85,
-                                 priority: str = "cfa") -> str:
-    """Structural status S (rules_version 2).
+def structural_evidence_level(conclusion: str, reason: str, cfa_run: bool, esem_applicable: bool,
+                              paired_admissible: bool, phi: float, phi_congruence: float = 0.85,
+                              priority: str = "cfa") -> str:
+    """Structural status S.
 
     1-3 ``scalar_invariance`` / ``metric_invariance`` / ``configural_fit`` - CFA conclusion (admissible baseline, fit
     supported or not testable with supported invariance, primary sequence);
@@ -429,80 +403,40 @@ def structural_evidence_level_v2(conclusion: str, reason: str, cfa_run: bool, es
     return "not_tested"
 
 
-def cfa_by_instrument(results: pd.DataFrame, study: Study, status_v2: pd.DataFrame | None = None) -> pd.DataFrame:
-    """Instrument-level synthesis. Metric (Millsap/Liu) and scalar (Wu chain) verdicts come from DIFFERENT
-    identification schemes and are reported in separate columns - they do not form one nested ladder.
-
-    With ``status_v2`` (rules_version 2) every verdict follows the CFA conclusion of the scales (primary branch); step
+def cfa_by_instrument(study: Study, status: pd.DataFrame) -> pd.DataFrame:
+    """Instrument-level synthesis. Every verdict follows the CFA conclusion of the scales (primary branch); step
     decisions without a conclusion (e.g. supported under a misfitting baseline) are not counted:
       configural_status  ``supported`` (every scale has a CFA conclusion) | ``misfit`` / ``not_estimable`` /
                          ``fit_not_testable`` (every scale without a conclusion has this reason) | ``mixed``
       metric_status      ``supported`` (every scale metric or scalar) | ``not_supported`` (a scale with a conclusion
                          rejects the loading step) | ``not_established`` (otherwise)
       scalar_status      the same for the scalar level."""
-    def collapse(vals):
-        vals = vals.dropna()
-        if len(vals) == 0:
-            return "not_estimable"
-        if (vals == "rejected").any():
-            return "not_supported"
-        return "supported" if (vals == "supported").all() else "not_estimable"
-
-    if status_v2 is not None:
-        reg = study.registry.scales
-        s = status_v2.copy()
-        s["instrument_id"] = s["scale_id"].map(lambda x: reg[x].instrument_id)
-        reason_name = {"baseline_misfit": "misfit", "baseline_fit_not_testable": "fit_not_testable"}
-
-        def level(yn: pd.Series) -> str:
-            if (yn == "yes").all():
-                return "supported"
-            return "not_supported" if (yn == "no").any() else "not_established"
-
-        rows = []
-        for iid, sub in s.groupby("instrument_id"):
-            ok = sub["cfa_conclusion"] != "none"
-            reasons = {reason_name.get(r, "not_estimable") for r in sub.loc[~ok, "cfa_no_conclusion_reason"]}
-            conf = "supported" if ok.all() else reasons.pop() if len(reasons) == 1 else "mixed"
-            rows.append({
-                "instrument_id": iid, "instrument_name": study.registry.instruments[iid].name_en, "n_scales": len(sub),
-                "primary_branch": sub["primary_branch"].iloc[0], "configural_status": conf, "n_scales_configural_ok": int(ok.sum()),
-                "n_scales_cfa_misfit": int((sub["cfa_no_conclusion_reason"] == "baseline_misfit").sum()),
-                "n_scales_fit_not_testable": int((sub["cfa_no_conclusion_reason"] == "baseline_fit_not_testable").sum()),
-                "n_scales_not_estimable": int((~ok & ~sub["cfa_no_conclusion_reason"].isin(list(reason_name))).sum()),
-                "metric_status": level(sub["metric_invariance"]), "scalar_status": level(sub["scalar_invariance"]),
-                "n_scales_metric_supported": int((sub["metric_invariance"] == "yes").sum()),
-                "n_scales_metric_rejected": int((sub["metric_invariance"] == "no").sum()),
-                "n_scales_scalar_supported": int((sub["scalar_invariance"] == "yes").sum()),
-                "n_scales_scalar_rejected": int((sub["scalar_invariance"] == "no").sum())})
-        return pd.DataFrame(rows)
-
     reg = study.registry.scales
-    res = results.copy()
-    res["instrument_id"] = res["scale_id"].map(lambda s: reg[s].instrument_id)
+    s = status.copy()
+    s["instrument_id"] = s["scale_id"].map(lambda x: reg[x].instrument_id)
+    reason_name = {"baseline_misfit": "misfit", "baseline_fit_not_testable": "fit_not_testable"}
+
+    def level(yn: pd.Series) -> str:
+        if (yn == "yes").all():
+            return "supported"
+        return "not_supported" if (yn == "no").any() else "not_established"
+
     rows = []
-    for iid, sub in res.groupby("instrument_id"):
-        conf_ok = (sub["wu_configural_converged"] == True) & (sub["wu_configural_heywood"] != True)
-        if conf_ok.all():
-            conf = "supported"
-        elif (sub["wu_configural_converged"] == False).any():
-            conf = "nonconverged"
-        elif (sub["wu_configural_heywood"] == True).any():
-            conf = "inadmissible_solution"
-        else:
-            conf = "not_estimable"
-        interp = sub[sub["wu_threshold_status"] == "supported"]
+    for iid, sub in s.groupby("instrument_id"):
+        ok = sub["cfa_conclusion"] != "none"
+        reasons = {reason_name.get(r, "not_estimable") for r in sub.loc[~ok, "cfa_no_conclusion_reason"]}
+        conf = "supported" if ok.all() else reasons.pop() if len(reasons) == 1 else "mixed"
         rows.append({
             "instrument_id": iid, "instrument_name": study.registry.instruments[iid].name_en, "n_scales": len(sub),
-            "configural_status": conf, "n_scales_configural_ok": int(conf_ok.sum()),
-            "metric_status_millsap_primary": collapse(sub["ms_loading_status"]),
-            "metric_status_wu_conditional": collapse(interp["wu_conditional_loading_status"]) if len(interp) else "not_interpreted_threshold_not_supported",
-            "scalar_status_wu_chain": collapse(interp["wu_conditional_scalar_status"]) if len(interp) else "not_interpreted_threshold_not_supported",
-            "n_scales_metric_supported": int((sub["ms_loading_status"] == "supported").sum()),
-            "n_scales_metric_rejected": int((sub["ms_loading_status"] == "rejected").sum()),
-            "n_scales_scalar_supported_of_interpretable": int((interp["wu_conditional_scalar_status"] == "supported").sum()),
-            "n_scales_scalar_rejected_of_interpretable": int((interp["wu_conditional_scalar_status"] == "rejected").sum()),
-            "n_scales_scalar_not_interpretable": int(len(sub) - len(interp))})
+            "primary_branch": sub["primary_branch"].iloc[0], "configural_status": conf, "n_scales_configural_ok": int(ok.sum()),
+            "n_scales_cfa_misfit": int((sub["cfa_no_conclusion_reason"] == "baseline_misfit").sum()),
+            "n_scales_fit_not_testable": int((sub["cfa_no_conclusion_reason"] == "baseline_fit_not_testable").sum()),
+            "n_scales_not_estimable": int((~ok & ~sub["cfa_no_conclusion_reason"].isin(list(reason_name))).sum()),
+            "metric_status": level(sub["metric_invariance"]), "scalar_status": level(sub["scalar_invariance"]),
+            "n_scales_metric_supported": int((sub["metric_invariance"] == "yes").sum()),
+            "n_scales_metric_rejected": int((sub["metric_invariance"] == "no").sum()),
+            "n_scales_scalar_supported": int((sub["scalar_invariance"] == "yes").sum()),
+            "n_scales_scalar_rejected": int((sub["scalar_invariance"] == "no").sum())})
     return pd.DataFrame(rows)
 
 
@@ -513,25 +447,21 @@ def cfa_order_sensitivity(results: pd.DataFrame, manifest: pd.DataFrame, workdir
     Weighted-least-squares fits of small, nearly saturated ordinal models can converge or not depending only on the
     ORDER of the rows (floating point differences). For every *candidate* scale - one whose configural model did not
     converge / is inadmissible, or whose threshold step is not testable - the CFA is refitted on ``n_perm`` random
-    row orders and the scale is flagged ``order_sensitive`` if the admissibility of the configural model is not the
-    same in all fits (rules_version 2: if the admissibility of the baseline or the CFA conclusion is not the same in all fits;
-    candidates are scales whose baseline is not admissible or whose first step is not evaluable).
+    row orders and the scale is flagged ``order_sensitive`` if the admissibility of the baseline or the CFA conclusion
+    is not the same in all fits (candidates are scales whose baseline is not admissible or whose first step is not
+    evaluable).
     """
-    v2 = int(cfg.structural.rules_version) >= 2
     clean_steps = {"supported", "rejected"}
 
     def verdicts(df):
         """Per scale: (baseline admissible, candidate for the check, verdict compared across row orders)."""
-        if v2:
-            st = cfa_scale_status_v2(df, cfg)
-            ok = st["baseline_status"] == "admissible"
-            first = st["threshold_decision"] if cfg.structural.primary_branch == "wu" else st["metric_decision"]
-            # the verdict is admissibility + CFA conclusion; the reason a baseline fails (nonconverged / not identified /
-            # inadmissible) does not change the structural status and is only reported (column baseline_statuses)
-            return ok.tolist(), (~(ok & first.isin(clean_steps))).tolist(), \
-                list(zip(ok.astype(str) + "|" + st["cfa_conclusion"], st["baseline_status"]))
-        ok = ((df["wu_configural_converged"] == True) & (df["wu_configural_heywood"] != True))
-        return ok.tolist(), (~(ok & df["wu_threshold_status"].isin(clean_steps))).tolist(), list(zip(ok.astype(str), ok.astype(str)))
+        st = cfa_scale_status(df, cfg)
+        ok = st["baseline_status"] == "admissible"
+        first = st["threshold_decision"] if cfg.structural.primary_branch == "wu" else st["metric_decision"]
+        # the verdict is admissibility + CFA conclusion; the reason a baseline fails (nonconverged / not identified /
+        # inadmissible) does not change the structural status and is only reported (column baseline_statuses)
+        return ok.tolist(), (~(ok & first.isin(clean_steps))).tolist(), \
+            list(zip(ok.astype(str) + "|" + st["cfa_conclusion"], st["baseline_status"]))
 
     ok0, cand0, v0 = verdicts(results)
     cand = [sid for sid, c in zip(results["scale_id"], cand0) if c]
@@ -566,11 +496,11 @@ def cfa_order_sensitivity(results: pd.DataFrame, manifest: pd.DataFrame, workdir
         for sid, o, v in zip(r["scale_id"], ok, vd):
             ok_all[sid].append(bool(o))
             vd_all[sid].append(v)
-    # rules_version 2: sensitive when the baseline status or the CFA conclusion differs between row orders
+    # sensitive when the baseline status or the CFA conclusion differs between row orders
     out = [{"scale_id": sid, "n_fits": len(v), "share_configural_admissible": float(np.mean(v)),
             "n_distinct_verdicts": len({x[0] for x in vd_all[sid]}),
             "baseline_statuses": ";".join(sorted({x[1] for x in vd_all[sid]})),
-            "order_sensitive": bool(len({x[0] for x in vd_all[sid]}) > 1) if v2 else bool(0 < np.mean(v) < 1)}
+            "order_sensitive": bool(len({x[0] for x in vd_all[sid]}) > 1)}
            for sid, v in ok_all.items()]
     return pd.DataFrame(out)
 
@@ -677,30 +607,6 @@ def admissibility(esem_diag: pd.DataFrame, instrument_ids: list[int]) -> pd.Data
     return pd.DataFrame(rows)
 
 
-def structural_evidence_level(configural_ok: bool, metric: str, scalar: str, esem_applicable: bool,
-                              paired_admissible: bool, phi: float, phi_congruence: float = 0.85) -> str:
-    """Seven-step, priority-ordered structural status of a scale.
-
-    Formal CFA evidence (a test with a decision rule) takes precedence over ESEM/Tucker evidence (descriptive):
-
-    1 ``scalar_invariance`` 2 ``metric_invariance`` 3 ``configural_only`` (admissible configural CFA, metric not
-    confirmed) 4 ``congruence_supported`` / 5 ``structurally_discrepant`` (only if the CFA configural model is
-    inadmissible but BOTH ESEM solutions are admissible; phi >= / < threshold) 6 ``model_inadmissible`` (ESEM applies but
-    at least one solution is inadmissible and there is no stronger CFA evidence) 7 ``not_tested``.
-    """
-    if scalar == "yes":
-        return "scalar_invariance"
-    if metric == "yes":
-        return "metric_invariance"
-    if configural_ok:
-        return "configural_only"
-    if esem_applicable and paired_admissible:
-        return "congruence_supported" if (pd.notna(phi) and phi >= phi_congruence) else "structurally_discrepant"
-    if esem_applicable:
-        return "model_inadmissible"
-    return "not_tested"
-
-
 def scale_structural_table(study: Study, cfg, cfa_status: pd.DataFrame | None, tucker_by_factor: pd.DataFrame | None,
                            gate: pd.DataFrame | None, esem_instruments: list[int],
                            order_check: pd.DataFrame | None = None) -> pd.DataFrame:
@@ -709,7 +615,6 @@ def scale_structural_table(study: Study, cfg, cfa_status: pd.DataFrame | None, t
     cfa_map = cfa_status.set_index("scale_id") if cfa_status is not None and len(cfa_status) else pd.DataFrame()
     gate_map = gate.set_index("instrument_id") if gate is not None and len(gate) else pd.DataFrame()
     tk = tucker_by_factor
-    v2 = int(cfg.structural.rules_version) >= 2
     rows = []
     for sid in study.scale_ids:
         sc = reg[sid]
@@ -734,20 +639,16 @@ def scale_structural_table(study: Study, cfg, cfa_status: pd.DataFrame | None, t
         t_ok = bool(g["twin_esem_admissible"]) if g is not None else False
         paired = h_ok and t_ok
         interpretable = bool(applicable and paired and pd.notna(phi))
-        if v2:
-            conclusion = c["cfa_conclusion"] if c is not None else "none"
-            reason = c["cfa_no_conclusion_reason"] if c is not None else "not_fitted"
-            level = structural_evidence_level_v2(conclusion, reason, c is not None, applicable, paired, phi,
-                                                 cfg.thresholds.phi_congruence, cfg.structural.structural_priority)
-            flags = [f for f in (str(c["cfa_flags"]).split(";") if c is not None and pd.notna(c["cfa_flags"]) else []) if f]
-            if interpretable and level in ("scalar_invariance", "metric_invariance", "configural_fit") \
-                    and phi < cfg.thresholds.phi_congruence:
-                flags.append("cfa_esem_conflict")
-            if level in ("congruence_supported", "structurally_discrepant") and not stable:
-                flags.append("bootstrap_unstable")
-        else:
-            level = structural_evidence_level(conf, metric, scalar, applicable, paired, phi, cfg.thresholds.phi_congruence)
-            flags = []
+        conclusion = c["cfa_conclusion"] if c is not None else "none"
+        reason = c["cfa_no_conclusion_reason"] if c is not None else "not_fitted"
+        level = structural_evidence_level(conclusion, reason, c is not None, applicable, paired, phi,
+                                             cfg.thresholds.phi_congruence, cfg.structural.structural_priority)
+        flags = [f for f in (str(c["cfa_flags"]).split(";") if c is not None and pd.notna(c["cfa_flags"]) else []) if f]
+        if interpretable and level in ("scalar_invariance", "metric_invariance", "configural_fit") \
+                and phi < cfg.thresholds.phi_congruence:
+            flags.append("cfa_esem_conflict")
+        if level in ("congruence_supported", "structurally_discrepant") and not stable:
+            flags.append("bootstrap_unstable")
         rows.append({
             "scale_id": sid, "instrument_id": sc.instrument_id, "configural_cfa_admissible": conf,
             "metric_invariance": metric, "scalar_invariance": scalar,
@@ -759,16 +660,15 @@ def scale_structural_table(study: Study, cfg, cfa_status: pd.DataFrame | None, t
             "tucker_phi_exploratory": phi, "tucker_phi_primary": phi if interpretable else np.nan,
             "tucker_phi_ci_lo": ci_lo, "tucker_phi_ci_hi": ci_hi, "tucker_frac_valid_bootstrap": frac,
             "structural_evidence_level": level, "structural_flags": ";".join(dict.fromkeys(flags))})
-        if v2 and c is not None:
+        if c is not None:
             rows[-1].update({k: c[k] for k in ("baseline_status", "baseline_fit", "threshold_decision", "metric_decision",
                                               "scalar_decision", "cfa_conclusion", "cfa_no_conclusion_reason")})
     out = pd.DataFrame(rows)
     out["cfa_order_sensitive"] = False
     if order_check is not None and len(order_check):
         out["cfa_order_sensitive"] = out["scale_id"].isin(order_check.loc[order_check["order_sensitive"], "scale_id"])
-        if v2:
-            sens = out["cfa_order_sensitive"]
-            out.loc[sens, "structural_flags"] = out.loc[sens, "structural_flags"].map(lambda s: ";".join(filter(None, [s, "order_sensitive"])))
+        sens = out["cfa_order_sensitive"]
+        out.loc[sens, "structural_flags"] = out.loc[sens, "structural_flags"].map(lambda s: ";".join(filter(None, [s, "order_sensitive"])))
     return out
 
 
@@ -793,9 +693,8 @@ def instrument_master(study: Study, cfa_instr: pd.DataFrame | None, esem_fit: pd
         phi_min = float(t["phi_min"]) if t is not None and pd.notna(t.get("phi_min")) else np.nan
         paired = bool(g["paired_esem_admissible"]) if g is not None else False
         stable = bool(len(bf) and "ci_stable" in bf and bf["ci_stable"].all())
-        v2 = c is not None and "scalar_status" in c.index                  # rules_version 2: verdicts follow the CFA conclusion
         conf = c["configural_status"] if c is not None else "not_estimable"
-        scalar = c["scalar_status" if v2 else "scalar_status_wu_chain"] if c is not None else "not_estimable"
+        scalar = c["scalar_status"] if c is not None else "not_estimable"
         trap = "not_applicable"
         if applicable:
             if conf != "supported":
@@ -810,9 +709,7 @@ def instrument_master(study: Study, cfa_instr: pd.DataFrame | None, esem_fit: pd
         rows.append({"instrument_id": iid, "instrument_name": ins.name_en, "esem_applicable": applicable,
                      "paired_esem_admissible": paired, "phi_mean": phi_mean, "phi_min": phi_min,
                      "phi_ci_stable": stable, "configural_status": conf,
-                     **({"metric_status": c["metric_status"], "scalar_status": scalar} if v2 else
-                        {"metric_status_millsap_primary": c["metric_status_millsap_primary"] if c is not None else None,
-                         "scalar_status_wu_chain": scalar}),
+                     "metric_status": c["metric_status"] if c is not None else None, "scalar_status": scalar,
                      "validation_trap_strict": trap,
                      "n_scales_metric_supported": c["n_scales_metric_supported"] if c is not None else np.nan,
                      "n_scales_metric_rejected": c["n_scales_metric_rejected"] if c is not None else np.nan})

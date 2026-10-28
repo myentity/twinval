@@ -95,9 +95,7 @@ def test_full_pipeline_types_and_cfa_reproduce_paper(tmp_path):
     ok, msg = r_available()
     if not ok:
         pytest.skip(msg)
-    # rules_version 1 = the rules of the first submitted version, which produced the published types
-    cfg = load_config(overrides={**FAST, "data": {"data_dir": str(EXAMPLE)},
-                                 "structural": {"tucker_bootstrap": False, "rules_version": 1}})
+    cfg = load_config(overrides={**FAST, "data": {"data_dir": str(EXAMPLE)}, "structural": {"tucker_bootstrap": False}})
     Pipeline(cfg, tmp_path / "o").run(["structural", "scale", "item", "synthesis"])
     out = tmp_path / "o"
     cfa = pd.read_csv(out / "03_structural" / "invariance_decisions.csv").merge(
@@ -108,4 +106,4 @@ def test_full_pipeline_types_and_cfa_reproduce_paper(tmp_path):
     typ = pd.read_csv(out / "05_synthesis" / "scale_typology.csv").merge(pd.read_csv(REF / "paper_typology.csv"), on="scale_id", suffixes=("", "_ref"))
     assert (typ["final_type"] == typ["final_type_ref"]).all()
     assert (typ["structural_evidence_level"] == typ["structural_evidence_level_ref"]).all()
-    assert set(typ["final_type"]) >= {"A", "B", "C", "D", "E"}          # the example shows all five types
+    assert set(typ["final_type"]) >= {"A", "B", "C", "D", "E"}          # the example shows all five substantive types

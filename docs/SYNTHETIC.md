@@ -4,7 +4,7 @@ The real example (`examples/data`, two instruments) cannot show every kind of re
 instruments the cluster bootstrap and leave-one-instrument-out analyses are degenerate, and only some types of the
 typology occur. `twinval simulate` therefore generates **fictional instruments with a twin whose behaviour is built in**.
 The synthetic example (`examples/synthetic`) has 10 instruments, 29 scales, 500 respondents, and produces **all eight
-outcomes of the typology** (A, B, C, D, E, F, *CFA misfit*, *model not estimable*; structural rules version 2), a cluster bootstrap over 10 instruments,
+outcomes of the typology** (A, B, C, D, E, F, *CFA misfit*, *model not estimable*), a cluster bootstrap over 10 instruments,
 leave-one-instrument-out results, harmonisation of categories, reverse-keyed items and a redundant total score.
 The data carry no personal information; the instruments do not exist.
 
@@ -49,12 +49,11 @@ Monte Carlo study in [`simulation_study/`](../simulation_study)). File level: `s
 
 ## The scenario
 
-`intended` is the type the design aims at; it is a *design*, not a guarantee. `intended_v2` gives the same design under
-the version 2 rules where the name of the outcome differs (`scenario_truth.csv`: columns `intended_type` and
-`intended_type_v2`). `twinval compare-truth` uses the column that matches the `rules_version` of the run (see
+`intended` is the type the design aims at; it is a *design*, not a guarantee (`scenario_truth.csv`: column
+`intended_type`). `twinval compare-truth` compares it with the recovered type (see
 `examples/synthetic/results/expected_vs_recovered.csv`).
 
-| instrument | design | intended types (rules version 2) |
+| instrument | design | intended types |
 |---|---|---|
 | 901 faithful twin | high individuation, calibrated, same loadings | A A A |
 | 902 miscalibrated twin | good individuation, twin mean shifted / variance compressed | B B B |
@@ -63,13 +62,13 @@ the version 2 rules where the name of the outcome differs (`scenario_truth.csv`:
 | 905 repeated twin answers (congruent) | items 1-3 answered identically: scale CFA fails, ESEM admissible and congruent | E A A |
 | 906 mixed instrument with total | reverse items handled worse (E), shifted twin never using the lowest category (B), weak twin (C), redundant total | E B C (+ total) |
 | 907 short scales | 3-4 item scales | A C A |
-| 908 single-scale instrument | items 1-4 answered identically: CFA fails and ESEM is not applicable | model not estimable (version 1: not tested) |
+| 908 single-scale instrument | items 1-4 answered identically: CFA fails and ESEM is not applicable | model not estimable |
 | 909 repeated twin answers (discrepant) | items 1-3 identical, items 4-5 ignored: CFA fails, ESEM loadings differ (phi < 0.85) | D F (+ control) |
-| 910 repeated twin answers (inadmissible) | items 1-3 identical: CFA and twin ESEM not estimable, the gate closes for the instrument | model not estimable (version 1: model inadmissible), A, A |
+| 910 repeated twin answers (inadmissible) | items 1-3 identical: CFA and twin ESEM not estimable, the gate closes for the instrument | model not estimable, A, A |
 
 ## Result of the published run
 
-`examples/synthetic/results` (settings: `configs/synthetic.yaml`, structural rules version 2). The typology of the 29
+`examples/synthetic/results` (settings: `configs/synthetic.yaml`). The typology of the 29
 scales: **A 9, B 4, C 5, D 1, E 6, F 1, CFA misfit 1, model not estimable 2** (the redundant total score `906_Total` is typed
 with the others; its baseline CFA misfits). The designed type is recovered for **26 of 28** non-redundant scales
 (`expected_vs_recovered.csv`); the exceptions are two control scales, both designed A and recovered E:
@@ -78,9 +77,8 @@ with the others; its baseline CFA misfits). The designed type is recovered for *
 * `905_Plain2` - the Wu threshold step is rejected (delta RMSEA .021 > .015), so the CFA conclusion is configural fit; the
   Millsap/Liu sequence supports metric invariance, and the scale carries the flag `identification_route_dependent`.
 
-Under the version 1 rules, which took the metric verdict from the Millsap/Liu sequence, 27 of 28 designed types were recovered
-(only `909_Plain` differed). The row-order check refits the five candidate scales on 3 random row orders; none is
-order-sensitive under version 2. The baseline of `909_DupF` (type F) is nonconverged in some orders and not identified in
+The row-order check refits the five candidate scales on 3 random row orders; none is
+order-sensitive. The baseline of `909_DupF` (type F) is nonconverged in some orders and not identified in
 others, i.e. not estimable in every fit, so its structural status does not change. Cross-level associations have
 cluster-bootstrap intervals over 10 instruments, and `01_profile/identification_leave_one_instrument_out.csv` has 10 rows.
 

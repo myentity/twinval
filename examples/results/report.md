@@ -10,6 +10,10 @@
 * structural models (CFA, ESEM): **harmonised** categories (`00_audit/harmonized_data/`, log in `harmonization_log.csv`)
 * item level: **harmonized** (`item.data_version`; `harmonized` = setting of the original study)
 
+## Notes and warnings
+
+* Only 2 instruments are loaded: cluster (per-instrument) bootstrap CIs, equal-instrument-weight statistics and leave-one-instrument-out analyses are degenerate or skipped; results are illustrative and not comparable with a full study.
+
 ## Multilevel results matrix
 
 Different units of analysis are shown side by side and are never averaged into one index.

@@ -207,7 +207,6 @@ Key settings:
 |---|---|---|---|
 | thresholds | `r_practical` / `auc_ci_low` | 0.50 / 0.50 | practically adequate individuation: r >= 0.50 **and** lower AUC CI > 0.50 |
 | thresholds | `cb_adequate` | 0.80 | adequate calibration: C_b >= 0.80 |
-| thresholds | `ccc_acceptable` | 0.40 | rules_version 1 only (type D, branch b); not used by rules_version 2 |
 | thresholds | `phi_congruence` | 0.85 | Tucker's phi >= 0.85 = congruence |
 | thresholds | `bootstrap_valid_min` | 0.80 | Tucker CI is stable if >= 80% of bootstrap fits are admissible |
 | thresholds | `cfa_delta_cfi_min` / `cfa_delta_rmsea_max` | -0.010 / 0.015 | invariance step supported only if delta CFI >= -0.010 and delta RMSEA <= 0.015 ... |
@@ -219,10 +218,9 @@ Key settings:
 | item | `data_version` | `harmonized` | `harmonized` (as in the study) or `raw`, see [Caveats](#caveats) |
 | structural | `order_check_permutations` | 0 | refit non-clean CFA models on this many random row orders and flag order-sensitive verdicts (see [Caveats](#caveats)) |
 | structural | `n_boot_tucker` | 500 | Tucker bootstrap (about 15 s per replicate for the two example instruments) |
-| structural | `rules_version` | 2 | 2 = revised structural rules (below); 1 = rules of the first submitted version of the article |
 | structural | `primary_branch` | `wu` | `millsap`: Millsap/Liu sequence as the primary branch (sensitivity) |
 | structural | `use_delta_srmr`, `exclude_near_boundary`, `structural_priority` | `true`, `false`, `cfa` | sensitivity switches: drop delta SRMR; treat near-boundary models as not usable; let ESEM decide before CFA |
-| synthesis | `type_labels` | see typology | names of the scale types (`type_labels_v1` for rules_version 1) |
+| synthesis | `type_labels` | see typology | names of the scale types |
 
 Everything is deterministic given `run.seed`; every stage derives its own generator from it. `run_manifest.json`
 records package versions, R/lavaan versions, seed, config hash and timings of each run.
@@ -290,9 +288,7 @@ Column dictionary of the main tables: [`docs/OUTPUTS.md`](docs/OUTPUTS.md). The 
 ## The typology
 
 Every scale is assigned to one type by explicit, pre-specified rules on three axes (no clustering, no post-hoc thresholds):
-**I** individuation, **C** calibration, **S** structural status. The rules below are `structural.rules_version: 2` (default);
-version 1, the rules of the first submitted version of the article, is kept for reproduction. Analysis statuses without
-structural evidence are assigned first, then the types A-E in this order; the first match wins:
+**I** individuation, **C** calibration, **S** structural status. Analysis statuses without structural evidence are assigned first, then the types A-E in this order; the first match wins:
 
 | Type | Short label | I | C | S | Rule |
 |---|---|---|---|---|---|
@@ -355,9 +351,8 @@ pytest                   # also fits lavaan models (needs R), about 5 minutes
 
 `tests/test_reference_paper.py` checks that, for the two example instruments, the framework reproduces the values of the
 original study: scale-level r/CCC/C_b (to 1e-3), item-level metrics and variance decomposition (to 1e-6), Tucker's phi (to
-1e-5) and, with R, CFA invariance decisions and the final scale types (100% agreement; with `rules_version: 1`, the rules of
-the first submitted version). `tests/test_typology_and_gate.py` tests every rule of both typology versions, the estimability,
-fit and step-decision rules of version 2 and the admissibility gate. Synthetic data with a known twin process are used to test
+1e-5) and, with R, CFA invariance decisions and the final scale types (100% agreement). `tests/test_typology_and_gate.py` tests
+every typology rule, the estimability, fit and step-decision rules and the admissibility gate. Synthetic data with a known twin process are used to test
 that better twins give better metrics and that recalibration removes an injected bias.
 
 ### Example results
@@ -377,7 +372,7 @@ Bootstrap intervals differ slightly between a `--fast` and a full run, the types
 ### Expected result on the example
 
 `twinval run --data examples/data --out results/example --fast` gives (24 scales of BFI-2 and the Spectrum of Psychological
-Health, rules_version 2):
+Health):
 
 | type | n | scales |
 |---|---|---|
@@ -390,8 +385,7 @@ Health, rules_version 2):
 | Structural model not estimable | 6 | Sociability, Energy Level, Trust, Organization, Depression, Creative Imagination |
 
 The types do not depend on the number of bootstrap replicates and are identical to those of the full 13-instrument study for
-the same 24 scales. With `structural.rules_version: 1` the run reproduces the types of the first submitted version of the
-article (A 11, B 3, C 6, D 1, E 1, not tested 2).
+the same 24 scales.
 
 ### Synthetic demonstration: every kind of result
 

@@ -43,8 +43,8 @@ stays visible (twin scores are never re-centred on their own mean, except in the
   parameters removed), of the residual (theta) and latent (psi) covariance matrices, largest |standardised loading|,
   largest |residual correlation| and |latent correlation|, and lavaan's `post.check`. Also extracted: CR, AVE, latent correlation,
   Tucker's phi of CFA loadings.
-* **Structural decision rules** (`structural.rules_version: 2`, default; `structural.py`: `model_status`, `baseline_fit`,
-  `step_decision`, `cfa_scale_status_v2`, `structural_evidence_level_v2`). Three properties are kept apart:
+* **Structural decision rules** (`structural.py`: `model_status`, `baseline_fit`,
+  `step_decision`, `cfa_scale_status`, `structural_evidence_level`). Three properties are kept apart:
   1. *Estimability* of every fitted model: `nonconverged`; `identification_not_established` (df < 0, or the parameter covariance
      matrix cannot be computed or is not positive definite beyond `cfa_pd_tolerance`); `inadmissible` (Heywood case, residual or
      latent covariance matrix not positive definite, |residual or latent correlation| > 1 + `cfa_bound_tolerance`); `admissible`.
@@ -70,8 +70,6 @@ stays visible (twin scores are never re-centred on their own mean, except in the
   not interpret its loading step because the threshold step was rejected, while the Millsap/Liu loading step is supported,
   the flag is `identification_route_dependent`: the available conclusion depends on the sequence, but the tests do not
   contradict each other. A missing conclusion because of baseline misfit or estimability triggers neither flag.
-  `structural.rules_version: 1` reproduces the rules of the first submitted version of the article (configural admissibility =
-  converged without Heywood case; metric verdict from M, scalar from W; CFI and RMSEA only).
 * **Order sensitivity check** (`structural.order_check_permutations`): refits the CFA of every candidate scale (baseline not admissible,
   or first step of the primary sequence not evaluable) on random row orders and flags scales whose baseline admissibility or CFA
   conclusion is not identical across fits; the observed baseline statuses are listed in `baseline_statuses`.
@@ -82,7 +80,7 @@ stays visible (twin scores are never re-centred on their own mean, except in the
   The CI of the instrument mean phi uses the per-replicate mean over factors.
 * **Admissibility gate**: Tucker's phi is *interpreted* (`tucker_phi_primary`) only if BOTH ESEM solutions of the instrument are admissible; all point estimates are kept as
   `tucker_phi_exploratory` and never used for typology.
-* **Structural status S** of a scale (rules_version 2): the CFA conclusion if there is one (`scalar_invariance` > `metric_invariance` >
+* **Structural status S** of a scale: the CFA conclusion if there is one (`scalar_invariance` > `metric_invariance` >
   `configural_fit`); otherwise, if both ESEM solutions of the instrument are admissible, Tucker's phi decides (`congruence_supported`
   if phi >= .85, else `structurally_discrepant`); otherwise an analysis status without structural evidence: `cfa_misfit` (baseline fit
   not supported), `cfa_fit_not_testable`, `model_not_estimable` (CFA and/or ESEM fitted but not estimable), `not_tested`.

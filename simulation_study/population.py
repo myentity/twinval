@@ -4,14 +4,14 @@
    and twin, local dependence (duplicated answers), number of items. The expected structural status of the PRIMARY
    Wu/Estabrook sequence is derived from them by an explicit mapping (``design_expectation``).
 2. Population score values: r, C_b, CCC, AUC of the scale scores on a very large independent sample.
-3. Large-sample reference classification: twinval's rules_version 2 applied to one sample of N = 20,000. This is the
+3. Large-sample reference classification: twinval's rules applied to one sample of N = 20,000. This is the
    operational verdict of the procedure itself with nearly unlimited data, NOT an independent truth.
 
 Scale level (I and C axes): Pearson r, C_b, CCC and the scale-level AUC of the scale scores from one very large sample
 (N = 200,000; the AUC from 2 million random human-twin pairs). With r > 0 the population AUC exceeds .5, so the population
 I axis is r >= .50 and the C axis is C_b >= .80.
 
-Structural level (S axis): twinval's structural decisions (paired CFA, ESEM, gate, rules_version 2) on one large sample
+Structural level (S axis): twinval's structural decisions (paired CFA, ESEM, gate) on one large sample
 (N = 20,000). With this N the change-in-fit indices and the absolute fit are essentially their population values, so the
 resulting S status is the verdict the rules give with unlimited data ("population verdict"). The design intent (invariant,
 loadings differ, thresholds shifted) is kept next to it.

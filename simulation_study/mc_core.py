@@ -1,7 +1,7 @@
 """Shared pieces of the Monte Carlo study: data generation and the twinval decisions for one data set.
 
 The structural part is the same code path as ``twinval run`` (stage ``structural``): category harmonisation, paired ordinal
-CFA (r/paired_cfa_invariance.R), ESEM + Procrustes/Tucker point estimates, admissibility gate, rules_version 2 status and
+CFA (r/paired_cfa_invariance.R), ESEM + Procrustes/Tucker point estimates, admissibility gate, structural status and
 ``scale_structural_table``. The Tucker bootstrap is not run: it does not enter the final type except through the
 ``bootstrap_unstable`` flag.
 """
@@ -31,7 +31,7 @@ def generate(cond: dict, seed: int, out: Path, n: int | None = None):
 
 
 def structural(study, workdir: Path, cfg=CFG, order_perm: int = 0, seed: int = 1) -> dict:
-    """Paired CFA + ESEM + gate -> rules_version 2 structural table (one row per scale)."""
+    """Paired CFA + ESEM + gate -> structural table (one row per scale)."""
     workdir.mkdir(parents=True, exist_ok=True)
     logs = workdir / "logs"
     logs.mkdir(exist_ok=True)
@@ -39,7 +39,7 @@ def structural(study, workdir: Path, cfg=CFG, order_perm: int = 0, seed: int = 1
     S.run_r("paired_cfa_invariance.R", [workdir / "cfa_manifest.csv", workdir / "cfa_results", cfg.thresholds.cfa_delta_cfi_min,
                                         cfg.thresholds.cfa_delta_rmsea_max], logs / "cfa.log", cfg.structural.rscript)
     inv = pd.read_csv(workdir / "cfa_results" / "invariance_results.csv")
-    status = S.cfa_scale_status_v2(inv, cfg)
+    status = S.cfa_scale_status(inv, cfg)
     order = None
     if order_perm > 0:
         order = S.cfa_order_sensitivity(inv, inp["manifest"], workdir, order_perm, seed, cfg, logs)
@@ -64,8 +64,8 @@ def axis_C(cb: float, t=CFG.thresholds) -> str:
 
 
 def final_type(i: str, c: str, s: str) -> str:
-    """The rules_version 2 decision of twinval (synthesis._final_type_v2) for given axes."""
-    return synth._final_type_v2({"axis_I_practical": i, "axis_C": c, "axis_S": s})
+    """The type decision of twinval (synthesis._final_type) for given axes."""
+    return synth._final_type({"axis_I_practical": i, "axis_C": c, "axis_S": s})
 
 
 def scale_scores(study) -> tuple[np.ndarray, np.ndarray]:

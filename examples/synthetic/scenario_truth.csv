@@ -1,30 +1,30 @@
-scale_id,instrument_id,scale_name,intended_type,intended_type_v2,design,rho,mu,sigma,halo,twin_loading_mean,human_loading_mean,n_items
-901_Alpha,901,Alpha,A,A,"high individuation, calibrated, same loadings",0.88,0.0,1.0,0.0,0.6918669937015998,0.6918669937015998,6
-901_Beta,901,Beta,A,A,"high individuation, calibrated, same loadings",0.85,0.0,1.0,0.0,0.7121234985270721,0.7121234985270721,5
-901_Gamma,901,Gamma,A,A,"high individuation, calibrated, same loadings",0.82,0.0,1.0,0.0,0.7167514884175127,0.7167514884175127,6
-902_Shifted,902,Shifted,B,B,"good individuation, twin mean +0.7 SD and compressed",0.88,0.7,0.65,0.0,0.6978240723513823,0.6978240723513823,6
-902_Compressed,902,Compressed,B,B,"good individuation, twin variance strongly compressed and mean +0.4 SD",0.93,0.4,0.4,0.0,0.7242748878984623,0.7242748878984623,5
-902_Lowered,902,Lowered,B,B,"good individuation, twin mean -0.8 SD and never uses the highest category",0.88,-0.8,0.75,0.0,0.6803599244338323,0.6803599244338323,6
-903_Generic1,903,Generic1,C,C,"same structure, twin only weakly tracks the person",0.3,0.0,1.0,0.0,0.7274952895553858,0.7274952895553858,6
-903_Generic2,903,Generic2,C,C,"same structure, twin only weakly tracks the person",0.25,0.0,1.0,0.0,0.6867607876218822,0.6867607876218822,5
-903_Generic3,903,Generic3,C,C,"same structure, twin only weakly tracks the person",0.35,0.0,1.0,0.0,0.6835531309273986,0.6835531309273986,6
-904_Uneven1,904,Uneven1,E,E,"good, calibrated, but unequal twin loadings (no metric invariance)",0.88,0.0,1.0,0.0,0.6,0.6996513500845728,6
-904_Uneven2,904,Uneven2,E,E,"good, calibrated, but unequal twin loadings (no metric invariance)",0.88,0.0,1.0,0.0,0.6,0.6698219755044826,6
-904_Even,904,Even,A,A,control scale,0.85,0.0,1.0,0.0,0.7095548501355516,0.7095548501355516,5
-905_Duplicated,905,Duplicated,E,E,"twin repeats one answer on items 1-3: the scale-level CFA fails, ESEM is admissible and congruent (phi >= 0.85) -> limited structural support",0.88,0.0,1.0,0.0,0.7023733327335053,0.7023733327335053,5
-905_Plain1,905,Plain1,A,A,control scale,0.85,0.0,1.0,0.0,0.6788235312511199,0.6788235312511199,5
-905_Plain2,905,Plain2,A,A,control scale,0.8,0.0,1.0,0.0,0.6735514812528963,0.6735514812528963,5
-906_Mixed1,906,Mixed1,E,E,"good twin, but reverse-keyed items are handled worse (unequal loadings: no metric invariance)",0.85,0.0,1.0,0.0,0.6054255896817934,0.7029244241210039,6
-906_Mixed2,906,Mixed2,B,B,twin never uses the lowest category and is shifted,0.85,0.8,0.6,0.0,0.6833311514446267,0.6833311514446267,5
-906_Mixed3,906,Mixed3,C,C,weak individuation,0.3,0.0,1.0,0.0,0.7124725403302942,0.7124725403302942,5
-906_Total,906,Total,redundant,redundant,total score re-using all items (excluded from the analyses that need independence),,,,,,,16
-907_ShortA,907,ShortA,A,A,"3 items, good twin",0.85,0.0,1.0,0.0,0.6652009227044949,0.6652009227044949,3
-907_ShortB,907,ShortB,C,C,"3 items, weak individuation",0.5,0.0,1.0,0.0,0.7366415934958191,0.7366415934958191,3
-907_ShortC,907,ShortC,A,A,4 items,0.85,0.0,1.0,0.0,0.706984671470579,0.706984671470579,4
-908_Solo,908,Solo,not_tested,model_not_estimable,"unidimensional instrument (ESEM not applicable) whose twin gives one answer to all items: the CFA fails, so the structural level is unknown",0.88,0.0,1.0,0.0,0.7211353732392538,0.7211353732392538,4
-909_DupD,909,DupD,D,D,"twin repeats one answer on items 1-3 and ignores items 4-5: good scale score, CFA fails, ESEM loadings differ (phi < 0.85)",0.95,0.0,1.0,0.0,0.5800000000000001,0.6836830493085106,5
-909_DupF,909,DupF,F,F,"as DupD, but the twin also tracks the person poorly (r < 0.5, CCC < 0.4)",0.3,0.0,1.0,0.0,0.5800000000000001,0.7327593792102809,5
-909_Plain,909,Plain,A,A,control scale (can come out as E by chance: a borderline metric-invariance test),0.85,0.0,1.0,0.0,0.6805347439540911,0.6805347439540911,5
-910_Duplicated,910,Duplicated,model_inadmissible,model_not_estimable,"twin repeats one answer on items 1-3: CFA and the twin ESEM are inadmissible, the gate closes for the whole instrument",0.88,0.0,1.0,0.0,0.669825855730837,0.669825855730837,5
-910_Plain1,910,Plain1,A,A,control scale (no Tucker phi: the instrument failed the gate),0.85,0.0,1.0,0.0,0.7020751523873883,0.7020751523873883,5
-910_Plain2,910,Plain2,A,A,control scale (no Tucker phi: the instrument failed the gate),0.8,0.0,1.0,0.0,0.6874004120957778,0.6874004120957778,5
+scale_id,instrument_id,scale_name,intended_type,design,rho,mu,sigma,halo,twin_loading_mean,human_loading_mean,n_items
+901_Alpha,901,Alpha,A,"high individuation, calibrated, same loadings",0.88,0.0,1.0,0.0,0.6918669937015998,0.6918669937015998,6
+901_Beta,901,Beta,A,"high individuation, calibrated, same loadings",0.85,0.0,1.0,0.0,0.7121234985270721,0.7121234985270721,5
+901_Gamma,901,Gamma,A,"high individuation, calibrated, same loadings",0.82,0.0,1.0,0.0,0.7167514884175127,0.7167514884175127,6
+902_Shifted,902,Shifted,B,"good individuation, twin mean +0.7 SD and compressed",0.88,0.7,0.65,0.0,0.6978240723513823,0.6978240723513823,6
+902_Compressed,902,Compressed,B,"good individuation, twin variance strongly compressed and mean +0.4 SD",0.93,0.4,0.4,0.0,0.7242748878984623,0.7242748878984623,5
+902_Lowered,902,Lowered,B,"good individuation, twin mean -0.8 SD and never uses the highest category",0.88,-0.8,0.75,0.0,0.6803599244338323,0.6803599244338323,6
+903_Generic1,903,Generic1,C,"same structure, twin only weakly tracks the person",0.3,0.0,1.0,0.0,0.7274952895553858,0.7274952895553858,6
+903_Generic2,903,Generic2,C,"same structure, twin only weakly tracks the person",0.25,0.0,1.0,0.0,0.6867607876218822,0.6867607876218822,5
+903_Generic3,903,Generic3,C,"same structure, twin only weakly tracks the person",0.35,0.0,1.0,0.0,0.6835531309273986,0.6835531309273986,6
+904_Uneven1,904,Uneven1,E,"good, calibrated, but unequal twin loadings (no metric invariance)",0.88,0.0,1.0,0.0,0.6,0.6996513500845728,6
+904_Uneven2,904,Uneven2,E,"good, calibrated, but unequal twin loadings (no metric invariance)",0.88,0.0,1.0,0.0,0.6,0.6698219755044826,6
+904_Even,904,Even,A,control scale,0.85,0.0,1.0,0.0,0.7095548501355516,0.7095548501355516,5
+905_Duplicated,905,Duplicated,E,"twin repeats one answer on items 1-3: the scale-level CFA fails, ESEM is admissible and congruent (phi >= 0.85) -> limited structural support",0.88,0.0,1.0,0.0,0.7023733327335053,0.7023733327335053,5
+905_Plain1,905,Plain1,A,control scale,0.85,0.0,1.0,0.0,0.6788235312511199,0.6788235312511199,5
+905_Plain2,905,Plain2,A,control scale,0.8,0.0,1.0,0.0,0.6735514812528963,0.6735514812528963,5
+906_Mixed1,906,Mixed1,E,"good twin, but reverse-keyed items are handled worse (unequal loadings: no metric invariance)",0.85,0.0,1.0,0.0,0.6054255896817934,0.7029244241210039,6
+906_Mixed2,906,Mixed2,B,twin never uses the lowest category and is shifted,0.85,0.8,0.6,0.0,0.6833311514446267,0.6833311514446267,5
+906_Mixed3,906,Mixed3,C,weak individuation,0.3,0.0,1.0,0.0,0.7124725403302942,0.7124725403302942,5
+906_Total,906,Total,redundant,total score re-using all items (excluded from the analyses that need independence),,,,,,,16
+907_ShortA,907,ShortA,A,"3 items, good twin",0.85,0.0,1.0,0.0,0.6652009227044949,0.6652009227044949,3
+907_ShortB,907,ShortB,C,"3 items, weak individuation",0.5,0.0,1.0,0.0,0.7366415934958191,0.7366415934958191,3
+907_ShortC,907,ShortC,A,4 items,0.85,0.0,1.0,0.0,0.706984671470579,0.706984671470579,4
+908_Solo,908,Solo,model_not_estimable,"unidimensional instrument (ESEM not applicable) whose twin gives one answer to all items: the CFA fails, so the structural level is unknown",0.88,0.0,1.0,0.0,0.7211353732392538,0.7211353732392538,4
+909_DupD,909,DupD,D,"twin repeats one answer on items 1-3 and ignores items 4-5: good scale score, CFA fails, ESEM loadings differ (phi < 0.85)",0.95,0.0,1.0,0.0,0.5800000000000001,0.6836830493085106,5
+909_DupF,909,DupF,F,"as DupD, but the twin also tracks the person poorly (r < 0.5, CCC < 0.4)",0.3,0.0,1.0,0.0,0.5800000000000001,0.7327593792102809,5
+909_Plain,909,Plain,A,control scale (can come out as E by chance: a borderline metric-invariance test),0.85,0.0,1.0,0.0,0.6805347439540911,0.6805347439540911,5
+910_Duplicated,910,Duplicated,model_not_estimable,"twin repeats one answer on items 1-3: CFA and the twin ESEM are inadmissible, the gate closes for the whole instrument",0.88,0.0,1.0,0.0,0.669825855730837,0.669825855730837,5
+910_Plain1,910,Plain1,A,control scale (no Tucker phi: the instrument failed the gate),0.85,0.0,1.0,0.0,0.7020751523873883,0.7020751523873883,5
+910_Plain2,910,Plain2,A,control scale (no Tucker phi: the instrument failed the gate),0.8,0.0,1.0,0.0,0.6874004120957778,0.6874004120957778,5

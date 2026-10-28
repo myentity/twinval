@@ -105,7 +105,7 @@ violation.
    independent sample of N = 200,000 (AUC from 2 million random human–twin pairs). These are the targets for bias, RMSE
    and coverage. Population axes: I_pop = (r ≥ .50), because with r > 0 the population AUC exceeds .50; C_pop = (C_b ≥ .80).
 
-3. **Large-sample reference classification.** The rules (rules_version 2) are applied to one sample of N = 20,000. This
+3. **Large-sample reference classification.** The rules are applied to one sample of N = 20,000. This
    is the procedure's own verdict with nearly unlimited data, **not an independent truth**.
 
 **Two outcome families follow:**
@@ -175,7 +175,7 @@ In every replication the procedure runs exactly as in `twinval run` (`mc_core.py
   - paired ordinal CFA, both sequences;
   - ESEM with target rotation + Procrustes/Tucker point estimate;
   - admissibility gate;
-  - rules_version 2 status;
+  - structural status;
   - final type.
 - **Not repeated:** the Tucker bootstrap and the profile level, neither of which enters the type. As a result, the
   `bootstrap_unstable` flag is not evaluated.

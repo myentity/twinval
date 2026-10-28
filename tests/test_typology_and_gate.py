@@ -6,7 +6,7 @@ import pytest
 from twinval import structural as S, synthesis as synth
 from twinval.config import load_config
 
-V1 = load_config(overrides={"structural": {"rules_version": 1}})
+CFG = load_config()
 
 
 def row(r, auc_lo, cb, ccc, level, **kw):
@@ -17,50 +17,10 @@ def row(r, auc_lo, cb, ccc, level, **kw):
     return d
 
 
-@pytest.mark.parametrize("args,expected", [
-    (dict(r=.6, auc_lo=.55, cb=.9, ccc=.5, level="metric_invariance"), "A"),
-    (dict(r=.6, auc_lo=.55, cb=.9, ccc=.5, level="scalar_invariance"), "A"),
-    (dict(r=.6, auc_lo=.55, cb=.7, ccc=.4, level="metric_invariance"), "B"),
-    (dict(r=.6, auc_lo=.55, cb=.7, ccc=.4, level="structurally_discrepant"), "B"),           # B is evaluated before D
-    (dict(r=.3, auc_lo=.55, cb=.9, ccc=.3, level="configural_only"), "C"),
-    (dict(r=.3, auc_lo=.55, cb=.9, ccc=.3, level="congruence_supported"), "C"),
-    (dict(r=.6, auc_lo=.55, cb=.9, ccc=.5, level="structurally_discrepant"), "D"),
-    (dict(r=.3, auc_lo=.55, cb=.7, ccc=.45, level="structurally_discrepant"), "D"),          # branch (b): CCC >= .40
-    (dict(r=.3, auc_lo=.55, cb=.7, ccc=.30, level="structurally_discrepant"), "F"),
-    (dict(r=.6, auc_lo=.55, cb=.9, ccc=.5, level="configural_only"), "E"),
-    (dict(r=.6, auc_lo=.55, cb=.9, ccc=.5, level="model_inadmissible"), "model_inadmissible"),
-    (dict(r=.6, auc_lo=.55, cb=.9, ccc=.5, level="not_tested"), "not_tested"),
-    (dict(r=.5, auc_lo=.501, cb=.8, ccc=.5, level="metric_invariance"), "A"),                # thresholds are inclusive (>=)
-    (dict(r=.499, auc_lo=.55, cb=.9, ccc=.5, level="metric_invariance"), "C"),
-    (dict(r=.6, auc_lo=.50, cb=.9, ccc=.5, level="metric_invariance"), "C"),                  # AUC CI must be strictly above .50
-])
-def test_typology_rules_v1(args, expected):
-    typ, summ, rules = synth.typology(pd.DataFrame([row(**args)]), V1)
-    assert typ.loc[0, "final_type"] == expected
-    assert summ["n"].sum() == 1 and "decision_order" in rules
-
-
 def test_typology_labels_come_from_config():
     typ, *_ = synth.typology(pd.DataFrame([row(.6, .55, .9, .5, "metric_invariance")]),
                              load_config(overrides={"synthesis": {"type_labels": {"A": "My label"}}}))
     assert typ.loc[0, "final_type_label"] == "My label"
-    typ, *_ = synth.typology(pd.DataFrame([row(.6, .55, .9, .5, "metric_invariance")]),
-                             load_config(overrides={"structural": {"rules_version": 1},
-                                                    "synthesis": {"type_labels_v1": {"A": "My label"}}}))
-    assert typ.loc[0, "final_type_label"] == "My label"
-
-
-@pytest.mark.parametrize("conf,metric,scalar,applic,paired,phi,expected", [
-    (True, "yes", "yes", True, True, .9, "scalar_invariance"),
-    (True, "yes", "no", True, True, .9, "metric_invariance"),
-    (True, "no", "not_tested", True, True, .3, "configural_only"),               # CFA outranks ESEM/Tucker
-    (False, "not_tested", "not_tested", True, True, .90, "congruence_supported"),
-    (False, "not_tested", "not_tested", True, True, .80, "structurally_discrepant"),
-    (False, "not_tested", "not_tested", True, False, .20, "model_inadmissible"),    # low phi from an inadmissible ESEM is NOT a discrepancy
-    (False, "not_tested", "not_tested", False, False, np.nan, "not_tested"),
-])
-def test_structural_evidence_level(conf, metric, scalar, applic, paired, phi, expected):
-    assert S.structural_evidence_level(conf, metric, scalar, applic, paired, phi) == expected
 
 
 def test_admissibility_requires_both_sides():
@@ -68,20 +28,6 @@ def test_admissibility_requires_both_sides():
                          "status": ["ok", "ok", "ok", "inadmissible_heywood", "nonconverged", "ok"]})
     g = S.admissibility(diag, [1, 2, 3, 4]).set_index("instrument_id")
     assert list(g["paired_esem_admissible"]) == [True, False, False, False]
-
-
-def test_cfa_scale_status_conditional_scalar():
-    res = pd.DataFrame([
-        {"scale_id": "a", "wu_configural_converged": True, "wu_configural_heywood": False, "ms_loading_status": "supported",
-         "wu_threshold_status": "supported", "wu_conditional_scalar_status": "supported"},
-        {"scale_id": "b", "wu_configural_converged": True, "wu_configural_heywood": False, "ms_loading_status": "rejected",
-         "wu_threshold_status": "rejected", "wu_conditional_scalar_status": "supported"},   # thresholds not supported -> scalar not interpretable
-        {"scale_id": "c", "wu_configural_converged": True, "wu_configural_heywood": True, "ms_loading_status": "supported",
-         "wu_threshold_status": "supported", "wu_conditional_scalar_status": "supported"}])
-    s = S.cfa_scale_status(res).set_index("scale_id")
-    assert s.loc["a", "metric_invariance"] == "yes" and s.loc["a", "scalar_invariance"] == "yes"
-    assert s.loc["b", "metric_invariance"] == "no" and s.loc["b", "scalar_invariance"] == "not_tested"
-    assert s.loc["c", "metric_invariance"] == "not_tested" and not s.loc["c", "configural_cfa_admissible"]
 
 
 def test_tucker_phi_and_bootstrap_merge():
@@ -92,15 +38,7 @@ def test_tucker_phi_and_bootstrap_merge():
     assert by_factor.loc[0, "frac_valid_bootstrap"] == 0.75 and not by_factor.loc[0, "ci_stable"]
 
 
-def test_v1_order_sensitivity_returns_empty_when_all_models_are_clean(tmp_path):
-    res = pd.DataFrame({"scale_id": ["a"], "wu_configural_converged": [True], "wu_configural_heywood": [False],
-                        "wu_threshold_status": ["supported"]})
-    out = S.cfa_order_sensitivity(res, pd.DataFrame(), tmp_path, 3, 1, load_config(overrides={"structural": {"rules_version": 1}}), tmp_path)
-    assert out.empty
-
-
-# =============================================================================== rules_version 2
-V2 = load_config()
+# =============================================================================== structural rules
 
 
 @pytest.mark.parametrize("args,expected", [
@@ -119,16 +57,16 @@ V2 = load_config()
     (dict(r=.6, auc_lo=.55, cb=.9, ccc=.5, level="model_not_estimable"), "model_not_estimable"),
     (dict(r=.6, auc_lo=.55, cb=.9, ccc=.5, level="not_tested"), "not_tested"),
 ])
-def test_typology_rules_v2(args, expected):
-    typ, summ, rules = synth.typology(pd.DataFrame([row(**args)]), V2)
+def test_typology_rules(args, expected):
+    typ, summ, rules = synth.typology(pd.DataFrame([row(**args)]), CFG)
     assert typ.loc[0, "final_type"] == expected
-    assert rules["rules_version"] == 2 and summ["n"].sum() == 1
+    assert "decision_order" in rules and summ["n"].sum() == 1
 
 
 def test_evidence_quality_reports_flags_without_changing_the_type():
     r = row(.6, .55, .9, .5, "metric_invariance",
             structural_flags="near_boundary_loading;identification_scheme_sensitive;baseline_fit_not_testable")
-    typ, *_ = synth.typology(pd.DataFrame([r]), V2)
+    typ, *_ = synth.typology(pd.DataFrame([r]), CFG)
     assert typ.loc[0, "final_type"] == "A"
     q = typ.loc[0, "evidence_quality"]
     assert "baseline fit not testable" in q and "identification-sensitive" in q and "near-boundary" in q
@@ -156,12 +94,12 @@ def model(prefix, **kw):
     (dict(max_abs_resid_cor=0.96), "admissible", ["near_boundary_residual_correlation"]),
 ])
 def test_model_status(kw, status, flags):
-    st, fl = S.model_status(model("m", **kw), "m", V2.thresholds)
+    st, fl = S.model_status(model("m", **kw), "m", CFG.thresholds)
     assert st == status and fl == flags
 
 
 def test_model_status_not_fitted():
-    assert S.model_status({}, "m", V2.thresholds) == ("not_fitted", [])
+    assert S.model_status({}, "m", CFG.thresholds) == ("not_fitted", [])
 
 
 @pytest.mark.parametrize("kw,fit,flags", [
@@ -172,7 +110,7 @@ def test_model_status_not_fitted():
     (dict(rmsea_ci_lo=0.12), "supported", ["conflicting_fit_diagnostics"]),
 ])
 def test_baseline_fit(kw, fit, flags):
-    assert S.baseline_fit(model("m", **kw), "m", V2.thresholds) == (fit, flags)
+    assert S.baseline_fit(model("m", **kw), "m", CFG.thresholds) == (fit, flags)
 
 
 def wu_row(w0=None, w1=None, w2=None, w3=None, d1=(0, 0.01, 0), d2=(0, 0.01, 0.01), d3=(0, 0.01, 0.005), ms=None, dm=(0, 0.01, 0.01)):
@@ -188,8 +126,8 @@ def wu_row(w0=None, w1=None, w2=None, w3=None, d1=(0, 0.01, 0), d2=(0, 0.01, 0.0
 
 
 def status(r, **struct):
-    cfg = load_config(overrides={"structural": struct}) if struct else V2
-    return S.cfa_scale_status_v2(pd.DataFrame([r]), cfg).iloc[0]
+    cfg = load_config(overrides={"structural": struct}) if struct else CFG
+    return S.cfa_scale_status(pd.DataFrame([r]), cfg).iloc[0]
 
 
 def test_wu_sequence_scalar():
@@ -235,13 +173,13 @@ def test_inadmissible_constrained_model_makes_the_step_not_evaluable_not_rejecte
     assert s.metric_decision == "not_evaluable_inadmissible" and s.cfa_conclusion == "configural_fit"
 
 
-def test_order_sensitivity_candidates_follow_v2_statuses(tmp_path):
+def test_order_sensitivity_candidates_follow_cfa_statuses(tmp_path):
     clean = pd.DataFrame([wu_row()])
-    assert S.cfa_order_sensitivity(clean, pd.DataFrame(), tmp_path, 3, 1, V2, tmp_path).empty
-    # admissible-by-v1 (converged, no Heywood) but inadmissible under v2 (non-PD residual matrix): a candidate
+    assert S.cfa_order_sensitivity(clean, pd.DataFrame(), tmp_path, 3, 1, CFG, tmp_path).empty
+    # converged without a Heywood case but inadmissible (non-PD residual matrix): a candidate for the refit
     bad = pd.DataFrame([wu_row(w0=dict(theta_min_eigen=-0.2))])
     with pytest.raises(Exception):                                                            # the refit needs real data
-        S.cfa_order_sensitivity(bad, pd.DataFrame(), tmp_path, 1, 1, V2, tmp_path)
+        S.cfa_order_sensitivity(bad, pd.DataFrame(), tmp_path, 1, 1, CFG, tmp_path)
 
 
 def test_baseline_misfit_and_untestable_fit():
@@ -277,8 +215,8 @@ def test_millsap_as_primary_branch():
     ("none", "nonconverged", True, False, False, np.nan, "cfa", "model_not_estimable"),
     ("none", "not_fitted", False, False, False, np.nan, "cfa", "not_tested"),
 ])
-def test_structural_evidence_level_v2(conclusion, reason, cfa_run, applic, paired, phi, priority, expected):
-    assert S.structural_evidence_level_v2(conclusion, reason, cfa_run, applic, paired, phi, 0.85, priority) == expected
+def test_structural_evidence_level(conclusion, reason, cfa_run, applic, paired, phi, priority, expected):
+    assert S.structural_evidence_level(conclusion, reason, cfa_run, applic, paired, phi, 0.85, priority) == expected
 
 
 def test_instrument_summary_follows_cfa_conclusion():
@@ -286,9 +224,9 @@ def test_instrument_summary_follows_cfa_conclusion():
     rows = {"good": wu_row(), "misfit": wu_row(w0=dict(srmr=0.12)), "noconv": wu_row(w0=dict(converged=False))}
     res = pd.DataFrame([{**r, "scale_id": k} for k, r in rows.items()])
     study = NS(registry=NS(scales={k: NS(instrument_id=1) for k in rows}, instruments={1: NS(name_en="I1"), 2: NS(name_en="I2")}))
-    st = S.cfa_scale_status_v2(res, V2)
+    st = S.cfa_scale_status(res, CFG)
     assert st.set_index("scale_id").loc["misfit", "metric_decision"] == "supported"        # supported step, misfitting baseline
-    inst = S.cfa_by_instrument(res, study, st).iloc[0]
+    inst = S.cfa_by_instrument(study, st).iloc[0]
     assert inst.configural_status == "mixed" and inst.n_scales_configural_ok == 1
     assert (inst.n_scales_cfa_misfit, inst.n_scales_not_estimable) == (1, 1)
     # only the scale with a CFA conclusion counts; the instrument level is not established
@@ -296,14 +234,14 @@ def test_instrument_summary_follows_cfa_conclusion():
     assert inst.metric_status == "not_established" and inst.scalar_status == "not_established"
     # every scale concluded -> supported; a rejected step of a concluded scale -> not_supported
     two = pd.DataFrame([{**wu_row(), "scale_id": "good"}, {**wu_row(d2=(-0.05, 0.01, 0.01), w3=False), "scale_id": "noconv"}])
-    inst = S.cfa_by_instrument(two, study, S.cfa_scale_status_v2(two, V2)).iloc[0]
+    inst = S.cfa_by_instrument(study, S.cfa_scale_status(two, CFG)).iloc[0]
     assert inst.configural_status == "supported" and inst.metric_status == "not_supported" and inst.n_scales_metric_rejected == 1
     one = pd.DataFrame([{**wu_row(w0=dict(srmr=0.12)), "scale_id": "misfit"}])
-    assert S.cfa_by_instrument(one, study, S.cfa_scale_status_v2(one, V2)).iloc[0].configural_status == "misfit"
+    assert S.cfa_by_instrument(study, S.cfa_scale_status(one, CFG)).iloc[0].configural_status == "misfit"
 
 
 def test_step_diagnostics_long_table():
-    d = S.cfa_step_diagnostics(pd.DataFrame([wu_row(d1=(-0.05, 0.01, 0), w2=False, w3=False)]), V2)
+    d = S.cfa_step_diagnostics(pd.DataFrame([wu_row(d1=(-0.05, 0.01, 0), w2=False, w3=False)]), CFG)
     wu = d[d.sequence == "wu"].set_index("step")
     assert list(wu.index) == ["baseline", "threshold", "metric", "scalar"]
     assert wu.loc["baseline", "decision"] == "supported" and wu.loc["threshold", "decision"] == "rejected"

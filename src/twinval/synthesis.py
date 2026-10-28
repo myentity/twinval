@@ -15,8 +15,6 @@ import numpy as np
 import pandas as pd
 from scipy import stats as sps
 
-import logging
-
 from .io import Study
 from .stats import bh_adjust, cluster_bootstrap_spearman
 
@@ -154,9 +152,8 @@ def associations(master: pd.DataFrame, cfg, rng: np.random.Generator) -> dict[st
 
 
 # =============================================================================== typology
-TYPE_ORDER = ["A", "B", "C", "D", "E", "F", "model_inadmissible", "not_tested"]
-TYPE_ORDER_V2 = ["A", "B", "C", "D", "E", "F", "cfa_misfit", "cfa_fit_not_testable", "model_not_estimable", "not_tested"]
-S_ANALYSIS_V2 = ("cfa_misfit", "cfa_fit_not_testable", "model_not_estimable", "not_tested")   # no structural evidence
+TYPE_ORDER = ["A", "B", "C", "D", "E", "F", "cfa_misfit", "cfa_fit_not_testable", "model_not_estimable", "not_tested"]
+S_ANALYSIS = ("cfa_misfit", "cfa_fit_not_testable", "model_not_estimable", "not_tested")   # no structural evidence
 
 
 def _axis_i_detectable(row) -> str:
@@ -166,10 +163,10 @@ def _axis_i_detectable(row) -> str:
     return "positive" if ok else "weak_or_not_confirmed"
 
 
-def _final_type_v2(row) -> str:
-    """Rules_version 2 (DECISIONS.md): analysis statuses first, then A-E, F residual."""
+def _final_type(row) -> str:
+    """Analysis statuses first, then A-E, F residual (first match wins)."""
     i, c, s = row["axis_I_practical"], row["axis_C"], row["axis_S"]
-    if s in S_ANALYSIS_V2:
+    if s in S_ANALYSIS:
         return s
     if i == "adequate" and c == "adequate" and s in ("scalar_invariance", "metric_invariance"):
         return "A"
@@ -202,20 +199,8 @@ def _evidence_quality(row) -> str:
 
 
 def type_labels(cfg) -> dict:
-    """Labels of the final types for the active ``structural.rules_version``.
-
-    A configuration saved by a rules_version 1 run carries the old ``synthesis.type_labels`` (recognisable by the
-    v1-only key ``model_inadmissible``); under rules_version 2 those labels would mislabel the new types, so the
-    packaged v2 labels are used instead, with a warning.
-    """
-    if int(cfg.structural.rules_version) < 2:
-        return dict(cfg.synthesis.get("type_labels_v1", cfg.synthesis.type_labels))
-    labels = dict(cfg.synthesis.type_labels)
-    if "model_inadmissible" in labels:
-        from .config import load_config
-        logging.getLogger("twinval").warning("synthesis.type_labels look like rules_version 1 labels; using the packaged v2 labels")
-        labels = dict(load_config().synthesis.type_labels)
-    return labels
+    """Labels of the final types (``synthesis.type_labels``)."""
+    return dict(cfg.synthesis.type_labels)
 
 
 def typology(master: pd.DataFrame, cfg) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
@@ -225,19 +210,15 @@ def typology(master: pd.DataFrame, cfg) -> tuple[pd.DataFrame, pd.DataFrame, dic
     statistical detectability criterion is kept in a separate column), **C** calibration (``C_b >= cb_adequate``),
     **S** structural status (``structural_evidence_level``). Rules are applied in this order (first match wins)::
 
-        model_inadmissible / not_tested                                     S is unknown - kept as separate categories
+        cfa_misfit / cfa_fit_not_testable / model_not_estimable / not_tested   analysis statuses, no type
         A  I adequate  & C adequate    & S in {scalar, metric}
         B  I adequate  & C distorted                                         (evaluated before D)
-        C  I inadequate               & S in {scalar, metric, configural, congruence}
-        D  (I adequate or CCC >= ccc_acceptable) & S == structurally_discrepant
-        E  I adequate  & C adequate    & S in {configural, congruence}
+        C  I inadequate               & S in {scalar, metric, configural_fit, congruence}
+        D  I adequate  & C adequate    & S == structurally_discrepant
+        E  I adequate  & C adequate    & S in {configural_fit, congruence}
         F  everything else (defensive residual)
-
-    This is ``structural.rules_version: 1``. Version 2 (default, :func:`_final_type_v2`) uses the revised S axis
-    and D = I adequate & C adequate & S discrepant.
     """
     t = cfg.thresholds
-    v2 = int(cfg.structural.rules_version) >= 2
     df = master.copy()
     need = ["r", "AUC", "AUC_ci_low", "Cb", "CCC", "structural_evidence_level"]
     missing = [c for c in need if c not in df]
@@ -249,77 +230,44 @@ def typology(master: pd.DataFrame, cfg) -> tuple[pd.DataFrame, pd.DataFrame, dic
     df["axis_C"] = np.where(df["Cb"].isna(), "uncertain", np.where(df["Cb"] >= t.cb_adequate, "adequate", "distorted"))
     df["axis_S"] = df["structural_evidence_level"]
 
-    def final(row):
-        i, c, s = row["axis_I_practical"], row["axis_C"], row["axis_S"]
-        if s == "model_inadmissible":
-            return "model_inadmissible"
-        if s == "not_tested":
-            return "not_tested"
-        if i == "adequate" and c == "adequate" and s in ("scalar_invariance", "metric_invariance"):
-            return "A"
-        if i == "adequate" and c == "distorted":
-            return "B"
-        if i != "adequate" and s in ("scalar_invariance", "metric_invariance", "configural_only", "congruence_supported"):
-            return "C"
-        if (i == "adequate" or (pd.notna(row["CCC"]) and row["CCC"] >= t.ccc_acceptable)) and s == "structurally_discrepant":
-            return "D"
-        if i == "adequate" and c == "adequate" and s in ("configural_only", "congruence_supported"):
-            return "E"
-        return "F"
-
-    df["final_type"] = df.apply(_final_type_v2 if v2 else final, axis=1)
+    df["final_type"] = df.apply(_final_type, axis=1)
     labels = type_labels(cfg)
     df["final_type_label"] = df["final_type"].map(lambda k: labels.get(k, k))
     df["classification_reason"] = ("I_practical=" + df["axis_I_practical"] + " (I_detectable=" + df["axis_I_detectable"] +
                                    "), C=" + df["axis_C"] + ", S=" + df["axis_S"] + " -> " + df["final_type"])
-    if v2:
-        flags = df["structural_flags"].fillna("") if "structural_flags" in df else pd.Series("", index=df.index)
-        df["structural_flags"] = flags
-        df["evidence_quality"] = df.apply(_evidence_quality, axis=1)
+    flags = df["structural_flags"].fillna("") if "structural_flags" in df else pd.Series("", index=df.index)
+    df["structural_flags"] = flags
+    df["evidence_quality"] = df.apply(_evidence_quality, axis=1)
     cols = ["scale_id", "scale_name", "instrument_name", "r", "AUC", "AUC_ci_low", "CCC", "Cb", "structural_evidence_level",
             "paired_esem_admissible", "tucker_phi_primary", "tucker_phi_exploratory", "metric_invariance", "scalar_invariance",
             "baseline_status", "baseline_fit", "threshold_decision", "metric_decision", "scalar_decision",
             "axis_I_detectable", "axis_I_practical", "axis_C", "axis_S", "final_type", "final_type_label", "classification_reason",
             "structural_flags", "evidence_quality"]
     df = df[[c for c in cols if c in df.columns]]
-    summ = df["final_type"].value_counts().reindex(TYPE_ORDER_V2 if v2 else TYPE_ORDER).dropna().astype(int).rename("n").reset_index()
+    summ = df["final_type"].value_counts().reindex(TYPE_ORDER).dropna().astype(int).rename("n").reset_index()
     summ.columns = ["final_type", "n"]
     summ["pct"] = (summ["n"] / len(df) * 100).round(1)
     summ["label"] = summ["final_type"].map(lambda k: labels.get(k, k))
     summ["example_scales"] = summ["final_type"].map(lambda k: "; ".join(df.loc[df.final_type == k, "scale_name"].head(3)))
-    if v2:
-        s = cfg.structural
-        rules = {"version": "structural rules v2", "rules_version": 2,
-                 "thresholds": {k: t[k] for k in ("r_practical", "auc_ci_low", "cb_adequate", "phi_congruence",
-                                                  "cfa_delta_cfi_min", "cfa_delta_rmsea_max", "cfa_delta_srmr_loadings_max",
-                                                  "cfa_delta_srmr_thresholds_max", "cfa_srmr_fit_max", "cfa_pd_tolerance",
-                                                  "cfa_bound_tolerance", "near_boundary_loading", "near_boundary_correlation")},
-                 "structural": {k: s[k] for k in ("primary_branch", "use_delta_srmr", "exclude_near_boundary", "structural_priority")},
-                 "structural_status_order": [
-                     "scalar_invariance / metric_invariance: primary-branch steps supported, admissible baseline with fit supported "
-                     "(or df = 0 and not testable)",
-                     "configural_fit: admissible baseline, SRMR fit supported, no further invariance level",
-                     "congruence_supported / structurally_discrepant: admissible paired ESEM when the CFA gives no conclusion",
-                     "cfa_misfit / cfa_fit_not_testable / model_not_estimable / not_tested: no structural evidence"],
-                 "decision_order": ["analysis statuses (cfa_misfit, cfa_fit_not_testable, model_not_estimable, not_tested) first",
-                                    "A: I adequate & C adequate & S in {scalar, metric}",
-                                    "B: I adequate & C distorted (any eligible S; evaluated before D)",
-                                    "C: I not adequate & S in {scalar, metric, configural_fit, congruence}",
-                                    "D: I adequate & C adequate & S == structurally_discrepant",
-                                    "E: I adequate & C adequate & S in {configural_fit, congruence}",
-                                    "F: residual (e.g. discrepant structure without adequate individuation)"],
-                 "labels": dict(labels)}
-        return df, summ, rules
-    rules = {"version": "2.0", "thresholds": {"r_practical": t.r_practical, "auc_ci_low": t.auc_ci_low,
-                                              "cb_adequate": t.cb_adequate, "ccc_acceptable": t.ccc_acceptable,
-                                              "phi_congruence": t.phi_congruence},
-             "decision_order": ["model_inadmissible / not_tested (S unknown; separate categories)",
+    s = cfg.structural
+    rules = {"thresholds": {k: t[k] for k in ("r_practical", "auc_ci_low", "cb_adequate", "phi_congruence",
+                                              "cfa_delta_cfi_min", "cfa_delta_rmsea_max", "cfa_delta_srmr_loadings_max",
+                                              "cfa_delta_srmr_thresholds_max", "cfa_srmr_fit_max", "cfa_pd_tolerance",
+                                              "cfa_bound_tolerance", "near_boundary_loading", "near_boundary_correlation")},
+             "structural": {k: s[k] for k in ("primary_branch", "use_delta_srmr", "exclude_near_boundary", "structural_priority")},
+             "structural_status_order": [
+                 "scalar_invariance / metric_invariance: primary-branch steps supported, admissible baseline with fit supported "
+                 "(or df = 0 and not testable)",
+                 "configural_fit: admissible baseline, SRMR fit supported, no further invariance level",
+                 "congruence_supported / structurally_discrepant: admissible paired ESEM when the CFA gives no conclusion",
+                 "cfa_misfit / cfa_fit_not_testable / model_not_estimable / not_tested: no structural evidence"],
+             "decision_order": ["analysis statuses (cfa_misfit, cfa_fit_not_testable, model_not_estimable, not_tested) first",
                                 "A: I adequate & C adequate & S in {scalar, metric}",
-                                "B: I adequate & C distorted (evaluated before D)",
-                                "C: I inadequate & S in {scalar, metric, configural, congruence}",
-                                "D: (I adequate or CCC >= ccc_acceptable) & S == structurally_discrepant",
-                                "E: I adequate & C adequate & S in {configural, congruence}",
-                                "F: residual"],
+                                "B: I adequate & C distorted (any eligible S; evaluated before D)",
+                                "C: I not adequate & S in {scalar, metric, configural_fit, congruence}",
+                                "D: I adequate & C adequate & S == structurally_discrepant",
+                                "E: I adequate & C adequate & S in {configural_fit, congruence}",
+                                "F: residual (e.g. discrepant structure without adequate individuation)"],
              "labels": dict(labels)}
     return df, summ, rules
 
