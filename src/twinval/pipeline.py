@@ -95,7 +95,7 @@ class Pipeline:
         """Save the harmonised paired data (same format as the input files) to ``00_audit/harmonized_data``.
 
         These are the data on which the structural models (CFA / ESEM) and - with ``item.data_version: harmonized``,
-        the default and the setting of the original study - the item-level analysis are computed. Scale scores and the
+        a sensitivity analysis - the item-level analysis are computed. Scale scores and the
         profile-level analysis always use the ORIGINAL (raw) input data.
         """
         st = self.load()
@@ -253,9 +253,9 @@ class Pipeline:
     def stage_item(self):
         """Item-level analysis.
 
-        DATA VERSION: ``item.data_version`` (default ``harmonized``, as in the original study) decides whether the items are the
-        harmonised ones (rare categories merged identically for Human and Twin when their category sets differ) or the raw
-        input answers. Every item table carries the column ``data_version``.
+        DATA VERSION: ``item.data_version`` (default ``raw``, the primary analysis of the study) decides whether the items are
+        the raw input answers or the harmonised ones (rare categories merged identically for Human and Twin when their
+        category sets differ; a sensitivity analysis). Every item table carries the column ``data_version``.
         """
         st, cfg = self.load(), self.cfg
         rng = self.rng("item")

@@ -13,7 +13,7 @@ structure,factor,"24 factors, 8 instruments (gated)",structural fidelity,"Tucker
 structure,factor,27 factors (all point estimates),structural fidelity,"Tucker phi, EXPLORATORY (incl. inadmissible ESEM), median",0.9860915524643304,,,NOT used for typology or main conclusions,supplementary
 structure,scale,29,structural fidelity,Metric invariance (Wu chain),14.0,,,"yes: 14, no: 6, not_tested: 9",main
 structure,scale,29,structural fidelity,Scalar invariance (Wu chain),14.0,,,"yes: 14, no: 0, not_tested: 15",main
-item,item,143,individuation,"Item-level Spearman rho, median",0.30966591588800985,,,"mean = 0.298; IQR [0.211, 0.396]",main
-item,item,143,calibration/agreement,"Item-level CCC, median",0.30938743336157537,,,"mean = 0.297; IQR [0.212, 0.394]",main
-item,item,143,calibration/agreement,"Item-level SD ratio, median",0.9937374036493581,,,"mean = 0.977; IQR [0.958, 1.019]",main
-item,instrument,Instrument-weighted mean (10 instruments),mechanism,"Delta %var item (twin - human), pp",0.6690623709143948,0.17673098579077212,1.152099109216335,"ANOVA-style decomposition, paired bootstrap contrast",main
+item,item,143,individuation,"Item-level Spearman rho, median",0.31249822289261636,,,"mean = 0.299; IQR [0.211, 0.396]",main
+item,item,143,calibration/agreement,"Item-level CCC, median",0.30938743336157537,,,"mean = 0.297; IQR [0.213, 0.394]",main
+item,item,143,calibration/agreement,"Item-level SD ratio, median",0.9934794110957743,,,"mean = 0.970; IQR [0.954, 1.018]",main
+item,instrument,Instrument-weighted mean (10 instruments),mechanism,"Delta %var item (twin - human), pp",3.4462818673061855,2.984359246212985,3.869907144054855,"ANOVA-style decomposition, paired bootstrap contrast",main

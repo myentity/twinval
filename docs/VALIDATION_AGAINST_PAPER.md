@@ -11,7 +11,7 @@ are in `tests/reference/paper_*.csv`).
 | Scale | delta CCC after LS / OLS recalibration | to 5e-3 (different bootstrap streams do not enter the point estimates) |
 | Scale | disattenuated r (alpha) | to 1e-3 |
 | Scale | descriptive r x C_b class | identical |
-| Item | agreement, MAE, rho, CCC, SD ratio, bias, entropy difference for 75 items (harmonised categories) | to 1e-6 |
+| Item | agreement, MAE, rho, CCC, SD ratio, bias, entropy difference for 75 items (original categories) | to 1e-6 |
 | Item | variance decomposition (human / twin / error) | to 1e-6 |
 | Structure | ESEM admissibility, Tucker's phi for 8 factors | both ESEM admissible; phi to 1e-5 |
 | Structure | CFA invariance decisions (thresholds, loadings, scalar) for 24 scales | identical |

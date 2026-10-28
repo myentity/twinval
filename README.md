@@ -217,7 +217,7 @@ Key settings:
 | thresholds | `cfa_pd_tolerance`, `cfa_bound_tolerance` | 1e-6 | tolerances of the positive-definiteness and |r| <= 1 checks |
 | thresholds | `near_boundary_loading`, `near_boundary_correlation` | 0.95 | warning flags for standardised estimates close to the boundary |
 | profile / scale / item | `n_boot`, `n_perm`, `cv_repeats`, ... | 5000 / 2000 / 10 | resampling sizes |
-| item | `data_version` | `harmonized` | `harmonized` (as in the study) or `raw`, see [Caveats](#caveats) |
+| item | `data_version` | `raw` | `raw` (original categories, the study's primary analysis) or `harmonized` (sensitivity analysis), see [Caveats](#caveats) |
 | structural | `order_check_permutations` | 0 | refit non-clean CFA models on this many random row orders and flag order-sensitive verdicts (see [Caveats](#caveats)) |
 | structural | `n_boot_tucker` | 500 | Tucker bootstrap (about 15 s per replicate for the two example instruments) |
 | structural | `primary_branch` | `wu` | `millsap`: Millsap/Liu sequence as the primary branch (sensitivity) |
@@ -276,7 +276,7 @@ Human and Twin use different category sets for an item, e.g. the twin never answ
 |---|---|
 | profile, scale | **raw** input answers (scale scores from the original items) |
 | structural (CFA, ESEM, Tucker) | **harmonised** (always) |
-| item | **harmonised** by default, as in the original study; `item.data_version: raw` switches to the raw answers |
+| item | **raw** by default (the study's primary analysis); `item.data_version: harmonized` is a sensitivity analysis |
 
 The item tables carry a `data_version` column, `report.md` has a "Data versions" section and `run_manifest.json` records
 `data_versions`.
@@ -417,12 +417,13 @@ respondents stay aligned across scales. No other personal information is include
   warning to `report.md`. Example results are illustrative and are **not** the study's results.
 * **Harmonised categories at the item level.** When Human and Twin use different sets of response categories for an item
   (e.g. the twin never chooses "1"), threshold models cannot compare them, so rare categories are merged identically on both
-  sides. The study ran the item-level analysis on the harmonised data; `item.data_version: raw` analyses the original
-  answers. Range-normalised item metrics differ between the two versions for some items (`docs/METHODS.md`).
+  sides for CFA/ESEM. The item level uses the original answers; `item.data_version: harmonized` repeats it on the merged
+  categories as a sensitivity analysis. Merged categories are re-numbered 1..k', so range-, extreme- and entropy-based
+  metrics then refer to a coarser coding (`docs/METHODS.md`).
 * **Order sensitivity of borderline CFA fits.** Weighted-least-squares fits of small, nearly saturated ordinal models (2-3 items) can converge or fail depending only on the *row order* of the data (floating point noise). In the original study several scales flipped between fits with different row orders; their structural status - and hence their type - can be fragile (in the example, the baseline of the BFI-2 facet *Creative Imagination* is nonconverged or not identified depending on the row order; it is not estimable in every order, so its status does not change; all scales of the Mental Health Continuum are stable). `twinval` sorts respondents by `ID` (deterministic) and, with `structural.order_check_permutations: N`, refits every candidate model on N random orders, writes `cfa_order_sensitivity.csv` and flags `cfa_order_sensitive` in `structural_scale_table.csv` when the baseline admissibility or the CFA conclusion changes.
 * **Near-boundary twin estimates.** Twin-side standardised loadings are often close to 1 (in the full study >= .95 in 39 of 47 identified baselines, Human-side in none). These are flagged, not excluded; excluding them (`structural.exclude_near_boundary: true`) moves most scales to "model not estimable".
 * **Tucker bootstrap** re-fits ESEM models in every replicate and is slow; it is resumable (`structural.resume`).
-* Scale-level scores are computed from the *raw* items; harmonised items are used for structural models and (by default) for the item level - see [Data versions](#data-versions-raw-vs-harmonised).
+* Scale-level scores are computed from the *raw* items; harmonised items are used for the structural models (and, optionally, for the item level) - see [Data versions](#data-versions-raw-vs-harmonised).
 
 
 ## Citation and license

@@ -115,4 +115,11 @@ stays visible (twin scores are never re-centred on their own mean, except in the
   `thresholds.cfa_srmr_fit_max: 0.05`, `structural.structural_priority: esem`.
 
 ## Harmonised vs raw item data
+The item level uses the original categories (`item.data_version: raw`, the study's primary analysis); the harmonised
+version is a sensitivity analysis. Harmonisation re-numbers merged categories 1..k' while range, extreme-category and
+entropy normalisations keep the instrument's response format, so for a merged item the highest category becomes
+unreachable and extreme-response shares are biased downward. In the full study (270 items, 108 with merged categories)
+the item component of the variance decomposition increased by 26.4 pp on the original and by 20.4 pp on the harmonised
+categories.
+
 In the example data 27 of 75 items have merged categories. Medians of item Spearman rho and CCC are identical in both versions; the largest per-item differences are 0.029 (exact agreement), 0.021 (normalised MAE), 0.015 (Spearman rho), 0.025 (CCC), 0.084 (SD ratio) and 0.107 (entropy difference). The median SD ratio is 0.825 on raw and 0.851 on harmonised categories.

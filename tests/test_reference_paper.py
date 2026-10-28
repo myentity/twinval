@@ -42,10 +42,9 @@ def test_recalibration_and_disattenuation_reproduce_paper(study, cfg):
     assert (ok["r_dis"] - ok["r_dis_alpha"]).abs().max() < 1e-3
 
 
-def test_item_level_reproduces_paper_with_harmonised_categories(study, cfg):
+def test_item_level_reproduces_paper_with_original_categories(study, cfg):
     ref = pd.read_csv(REF / "paper_item_level.csv")
-    hh, ht, *_ = prep.harmonize(study)
-    ag, bias, _ = item.agreement_and_bias(item.build_panel(study, hh, ht), cfg, np.random.default_rng(0))
+    ag, bias, _ = item.agreement_and_bias(item.build_panel(study), cfg, np.random.default_rng(0))
     m = ag.merge(bias[["item_id", "sd_ratio", "bias_range", "entropy_difference"]], on="item_id").merge(ref, on="item_id", suffixes=("", "_ref"))
     assert len(m) == 75
     for col in ("exact_agreement", "mae_range", "spearman_rho", "ccc", "sd_ratio", "bias_range", "entropy_difference"):
@@ -54,8 +53,7 @@ def test_item_level_reproduces_paper_with_harmonised_categories(study, cfg):
 
 def test_variance_decomposition_reproduces_paper(study, cfg):
     ref = pd.read_csv(REF / "paper_variance_decomposition.csv")
-    hh, ht, *_ = prep.harmonize(study)
-    dec, _ = item.variance_decomposition(item.build_panel(study, hh, ht), cfg, np.random.default_rng(0))
+    dec, _ = item.variance_decomposition(item.build_panel(study), cfg, np.random.default_rng(0))
     m = dec.merge(ref, on=["instrument_id", "side"], suffixes=("", "_ref"))
     assert len(m) == 6
     for col in ("pct_person", "pct_item", "pct_person_item_residual"):

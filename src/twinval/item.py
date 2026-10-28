@@ -16,9 +16,10 @@ range that happened to be observed in the sample.
 
 DATA VERSION. ``build_panel`` accepts the raw item arrays (``study.items_h/items_t``) or the harmonised ones from
 ``prep.harmonize`` (rare response categories merged identically for Human and Twin when their observed category sets
-differ). The pipeline uses the harmonised arrays by default (``item.data_version: harmonized``) because the original study
-analysed the item level on harmonised data; ``raw`` analyses the original answers. Harmonisation changes only items with
-mismatching category sets, but their range-normalised metrics (MAE, bias, entropy, SD ratio) then differ slightly.
+differ). The pipeline uses the raw arrays by default (``item.data_version: raw``, the study's primary analysis);
+``harmonized`` is a sensitivity analysis. Harmonisation re-numbers merged categories 1..k' while the range-normalised and
+category-based quantities keep the instrument's response format, so for merged items MAE, bias, SD ratio, entropy and
+extreme-response shares refer to a coarser coding (the highest category becomes unreachable).
 """
 from __future__ import annotations
 

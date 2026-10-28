@@ -59,7 +59,9 @@ item:
   enabled: true
   n_boot: 5000
   n_boot_variance: 2000
-  data_version: harmonized       # DATA USED FOR THE ITEM LEVEL: 'harmonized' (as in the original study) | 'raw'.
+  data_version: raw              # DATA USED FOR THE ITEM LEVEL: 'raw' = original categories (primary analysis of the study) |
+                                 # 'harmonized' (sensitivity analysis; merged categories are re-numbered 1..k', so range-,
+                                 # extreme- and entropy-based metrics refer to a coarser coding).
                                  # Harmonization merges rare categories symmetrically for Human and Twin when their observed
                                  # category sets differ for an item. Profile and scale level always use the raw input data;
                                  # CFA/ESEM always use harmonized data. The harmonized files are written to 00_audit/harmonized_data/.

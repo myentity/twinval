@@ -27,9 +27,9 @@ def test_pipeline_without_r(tmp_path):
 
     # data versions are stated in the manifest, the report and every item table
     assert man["data_versions"] == {"profile_and_scale_level": "raw (input files)", "structural_models": "harmonized",
-                                    "item_level": "harmonized"}
+                                    "item_level": "raw"}
     assert "## Data versions" in (out / "report.md").read_text()
-    assert set(pd.read_csv(out / "04_item" / "item_agreement_error.csv")["data_version"]) == {"harmonized"}
+    assert set(pd.read_csv(out / "04_item" / "item_agreement_error.csv")["data_version"]) == {"raw"}
 
     # harmonised paired data are written in the input format; items with equal category sets are unchanged
     raw_dir, hdir = Path(EXAMPLE), out / "00_audit" / "harmonized_data"
@@ -53,12 +53,12 @@ def test_pipeline_without_r(tmp_path):
     assert not (out / "03_structural" / "figures").exists()                    # structural stage did not run
 
 
-def test_item_level_raw_data_version(tmp_path):
+def test_item_level_harmonized_data_version(tmp_path):
     cfg = load_config(overrides={**FAST, "data": {"data_dir": str(EXAMPLE), "instruments": [161]}, "structural": {"enabled": False},
-                                 "item": {**FAST["item"], "data_version": "raw"}})
+                                 "item": {**FAST["item"], "data_version": "harmonized"}})
     p = Pipeline(cfg, tmp_path / "out")
     p.run(["audit", "item"])
-    assert set(pd.read_csv(tmp_path / "out" / "04_item" / "item_agreement_error.csv")["data_version"]) == {"raw"}
+    assert set(pd.read_csv(tmp_path / "out" / "04_item" / "item_agreement_error.csv")["data_version"]) == {"harmonized"}
 
 
 def test_cli_validate_and_scale_key(capsys):

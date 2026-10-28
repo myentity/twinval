@@ -8,7 +8,7 @@
 
 * profile and scale level: **raw** input answers (scale scores are computed from the original items)
 * structural models (CFA, ESEM): **harmonised** categories (`00_audit/harmonized_data/`, log in `harmonization_log.csv`)
-* item level: **harmonized** (`item.data_version`; `harmonized` = setting of the original study)
+* item level: **raw** (`item.data_version`; `raw` = primary analysis of the study, `harmonized` = sensitivity analysis)
 
 ## Multilevel results matrix
 
@@ -30,10 +30,10 @@ Different units of analysis are shown side by side and are never averaged into o
 | structure | factor | structural fidelity | Tucker phi, EXPLORATORY (incl. inadmissible ESEM), median | 0.986 |  | NOT used for typology or main conclusions |
 | structure | scale | structural fidelity | Metric invariance (Wu chain) | 14.000 |  | yes: 14, no: 6, not_tested: 9 |
 | structure | scale | structural fidelity | Scalar invariance (Wu chain) | 14.000 |  | yes: 14, no: 0, not_tested: 15 |
-| item | item | individuation | Item-level Spearman rho, median | 0.310 |  | mean = 0.298; IQR [0.211, 0.396] |
-| item | item | calibration/agreement | Item-level CCC, median | 0.309 |  | mean = 0.297; IQR [0.212, 0.394] |
-| item | item | calibration/agreement | Item-level SD ratio, median | 0.994 |  | mean = 0.977; IQR [0.958, 1.019] |
-| item | instrument | mechanism | Delta %var item (twin - human), pp | 0.669 | [0.177, 1.152] | ANOVA-style decomposition, paired bootstrap contrast |
+| item | item | individuation | Item-level Spearman rho, median | 0.312 |  | mean = 0.299; IQR [0.211, 0.396] |
+| item | item | calibration/agreement | Item-level CCC, median | 0.309 |  | mean = 0.297; IQR [0.213, 0.394] |
+| item | item | calibration/agreement | Item-level SD ratio, median | 0.993 |  | mean = 0.970; IQR [0.954, 1.018] |
+| item | instrument | mechanism | Delta %var item (twin - human), pp | 3.446 | [2.984, 3.870] | ANOVA-style decomposition, paired bootstrap contrast |
 
 ## Scale typology (rule-based)
 
@@ -57,22 +57,22 @@ Different units of analysis are shown side by side and are never averaged into o
 | A | Pearson r vs CCC | 0.854 | [0.593, 1.000] | 0.0000 | 0.0012 | 29 | 10 |
 | A | Disattenuated r vs raw r | 0.857 | [0.730, 0.965] | 0.0000 | 0.0012 | 29 | 10 |
 | A | C_b vs change of CCC after OLS recalibration | -0.394 | [-0.774, 0.097] | 0.0344 | 0.1209 | 29 | 10 |
-| B | Median item CCC vs scale CCC | 0.821 | [0.448, 0.941] | 0.0000 | 0.0165 | 28 | 10 |
-| B | Median item rho vs scale r | 0.747 | [0.361, 0.917] | 0.0000 | 0.0165 | 28 | 10 |
-| B | Median normalised item MAE vs scale CCC | -0.571 | [-0.857, -0.045] | 0.0015 | 0.0962 | 28 | 10 |
-| B | Median |item bias| vs C_b | -0.558 | [-0.848, 0.012] | 0.0021 | 0.1297 | 28 | 10 |
-| B | Median item SD ratio vs C_b | 0.522 | [0.077, 0.799] | 0.0044 | 0.0550 | 28 | 10 |
-| B | Share of compressed items vs scale AUC | 0.167 | [-0.266, 0.560] | 0.3958 | 0.4276 | 28 | 10 |
-| B | Share of compressed items vs scale r | 0.297 | [-0.107, 0.607] | 0.1249 | 0.2565 | 28 | 10 |
-| B | Share of compressed items vs scale CCC | 0.097 | [-0.389, 0.503] | 0.6219 | 0.5977 | 28 | 10 |
-| B | Median entropy difference vs scale AUC | -0.180 | [-0.562, 0.191] | 0.3607 | 0.4276 | 28 | 10 |
-| B | Median entropy difference vs scale r | -0.196 | [-0.548, 0.204] | 0.3176 | 0.4276 | 28 | 10 |
-| B | Median entropy difference vs scale CCC | -0.105 | [-0.468, 0.350] | 0.5946 | 0.5977 | 28 | 10 |
-| C2_exploratory | [EXPLORATORY] Tucker phi vs scale r | -0.212 | [-0.667, 0.284] | 0.2888 | 0.7156 | 27 | 9 |
-| C2_exploratory | [EXPLORATORY] Tucker phi vs scale AUC | -0.136 | [-0.662, 0.351] | 0.4983 | 0.7156 | 27 | 9 |
-| C2_exploratory | [EXPLORATORY] Tucker phi vs scale CCC | -0.132 | [-0.652, 0.399] | 0.5101 | 0.7156 | 27 | 9 |
+| B | Median item CCC vs scale CCC | 0.829 | [0.448, 0.951] | 0.0000 | 0.0110 | 28 | 10 |
+| B | Median item rho vs scale r | 0.759 | [0.378, 0.920] | 0.0000 | 0.0110 | 28 | 10 |
+| B | Median normalised item MAE vs scale CCC | -0.646 | [-0.869, -0.196] | 0.0002 | 0.0183 | 28 | 10 |
+| B | Median |item bias| vs C_b | -0.556 | [-0.825, 0.012] | 0.0021 | 0.1297 | 28 | 10 |
+| B | Median item SD ratio vs C_b | 0.528 | [0.077, 0.806] | 0.0039 | 0.0412 | 28 | 10 |
+| B | Share of compressed items vs scale AUC | 0.155 | [-0.312, 0.554] | 0.4302 | 0.5621 | 28 | 10 |
+| B | Share of compressed items vs scale r | 0.312 | [-0.059, 0.622] | 0.1059 | 0.1869 | 28 | 10 |
+| B | Share of compressed items vs scale CCC | 0.088 | [-0.398, 0.503] | 0.6567 | 0.6751 | 28 | 10 |
+| B | Median entropy difference vs scale AUC | -0.122 | [-0.534, 0.356] | 0.5379 | 0.6365 | 28 | 10 |
+| B | Median entropy difference vs scale r | -0.271 | [-0.601, 0.078] | 0.1632 | 0.1979 | 28 | 10 |
+| B | Median entropy difference vs scale CCC | -0.047 | [-0.453, 0.500] | 0.8120 | 0.7176 | 28 | 10 |
+| C2_exploratory | [EXPLORATORY] Tucker phi vs scale r | -0.212 | [-0.667, 0.284] | 0.2888 | 0.7066 | 27 | 9 |
+| C2_exploratory | [EXPLORATORY] Tucker phi vs scale AUC | -0.136 | [-0.662, 0.351] | 0.4983 | 0.7066 | 27 | 9 |
+| C2_exploratory | [EXPLORATORY] Tucker phi vs scale CCC | -0.132 | [-0.652, 0.399] | 0.5101 | 0.7066 | 27 | 9 |
 | C2_exploratory | [EXPLORATORY] Tucker phi vs item loading discrepancy | -0.738 | [-0.884, -0.558] | 0.0000 | 0.0050 | 27 | 9 |
-| C2_exploratory | [EXPLORATORY] Tucker phi vs item CCC | -0.093 | [-0.518, 0.287] | 0.6431 | 0.7156 | 27 | 9 |
+| C2_exploratory | [EXPLORATORY] Tucker phi vs item CCC | -0.090 | [-0.519, 0.300] | 0.6540 | 0.7066 | 27 | 9 |
 
 ## Output folders
 

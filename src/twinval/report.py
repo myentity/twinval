@@ -19,7 +19,7 @@ def write_report(p) -> None:
     L += ["## Data versions", "",
           "* profile and scale level: **raw** input answers (scale scores are computed from the original items)",
           "* structural models (CFA, ESEM): **harmonised** categories (`00_audit/harmonized_data/`, log in `harmonization_log.csv`)",
-          f"* item level: **{dv}** (`item.data_version`; `harmonized` = setting of the original study)", ""]
+          f"* item level: **{dv}** (`item.data_version`; `raw` = primary analysis of the study, `harmonized` = sensitivity analysis)", ""]
     if p.notes:
         L += ["## Notes and warnings", ""] + [f"* {n}" for n in p.notes] + [""]
 
