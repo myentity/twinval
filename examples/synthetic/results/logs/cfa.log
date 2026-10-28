@@ -35,3 +35,40 @@ Done. Main outputs:
   examples/synthetic/results/03_structural/r_work/cfa_results/invariance_summary_counts.csv
 See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
   examples/synthetic/results/03_structural/r_work/cfa_results
+[1/29] 901_Alpha (k=6, n=500)
+[2/29] 901_Beta (k=5, n=500)
+[3/29] 901_Gamma (k=6, n=500)
+[4/29] 902_Shifted (k=6, n=500)
+[5/29] 902_Compressed (k=5, n=500)
+[6/29] 902_Lowered (k=6, n=500)
+[7/29] 903_Generic1 (k=6, n=500)
+[8/29] 903_Generic2 (k=5, n=500)
+[9/29] 903_Generic3 (k=6, n=500)
+[10/29] 904_Uneven1 (k=6, n=500)
+[11/29] 904_Uneven2 (k=6, n=500)
+[12/29] 904_Even (k=5, n=500)
+[13/29] 905_Duplicated (k=5, n=500)
+[14/29] 905_Plain1 (k=5, n=500)
+[15/29] 905_Plain2 (k=5, n=500)
+[16/29] 906_Mixed1 (k=6, n=500)
+[17/29] 906_Mixed2 (k=5, n=500)
+[18/29] 906_Mixed3 (k=5, n=500)
+[19/29] 906_Total (k=16, n=500)
+[20/29] 907_ShortA (k=3, n=500)
+[21/29] 907_ShortB (k=3, n=500)
+[22/29] 907_ShortC (k=4, n=500)
+[23/29] 908_Solo (k=4, n=500)
+[24/29] 909_DupD (k=5, n=500)
+[25/29] 909_DupF (k=5, n=500)
+[26/29] 909_Plain (k=5, n=500)
+[27/29] 910_Duplicated (k=5, n=500)
+[28/29] 910_Plain1 (k=5, n=500)
+[29/29] 910_Plain2 (k=5, n=500)
+Было 50 или более предупреждений (введите warnings() чтобы просмотреть первые 50)
+
+Done. Main outputs:
+  examples/synthetic/results/03_structural/r_work/cfa_results/invariance_results.csv
+  examples/synthetic/results/03_structural/r_work/cfa_results/invariance_reporting_table.csv
+  examples/synthetic/results/03_structural/r_work/cfa_results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/synthetic/results/03_structural/r_work/cfa_results

@@ -175,6 +175,12 @@ def agreement_and_bias(panel: ItemPanel, cfg, rng: np.random.Generator) -> tuple
         "floor_share_twin": [(T[:, j] == lo[j]).mean() for j in range(K)],
         "ceiling_share_twin": [(T[:, j] == hi[j]).mean() for j in range(K)],
         "calibration_slope": cal_slope, "calibration_intercept": cal_int})
+    # extreme categories of the allowable range on both sides: SD ratio and entropy describe compression, not its form
+    fh, ch = (H == lo[None, :]).mean(0), (H == hi[None, :]).mean(0)
+    ft, ct = bias["floor_share_twin"].to_numpy(), bias["ceiling_share_twin"].to_numpy()
+    bias["floor_share_human"], bias["ceiling_share_human"] = fh, ch
+    bias["extreme_share_human"], bias["extreme_share_twin"] = fh + ch, ft + ct
+    bias["extreme_share_difference"] = (ft + ct) - (fh + ch)
     bias["category_coverage_ratio"] = bias["n_categories_used_twin"] / bias["n_categories_used_human"]
     bias["bias_range_ci_lo"], bias["bias_range_ci_hi"] = ci(b_bias)
     bias["sd_ratio_ci_lo"], bias["sd_ratio_ci_hi"] = ci(b_sdr)
@@ -215,7 +221,9 @@ def _decompose(Y: np.ndarray):
 def variance_decomposition(panel: ItemPanel, cfg, rng: np.random.Generator) -> tuple[pd.DataFrame, pd.DataFrame]:
     """ANOVA-style crossed decomposition Y_ij = mu + P_i + I_j + (PI)_ij for each instrument.
 
-    Items are rescaled to [0, 1] with the theoretical range. With one observation per person x item cell the
+    Items are rescaled to [0, 1] with the theoretical range. Absolute variances (``var_*``) are reported next to the
+    percentages, and ``person_effect_r`` (contrasts table) is the correlation of the human and twin person effects.
+    With one observation per person x item cell the
     interaction cannot be separated from measurement error, so it is reported as the *person x item / residual*
     component. Decomposed are the human data, the twin data and the error (twin - human). Bootstrap contrasts
     (twin - human, in percentage points of variance) are paired within every replicate.
@@ -244,7 +252,11 @@ def variance_decomposition(panel: ItemPanel, cfg, rng: np.random.Generator) -> t
             _, vih, vrh, vth = _decompose(Yh[bidx[b]])
             _, vit, vrt, vtt = _decompose(Yt[bidx[b]])
             d_item[b], d_res[b] = vit / vtt * 100 - vih / vth * 100, vrt / vtt * 100 - vrh / vth * 100
+        # correspondence of the person effects (person means over the instrument's items): similar person SHARES of the
+        # variance do not imply that the twin keeps the same persons in the same positions
+        person_r = float(np.corrcoef(Yh.mean(1), Yt.mean(1))[0, 1])
         contrasts.append({"instrument_id": iid, "instrument_name": name, "n_valid_reps": int(np.isfinite(d_item).sum()),
+                          "person_effect_r": person_r,
                           "delta_item_point": pct["twin"]["pct_item"] - pct["human"]["pct_item"],
                           "delta_item_ci_lo": np.nanpercentile(d_item, 2.5), "delta_item_ci_hi": np.nanpercentile(d_item, 97.5),
                           "delta_resid_point": pct["twin"]["pct_person_item_residual"] - pct["human"]["pct_person_item_residual"],
@@ -266,7 +278,8 @@ def variance_decomposition(panel: ItemPanel, cfg, rng: np.random.Generator) -> t
         tw, hu = decomp[decomp.side == "twin"], decomp[decomp.side == "human"]
         contr = pd.concat([contr, pd.DataFrame([{
             "instrument_id": "ALL_INSTRUMENT_WEIGHTED", "instrument_name": f"Instrument-weighted mean ({len(data)} instruments)",
-            "n_valid_reps": B, "delta_item_point": float((tw.pct_item.values - hu.pct_item.values).mean()),
+            "n_valid_reps": B, "person_effect_r": float(np.mean([c["person_effect_r"] for c in contrasts])),
+            "delta_item_point": float((tw.pct_item.values - hu.pct_item.values).mean()),
             "delta_item_ci_lo": np.percentile(oi, 2.5), "delta_item_ci_hi": np.percentile(oi, 97.5),
             "delta_resid_point": float((tw.pct_person_item_residual.values - hu.pct_person_item_residual.values).mean()),
             "delta_resid_ci_lo": np.percentile(orr, 2.5), "delta_resid_ci_hi": np.percentile(orr, 97.5)}])], ignore_index=True)

@@ -53,3 +53,513 @@ Done. Main outputs:
   examples/results/03_structural/r_work/order_check/perm5/results/invariance_summary_counts.csv
 See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
   examples/results/03_structural/r_work/order_check/perm5/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm1/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm2/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 46 предупреждений (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm3/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm4/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm5/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm1/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm2/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 46 предупреждений (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm3/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm4/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm5/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm1/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm2/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 46 предупреждений (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm3/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm4/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm5/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm1/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm2/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 46 предупреждений (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm3/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm4/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm5/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm1/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm2/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 46 предупреждений (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm3/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm4/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm5/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm1/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm1/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm2/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm2/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 46 предупреждений (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm3/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm3/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm4/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm4/results
+[1/9] 148_Sociability (k=4, n=484)
+[2/9] 148_EnergyLevel (k=4, n=484)
+[3/9] 148_Agreeableness (k=12, n=484)
+[4/9] 148_Trust (k=4, n=484)
+[5/9] 148_Organization (k=4, n=484)
+[6/9] 148_Depression (k=4, n=484)
+[7/9] 148_OpenMindedness (k=12, n=484)
+[8/9] 148_CreativeImagination (k=4, n=484)
+[9/9] 161_EmotionalWellBeing (k=3, n=484)
+Было 44 предупреждения (введите warnings() чтобы их просмотреть)
+
+Done. Main outputs:
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_results.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_reporting_table.csv
+  examples/results/03_structural/r_work/order_check/perm5/results/invariance_summary_counts.csv
+See also model syntax, summaries, parameter estimates, thresholds, category diagnostics, and README in:
+  examples/results/03_structural/r_work/order_check/perm5/results

@@ -1,5 +1,6 @@
 # Scenario for `twinval simulate`: fictional instruments whose twins are built to behave differently.
 #   intended  the type the design aims at (a design, not a guarantee); the pipeline recovers the type from the data alone
+#   intended_v2  the same design under the rules_version 2 typology (only where it differs from `intended`)
 #   design    what is built into the twin (see src/twinval/synth.py for all parameters)
 #   seed      per-instrument seed. Instruments 905, 908, 909 and 910 rely on borderline numerical behaviour of the paired CFA
 #             (non-convergence with identical twin answers); their seeds were chosen so that the intended outcome occurs -
@@ -168,6 +169,7 @@ instruments:
   - name: Solo
     n_items: 4
     intended: not_tested
+    intended_v2: model_not_estimable   # rules_version 2: a CFA that cannot be estimated is not 'not tested'
     design: 'unidimensional instrument (ESEM not applicable) whose twin gives one answer to all items: the CFA fails, so the structural level is unknown'
     twin:
       rho: 0.88
@@ -219,6 +221,7 @@ instruments:
   - name: Duplicated
     n_items: 5
     intended: model_inadmissible
+    intended_v2: model_not_estimable
     design: 'twin repeats one answer on items 1-3: CFA and the twin ESEM are inadmissible, the gate closes for the whole instrument'
     twin:
       rho: 0.88

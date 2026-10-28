@@ -128,6 +128,8 @@ raw output of the paired CFA script: fit, deltas, statuses of every invariance s
 
 Columns: `scale_id`, `k_items`, `n_pairs_manifest`, `n_rows_data`, `category_mismatch_items`, `wu_configural_id`, `millsap_marker_item`, `wu_configural_converged`, `wu_configural_cfi`, `wu_configural_rmsea`, `wu_configural_srmr`, `wu_configural_df`, `wu_configural_heywood`, `wu_thresholds_converged`, `wu_thresholds_cfi`, `wu_thresholds_rmsea`, `wu_thresholds_srmr`, `wu_thresholds_df`, `wu_thresholds_heywood`, `wu_conditional_loading_converged`, `wu_conditional_loading_cfi`, `wu_conditional_loading_rmsea`, `wu_conditional_loading_srmr`, `wu_conditional_loading_df`, `wu_conditional_loading_heywood`, `wu_conditional_scalar_converged`, `wu_conditional_scalar_cfi`, `wu_conditional_scalar_rmsea`, `wu_conditional_scalar_srmr`, `wu_conditional_scalar_df`, `wu_conditional_scalar_heywood`, `wu_conditional_strict_converged`, `wu_conditional_strict_cfi`, `wu_conditional_strict_rmsea`, `wu_conditional_strict_srmr`, `wu_conditional_strict_df`, `wu_conditional_strict_heywood`, `ms_baseline_converged`, `ms_baseline_cfi`, `ms_baseline_rmsea`, `ms_baseline_srmr`, `ms_baseline_df`, `ms_baseline_heywood`, `ms_loading_converged`, `ms_loading_cfi`, `ms_loading_rmsea`, `ms_loading_srmr`, `ms_loading_df`, `ms_loading_heywood`, `ms_threshold_after_loading_converged`, `ms_threshold_after_loading_cfi`, `ms_threshold_after_loading_rmsea`, `ms_threshold_after_loading_srmr`, `ms_threshold_after_loading_df`, `ms_threshold_after_loading_heywood`, `ms_unique_after_threshold_converged`, `ms_unique_after_threshold_cfi`, `ms_unique_after_threshold_rmsea`, `ms_unique_after_threshold_srmr`, `ms_unique_after_threshold_df`, `ms_unique_after_threshold_heywood`, `wu_threshold_status`, `wu_threshold_delta_cfi`, `wu_threshold_delta_rmsea`, `wu_threshold_delta_srmr`, `wu_threshold_lrt_p`, `wu_threshold_df_diff`, `wu_conditional_loading_status`, `wu_conditional_loading_delta_cfi`, `wu_conditional_loading_delta_rmsea`, `wu_conditional_loading_delta_srmr`, `wu_conditional_loading_lrt_p`, `wu_conditional_loading_df_diff`, `wu_conditional_scalar_status`, `wu_conditional_scalar_delta_cfi`, `wu_conditional_scalar_delta_rmsea`, `wu_conditional_scalar_delta_srmr`, `wu_conditional_scalar_lrt_p`, `wu_conditional_scalar_df_diff`, `wu_conditional_strict_status`, `wu_conditional_strict_delta_cfi`, `wu_conditional_strict_delta_rmsea`, `wu_conditional_strict_delta_srmr`, `wu_conditional_strict_lrt_p`, `wu_conditional_strict_df_diff`, `wu_latent_cor_raw`, `wu_latent_cor_oriented`, `wu_tucker_phi`, `wu_cr_h`, `wu_cr_t`, `wu_ave_h`, `wu_ave_t`, `wu_negative_loadings_h`, `wu_negative_loadings_t`, `ms_loading_status`, `ms_loading_delta_cfi`, `ms_loading_delta_rmsea`, `ms_loading_delta_srmr`, `ms_loading_lrt_p`, `ms_loading_df_diff`, `ms_threshold_after_loading_status`, `ms_threshold_after_loading_delta_cfi`, `ms_threshold_after_loading_delta_rmsea`, `ms_threshold_after_loading_delta_srmr`, `ms_threshold_after_loading_lrt_p`, `ms_threshold_after_loading_df_diff`, `ms_unique_after_threshold_status`, `ms_unique_after_threshold_delta_cfi`, `ms_unique_after_threshold_delta_rmsea`, `ms_unique_after_threshold_delta_srmr`, `ms_unique_after_threshold_lrt_p`, `ms_unique_after_threshold_df_diff`, `ms_latent_cor_raw`, `ms_latent_cor_oriented`, `ms_tucker_phi`, `ms_cr_h`, `ms_cr_t`, `ms_ave_h`, `ms_ave_t`, `manifest_instrument`, `manifest_scale_name`, `manifest_method_count`, `manifest_category_status`
 
+Rules_version 2 diagnostics, for every model prefix (`wu_configural`, `wu_thresholds`, `wu_conditional_loading`, `wu_conditional_scalar`, `wu_conditional_strict`, `ms_baseline`, `ms_loading`, `ms_threshold_after_loading`, `ms_unique_after_threshold`): `<prefix>_chisq`, `_npar`, `_tli`, `_rmsea_ci_lo`, `_rmsea_ci_hi`, `_post_check`, `_vcov_min_eigen`, `_theta_min_eigen`, `_psi_min_eigen`, `_max_sample_cor_h`, `_max_sample_cor_t`, `_max_std_loading`, `_min_std_resid_var`, `_max_abs_resid_cor`, `_abs_factor_cor`.
+
 ## `03_structural/invariance_decisions.csv`
 
 statuses and fit deltas of the invariance tests per scale.
@@ -142,15 +144,21 @@ Columns: `scale_id`, `scheme`, `step`, `converged`, `cfi`, `rmsea`, `srmr`, `df`
 
 ## `03_structural/cfa_scale_status.csv`
 
-per scale: configural admissibility, metric (Millsap/Liu) and scalar (Wu chain) verdicts.
+per scale (rules_version 2): estimability and fit of the baseline, every step decision of the primary (Wu) sequence, the CFA conclusion, the Millsap/Liu sensitivity result and the CFA flags. `metric_invariance` / `scalar_invariance` follow the CFA conclusion (a step supported under a misfitting baseline is only a flag).
 
-Columns: `scale_id`, `configural_cfa_admissible`, `metric_invariance`, `scalar_invariance`, `wu_threshold_status`, `metric_test_available`, `scalar_test_available`
+Columns: `scale_id`, `primary_branch`, `baseline_status`, `baseline_fit`, `threshold_decision`, `metric_decision`, `scalar_decision`, `cfa_conclusion`, `cfa_no_conclusion_reason`, `configural_cfa_admissible`, `metric_invariance`, `scalar_invariance`, `metric_test_available`, `scalar_test_available`, `sensitivity_millsap_baseline_status`, `sensitivity_millsap_metric_decision`, `sensitivity_millsap_scalar_decision`, `sensitivity_millsap_cfa_conclusion`, `cfa_flags`
+
+## `03_structural/cfa_step_diagnostics.csv`
+
+rules_version 2: the basis of every CFA decision, one row per scale and fitted model of both sequences (Wu/Estabrook primary, Millsap/Liu sensitivity): estimability status and near-boundary flags with the numerical diagnostics, absolute fit, and for comparisons the change in df / CFI / RMSEA / SRMR with the step decision.
+
+Columns: `scale_id`, `sequence`, `step`, `model`, `compared_with`, `status`, `near_boundary_flags`, `df`, `chisq`, `cfi`, `tli`, `rmsea`, `rmsea_ci_lo`, `rmsea_ci_hi`, `srmr`, `converged`, `heywood`, `post_check`, `vcov_min_eigen`, `theta_min_eigen`, `psi_min_eigen`, `max_std_loading`, `min_std_resid_var`, `max_abs_resid_cor`, `abs_factor_cor`, `decision`, `delta_df`, `delta_cfi`, `delta_rmsea`, `delta_srmr`
 
 ## `03_structural/cfa_status_by_instrument.csv`
 
-instrument-level CFA synthesis (schemes kept in separate columns).
+instrument-level CFA synthesis. Rules_version 2: every verdict follows the CFA conclusion of the scales - `configural_status` is `supported` if every scale has a CFA conclusion, otherwise the common reason (`misfit`, `not_estimable`, `fit_not_testable`) or `mixed`; `metric_status` / `scalar_status` are `supported` if every scale reaches that level, `not_supported` if a scale with a conclusion rejects the step, otherwise `not_established`; the counts include only scales with a CFA conclusion. (Rules_version 1: Millsap/Liu metric and Wu scalar verdicts in separate columns.)
 
-Columns: `instrument_id`, `instrument_name`, `n_scales`, `configural_status`, `n_scales_configural_ok`, `metric_status_millsap_primary`, `metric_status_wu_conditional`, `scalar_status_wu_chain`, `n_scales_metric_supported`, `n_scales_metric_rejected`, `n_scales_scalar_supported_of_interpretable`, `n_scales_scalar_rejected_of_interpretable`, `n_scales_scalar_not_interpretable`
+Columns: `instrument_id`, `instrument_name`, `n_scales`, `primary_branch`, `configural_status`, `n_scales_configural_ok`, `n_scales_cfa_misfit`, `n_scales_fit_not_testable`, `n_scales_not_estimable`, `metric_status`, `scalar_status`, `n_scales_metric_supported`, `n_scales_metric_rejected`, `n_scales_scalar_supported`, `n_scales_scalar_rejected`
 
 ## `03_structural/cfa_reliability.csv`
 
@@ -196,21 +204,21 @@ Columns: `instrument_id`, `instrument_name`, `factor`, `item`, `loading_human`, 
 
 ## `03_structural/structural_scale_table.csv`
 
-one row per scale: admissibility flags, primary/exploratory phi, structural_evidence_level.
+one row per scale: CFA conclusion and baseline statuses, ESEM admissibility, primary/exploratory phi, structural_evidence_level (S) and `structural_flags`.
 
-Columns: `scale_id`, `instrument_id`, `configural_cfa_admissible`, `metric_invariance`, `scalar_invariance`, `metric_test_available`, `scalar_test_available`, `esem_applicable`, `human_esem_admissible`, `twin_esem_admissible`, `paired_esem_admissible`, `tucker_point_available`, `tucker_interpretable`, `tucker_bootstrap_stable`, `tucker_phi_exploratory`, `tucker_phi_primary`, `tucker_phi_ci_lo`, `tucker_phi_ci_hi`, `tucker_frac_valid_bootstrap`, `structural_evidence_level`, `cfa_order_sensitive`
+Columns: `scale_id`, `instrument_id`, `configural_cfa_admissible`, `metric_invariance`, `scalar_invariance`, `metric_test_available`, `scalar_test_available`, `esem_applicable`, `human_esem_admissible`, `twin_esem_admissible`, `paired_esem_admissible`, `tucker_point_available`, `tucker_interpretable`, `tucker_bootstrap_stable`, `tucker_phi_exploratory`, `tucker_phi_primary`, `tucker_phi_ci_lo`, `tucker_phi_ci_hi`, `tucker_frac_valid_bootstrap`, `structural_evidence_level`, `structural_flags`, `baseline_status`, `baseline_fit`, `threshold_decision`, `metric_decision`, `scalar_decision`, `cfa_conclusion`, `cfa_no_conclusion_reason`, `cfa_order_sensitive`
 
 ## `03_structural/structural_instrument_master.csv`
 
-instrument-level structural synthesis and validation-trap flag.
+instrument-level structural synthesis and validation-trap flag (assessed only when `configural_status` is `supported`).
 
-Columns: `instrument_id`, `instrument_name`, `esem_applicable`, `paired_esem_admissible`, `phi_mean`, `phi_min`, `phi_ci_stable`, `configural_status`, `metric_status_millsap_primary`, `scalar_status_wu_chain`, `validation_trap_strict`, `n_scales_metric_supported`, `n_scales_metric_rejected`, `n_valid_reps_for_mean_phi`, `phi_mean_ci_lo`, `phi_mean_ci_hi`
+Columns: `instrument_id`, `instrument_name`, `esem_applicable`, `paired_esem_admissible`, `phi_mean`, `phi_min`, `phi_ci_stable`, `configural_status`, `metric_status`, `scalar_status`, `validation_trap_strict`, `n_scales_metric_supported`, `n_scales_metric_rejected`, `n_valid_reps_for_mean_phi`, `phi_mean_ci_lo`, `phi_mean_ci_hi`
 
 ## `03_structural/cfa_order_sensitivity.csv`
 
-refits of every non-clean CFA model on random row orders (`structural.order_check_permutations`); `order_sensitive` flags scales whose verdict depends on row order (copied as `cfa_order_sensitive` to `structural_scale_table.csv`).
+refits of every candidate CFA model (baseline not admissible or first step not evaluable) on random row orders (`structural.order_check_permutations`); `order_sensitive` flags scales whose baseline admissibility or CFA conclusion depends on row order (copied as `cfa_order_sensitive` to `structural_scale_table.csv`).
 
-Columns: `scale_id`, `n_fits`, `share_configural_admissible`, `order_sensitive`
+Columns: `scale_id`, `n_fits`, `share_configural_admissible`, `n_distinct_verdicts`, `baseline_statuses`, `order_sensitive`
 
 ## `03_structural/esem_factor_correlations.csv`
 
@@ -246,7 +254,7 @@ Columns: `instrument_id`, `item`, `side`, `n_categories_observed`, `min_category
 
 merge of agreement, bias/compression, audit and loading discrepancy (one row per item).
 
-Columns: `item_id`, `n_pairs`, `exact_agreement`, `adjacent_agreement`, `mae_raw`, `mae_range`, `rmse_raw`, `rmse_range`, `spearman_rho`, `pearson_r`, `ccc`, `weighted_kappa_quadratic`, `exact_agreement_ci_lo`, `exact_agreement_ci_hi`, `mae_range_ci_lo`, `mae_range_ci_hi`, `spearman_rho_ci_lo`, `spearman_rho_ci_hi`, `ccc_ci_lo`, `ccc_ci_hi`, `instrument_id`, `instrument_name`, `scale_id`, `scale_name`, `reverse_keyed`, `item_min`, `item_max`, `n_categories`, `data_version`, `mean_human`, `mean_twin`, `bias_raw`, `bias_range`, `bias_p_wilcoxon`, `bias_q_bh`, `sd_human`, `sd_twin`, `sd_ratio`, `log_sd_ratio`, `var_ratio`, `entropy_human_norm`, `entropy_twin_norm`, `entropy_difference`, `n_categories_used_human`, `n_categories_used_twin`, `modal_category_share_twin`, `floor_share_twin`, `ceiling_share_twin`, `calibration_slope`, `calibration_intercept`, `category_coverage_ratio`, `bias_range_ci_lo`, `bias_range_ci_hi`, `sd_ratio_ci_lo`, `sd_ratio_ci_hi`, `entropy_difference_ci_lo`, `entropy_difference_ci_hi`, `twin_top2_categories_share`, `twin_near_degenerate_flag`, `abs_delta_loading_target`, `loading_vector_distance`, `n_factors`, `esem_admissible_both_sides`
+Columns: `item_id`, `n_pairs`, `exact_agreement`, `adjacent_agreement`, `mae_raw`, `mae_range`, `rmse_raw`, `rmse_range`, `spearman_rho`, `pearson_r`, `ccc`, `weighted_kappa_quadratic`, `exact_agreement_ci_lo`, `exact_agreement_ci_hi`, `mae_range_ci_lo`, `mae_range_ci_hi`, `spearman_rho_ci_lo`, `spearman_rho_ci_hi`, `ccc_ci_lo`, `ccc_ci_hi`, `instrument_id`, `instrument_name`, `scale_id`, `scale_name`, `reverse_keyed`, `item_min`, `item_max`, `n_categories`, `data_version`, `mean_human`, `mean_twin`, `bias_raw`, `bias_range`, `bias_p_wilcoxon`, `bias_q_bh`, `sd_human`, `sd_twin`, `sd_ratio`, `log_sd_ratio`, `var_ratio`, `entropy_human_norm`, `entropy_twin_norm`, `entropy_difference`, `n_categories_used_human`, `n_categories_used_twin`, `modal_category_share_twin`, `floor_share_twin`, `ceiling_share_twin`, `calibration_slope`, `calibration_intercept`, `floor_share_human`, `ceiling_share_human`, `extreme_share_human`, `extreme_share_twin`, `extreme_share_difference`, `category_coverage_ratio`, `bias_range_ci_lo`, `bias_range_ci_hi`, `sd_ratio_ci_lo`, `sd_ratio_ci_hi`, `entropy_difference_ci_lo`, `entropy_difference_ci_hi`, `twin_top2_categories_share`, `twin_near_degenerate_flag`, `abs_delta_loading_target`, `loading_vector_distance`, `n_factors`, `esem_admissible_both_sides`
 
 ## `04_item/item_agreement_error.csv`
 
@@ -258,7 +266,7 @@ Columns: `item_id`, `n_pairs`, `exact_agreement`, `adjacent_agreement`, `mae_raw
 
 bias, SD ratio, entropy, floor/ceiling, calibration slope per item.
 
-Columns: `item_id`, `mean_human`, `mean_twin`, `bias_raw`, `bias_range`, `bias_p_wilcoxon`, `bias_q_bh`, `sd_human`, `sd_twin`, `sd_ratio`, `log_sd_ratio`, `var_ratio`, `entropy_human_norm`, `entropy_twin_norm`, `entropy_difference`, `n_categories_used_human`, `n_categories_used_twin`, `modal_category_share_twin`, `floor_share_twin`, `ceiling_share_twin`, `calibration_slope`, `calibration_intercept`, `category_coverage_ratio`, `bias_range_ci_lo`, `bias_range_ci_hi`, `sd_ratio_ci_lo`, `sd_ratio_ci_hi`, `entropy_difference_ci_lo`, `entropy_difference_ci_hi`, `instrument_id`, `instrument_name`, `scale_id`, `scale_name`, `reverse_keyed`, `item_min`, `item_max`, `n_categories`, `data_version`
+Columns: `item_id`, `mean_human`, `mean_twin`, `bias_raw`, `bias_range`, `bias_p_wilcoxon`, `bias_q_bh`, `sd_human`, `sd_twin`, `sd_ratio`, `log_sd_ratio`, `var_ratio`, `entropy_human_norm`, `entropy_twin_norm`, `entropy_difference`, `n_categories_used_human`, `n_categories_used_twin`, `modal_category_share_twin`, `floor_share_twin`, `ceiling_share_twin`, `calibration_slope`, `calibration_intercept`, `floor_share_human`, `ceiling_share_human`, `extreme_share_human`, `extreme_share_twin`, `extreme_share_difference`, `category_coverage_ratio`, `bias_range_ci_lo`, `bias_range_ci_hi`, `sd_ratio_ci_lo`, `sd_ratio_ci_hi`, `entropy_difference_ci_lo`, `entropy_difference_ci_hi`, `instrument_id`, `instrument_name`, `scale_id`, `scale_name`, `reverse_keyed`, `item_min`, `item_max`, `n_categories`, `data_version`
 
 ## `04_item/item_range_codebook.csv`
 
@@ -282,7 +290,7 @@ Columns: `instrument_id`, `instrument_name`, `side`, `n_persons`, `n_items`, `va
 
 twin minus human differences in percentage points with paired bootstrap CI.
 
-Columns: `instrument_id`, `instrument_name`, `n_valid_reps`, `delta_item_point`, `delta_item_ci_lo`, `delta_item_ci_hi`, `delta_resid_point`, `delta_resid_ci_lo`, `delta_resid_ci_hi`, `data_version`
+Columns: `instrument_id`, `instrument_name`, `n_valid_reps`, `person_effect_r`, `delta_item_point`, `delta_item_ci_lo`, `delta_item_ci_hi`, `delta_resid_point`, `delta_resid_ci_lo`, `delta_resid_ci_hi`, `data_version`
 
 ## `04_item/item_loading_discrepancy.csv`
 
@@ -312,7 +320,7 @@ Columns: `metric`, `n_items`, `item_weighted_mean`, `item_weighted_median`, `ite
 
 one row per scale: all levels joined.
 
-Columns: `scale_id`, `scale_name`, `instrument_id`, `instrument_name`, `n_items_scale`, `is_nonredundant`, `r`, `pearson_r_ci_lo`, `pearson_r_ci_hi`, `pearson_q_bh_sig`, `AUC`, `AUC_ci_low`, `AUC_ci_high`, `CCC`, `Cb`, `u`, `v`, `r_dis_alpha`, `delta_ccc_ls`, `delta_ccc_ols`, `typology_r_cb`, `configural_cfa_admissible`, `metric_invariance`, `scalar_invariance`, `metric_test_available`, `scalar_test_available`, `esem_applicable`, `human_esem_admissible`, `twin_esem_admissible`, `paired_esem_admissible`, `tucker_point_available`, `tucker_interpretable`, `tucker_bootstrap_stable`, `tucker_phi_exploratory`, `tucker_phi_primary`, `tucker_phi_ci_lo`, `tucker_phi_ci_hi`, `tucker_frac_valid_bootstrap`, `structural_evidence_level`, `cfa_order_sensitive`, `n_items_in_item_level`, `item_median_spearman_rho`, `item_median_ccc`, `item_median_mae_range`, `item_median_abs_bias_range`, `item_median_sd_ratio`, `item_pct_sd_ratio_lt1`, `item_median_entropy_difference`, `item_pct_near_degenerate_twin`, `item_median_loading_vector_distance`, `item_median_abs_delta_loading`
+Columns: `scale_id`, `scale_name`, `instrument_id`, `instrument_name`, `n_items_scale`, `is_nonredundant`, `r`, `pearson_r_ci_lo`, `pearson_r_ci_hi`, `pearson_q_bh_sig`, `AUC`, `AUC_ci_low`, `AUC_ci_high`, `CCC`, `Cb`, `u`, `v`, `r_dis_alpha`, `delta_ccc_ls`, `delta_ccc_ols`, `typology_r_cb`, `configural_cfa_admissible`, `metric_invariance`, `scalar_invariance`, `metric_test_available`, `scalar_test_available`, `esem_applicable`, `human_esem_admissible`, `twin_esem_admissible`, `paired_esem_admissible`, `tucker_point_available`, `tucker_interpretable`, `tucker_bootstrap_stable`, `tucker_phi_exploratory`, `tucker_phi_primary`, `tucker_phi_ci_lo`, `tucker_phi_ci_hi`, `tucker_frac_valid_bootstrap`, `structural_evidence_level`, `structural_flags`, `baseline_status`, `baseline_fit`, `threshold_decision`, `metric_decision`, `scalar_decision`, `cfa_conclusion`, `cfa_no_conclusion_reason`, `cfa_order_sensitive`, `n_items_in_item_level`, `item_median_spearman_rho`, `item_median_ccc`, `item_median_mae_range`, `item_median_abs_bias_range`, `item_median_sd_ratio`, `item_pct_sd_ratio_lt1`, `item_median_entropy_difference`, `item_pct_near_degenerate_twin`, `item_median_loading_vector_distance`, `item_median_abs_delta_loading`
 
 ## `05_synthesis/cross_level_associations.csv`
 
@@ -336,7 +344,7 @@ Columns: `scale_id`, `scale_name`, `instrument_name`, `tucker_phi_primary`, `tuc
 
 scale accuracy by metric / scalar invariance status.
 
-Columns: `status`, `metric`, `n_yes`, `n_no`, `median_yes`, `median_no`, `mannwhitney_p`
+Columns: `status`, `metric`, `n_yes`, `n_no`, `median_yes`, `median_no`
 
 ## `05_synthesis/cross_level_correlation_matrix_exploratory.csv`
 
@@ -348,7 +356,7 @@ Columns: `Unnamed: 0`, `r`, `AUC`, `CCC`, `Cb`, `r_dis_alpha`, `delta_ccc_ls`, `
 
 one row per scale: axes I, C, S, final type, reason.
 
-Columns: `scale_id`, `scale_name`, `instrument_name`, `r`, `AUC`, `AUC_ci_low`, `CCC`, `Cb`, `structural_evidence_level`, `paired_esem_admissible`, `tucker_phi_primary`, `tucker_phi_exploratory`, `metric_invariance`, `scalar_invariance`, `axis_I_detectable`, `axis_I_practical`, `axis_C`, `axis_S`, `final_type`, `final_type_label`, `classification_reason`
+Columns: `scale_id`, `scale_name`, `instrument_name`, `r`, `AUC`, `AUC_ci_low`, `CCC`, `Cb`, `structural_evidence_level`, `paired_esem_admissible`, `tucker_phi_primary`, `tucker_phi_exploratory`, `metric_invariance`, `scalar_invariance`, `baseline_status`, `baseline_fit`, `threshold_decision`, `metric_decision`, `scalar_decision`, `axis_I_detectable`, `axis_I_practical`, `axis_C`, `axis_S`, `final_type`, `final_type_label`, `classification_reason`, `structural_flags`, `evidence_quality`
 
 ## `05_synthesis/scale_typology_summary.csv`
 

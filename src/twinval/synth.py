@@ -26,8 +26,11 @@ Generative model (all latent variables standardised)
   loadings of reverse-keyed items, ``never_lowest`` / ``never_highest`` remove an extreme category from the twin's answers
   (triggers harmonisation).
 * Data are stored in the framework's format (reverse-keyed items already reverse-scored).
+* ``item_seed`` (instrument level, optional) fixes item thresholds and default human loadings across data sets that differ
+  only in ``seed`` (Monte Carlo replications of one condition).
 
-The intended type of every scale is written to ``scenario_truth.csv``; ``compare_with_truth`` compares it with the typology
+The intended type of every scale is written to ``scenario_truth.csv`` (``intended_type`` for the rules_version 1
+typology, ``intended_type_v2`` for rules_version 2); ``compare_with_truth`` compares it with the typology
 recovered by the pipeline. Intended types are *designs*, not guarantees: a scale built as type "E" can end up "F" if
 sampling noise pushes a statistic over a threshold - that is exactly the kind of variation the example shows.
 """
@@ -92,7 +95,10 @@ def simulate(spec: dict, out_dir: str | Path) -> dict:
         G = rng.normal(size=N)                                          # instrument-wide halo factor of the twin
         halo0 = float(ins.get("twin", {}).get("halo", 0.0))
         n_items_total = sum(int(s["n_items"]) for s in scales)
-        thr_all = _thresholds(K, n_items_total, rng)
+        # optional ``item_seed``: item thresholds and default human loadings come from their own stream, so they stay
+        # fixed across replications that differ only in ``seed`` (Monte Carlo designs with fixed item parameters)
+        rng_items = np.random.default_rng([int(ins["item_seed"]), iid]) if "item_seed" in ins else rng
+        thr_all = _thresholds(K, n_items_total, rng_items)
         node = {"key": ins.get("key", f"SYN{iid}"), "name_en": ins["name"], "name_ru": ins["name"],
                 "item_prefix": ins.get("key", f"SYN{iid}"), "reference": "synthetic (twinval simulate)",
                 "response_min": int(lo), "response_max": int(hi), "scales": []}
@@ -104,7 +110,7 @@ def simulate(spec: dict, out_dir: str | Path) -> dict:
             rev_pos = [int(p) for p in s.get("reverse", [])]                 # 1-based positions inside the scale
             thr = thr_all[item_no:item_no + k]
             hu, tw = s.get("human", {}), s.get("twin", {})
-            lam_h = np.clip(_vec(hu.get("loading"), k, rng.uniform(0.62, 0.78, k)), 0.05, 0.99)
+            lam_h = np.clip(_vec(hu.get("loading"), k, rng_items.uniform(0.62, 0.78, k)), 0.05, 0.99)
             lam_t = _vec(tw.get("loading"), k, lam_h)
             for p in rev_pos:
                 lam_t[p - 1] *= float(tw.get("reverse_loading_scale", 1.0))
@@ -141,6 +147,7 @@ def simulate(spec: dict, out_dir: str | Path) -> dict:
                                    "level": s.get("level", "scale"), "scoring": s.get("scoring", "mean"), "items": items,
                                    "reverse_items": [items[p - 1] for p in rev_pos], "parent": None, "redundant": False})
             truth.append({"scale_id": sid, "instrument_id": iid, "scale_name": s["name"], "intended_type": s.get("intended", ""),
+                          "intended_type_v2": s.get("intended_v2", s.get("intended", "")),
                           "design": s.get("design", ""), "rho": rho, "mu": mu, "sigma": sg, "halo": h,
                           "twin_loading_mean": float(np.mean(lam_t)), "human_loading_mean": float(np.mean(lam_h)), "n_items": k})
             sids.append(sid)
@@ -163,7 +170,7 @@ def simulate(spec: dict, out_dir: str | Path) -> dict:
                                    "scoring": t.get("scoring", "sum"), "items": allitems, "reverse_items": allrev,
                                    "parent": None, "redundant": True})
             truth.append({"scale_id": sid, "instrument_id": iid, "scale_name": t["name"], "intended_type": "redundant",
-                          "design": "total score re-using all items (excluded from the analyses that need independence)",
+                          "intended_type_v2": "redundant", "design": "total score re-using all items (excluded from the analyses that need independence)",
                           "rho": np.nan, "mu": np.nan, "sigma": np.nan, "halo": np.nan, "twin_loading_mean": np.nan,
                           "human_loading_mean": np.nan, "n_items": len(allitems)})
         reg["instruments"][iid] = node
@@ -175,9 +182,15 @@ def simulate(spec: dict, out_dir: str | Path) -> dict:
     return {"data_dir": data_dir, "registry": out / "registry.yaml", "truth": truth}
 
 
-def compare_with_truth(truth: pd.DataFrame, typology: pd.DataFrame) -> pd.DataFrame:
-    """Intended (designed) versus recovered type per scale."""
-    t = truth[truth["intended_type"] != "redundant"][["scale_id", "scale_name", "intended_type", "design"]]
+def compare_with_truth(truth: pd.DataFrame, typology: pd.DataFrame, rules_version: int = 2) -> pd.DataFrame:
+    """Intended (designed) versus recovered type per scale.
+
+    ``intended_type`` is the design under the rules_version 1 typology; ``intended_type_v2`` (scenario key
+    ``intended_v2``, default = ``intended``) is the same design under rules_version 2, where a structural model that
+    cannot be estimated is ``model_not_estimable`` instead of ``model_inadmissible`` / ``not_tested``.
+    """
+    col = "intended_type_v2" if rules_version >= 2 and "intended_type_v2" in truth else "intended_type"
+    t = truth[truth[col] != "redundant"][["scale_id", "scale_name", col, "design"]].rename(columns={col: "intended_type"})
     r = typology[["scale_id", "final_type", "r", "Cb", "structural_evidence_level"]].rename(
         columns={"final_type": "recovered_type", "structural_evidence_level": "structural_level"})
     m = t.merge(r, on="scale_id", how="left")

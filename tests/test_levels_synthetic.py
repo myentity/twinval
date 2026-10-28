@@ -70,6 +70,10 @@ def test_item_level_uses_theoretical_range(good_and_bad, cfg):
     rng_ = panel.meta.loc[j, "item_max"] - panel.meta.loc[j, "item_min"]
     assert np.isclose(ag.loc[j, "mae_range"], ag.loc[j, "mae_raw"] / rng_)
     assert ag["exact_agreement"].between(0, 1).all() and bias["sd_ratio"].notna().all()
+    # extreme categories of the allowable range, both sides
+    lo, hi = panel.meta.loc[j, "item_min"], panel.meta.loc[j, "item_max"]
+    assert np.isclose(bias.loc[j, "extreme_share_human"], np.mean((panel.H[:, j] == lo) | (panel.H[:, j] == hi)))
+    assert np.allclose(bias.extreme_share_difference, bias.extreme_share_twin - bias.extreme_share_human)
 
 
 def test_variance_decomposition_sums_to_100(good_and_bad, cfg):
@@ -78,3 +82,7 @@ def test_variance_decomposition_sums_to_100(good_and_bad, cfg):
     tot = dec[["pct_person", "pct_item", "pct_person_item_residual"]].sum(axis=1)
     assert np.allclose(tot, 100)
     assert (con["instrument_id"].astype(str) == "ALL_INSTRUMENT_WEIGHTED").any()
+    # absolute components add up and the person effects of a good twin correspond
+    assert np.allclose(dec[["var_person", "var_item", "var_person_item_residual"]].sum(axis=1), dec["var_total"])
+    per = con[con["instrument_id"].astype(str) != "ALL_INSTRUMENT_WEIGHTED"]["person_effect_r"]
+    assert per.between(-1, 1).all() and per.mean() > 0.3

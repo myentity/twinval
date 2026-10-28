@@ -6,7 +6,7 @@
   "scipy": "1.17.1",
   "statsmodels": "0.14.6",
   "scikit_learn": "1.6.1",
-  "config_hash": "1e42bd9394e1",
+  "config_hash": "9bf1106c6fa8",
   "seed": 20260915,
   "stages_run": [
     "audit",
@@ -22,8 +22,8 @@
     "profile": 4.3,
     "structural": 7748.3,
     "scale": 20.5,
-    "item": 20.1,
-    "synthesis": 0.6,
+    "item": 34.8,
+    "synthesis": 1.2,
     "report": 0.0
   },
   "notes": [],

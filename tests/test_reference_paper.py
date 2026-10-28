@@ -95,7 +95,9 @@ def test_full_pipeline_types_and_cfa_reproduce_paper(tmp_path):
     ok, msg = r_available()
     if not ok:
         pytest.skip(msg)
-    cfg = load_config(overrides={**FAST, "data": {"data_dir": str(EXAMPLE)}, "structural": {"tucker_bootstrap": False}})
+    # rules_version 1 = the rules of the first submitted version, which produced the published types
+    cfg = load_config(overrides={**FAST, "data": {"data_dir": str(EXAMPLE)},
+                                 "structural": {"tucker_bootstrap": False, "rules_version": 1}})
     Pipeline(cfg, tmp_path / "o").run(["structural", "scale", "item", "synthesis"])
     out = tmp_path / "o"
     cfa = pd.read_csv(out / "03_structural" / "invariance_decisions.csv").merge(

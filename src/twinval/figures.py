@@ -13,12 +13,16 @@ from matplotlib.lines import Line2D
 from matplotlib.patches import Patch
 
 TYPE_COLORS = {"A": "#1a9850", "B": "#91cf60", "C": "#fee08b", "D": "#fc8d59", "E": "#4575b4", "F": "#d73027",
-               "model_inadmissible": "#999999", "not_tested": "#555555"}
+               "model_inadmissible": "#999999", "not_tested": "#555555",
+               "cfa_misfit": "#bdbdbd", "cfa_fit_not_testable": "#d9d9d9", "model_not_estimable": "#999999"}
 S_MARKERS = {"scalar_invariance": "o", "metric_invariance": "s", "configural_only": "^", "congruence_supported": "P",
-             "structurally_discrepant": "D", "model_inadmissible": "x", "not_tested": "+"}
+             "structurally_discrepant": "D", "model_inadmissible": "x", "not_tested": "+",
+             "configural_fit": "^", "cfa_misfit": "v", "cfa_fit_not_testable": "h", "model_not_estimable": "x"}
 S_LABELS = {"scalar_invariance": "Scalar", "metric_invariance": "Metric only", "configural_only": "Configural (CFA)",
             "congruence_supported": "Congruence (gated ESEM)", "structurally_discrepant": "Discrepant (gated ESEM)",
-            "model_inadmissible": "Model inadmissible", "not_tested": "Not tested"}
+            "model_inadmissible": "Model inadmissible", "not_tested": "Not tested",
+            "configural_fit": "Configural fit (CFA)", "cfa_misfit": "Baseline CFA misfit",
+            "cfa_fit_not_testable": "Baseline fit not testable", "model_not_estimable": "Model not estimable"}
 
 
 def _save(fig, path: Path, dpi: int):

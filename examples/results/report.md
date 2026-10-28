@@ -28,8 +28,8 @@ Different units of analysis are shown side by side and are never averaged into o
 | scale | scale | calibration/agreement | Delta CCC after LS recalibration, mean | 0.052 |  | median = +0.028 |
 | structure | factor | structural fidelity | Tucker phi, GATED (both ESEM admissible), median | 0.939 |  | descriptive; bootstrap-stable only where >= 80% replicates are admissible |
 | structure | factor | structural fidelity | Tucker phi, EXPLORATORY (incl. inadmissible ESEM), median | 0.939 |  | NOT used for typology or main conclusions |
-| structure | scale | structural fidelity | Metric invariance (Millsap/Liu) | 17.000 |  | yes: 17, no: 3, not_tested: 4 |
-| structure | scale | structural fidelity | Scalar invariance (Wu chain) | 6.000 |  | yes: 6, no: 7, not_tested: 11 |
+| structure | scale | structural fidelity | Metric invariance (Wu chain) | 6.000 |  | yes: 6, no: 1, not_tested: 17 |
+| structure | scale | structural fidelity | Scalar invariance (Wu chain) | 2.000 |  | yes: 2, no: 4, not_tested: 18 |
 | item | item | individuation | Item-level Spearman rho, median | 0.373 |  | mean = 0.365; IQR [0.295, 0.421] |
 | item | item | calibration/agreement | Item-level CCC, median | 0.337 |  | mean = 0.338; IQR [0.274, 0.405] |
 | item | item | calibration/agreement | Item-level SD ratio, median | 0.851 |  | mean = 0.847; IQR [0.748, 0.934] |
@@ -39,12 +39,13 @@ Different units of analysis are shown side by side and are never averaged into o
 
 | type | n | % | example scales |
 |---|---|---|---|
-| A. Score fidelity with metric-level support | 11 | 45.8 | Extraversion; Sociability; Persistence |
-| B. Individuation without calibration | 3 | 12.5 | Agreeableness; Compassion; Psychological Well-Being |
-| C. Structural support without adequate individuation | 6 | 25.0 | Respectfulness; Trust; Organization |
-| D. Score–structure discrepancy | 1 | 4.2 | Emotional Well-Being |
-| E. Score fidelity with limited structural support | 1 | 4.2 | Social Well-Being |
-| Structural analysis not conducted/not applicable | 2 | 8.3 | Energy Level; Creative Imagination |
+| A. Score fidelity with measurement-invariance support | 3 | 12.5 | Conscientiousness; Productiveness; Negative Emotionality |
+| B. Individuation without adequate calibration | 3 | 12.5 | Agreeableness; Compassion; Psychological Well-Being |
+| C. Limited individuation with structural evidence | 4 | 16.7 | Respectfulness; Responsibility; Emotional Volatility |
+| D. Score fidelity with structural discrepancy | 1 | 4.2 | Emotional Well-Being |
+| E. Score fidelity with limited structural evidence | 6 | 25.0 | Extraversion; Persistence; Anxiety |
+| Structural evidence not established (baseline CFA misfit) | 1 | 4.2 | Overall Score |
+| Structural model not estimable (nonconverged, not identified or inadmissible) | 6 | 25.0 | Sociability; Energy Level; Trust |
 
 ## Associations between levels (Spearman)
 

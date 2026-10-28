@@ -18,6 +18,15 @@ thresholds:
   alpha_sig: 0.05
   cfa_delta_cfi_min: -0.01
   cfa_delta_rmsea_max: 0.015
+  cfa_delta_srmr_loadings_max: 0.03
+  cfa_delta_srmr_thresholds_max: 0.01
+  cfa_pd_tolerance: 1.0e-06
+  cfa_bound_tolerance: 1.0e-06
+  cfa_srmr_fit_max: 0.08
+  cfa_fit_conflict_cfi_min: 0.9
+  cfa_fit_conflict_rmsea_ci_lo_max: 0.1
+  near_boundary_loading: 0.95
+  near_boundary_correlation: 0.95
 profile:
   enabled: true
   n_boot: 5000
@@ -49,11 +58,28 @@ structural:
   bootstrap_admissible_only: true
   n_boot_tucker: 500
   resume: true
+  rules_version: 2
+  primary_branch: wu
+  use_delta_srmr: true
+  exclude_near_boundary: false
+  structural_priority: cfa
 synthesis:
   enabled: true
   n_boot_cluster: 5000
   min_clusters_for_cluster_bootstrap: 4
   type_labels:
+    A: Score fidelity with measurement-invariance support
+    B: Individuation without adequate calibration
+    C: Limited individuation with structural evidence
+    D: Score fidelity with structural discrepancy
+    E: Score fidelity with limited structural evidence
+    F: Unclassified residual
+    cfa_misfit: Structural evidence not established (baseline CFA misfit)
+    cfa_fit_not_testable: Structural evidence not established (baseline fit not testable)
+    model_not_estimable: Structural model not estimable (nonconverged, not identified
+      or inadmissible)
+    not_tested: Structural analysis not conducted/not applicable
+  type_labels_v1:
     A: Score fidelity with metric-level support
     B: Individuation without calibration
     C: Structural support without adequate individuation

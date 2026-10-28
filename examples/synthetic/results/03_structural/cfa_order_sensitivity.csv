@@ -1,6 +1,6 @@
-scale_id,n_fits,share_configural_admissible,order_sensitive
-905_Duplicated,4,0.0,False
-908_Solo,4,0.0,False
-909_DupD,4,0.0,False
-909_DupF,4,0.25,True
-910_Duplicated,4,0.0,False
+scale_id,n_fits,share_configural_admissible,n_distinct_verdicts,baseline_statuses,order_sensitive
+905_Duplicated,4,0.0,1,nonconverged,False
+908_Solo,4,0.0,1,nonconverged,False
+909_DupD,4,0.0,1,nonconverged,False
+909_DupF,4,0.0,1,identification_not_established;nonconverged,False
+910_Duplicated,4,0.0,1,nonconverged,False

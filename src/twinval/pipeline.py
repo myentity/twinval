@@ -178,9 +178,15 @@ class Pipeline:
             self._w("structural", "invariance_results", results)
             for k, v in S.parse_cfa(results).items():
                 self._w("structural", k, v)
-            cfa_status = S.cfa_scale_status(results)
-            self._w("structural", "cfa_scale_status", cfa_status)
-            self._w("structural", "cfa_status_by_instrument", S.cfa_by_instrument(results, st))
+            if int(cfg.structural.rules_version) >= 2:
+                cfa_status = S.cfa_scale_status_v2(results, cfg)
+                self._w("structural", "cfa_scale_status", cfa_status)
+                self._w("structural", "cfa_step_diagnostics", S.cfa_step_diagnostics(results, cfg))
+                self._w("structural", "cfa_status_by_instrument", S.cfa_by_instrument(results, st, cfa_status))
+            else:
+                cfa_status = S.cfa_scale_status(results)
+                self._w("structural", "cfa_scale_status", cfa_status)
+                self._w("structural", "cfa_status_by_instrument", S.cfa_by_instrument(results, st))
             if cfg.structural.order_check_permutations > 0:
                 oc = S.cfa_order_sensitivity(results, inp["manifest"], wd, cfg.structural.order_check_permutations,
                                              int(cfg.run.seed), cfg, logs)
@@ -313,7 +319,7 @@ class Pipeline:
             self._w("synthesis", "scale_typology_summary", summ)
             with open(self.out / DIRS["synthesis"] / "scale_typology_rules.yaml", "w", encoding="utf-8") as fh:
                 yaml.safe_dump(rules, fh, allow_unicode=True, sort_keys=False)
-            figures.typology_map(typ, dict(cfg.synthesis.type_labels), self._figdir("synthesis") / "scale_typology_map", cfg.figures.dpi)
+            figures.typology_map(typ, synth.type_labels(cfg), self._figdir("synthesis") / "scale_typology_map", cfg.figures.dpi)
         else:
             self.notes.append("typology skipped: no structural results (run the structural stage; requires R + lavaan)")
         figures.association_heatmap(out["associations"], self._figdir("synthesis") / "cross_level_associations_heatmap", cfg.figures.dpi)

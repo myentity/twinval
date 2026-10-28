@@ -399,10 +399,73 @@ fit_summary_row <- function(fit, prefix) {
     rmsea = if (is.null(fm)) NA_real_ else fm[["rmsea.scaled"]],
     srmr = if (is.null(fm)) NA_real_ else fm[["srmr"]],
     df = if (is.null(fm)) NA_real_ else fm[["df.scaled"]],
-    heywood = has_heywood(fit)
+    heywood = has_heywood(fit),
+    fit_diagnostics(fit)
   )
   names(vals) <- paste0(prefix, "_", names(vals))
   vals
+}
+
+# Model-level diagnostics used to separate estimability, absolute fit and invariance.
+# Reported only; they do not enter any invariance decision of this script.
+#   chisq/npar/tli/rmsea CI : absolute fit (scaled versions, as the decision indices)
+#   post_check              : lavaan check of admissible variances / positive-definite latent matrices
+#   vcov_min_eigen          : smallest eigenvalue of the parameter covariance matrix (identification)
+#   theta/psi_min_eigen     : smallest eigenvalue of the residual / latent covariance matrix (< 0: not PD)
+#   max_sample_cor_h/_t     : largest sample polychoric correlation among Human / among Twin items
+#   max_std_loading, min_std_resid_var, max_abs_resid_cor : boundary diagnostics (std.all)
+#   abs_factor_cor          : |cor(Fh, Ft)|
+fit_diagnostics <- function(fit) {
+  out <- c(chisq = NA_real_, npar = NA_real_, tli = NA_real_, rmsea_ci_lo = NA_real_, rmsea_ci_hi = NA_real_,
+           post_check = NA, vcov_min_eigen = NA_real_, theta_min_eigen = NA_real_, psi_min_eigen = NA_real_,
+           max_sample_cor_h = NA_real_, max_sample_cor_t = NA_real_, max_std_loading = NA_real_,
+           min_std_resid_var = NA_real_, max_abs_resid_cor = NA_real_, abs_factor_cor = NA_real_)
+  if (!fit_ok(fit)) return(out)
+  one <- function(name) tryCatch(as.numeric(fitMeasures(fit, name)), error = function(e) NA_real_)
+  out[["chisq"]] <- one("chisq.scaled")
+  out[["npar"]] <- one("npar")
+  out[["tli"]] <- one("tli.scaled")
+  out[["rmsea_ci_lo"]] <- one("rmsea.ci.lower.scaled")
+  out[["rmsea_ci_hi"]] <- one("rmsea.ci.upper.scaled")
+  out[["post_check"]] <- tryCatch(isTRUE(suppressWarnings(lavInspect(fit, "post.check"))), error = function(e) NA)
+  # equality-constrained parameters appear as identical columns of vcov; keep one copy of each
+  out[["vcov_min_eigen"]] <- tryCatch({
+    v <- suppressWarnings(lavInspect(fit, "vcov"))
+    keep <- !duplicated(t(round(v, 10)))
+    min(eigen(v[keep, keep, drop = FALSE], symmetric = TRUE, only.values = TRUE)$values)
+  }, error = function(e) NA_real_)
+  est <- tryCatch(lavInspect(fit, "est"), error = function(e) NULL)
+  min_eig <- function(m) tryCatch(min(eigen(m, symmetric = TRUE, only.values = TRUE)$values),
+                                  error = function(e) NA_real_)
+  if (!is.null(est)) {
+    out[["theta_min_eigen"]] <- min_eig(est$theta)
+    out[["psi_min_eigen"]] <- min_eig(est$psi)
+  }
+  # largest off-diagonal sample polychoric correlation within the Human and within the Twin items
+  sc <- tryCatch(lavInspect(fit, "sampstat")$cov, error = function(e) NULL)
+  if (!is.null(sc)) {
+    side_max <- function(suffix) {
+      ix <- grep(paste0(suffix, "$"), rownames(sc))
+      if (length(ix) < 2) return(NA_real_)
+      m <- abs(sc[ix, ix]); diag(m) <- NA
+      max(m, na.rm = TRUE)
+    }
+    out[["max_sample_cor_h"]] <- side_max("_h")
+    out[["max_sample_cor_t"]] <- side_max("_t")
+  }
+  ss <- tryCatch(standardizedSolution(fit), error = function(e) NULL)
+  if (!is.null(ss)) {
+    items <- ss$op == "~~" & grepl("^it", ss$lhs) & grepl("^it", ss$rhs)
+    lam <- ss$est.std[ss$op == "=~"]
+    rv <- ss$est.std[items & ss$lhs == ss$rhs]
+    rc <- ss$est.std[items & ss$lhs != ss$rhs]
+    fc <- ss$est.std[ss$op == "~~" & ss$lhs %in% c("Fh", "Ft") & ss$rhs %in% c("Fh", "Ft") & ss$lhs != ss$rhs]
+    if (length(lam)) out[["max_std_loading"]] <- max(abs(lam), na.rm = TRUE)
+    if (length(rv)) out[["min_std_resid_var"]] <- min(rv, na.rm = TRUE)
+    if (length(rc)) out[["max_abs_resid_cor"]] <- max(abs(rc), na.rm = TRUE)
+    if (length(fc)) out[["abs_factor_cor"]] <- abs(fc[1])
+  }
+  out
 }
 
 # ============================================================================

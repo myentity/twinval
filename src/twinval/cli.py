@@ -66,6 +66,7 @@ def main(argv=None):
     ct.add_argument("--truth", required=True, help="scenario_truth.csv written by `simulate`")
     ct.add_argument("--results", required=True, help="results folder of `twinval run`")
     ct.add_argument("--out", help="write the comparison as CSV")
+    ct.add_argument("--rules-version", type=int, help="typology rules of the run (default: read from its config_used.yaml)")
 
     sub.add_parser("check-r", help="check the optional R backend (Rscript + lavaan + semTools)")
     sub.add_parser("write-config", help="print the default configuration").add_argument("--out")
@@ -86,7 +87,13 @@ def main(argv=None):
     if args.cmd == "compare-truth":
         import pandas as pd
         from .synth import compare_with_truth
-        cmp = compare_with_truth(pd.read_csv(args.truth), pd.read_csv(Path(args.results) / "05_synthesis" / "scale_typology.csv"))
+        rv = args.rules_version
+        if rv is None:
+            import yaml
+            used = Path(args.results) / "config_used.yaml"
+            run_cfg = yaml.safe_load(used.read_text(encoding="utf-8")) if used.exists() else {}
+            rv = int(((run_cfg or {}).get("structural") or {}).get("rules_version", 1))   # runs before rules v2 have no key
+        cmp = compare_with_truth(pd.read_csv(args.truth), pd.read_csv(Path(args.results) / "05_synthesis" / "scale_typology.csv"), rv)
         if args.out:
             cmp.round(3).to_csv(args.out, index=False)
         print(cmp.drop(columns="design").round(2).to_string(index=False))

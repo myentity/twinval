@@ -1,4 +1,10 @@
-scale_id,n_fits,share_configural_admissible,order_sensitive
-148_EnergyLevel,6,0.0,False
-148_CreativeImagination,6,0.0,False
-161_EmotionalWellBeing,6,0.0,False
+scale_id,n_fits,share_configural_admissible,n_distinct_verdicts,baseline_statuses,order_sensitive
+148_Sociability,6,0.0,1,inadmissible,False
+148_EnergyLevel,6,0.0,1,nonconverged,False
+148_Agreeableness,6,0.0,1,inadmissible,False
+148_Trust,6,0.0,1,inadmissible,False
+148_Organization,6,0.0,1,inadmissible,False
+148_Depression,6,0.0,1,inadmissible,False
+148_OpenMindedness,6,0.0,1,inadmissible,False
+148_CreativeImagination,6,0.0,1,identification_not_established;nonconverged,False
+161_EmotionalWellBeing,6,0.0,1,nonconverged,False

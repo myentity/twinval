@@ -28,7 +28,7 @@ Different units of analysis are shown side by side and are never averaged into o
 | scale | scale | calibration/agreement | Delta CCC after LS recalibration, mean | 0.026 |  | median = -0.000 |
 | structure | factor | structural fidelity | Tucker phi, GATED (both ESEM admissible), median | 0.986 |  | descriptive; bootstrap-stable only where >= 80% replicates are admissible |
 | structure | factor | structural fidelity | Tucker phi, EXPLORATORY (incl. inadmissible ESEM), median | 0.986 |  | NOT used for typology or main conclusions |
-| structure | scale | structural fidelity | Metric invariance (Millsap/Liu) | 17.000 |  | yes: 17, no: 7, not_tested: 5 |
+| structure | scale | structural fidelity | Metric invariance (Wu chain) | 14.000 |  | yes: 14, no: 6, not_tested: 9 |
 | structure | scale | structural fidelity | Scalar invariance (Wu chain) | 14.000 |  | yes: 14, no: 0, not_tested: 15 |
 | item | item | individuation | Item-level Spearman rho, median | 0.310 |  | mean = 0.298; IQR [0.211, 0.396] |
 | item | item | calibration/agreement | Item-level CCC, median | 0.309 |  | mean = 0.297; IQR [0.212, 0.394] |
@@ -39,14 +39,14 @@ Different units of analysis are shown side by side and are never averaged into o
 
 | type | n | % | example scales |
 |---|---|---|---|
-| A. Score fidelity with metric-level support | 11 | 37.9 | Alpha; Beta; Gamma |
-| B. Individuation without calibration | 4 | 13.8 | Shifted; Compressed; Lowered |
-| C. Structural support without adequate individuation | 5 | 17.2 | Generic1; Generic2; Generic3 |
-| D. Score–structure discrepancy | 1 | 3.4 | DupD |
-| E. Score fidelity with limited structural support | 5 | 17.2 | Uneven1; Uneven2; Duplicated |
+| A. Score fidelity with measurement-invariance support | 9 | 31.0 | Alpha; Beta; Gamma |
+| B. Individuation without adequate calibration | 4 | 13.8 | Shifted; Compressed; Lowered |
+| C. Limited individuation with structural evidence | 5 | 17.2 | Generic1; Generic2; Generic3 |
+| D. Score fidelity with structural discrepancy | 1 | 3.4 | DupD |
+| E. Score fidelity with limited structural evidence | 6 | 20.7 | Uneven1; Uneven2; Duplicated |
 | F. Unclassified residual | 1 | 3.4 | DupF |
-| Structural model inadmissible (Heywood/nonidentified) | 1 | 3.4 | Duplicated |
-| Structural analysis not conducted/not applicable | 1 | 3.4 | Solo |
+| Structural evidence not established (baseline CFA misfit) | 1 | 3.4 | Total |
+| Structural model not estimable (nonconverged, not identified or inadmissible) | 2 | 6.9 | Solo; Duplicated |
 
 ## Associations between levels (Spearman)
 

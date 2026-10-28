@@ -126,8 +126,9 @@ def test_shipped_synthetic_example_shows_all_types(tmp_path):
     p = Pipeline(cfg, tmp_path / "out", load_registry(SHIPPED / "registry.yaml"))
     p.run()
     ty = pd.read_csv(tmp_path / "out" / "05_synthesis" / "scale_typology.csv")
-    assert set(ty["final_type"]) == {"A", "B", "C", "D", "E", "F", "not_tested", "model_inadmissible"}
-    cmp = compare_with_truth(pd.read_csv(SHIPPED / "scenario_truth.csv"), ty)
+    # rules_version 2: the redundant total score (906_Total) has a misfitting baseline CFA
+    assert set(ty["final_type"]) == {"A", "B", "C", "D", "E", "F", "cfa_misfit", "model_not_estimable"}
+    cmp = compare_with_truth(pd.read_csv(SHIPPED / "scenario_truth.csv"), ty, 2)
     assert cmp["match"].mean() >= 0.85
     assoc = pd.read_csv(tmp_path / "out" / "05_synthesis" / "cross_level_associations.csv")
     assert assoc["ci_lo"].notna().any()

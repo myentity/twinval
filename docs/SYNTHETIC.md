@@ -4,7 +4,7 @@ The real example (`examples/data`, two instruments) cannot show every kind of re
 instruments the cluster bootstrap and leave-one-instrument-out analyses are degenerate, and only some types of the
 typology occur. `twinval simulate` therefore generates **fictional instruments with a twin whose behaviour is built in**.
 The synthetic example (`examples/synthetic`) has 10 instruments, 29 scales, 500 respondents, and produces **all eight
-outcomes of the typology** (A, B, C, D, E, F, *not tested*, *model inadmissible*), a cluster bootstrap over 10 instruments,
+outcomes of the typology** (A, B, C, D, E, F, *CFA misfit*, *model not estimable*; structural rules version 2), a cluster bootstrap over 10 instruments,
 leave-one-instrument-out results, harmonisation of categories, reverse-keyed items and a redundant total score.
 The data carry no personal information; the instruments do not exist.
 
@@ -34,24 +34,27 @@ input format (reverse-keyed items already reverse-scored). Every instrument has 
 | `rho` | latent correlation twin-human | individuation: Pearson r, AUC, identification |
 | `mu`, `sigma` | twin mean shift (SD units), twin factor scale | calibration: C_b, bias, SD ratio (type **B**) |
 | `halo` | share of an instrument-wide factor shared by all scales of the instrument | cross-scale contamination in ESEM |
-| `loading` (scalar or list), `human.loading` | twin item loadings (default: the human ones) | unequal loadings break metric invariance -> **configural only** (type **E**) |
+| `loading` (scalar or list), `human.loading` | twin item loadings (default: the human ones) | unequal loadings break metric invariance -> **configural fit** (type **E**) |
 | `reverse_loading_scale` | shrinks the twin loadings of reverse-keyed items | reverse-keyed item analysis; metric invariance |
 | `item_shift` | moves single twin items up/down | scalar invariance |
 | `resid_corr` | the twin reproduces the human item-specific residuals | item-level agreement beyond the trait |
-| `duplicate: [[i, j], ...]`, `duplicate_corr` | twin answers item *j* like item *i* | with three identical answers: CFA and/or twin ESEM inadmissible |
+| `duplicate: [[i, j], ...]`, `duplicate_corr` | twin answers item *j* like item *i* | with three identical answers: CFA and/or twin ESEM not estimable |
 | `copy_items` | twin reproduces the human answer verbatim (leakage) | perfect item agreement |
 | `near_constant`, `near_constant_keep` | twin gives (almost) everybody the same answer to an item | near-degenerate items (item level) |
 | `never_lowest`, `never_highest` | twin never uses an extreme category | category harmonisation |
 
 Instrument level: `response: [min, max]`, `key`, `name`, `total: {name, scoring}` (a redundant total score over all items),
-`seed`. File level: `seed`, `n_respondents`, `factor_correlation`, `id_prefix`.
+`seed`, `item_seed` (fixes item thresholds and default human loadings across data sets that differ only in `seed`; used by the
+Monte Carlo study in [`simulation_study/`](../simulation_study)). File level: `seed`, `n_respondents`, `factor_correlation`, `id_prefix`.
 
 ## The scenario
 
-`intended` is the type the design aims at; it is a *design*, not a guarantee. The table is filled by
-`twinval compare-truth` (see `examples/synthetic/results/expected_vs_recovered.csv`).
+`intended` is the type the design aims at; it is a *design*, not a guarantee. `intended_v2` gives the same design under
+the version 2 rules where the name of the outcome differs (`scenario_truth.csv`: columns `intended_type` and
+`intended_type_v2`). `twinval compare-truth` uses the column that matches the `rules_version` of the run (see
+`examples/synthetic/results/expected_vs_recovered.csv`).
 
-| instrument | design | intended types |
+| instrument | design | intended types (rules version 2) |
 |---|---|---|
 | 901 faithful twin | high individuation, calibrated, same loadings | A A A |
 | 902 miscalibrated twin | good individuation, twin mean shifted / variance compressed | B B B |
@@ -60,29 +63,39 @@ Instrument level: `response: [min, max]`, `key`, `name`, `total: {name, scoring}
 | 905 repeated twin answers (congruent) | items 1-3 answered identically: scale CFA fails, ESEM admissible and congruent | E A A |
 | 906 mixed instrument with total | reverse items handled worse (E), shifted twin never using the lowest category (B), weak twin (C), redundant total | E B C (+ total) |
 | 907 short scales | 3-4 item scales | A C A |
-| 908 single-scale instrument | items 1-4 answered identically: CFA fails and ESEM is not applicable | not tested |
+| 908 single-scale instrument | items 1-4 answered identically: CFA fails and ESEM is not applicable | model not estimable (version 1: not tested) |
 | 909 repeated twin answers (discrepant) | items 1-3 identical, items 4-5 ignored: CFA fails, ESEM loadings differ (phi < 0.85) | D F (+ control) |
-| 910 repeated twin answers (inadmissible) | items 1-3 identical: CFA and twin ESEM inadmissible, the gate closes for the instrument | model inadmissible, A, A |
+| 910 repeated twin answers (inadmissible) | items 1-3 identical: CFA and twin ESEM not estimable, the gate closes for the instrument | model not estimable (version 1: model inadmissible), A, A |
 
 ## Result of the published run
 
-`examples/synthetic/results` (settings: `configs/synthetic.yaml`). The typology of the 29 scales: **A 11, B 4, C 5, D 1, E 5,
-F 1, model inadmissible 1, not tested 1** (the total score `906_Total` is redundant and is typed with the others). The designed
-type is recovered for **27 of 28** non-redundant scales (`expected_vs_recovered.csv`); the exception is the control scale
-`909_Plain` (designed A, recovered E). The row-order check flags `909_DupF` (type F) as order-sensitive: its CFA converges in 1 of
-4 random row orders - the framework detects the borderline case that the design deliberately builds. Cross-level associations have
+`examples/synthetic/results` (settings: `configs/synthetic.yaml`, structural rules version 2). The typology of the 29
+scales: **A 9, B 4, C 5, D 1, E 6, F 1, CFA misfit 1, model not estimable 2** (the redundant total score `906_Total` is typed
+with the others; its baseline CFA misfits). The designed type is recovered for **26 of 28** non-redundant scales
+(`expected_vs_recovered.csv`); the exceptions are two control scales, both designed A and recovered E:
+
+* `909_Plain` - the Wu loading step is rejected (delta CFI -.009, delta RMSEA .017): borderline;
+* `905_Plain2` - the Wu threshold step is rejected (delta RMSEA .021 > .015), so the CFA conclusion is configural fit; the
+  Millsap/Liu sequence supports metric invariance, and the scale carries the flag `identification_route_dependent`.
+
+Under the version 1 rules, which took the metric verdict from the Millsap/Liu sequence, 27 of 28 designed types were recovered
+(only `909_Plain` differed). The row-order check refits the five candidate scales on 3 random row orders; none is
+order-sensitive under version 2. The baseline of `909_DupF` (type F) is nonconverged in some orders and not identified in
+others, i.e. not estimable in every fit, so its structural status does not change. Cross-level associations have
 cluster-bootstrap intervals over 10 instruments, and `01_profile/identification_leave_one_instrument_out.csv` has 10 rows.
 
 ## Read this before interpreting the results
 
-* **Borderline numerics.** The paired ordinal CFA rarely fails on synthetic data. Types D, F, *not tested*, the
-  congruence route to E and *model inadmissible* need a scale-level CFA that does **not converge**, which happens only in
+* **Borderline numerics.** The paired ordinal CFA rarely fails on synthetic data. Types D, F, *model not estimable* and the
+  congruence route to E need a scale-level CFA that is **not estimable** (here: does not converge), which happens only in
   extreme configurations (three or more identical twin answers) and then depends on the random draw. The seeds of
   instruments 905, 908, 909 and 910 (`seed:` in `scenario.yaml`) were chosen so that the intended outcome occurs; the
   same designs with other seeds give other, equally valid results (`E`, `C`, ...). This mirrors the fragility of the
   real study (see "Order sensitivity" in the README). The committed data files are authoritative; regenerating them on
   another platform can change floating-point details and hence such borderline outcomes.
-* Control scales can end up in another type by chance (in the shipped example the control scale `909_Plain` is type E because
-  its metric-invariance test is borderline). `expected_vs_recovered.csv` reports such mismatches openly.
+* Control scales can end up in another type by chance (in the shipped example the control scales `909_Plain` and `905_Plain2`
+  are type E because an invariance step is borderline). `expected_vs_recovered.csv` reports such mismatches openly.
+* The two identification schemes can also differ numerically: with `structural.primary_branch: millsap` the scale `909_DupD`
+  becomes E instead of D, because its Millsap baseline converges while the statistically equivalent Wu configural model does not.
 * With ten instruments the cluster bootstrap and leave-one-instrument-out run, but ten clusters are still few:
   the intervals are wide and are meant to illustrate the procedure.

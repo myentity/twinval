@@ -1,24 +1,51 @@
-version: '2.0'
+version: structural rules v2
+rules_version: 2
 thresholds:
   r_practical: 0.5
   auc_ci_low: 0.5
   cb_adequate: 0.8
-  ccc_acceptable: 0.4
   phi_congruence: 0.85
+  cfa_delta_cfi_min: -0.01
+  cfa_delta_rmsea_max: 0.015
+  cfa_delta_srmr_loadings_max: 0.03
+  cfa_delta_srmr_thresholds_max: 0.01
+  cfa_srmr_fit_max: 0.08
+  cfa_pd_tolerance: 1.0e-06
+  cfa_bound_tolerance: 1.0e-06
+  near_boundary_loading: 0.95
+  near_boundary_correlation: 0.95
+structural:
+  primary_branch: wu
+  use_delta_srmr: true
+  exclude_near_boundary: false
+  structural_priority: cfa
+structural_status_order:
+- 'scalar_invariance / metric_invariance: primary-branch steps supported, admissible
+  baseline with fit supported (or df = 0 and not testable)'
+- 'configural_fit: admissible baseline, SRMR fit supported, no further invariance
+  level'
+- 'congruence_supported / structurally_discrepant: admissible paired ESEM when the
+  CFA gives no conclusion'
+- 'cfa_misfit / cfa_fit_not_testable / model_not_estimable / not_tested: no structural
+  evidence'
 decision_order:
-- model_inadmissible / not_tested (S unknown; separate categories)
+- analysis statuses (cfa_misfit, cfa_fit_not_testable, model_not_estimable, not_tested)
+  first
 - 'A: I adequate & C adequate & S in {scalar, metric}'
-- 'B: I adequate & C distorted (evaluated before D)'
-- 'C: I inadequate & S in {scalar, metric, configural, congruence}'
-- 'D: (I adequate or CCC >= ccc_acceptable) & S == structurally_discrepant'
-- 'E: I adequate & C adequate & S in {configural, congruence}'
-- 'F: residual'
+- 'B: I adequate & C distorted (any eligible S; evaluated before D)'
+- 'C: I not adequate & S in {scalar, metric, configural_fit, congruence}'
+- 'D: I adequate & C adequate & S == structurally_discrepant'
+- 'E: I adequate & C adequate & S in {configural_fit, congruence}'
+- 'F: residual (e.g. discrepant structure without adequate individuation)'
 labels:
-  A: Score fidelity with metric-level support
-  B: Individuation without calibration
-  C: Structural support without adequate individuation
-  D: Score–structure discrepancy
-  E: Score fidelity with limited structural support
+  A: Score fidelity with measurement-invariance support
+  B: Individuation without adequate calibration
+  C: Limited individuation with structural evidence
+  D: Score fidelity with structural discrepancy
+  E: Score fidelity with limited structural evidence
   F: Unclassified residual
-  model_inadmissible: Structural model inadmissible (Heywood/nonidentified)
+  cfa_misfit: Structural evidence not established (baseline CFA misfit)
+  cfa_fit_not_testable: Structural evidence not established (baseline fit not testable)
+  model_not_estimable: Structural model not estimable (nonconverged, not identified
+    or inadmissible)
   not_tested: Structural analysis not conducted/not applicable
