@@ -38,7 +38,7 @@
   "n_scales": 24,
   "instruments": [
     "Big Five Inventory-2 (BFI-2)",
-    "Spectrum of Psychological Health"
+    "Mental Health Continuum"
   ],
   "R_lavaan_semTools": "4.6.1 0.7.2 0.5.9"
 }

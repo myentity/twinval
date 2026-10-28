@@ -1,7 +1,7 @@
 scale_id,file,n_items,n_pairs,instrument,scale_name,method_count,category_status
 148_Extraversion,<run_dir>/03_structural/r_work/cfa_input/148_Extraversion_paired_wide.csv,12,484,Big Five Inventory-2 (BFI-2),Extraversion,mean,harmonized
 148_Sociability,<run_dir>/03_structural/r_work/cfa_input/148_Sociability_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Sociability,mean,harmonized
-148_Persistence,<run_dir>/03_structural/r_work/cfa_input/148_Persistence_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Persistence,mean,clean
+148_Persistence,<run_dir>/03_structural/r_work/cfa_input/148_Persistence_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Assertiveness,mean,clean
 148_EnergyLevel,<run_dir>/03_structural/r_work/cfa_input/148_EnergyLevel_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Energy Level,mean,harmonized
 148_Agreeableness,<run_dir>/03_structural/r_work/cfa_input/148_Agreeableness_paired_wide.csv,12,484,Big Five Inventory-2 (BFI-2),Agreeableness,mean,harmonized
 148_Compassion,<run_dir>/03_structural/r_work/cfa_input/148_Compassion_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Compassion,mean,harmonized
@@ -11,15 +11,15 @@ scale_id,file,n_items,n_pairs,instrument,scale_name,method_count,category_status
 148_Organization,<run_dir>/03_structural/r_work/cfa_input/148_Organization_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Organization,mean,harmonized
 148_Productiveness,<run_dir>/03_structural/r_work/cfa_input/148_Productiveness_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Productiveness,mean,harmonized
 148_Responsibility,<run_dir>/03_structural/r_work/cfa_input/148_Responsibility_paired_wide.csv,5,484,Big Five Inventory-2 (BFI-2),Responsibility,mean,harmonized
-148_NegativeEmotionality,<run_dir>/03_structural/r_work/cfa_input/148_NegativeEmotionality_paired_wide.csv,12,484,Big Five Inventory-2 (BFI-2),Negative Emotionality,mean,clean
+148_NegativeEmotionality,<run_dir>/03_structural/r_work/cfa_input/148_NegativeEmotionality_paired_wide.csv,12,484,Big Five Inventory-2 (BFI-2),Neuroticism,mean,clean
 148_Anxiety,<run_dir>/03_structural/r_work/cfa_input/148_Anxiety_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Anxiety,mean,clean
 148_Depression,<run_dir>/03_structural/r_work/cfa_input/148_Depression_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Depression,mean,clean
 148_EmotionalVolatility,<run_dir>/03_structural/r_work/cfa_input/148_EmotionalVolatility_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Emotional Volatility,mean,clean
-148_OpenMindedness,<run_dir>/03_structural/r_work/cfa_input/148_OpenMindedness_paired_wide.csv,12,484,Big Five Inventory-2 (BFI-2),Open-Mindedness,mean,harmonized
+148_OpenMindedness,<run_dir>/03_structural/r_work/cfa_input/148_OpenMindedness_paired_wide.csv,12,484,Big Five Inventory-2 (BFI-2),Openness to Experience,mean,harmonized
 148_AestheticSensitivity,<run_dir>/03_structural/r_work/cfa_input/148_AestheticSensitivity_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Aesthetic Sensitivity,mean,clean
 148_IntellectualCuriosity,<run_dir>/03_structural/r_work/cfa_input/148_IntellectualCuriosity_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Intellectual Curiosity,mean,harmonized
 148_CreativeImagination,<run_dir>/03_structural/r_work/cfa_input/148_CreativeImagination_paired_wide.csv,4,484,Big Five Inventory-2 (BFI-2),Creative Imagination,mean,harmonized
-161_EmotionalWellBeing,<run_dir>/03_structural/r_work/cfa_input/161_EmotionalWellBeing_paired_wide.csv,3,484,Spectrum of Psychological Health,Emotional Well-Being,sum,harmonized
-161_SocialWellBeing,<run_dir>/03_structural/r_work/cfa_input/161_SocialWellBeing_paired_wide.csv,5,484,Spectrum of Psychological Health,Social Well-Being,sum,harmonized
-161_PsychologicalWellBeing,<run_dir>/03_structural/r_work/cfa_input/161_PsychologicalWellBeing_paired_wide.csv,6,484,Spectrum of Psychological Health,Psychological Well-Being,sum,harmonized
-161_OverallScore,<run_dir>/03_structural/r_work/cfa_input/161_OverallScore_paired_wide.csv,14,484,Spectrum of Psychological Health,Overall Score,sum,harmonized
+161_EmotionalWellBeing,<run_dir>/03_structural/r_work/cfa_input/161_EmotionalWellBeing_paired_wide.csv,3,484,Mental Health Continuum,Emotional Well-Being,sum,harmonized
+161_SocialWellBeing,<run_dir>/03_structural/r_work/cfa_input/161_SocialWellBeing_paired_wide.csv,5,484,Mental Health Continuum,Social Well-Being,sum,harmonized
+161_PsychologicalWellBeing,<run_dir>/03_structural/r_work/cfa_input/161_PsychologicalWellBeing_paired_wide.csv,6,484,Mental Health Continuum,Psychological Well-Being,sum,harmonized
+161_OverallScore,<run_dir>/03_structural/r_work/cfa_input/161_OverallScore_paired_wide.csv,14,484,Mental Health Continuum,Overall Score,sum,harmonized

@@ -1,4 +1,4 @@
-# Settings used for the results published in examples/results (BFI-2 + Spectrum of Psychological Health).
+# Settings used for the results published in examples/results (BFI-2 + Mental Health Continuum).
 # All resampling sizes are the defaults of the study (5000 bootstrap replicates, 2000 permutations, 500 Tucker replicates).
 # Re-create:  twinval run --data examples/data --out examples/results --config configs/example.yaml
 run:

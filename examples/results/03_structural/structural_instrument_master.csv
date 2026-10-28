@@ -1,3 +1,3 @@
 instrument_id,instrument_name,esem_applicable,paired_esem_admissible,phi_mean,phi_min,phi_ci_stable,configural_status,metric_status,scalar_status,validation_trap_strict,n_scales_metric_supported,n_scales_metric_rejected,n_valid_reps_for_mean_phi,phi_mean_ci_lo,phi_mean_ci_hi
 148,Big Five Inventory-2 (BFI-2),True,True,0.9437839168745924,0.9365066017865038,False,mixed,not_supported,not_supported,not_applicable_configural_not_supported,6,1,38,0.8934511793879192,0.9403293715712393
-161,Spectrum of Psychological Health,True,True,0.861513976300451,0.8094223990248284,False,mixed,not_established,not_established,not_applicable_configural_not_supported,0,0,252,0.7328618112357124,0.9208753806974408
+161,Mental Health Continuum,True,True,0.861513976300451,0.8094223990248284,False,mixed,not_established,not_established,not_applicable_configural_not_supported,0,0,252,0.7328618112357124,0.9208753806974408

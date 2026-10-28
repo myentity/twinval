@@ -1,8 +1,8 @@
 final_type,n,pct,label,example_scales
-A,3,12.5,Score fidelity with measurement-invariance support,Conscientiousness; Productiveness; Negative Emotionality
+A,3,12.5,Score fidelity with measurement-invariance support,Conscientiousness; Productiveness; Neuroticism
 B,3,12.5,Individuation without adequate calibration,Agreeableness; Compassion; Psychological Well-Being
 C,4,16.7,Limited individuation with structural evidence,Respectfulness; Responsibility; Emotional Volatility
 D,1,4.2,Score fidelity with structural discrepancy,Emotional Well-Being
-E,6,25.0,Score fidelity with limited structural evidence,Extraversion; Persistence; Anxiety
+E,6,25.0,Score fidelity with limited structural evidence,Extraversion; Assertiveness; Anxiety
 cfa_misfit,1,4.2,Structural evidence not established (baseline CFA misfit),Overall Score
 model_not_estimable,6,25.0,"Structural model not estimable (nonconverged, not identified or inadmissible)",Sociability; Energy Level; Trust

@@ -30,7 +30,7 @@ instruments:
       parent: 148_Extraversion
       redundant: true
     - id: 148_Persistence
-      name_en: Persistence
+      name_en: Assertiveness
       name_ru: Настойчивость
       legacy_id: 148_Настойчивость
       level: facet
@@ -130,7 +130,7 @@ instruments:
       parent: 148_Conscientiousness
       redundant: true
     - id: 148_NegativeEmotionality
-      name_en: Negative Emotionality
+      name_en: Neuroticism
       name_ru: Нейротизм
       legacy_id: 148_Нейротизм
       level: domain
@@ -170,7 +170,7 @@ instruments:
       parent: 148_NegativeEmotionality
       redundant: true
     - id: 148_OpenMindedness
-      name_en: Open-Mindedness
+      name_en: Openness to Experience
       name_ru: Открытость опыту
       legacy_id: 148_Открытость_опыту
       level: domain
@@ -211,7 +211,7 @@ instruments:
       redundant: true
   161:
     key: SPH
-    name_en: Spectrum of Psychological Health
+    name_en: Mental Health Continuum
     name_ru: Спектр психологического здоровья
     item_prefix: SPH
     reference: Keyes (2009), Mental Health Continuum - Short Form (MHC-SF)

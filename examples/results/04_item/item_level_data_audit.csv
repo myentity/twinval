@@ -36,41 +36,41 @@ BFI2_48,4,4,False,False,0.7933884297520661,False,148,Big Five Inventory-2 (BFI-2
 BFI2_53,4,4,False,False,0.8925619834710744,False,148,Big Five Inventory-2 (BFI-2),148_Conscientiousness,Conscientiousness,False,1.0,5.0,5,harmonized
 BFI2_58,4,4,False,False,0.9628099173553719,True,148,Big Five Inventory-2 (BFI-2),148_Conscientiousness,Conscientiousness,True,1.0,5.0,5,harmonized
 BFI2_61,4,4,False,False,0.871900826446281,False,148,Big Five Inventory-2 (BFI-2),148_Conscientiousness,Conscientiousness,True,1.0,5.0,5,harmonized
-BFI2_4,5,5,False,False,0.6590909090909092,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,True,1.0,5.0,5,harmonized
-BFI2_9,5,5,False,False,0.7603305785123967,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,True,1.0,5.0,5,harmonized
-BFI2_14,5,5,False,False,0.621900826446281,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,False,1.0,5.0,5,harmonized
-BFI2_19,5,5,False,False,0.5971074380165289,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,False,1.0,5.0,5,harmonized
-BFI2_24,5,5,False,False,0.6942148760330578,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,True,1.0,5.0,5,harmonized
-BFI2_29,5,5,False,False,0.6446280991735537,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,True,1.0,5.0,5,harmonized
-BFI2_34,5,5,False,False,0.5454545454545454,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,False,1.0,5.0,5,harmonized
-BFI2_39,5,5,False,False,0.7396694214876033,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,False,1.0,5.0,5,harmonized
-BFI2_44,5,5,False,False,0.6342975206611571,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,True,1.0,5.0,5,harmonized
-BFI2_49,5,5,False,False,0.5971074380165289,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,True,1.0,5.0,5,harmonized
-BFI2_54,5,5,False,False,0.6508264462809917,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,False,1.0,5.0,5,harmonized
-BFI2_59,5,5,False,False,0.5971074380165289,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Negative Emotionality,False,1.0,5.0,5,harmonized
-BFI2_5,5,5,False,False,0.7520661157024794,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,True,1.0,5.0,5,harmonized
-BFI2_10,4,4,False,False,0.7644628099173554,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,False,1.0,5.0,5,harmonized
-BFI2_15,4,4,False,False,0.8409090909090908,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,False,1.0,5.0,5,harmonized
-BFI2_20,5,5,False,False,0.7045454545454546,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,False,1.0,5.0,5,harmonized
-BFI2_25,5,5,False,False,0.5991735537190083,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,True,1.0,5.0,5,harmonized
-BFI2_30,4,4,False,False,0.7396694214876033,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,True,1.0,5.0,5,harmonized
-BFI2_35,5,5,False,False,0.75,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,False,1.0,5.0,5,harmonized
-BFI2_40,4,4,False,False,0.8140495867768596,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,False,1.0,5.0,5,harmonized
-BFI2_45,4,4,False,False,0.8326446280991735,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,True,1.0,5.0,5,harmonized
-BFI2_50,5,5,False,False,0.6694214876033058,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,True,1.0,5.0,5,harmonized
-BFI2_55,5,5,False,False,0.5826446280991736,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,True,1.0,5.0,5,harmonized
-BFI2_60,4,4,False,False,0.7933884297520661,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Open-Mindedness,False,1.0,5.0,5,harmonized
-SPH_1,5,5,False,False,0.8264462809917356,False,161,Spectrum of Psychological Health,161_EmotionalWellBeing,Emotional Well-Being,False,1.0,6.0,6,harmonized
-SPH_2,5,5,False,False,0.8119834710743802,False,161,Spectrum of Psychological Health,161_EmotionalWellBeing,Emotional Well-Being,False,1.0,6.0,6,harmonized
-SPH_3,6,6,False,False,0.671487603305785,False,161,Spectrum of Psychological Health,161_EmotionalWellBeing,Emotional Well-Being,False,1.0,6.0,6,harmonized
-SPH_4,6,6,False,False,0.5392561983471074,False,161,Spectrum of Psychological Health,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
-SPH_5,6,6,False,False,0.5888429752066116,False,161,Spectrum of Psychological Health,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
-SPH_6,5,5,False,False,0.7809917355371901,False,161,Spectrum of Psychological Health,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
-SPH_7,6,6,False,False,0.6962809917355371,False,161,Spectrum of Psychological Health,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
-SPH_8,5,5,False,False,0.7789256198347108,False,161,Spectrum of Psychological Health,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
-SPH_9,5,5,False,False,0.7871900826446281,False,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
-SPH_10,5,5,False,False,0.8801652892561983,False,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
-SPH_11,6,6,False,False,0.6363636363636364,False,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
-SPH_12,6,6,False,False,0.640495867768595,False,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
-SPH_13,5,5,False,False,0.6425619834710744,False,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
-SPH_14,6,6,False,False,0.6301652892561984,False,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
+BFI2_4,5,5,False,False,0.6590909090909092,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,True,1.0,5.0,5,harmonized
+BFI2_9,5,5,False,False,0.7603305785123967,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,True,1.0,5.0,5,harmonized
+BFI2_14,5,5,False,False,0.621900826446281,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,False,1.0,5.0,5,harmonized
+BFI2_19,5,5,False,False,0.5971074380165289,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,False,1.0,5.0,5,harmonized
+BFI2_24,5,5,False,False,0.6942148760330578,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,True,1.0,5.0,5,harmonized
+BFI2_29,5,5,False,False,0.6446280991735537,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,True,1.0,5.0,5,harmonized
+BFI2_34,5,5,False,False,0.5454545454545454,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,False,1.0,5.0,5,harmonized
+BFI2_39,5,5,False,False,0.7396694214876033,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,False,1.0,5.0,5,harmonized
+BFI2_44,5,5,False,False,0.6342975206611571,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,True,1.0,5.0,5,harmonized
+BFI2_49,5,5,False,False,0.5971074380165289,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,True,1.0,5.0,5,harmonized
+BFI2_54,5,5,False,False,0.6508264462809917,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,False,1.0,5.0,5,harmonized
+BFI2_59,5,5,False,False,0.5971074380165289,False,148,Big Five Inventory-2 (BFI-2),148_NegativeEmotionality,Neuroticism,False,1.0,5.0,5,harmonized
+BFI2_5,5,5,False,False,0.7520661157024794,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,True,1.0,5.0,5,harmonized
+BFI2_10,4,4,False,False,0.7644628099173554,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,False,1.0,5.0,5,harmonized
+BFI2_15,4,4,False,False,0.8409090909090908,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,False,1.0,5.0,5,harmonized
+BFI2_20,5,5,False,False,0.7045454545454546,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,False,1.0,5.0,5,harmonized
+BFI2_25,5,5,False,False,0.5991735537190083,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,True,1.0,5.0,5,harmonized
+BFI2_30,4,4,False,False,0.7396694214876033,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,True,1.0,5.0,5,harmonized
+BFI2_35,5,5,False,False,0.75,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,False,1.0,5.0,5,harmonized
+BFI2_40,4,4,False,False,0.8140495867768596,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,False,1.0,5.0,5,harmonized
+BFI2_45,4,4,False,False,0.8326446280991735,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,True,1.0,5.0,5,harmonized
+BFI2_50,5,5,False,False,0.6694214876033058,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,True,1.0,5.0,5,harmonized
+BFI2_55,5,5,False,False,0.5826446280991736,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,True,1.0,5.0,5,harmonized
+BFI2_60,4,4,False,False,0.7933884297520661,False,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,Openness to Experience,False,1.0,5.0,5,harmonized
+SPH_1,5,5,False,False,0.8264462809917356,False,161,Mental Health Continuum,161_EmotionalWellBeing,Emotional Well-Being,False,1.0,6.0,6,harmonized
+SPH_2,5,5,False,False,0.8119834710743802,False,161,Mental Health Continuum,161_EmotionalWellBeing,Emotional Well-Being,False,1.0,6.0,6,harmonized
+SPH_3,6,6,False,False,0.671487603305785,False,161,Mental Health Continuum,161_EmotionalWellBeing,Emotional Well-Being,False,1.0,6.0,6,harmonized
+SPH_4,6,6,False,False,0.5392561983471074,False,161,Mental Health Continuum,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
+SPH_5,6,6,False,False,0.5888429752066116,False,161,Mental Health Continuum,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
+SPH_6,5,5,False,False,0.7809917355371901,False,161,Mental Health Continuum,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
+SPH_7,6,6,False,False,0.6962809917355371,False,161,Mental Health Continuum,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
+SPH_8,5,5,False,False,0.7789256198347108,False,161,Mental Health Continuum,161_SocialWellBeing,Social Well-Being,False,1.0,6.0,6,harmonized
+SPH_9,5,5,False,False,0.7871900826446281,False,161,Mental Health Continuum,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
+SPH_10,5,5,False,False,0.8801652892561983,False,161,Mental Health Continuum,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
+SPH_11,6,6,False,False,0.6363636363636364,False,161,Mental Health Continuum,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
+SPH_12,6,6,False,False,0.640495867768595,False,161,Mental Health Continuum,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
+SPH_13,5,5,False,False,0.6425619834710744,False,161,Mental Health Continuum,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized
+SPH_14,6,6,False,False,0.6301652892561984,False,161,Mental Health Continuum,161_PsychologicalWellBeing,Psychological Well-Being,False,1.0,6.0,6,harmonized

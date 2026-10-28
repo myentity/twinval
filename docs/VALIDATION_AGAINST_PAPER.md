@@ -1,6 +1,6 @@
 # Validation of the code against the published study
 
-For the two bundled instruments (BFI-2 and the Spectrum of Psychological Health, N = 484) the framework reproduces the values
+For the two bundled instruments (BFI-2 and the Mental Health Continuum, N = 484) the framework reproduces the values
 of the original study. The comparison is part of the automatic test suite (`tests/test_reference_paper.py`; the reference values
 are in `tests/reference/paper_*.csv`).
 

@@ -447,129 +447,129 @@
 148,"Big Five Inventory-2 (BFI-2)","twin","BFI2_60_t","t1",-1.45877117341218,0.0856091972126411
 148,"Big Five Inventory-2 (BFI-2)","twin","BFI2_60_t","t2",-0.332291150530821,0.058186773777472
 148,"Big Five Inventory-2 (BFI-2)","twin","BFI2_60_t","t3",1.10630381449649,0.0717138387851576
-161,"Spectrum of Psychological Health","human","SPH_1_h","t1",-0.531544774961021,0.0600543485343838
-161,"Spectrum of Psychological Health","human","SPH_1_h","t2",-0.0621878687324722,0.0570678569233379
-161,"Spectrum of Psychological Health","human","SPH_1_h","t3",0.661542509024478,0.0618029427794089
-161,"Spectrum of Psychological Health","human","SPH_1_h","t4",1.50536055307441,0.0880024642859995
-161,"Spectrum of Psychological Health","human","SPH_2_h","t1",-0.998201172152886,0.0686562845169964
-161,"Spectrum of Psychological Health","human","SPH_2_h","t2",-0.579897901343181,0.0606530576861871
-161,"Spectrum of Psychological Health","human","SPH_2_h","t3",-0.155999953529133,0.0572806426408732
-161,"Spectrum of Psychological Health","human","SPH_2_h","t4",0.734227792775189,0.0629815714711777
-161,"Spectrum of Psychological Health","human","SPH_3_h","t1",-1.40119079966882,0.0828545260084784
-161,"Spectrum of Psychological Health","human","SPH_3_h","t2",-0.768569764661852,0.0635919780546733
-161,"Spectrum of Psychological Health","human","SPH_3_h","t3",-0.337769109657726,0.05822581950606
-161,"Spectrum of Psychological Health","human","SPH_3_h","t4",0.305046708239897,0.0580025190720786
-161,"Spectrum of Psychological Health","human","SPH_3_h","t5",1.17581347255003,0.0739441751147127
-161,"Spectrum of Psychological Health","human","SPH_4_h","t1",-0.668002132269574,0.0619016373751511
-161,"Spectrum of Psychological Health","human","SPH_4_h","t2",0.0310789066840794,0.0570377770435604
-161,"Spectrum of Psychological Health","human","SPH_4_h","t3",0.50783330925507,0.0597822999988165
-161,"Spectrum of Psychological Health","human","SPH_4_h","t4",1.0780941645707,0.0708695295935105
-161,"Spectrum of Psychological Health","human","SPH_4_h","t5",1.7842677667206,0.106026069900831
-161,"Spectrum of Psychological Health","human","SPH_5_h","t1",-0.956453878676098,0.067598666572994
-161,"Spectrum of Psychological Health","human","SPH_5_h","t2",-0.299625527815494,0.0579678186871056
-161,"Spectrum of Psychological Health","human","SPH_5_h","t3",0.0466277467652274,0.0570503007723151
-161,"Spectrum of Psychological Health","human","SPH_5_h","t4",0.461237668468672,0.059287914341879
-161,"Spectrum of Psychological Health","human","SPH_5_h","t5",1.06887950764869,0.0706010341206731
-161,"Spectrum of Psychological Health","human","SPH_6_h","t1",-0.52558935607778,0.059984703566178
-161,"Spectrum of Psychological Health","human","SPH_6_h","t2",0.0725694218992069,0.057082367913004
-161,"Spectrum of Psychological Health","human","SPH_6_h","t3",0.531544774961022,0.0600543485343838
-161,"Spectrum of Psychological Health","human","SPH_6_h","t4",0.981297042056612,0.0682201503444045
-161,"Spectrum of Psychological Health","human","SPH_7_h","t1",-1.17581347255003,0.0739441751147126
-161,"Spectrum of Psychological Health","human","SPH_7_h","t2",-0.421275773103025,0.0589054065882161
-161,"Spectrum of Psychological Health","human","SPH_7_h","t3",0,0.0570277678685039
-161,"Spectrum of Psychological Health","human","SPH_7_h","t4",0.449747437668471,0.0591740537570268
-161,"Spectrum of Psychological Health","human","SPH_7_h","t5",1.24026867931822,0.0762157725794979
-161,"Spectrum of Psychological Health","human","SPH_8_h","t1",-0.741025983428688,0.063099613427428
-161,"Spectrum of Psychological Health","human","SPH_8_h","t2",-0.0569996743583743,0.0570614444306526
-161,"Spectrum of Psychological Health","human","SPH_8_h","t3",0.387552660409062,0.058611726519246
-161,"Spectrum of Psychological Health","human","SPH_8_h","t4",0.9163103667517,0.0666420075312166
-161,"Spectrum of Psychological Health","human","SPH_9_h","t1",-0.64232658393575,0.0615161502196465
-161,"Spectrum of Psychological Health","human","SPH_9_h","t2",-0.135063101587995,0.0572171851785276
-161,"Spectrum of Psychological Health","human","SPH_9_h","t3",0.467005605251726,0.0593462616077568
-161,"Spectrum of Psychological Health","human","SPH_9_h","t4",1.26293769917366,0.0770643020105453
-161,"Spectrum of Psychological Health","human","SPH_10_h","t1",-1.06887950764869,0.0706010341206732
-161,"Spectrum of Psychological Health","human","SPH_10_h","t2",-0.617067684417261,0.0611544434354816
-161,"Spectrum of Psychological Health","human","SPH_10_h","t3",0.0362608329498037,0.0570413936094853
-161,"Spectrum of Psychological Health","human","SPH_10_h","t4",0.981297042056612,0.0682201503444045
-161,"Spectrum of Psychological Health","human","SPH_11_h","t1",-1.45877117341218,0.0856091972126411
-161,"Spectrum of Psychological Health","human","SPH_11_h","t2",-0.924219776877528,0.0668259399252048
-161,"Spectrum of Psychological Health","human","SPH_11_h","t3",-0.387552660409062,0.0586117265192461
-161,"Spectrum of Psychological Health","human","SPH_11_h","t4",0.198089286847347,0.0574362168500467
-161,"Spectrum of Psychological Health","human","SPH_11_h","t5",1.08740128365716,0.0711443402819296
-161,"Spectrum of Psychological Health","human","SPH_12_h","t1",-0.940214709749602,0.0672046943732686
-161,"Spectrum of Psychological Health","human","SPH_12_h","t2",-0.129838483880606,0.0572027858323447
-161,"Spectrum of Psychological Health","human","SPH_12_h","t3",0.315916199532432,0.058074051920399
-161,"Spectrum of Psychological Health","human","SPH_12_h","t4",0.694125822726111,0.0623126768894211
-161,"Spectrum of Psychological Health","human","SPH_12_h","t5",1.22916949274664,0.0758099386965059
-161,"Spectrum of Psychological Health","human","SPH_13_h","t1",-1.08740128365716,0.0711443402819297
-161,"Spectrum of Psychological Health","human","SPH_13_h","t2",-0.549525852232652,0.060270036828417
-161,"Spectrum of Psychological Health","human","SPH_13_h","t3",0.025897814831561,0.0570347177602695
-161,"Spectrum of Psychological Health","human","SPH_13_h","t4",0.71403326254786,0.0626389140307336
-161,"Spectrum of Psychological Health","human","SPH_14_h","t1",-1.16553709739222,0.0736005315428025
-161,"Spectrum of Psychological Health","human","SPH_14_h","t2",-0.694125822726111,0.0623126768894212
-161,"Spectrum of Psychological Health","human","SPH_14_h","t3",-0.256557144990573,0.0577150569034434
-161,"Spectrum of Psychological Health","human","SPH_14_h","t4",0.103765592919048,0.0571394728170712
-161,"Spectrum of Psychological Health","human","SPH_14_h","t5",0.789615991659774,0.0639836998909664
-161,"Spectrum of Psychological Health","twin","SPH_1_t","t1",-1.59117477569441,0.0928308751203687
-161,"Spectrum of Psychological Health","twin","SPH_1_t","t2",-0.989713755595211,0.0684359472245272
-161,"Spectrum of Psychological Health","twin","SPH_1_t","t3",0.0985600345052138,0.057128533805916
-161,"Spectrum of Psychological Health","twin","SPH_1_t","t4",2.24460675970432,0.156712894276085
-161,"Spectrum of Psychological Health","twin","SPH_2_t","t1",-1.89682347730688,0.115522491526456
-161,"Spectrum of Psychological Health","twin","SPH_2_t","t2",-1.53833411635056,0.0897909144912904
-161,"Spectrum of Psychological Health","twin","SPH_2_t","t3",-0.885229141898863,0.0659403440116487
-161,"Spectrum of Psychological Health","twin","SPH_2_t","t4",0.825494490929236,0.0646832802274028
-161,"Spectrum of Psychological Health","twin","SPH_3_t","t1",-2.39702212512662,0.182636592536763
-161,"Spectrum of Psychological Health","twin","SPH_3_t","t2",-1.1256101297478,0.072311519147058
-161,"Spectrum of Psychological Health","twin","SPH_3_t","t3",-0.531544774961022,0.0600543485343837
-161,"Spectrum of Psychological Health","twin","SPH_3_t","t4",0.461237668468672,0.0592879143418789
-161,"Spectrum of Psychological Health","twin","SPH_3_t","t5",1.86641396300755,0.112806910904707
-161,"Spectrum of Psychological Health","twin","SPH_4_t","t1",-2.04028132201041,0.130043722711619
-161,"Spectrum of Psychological Health","twin","SPH_4_t","t2",-0.635973969577175,0.0614235589462098
-161,"Spectrum of Psychological Health","twin","SPH_4_t","t3",0.0777630629635798,0.0570904685302339
-161,"Spectrum of Psychological Health","twin","SPH_4_t","t4",0.847539975840572,0.0651335221273148
-161,"Spectrum of Psychological Health","twin","SPH_4_t","t5",2.08367123292975,0.135059196213346
-161,"Spectrum of Psychological Health","twin","SPH_5_t","t1",-2.00042356910598,0.125705659343797
-161,"Spectrum of Psychological Health","twin","SPH_5_t","t2",-0.924219776877528,0.0668259399252047
-161,"Spectrum of Psychological Health","twin","SPH_5_t","t3",-0.409983322187337,0.0588041263946746
-161,"Spectrum of Psychological Health","twin","SPH_5_t","t4",0.155999953529133,0.0572806426408731
-161,"Spectrum of Psychological Health","twin","SPH_5_t","t5",1.47394697771641,0.0863720802984658
-161,"Spectrum of Psychological Health","twin","SPH_6_t","t1",-1.05975472657048,0.0703386354017357
-161,"Spectrum of Psychological Health","twin","SPH_6_t","t2",0.734227792775189,0.0629815714711777
-161,"Spectrum of Psychological Health","twin","SPH_6_t","t3",1.44392408596421,0.0848780098239349
-161,"Spectrum of Psychological Health","twin","SPH_6_t","t4",2.50064623289339,0.204068587193955
-161,"Spectrum of Psychological Health","twin","SPH_7_t","t1",-2.13137997498484,0.140952164715811
-161,"Spectrum of Psychological Health","twin","SPH_7_t","t2",-1.16553709739222,0.0736005315428023
-161,"Spectrum of Psychological Health","twin","SPH_7_t","t3",-0.543512684915766,0.0601969986830107
-161,"Spectrum of Psychological Health","twin","SPH_7_t","t4",0.623344971288931,0.061242730225093
-161,"Spectrum of Psychological Health","twin","SPH_7_t","t5",2.31411970111168,0.167795307550339
-161,"Spectrum of Psychological Health","twin","SPH_8_t","t1",-1.11590497997735,0.0720090235417154
-161,"Spectrum of Psychological Health","twin","SPH_8_t","t2",0.555558955479983,0.0603442397225026
-161,"Spectrum of Psychological Health","twin","SPH_8_t","t3",1.34791429301828,0.0804921404000205
-161,"Spectrum of Psychological Health","twin","SPH_8_t","t4",2.50064623289339,0.204068587193955
-161,"Spectrum of Psychological Health","twin","SPH_9_t","t1",-1.62903417204115,0.0951485888603207
-161,"Spectrum of Psychological Health","twin","SPH_9_t","t2",-0.9163103667517,0.0666420075312167
-161,"Spectrum of Psychological Health","twin","SPH_9_t","t3",-0.103765592919048,0.057139472817071
-161,"Spectrum of Psychological Health","twin","SPH_9_t","t4",1.83763842687806,0.110342214970593
-161,"Spectrum of Psychological Health","twin","SPH_10_t","t1",-2.64107005682494,0.239312863573468
-161,"Spectrum of Psychological Health","twin","SPH_10_t","t2",-1.96351143704584,0.121903771833097
-161,"Spectrum of Psychological Health","twin","SPH_10_t","t3",-1.17581347255003,0.0739441751147127
-161,"Spectrum of Psychological Health","twin","SPH_10_t","t4",0.376410729934694,0.0585204620065942
-161,"Spectrum of Psychological Health","twin","SPH_11_t","t1",-2.08367123292975,0.135059196213346
-161,"Spectrum of Psychological Health","twin","SPH_11_t","t2",-1.32265416322016,0.0794309863014127
-161,"Spectrum of Psychological Health","twin","SPH_11_t","t3",-0.892918486444395,0.066110830269437
-161,"Spectrum of Psychological Health","twin","SPH_11_t","t4",-0.187536932448056,0.057393684457541
-161,"Spectrum of Psychological Health","twin","SPH_11_t","t5",0.924219776877528,0.0668259399252047
-161,"Spectrum of Psychological Health","twin","SPH_12_t","t1",-1.66938389989532,0.0977553580057807
-161,"Spectrum of Psychological Health","twin","SPH_12_t","t2",-0.956453878676098,0.0675986665729941
-161,"Spectrum of Psychological Health","twin","SPH_12_t","t3",-0.432622203497094,0.0590101762724401
-161,"Spectrum of Psychological Health","twin","SPH_12_t","t4",0.376410729934694,0.0585204620065941
-161,"Spectrum of Psychological Health","twin","SPH_12_t","t5",1.92909549426846,0.11853508792587
-161,"Spectrum of Psychological Health","twin","SPH_13_t","t1",-1.78426776672059,0.106026069900831
-161,"Spectrum of Psychological Health","twin","SPH_13_t","t2",-0.989713755595211,0.0684359472245273
-161,"Spectrum of Psychological Health","twin","SPH_13_t","t3",-0.224569686029718,0.0575534080918778
-161,"Spectrum of Psychological Health","twin","SPH_13_t","t4",0.854980427143135,0.0652890582934581
-161,"Spectrum of Psychological Health","twin","SPH_14_t","t1",-1.89682347730688,0.115522491526455
-161,"Spectrum of Psychological Health","twin","SPH_14_t","t2",-1.26293769917366,0.0770643020105452
-161,"Spectrum of Psychological Health","twin","SPH_14_t","t3",-0.825494490929236,0.0646832802274026
-161,"Spectrum of Psychological Health","twin","SPH_14_t","t4",-0.332291150530821,0.0581867737774721
-161,"Spectrum of Psychological Health","twin","SPH_14_t","t5",0.687551058472147,0.0622074166258167
+161,"Mental Health Continuum","human","SPH_1_h","t1",-0.531544774961021,0.0600543485343838
+161,"Mental Health Continuum","human","SPH_1_h","t2",-0.0621878687324722,0.0570678569233379
+161,"Mental Health Continuum","human","SPH_1_h","t3",0.661542509024478,0.0618029427794089
+161,"Mental Health Continuum","human","SPH_1_h","t4",1.50536055307441,0.0880024642859995
+161,"Mental Health Continuum","human","SPH_2_h","t1",-0.998201172152886,0.0686562845169964
+161,"Mental Health Continuum","human","SPH_2_h","t2",-0.579897901343181,0.0606530576861871
+161,"Mental Health Continuum","human","SPH_2_h","t3",-0.155999953529133,0.0572806426408732
+161,"Mental Health Continuum","human","SPH_2_h","t4",0.734227792775189,0.0629815714711777
+161,"Mental Health Continuum","human","SPH_3_h","t1",-1.40119079966882,0.0828545260084784
+161,"Mental Health Continuum","human","SPH_3_h","t2",-0.768569764661852,0.0635919780546733
+161,"Mental Health Continuum","human","SPH_3_h","t3",-0.337769109657726,0.05822581950606
+161,"Mental Health Continuum","human","SPH_3_h","t4",0.305046708239897,0.0580025190720786
+161,"Mental Health Continuum","human","SPH_3_h","t5",1.17581347255003,0.0739441751147127
+161,"Mental Health Continuum","human","SPH_4_h","t1",-0.668002132269574,0.0619016373751511
+161,"Mental Health Continuum","human","SPH_4_h","t2",0.0310789066840794,0.0570377770435604
+161,"Mental Health Continuum","human","SPH_4_h","t3",0.50783330925507,0.0597822999988165
+161,"Mental Health Continuum","human","SPH_4_h","t4",1.0780941645707,0.0708695295935105
+161,"Mental Health Continuum","human","SPH_4_h","t5",1.7842677667206,0.106026069900831
+161,"Mental Health Continuum","human","SPH_5_h","t1",-0.956453878676098,0.067598666572994
+161,"Mental Health Continuum","human","SPH_5_h","t2",-0.299625527815494,0.0579678186871056
+161,"Mental Health Continuum","human","SPH_5_h","t3",0.0466277467652274,0.0570503007723151
+161,"Mental Health Continuum","human","SPH_5_h","t4",0.461237668468672,0.059287914341879
+161,"Mental Health Continuum","human","SPH_5_h","t5",1.06887950764869,0.0706010341206731
+161,"Mental Health Continuum","human","SPH_6_h","t1",-0.52558935607778,0.059984703566178
+161,"Mental Health Continuum","human","SPH_6_h","t2",0.0725694218992069,0.057082367913004
+161,"Mental Health Continuum","human","SPH_6_h","t3",0.531544774961022,0.0600543485343838
+161,"Mental Health Continuum","human","SPH_6_h","t4",0.981297042056612,0.0682201503444045
+161,"Mental Health Continuum","human","SPH_7_h","t1",-1.17581347255003,0.0739441751147126
+161,"Mental Health Continuum","human","SPH_7_h","t2",-0.421275773103025,0.0589054065882161
+161,"Mental Health Continuum","human","SPH_7_h","t3",0,0.0570277678685039
+161,"Mental Health Continuum","human","SPH_7_h","t4",0.449747437668471,0.0591740537570268
+161,"Mental Health Continuum","human","SPH_7_h","t5",1.24026867931822,0.0762157725794979
+161,"Mental Health Continuum","human","SPH_8_h","t1",-0.741025983428688,0.063099613427428
+161,"Mental Health Continuum","human","SPH_8_h","t2",-0.0569996743583743,0.0570614444306526
+161,"Mental Health Continuum","human","SPH_8_h","t3",0.387552660409062,0.058611726519246
+161,"Mental Health Continuum","human","SPH_8_h","t4",0.9163103667517,0.0666420075312166
+161,"Mental Health Continuum","human","SPH_9_h","t1",-0.64232658393575,0.0615161502196465
+161,"Mental Health Continuum","human","SPH_9_h","t2",-0.135063101587995,0.0572171851785276
+161,"Mental Health Continuum","human","SPH_9_h","t3",0.467005605251726,0.0593462616077568
+161,"Mental Health Continuum","human","SPH_9_h","t4",1.26293769917366,0.0770643020105453
+161,"Mental Health Continuum","human","SPH_10_h","t1",-1.06887950764869,0.0706010341206732
+161,"Mental Health Continuum","human","SPH_10_h","t2",-0.617067684417261,0.0611544434354816
+161,"Mental Health Continuum","human","SPH_10_h","t3",0.0362608329498037,0.0570413936094853
+161,"Mental Health Continuum","human","SPH_10_h","t4",0.981297042056612,0.0682201503444045
+161,"Mental Health Continuum","human","SPH_11_h","t1",-1.45877117341218,0.0856091972126411
+161,"Mental Health Continuum","human","SPH_11_h","t2",-0.924219776877528,0.0668259399252048
+161,"Mental Health Continuum","human","SPH_11_h","t3",-0.387552660409062,0.0586117265192461
+161,"Mental Health Continuum","human","SPH_11_h","t4",0.198089286847347,0.0574362168500467
+161,"Mental Health Continuum","human","SPH_11_h","t5",1.08740128365716,0.0711443402819296
+161,"Mental Health Continuum","human","SPH_12_h","t1",-0.940214709749602,0.0672046943732686
+161,"Mental Health Continuum","human","SPH_12_h","t2",-0.129838483880606,0.0572027858323447
+161,"Mental Health Continuum","human","SPH_12_h","t3",0.315916199532432,0.058074051920399
+161,"Mental Health Continuum","human","SPH_12_h","t4",0.694125822726111,0.0623126768894211
+161,"Mental Health Continuum","human","SPH_12_h","t5",1.22916949274664,0.0758099386965059
+161,"Mental Health Continuum","human","SPH_13_h","t1",-1.08740128365716,0.0711443402819297
+161,"Mental Health Continuum","human","SPH_13_h","t2",-0.549525852232652,0.060270036828417
+161,"Mental Health Continuum","human","SPH_13_h","t3",0.025897814831561,0.0570347177602695
+161,"Mental Health Continuum","human","SPH_13_h","t4",0.71403326254786,0.0626389140307336
+161,"Mental Health Continuum","human","SPH_14_h","t1",-1.16553709739222,0.0736005315428025
+161,"Mental Health Continuum","human","SPH_14_h","t2",-0.694125822726111,0.0623126768894212
+161,"Mental Health Continuum","human","SPH_14_h","t3",-0.256557144990573,0.0577150569034434
+161,"Mental Health Continuum","human","SPH_14_h","t4",0.103765592919048,0.0571394728170712
+161,"Mental Health Continuum","human","SPH_14_h","t5",0.789615991659774,0.0639836998909664
+161,"Mental Health Continuum","twin","SPH_1_t","t1",-1.59117477569441,0.0928308751203687
+161,"Mental Health Continuum","twin","SPH_1_t","t2",-0.989713755595211,0.0684359472245272
+161,"Mental Health Continuum","twin","SPH_1_t","t3",0.0985600345052138,0.057128533805916
+161,"Mental Health Continuum","twin","SPH_1_t","t4",2.24460675970432,0.156712894276085
+161,"Mental Health Continuum","twin","SPH_2_t","t1",-1.89682347730688,0.115522491526456
+161,"Mental Health Continuum","twin","SPH_2_t","t2",-1.53833411635056,0.0897909144912904
+161,"Mental Health Continuum","twin","SPH_2_t","t3",-0.885229141898863,0.0659403440116487
+161,"Mental Health Continuum","twin","SPH_2_t","t4",0.825494490929236,0.0646832802274028
+161,"Mental Health Continuum","twin","SPH_3_t","t1",-2.39702212512662,0.182636592536763
+161,"Mental Health Continuum","twin","SPH_3_t","t2",-1.1256101297478,0.072311519147058
+161,"Mental Health Continuum","twin","SPH_3_t","t3",-0.531544774961022,0.0600543485343837
+161,"Mental Health Continuum","twin","SPH_3_t","t4",0.461237668468672,0.0592879143418789
+161,"Mental Health Continuum","twin","SPH_3_t","t5",1.86641396300755,0.112806910904707
+161,"Mental Health Continuum","twin","SPH_4_t","t1",-2.04028132201041,0.130043722711619
+161,"Mental Health Continuum","twin","SPH_4_t","t2",-0.635973969577175,0.0614235589462098
+161,"Mental Health Continuum","twin","SPH_4_t","t3",0.0777630629635798,0.0570904685302339
+161,"Mental Health Continuum","twin","SPH_4_t","t4",0.847539975840572,0.0651335221273148
+161,"Mental Health Continuum","twin","SPH_4_t","t5",2.08367123292975,0.135059196213346
+161,"Mental Health Continuum","twin","SPH_5_t","t1",-2.00042356910598,0.125705659343797
+161,"Mental Health Continuum","twin","SPH_5_t","t2",-0.924219776877528,0.0668259399252047
+161,"Mental Health Continuum","twin","SPH_5_t","t3",-0.409983322187337,0.0588041263946746
+161,"Mental Health Continuum","twin","SPH_5_t","t4",0.155999953529133,0.0572806426408731
+161,"Mental Health Continuum","twin","SPH_5_t","t5",1.47394697771641,0.0863720802984658
+161,"Mental Health Continuum","twin","SPH_6_t","t1",-1.05975472657048,0.0703386354017357
+161,"Mental Health Continuum","twin","SPH_6_t","t2",0.734227792775189,0.0629815714711777
+161,"Mental Health Continuum","twin","SPH_6_t","t3",1.44392408596421,0.0848780098239349
+161,"Mental Health Continuum","twin","SPH_6_t","t4",2.50064623289339,0.204068587193955
+161,"Mental Health Continuum","twin","SPH_7_t","t1",-2.13137997498484,0.140952164715811
+161,"Mental Health Continuum","twin","SPH_7_t","t2",-1.16553709739222,0.0736005315428023
+161,"Mental Health Continuum","twin","SPH_7_t","t3",-0.543512684915766,0.0601969986830107
+161,"Mental Health Continuum","twin","SPH_7_t","t4",0.623344971288931,0.061242730225093
+161,"Mental Health Continuum","twin","SPH_7_t","t5",2.31411970111168,0.167795307550339
+161,"Mental Health Continuum","twin","SPH_8_t","t1",-1.11590497997735,0.0720090235417154
+161,"Mental Health Continuum","twin","SPH_8_t","t2",0.555558955479983,0.0603442397225026
+161,"Mental Health Continuum","twin","SPH_8_t","t3",1.34791429301828,0.0804921404000205
+161,"Mental Health Continuum","twin","SPH_8_t","t4",2.50064623289339,0.204068587193955
+161,"Mental Health Continuum","twin","SPH_9_t","t1",-1.62903417204115,0.0951485888603207
+161,"Mental Health Continuum","twin","SPH_9_t","t2",-0.9163103667517,0.0666420075312167
+161,"Mental Health Continuum","twin","SPH_9_t","t3",-0.103765592919048,0.057139472817071
+161,"Mental Health Continuum","twin","SPH_9_t","t4",1.83763842687806,0.110342214970593
+161,"Mental Health Continuum","twin","SPH_10_t","t1",-2.64107005682494,0.239312863573468
+161,"Mental Health Continuum","twin","SPH_10_t","t2",-1.96351143704584,0.121903771833097
+161,"Mental Health Continuum","twin","SPH_10_t","t3",-1.17581347255003,0.0739441751147127
+161,"Mental Health Continuum","twin","SPH_10_t","t4",0.376410729934694,0.0585204620065942
+161,"Mental Health Continuum","twin","SPH_11_t","t1",-2.08367123292975,0.135059196213346
+161,"Mental Health Continuum","twin","SPH_11_t","t2",-1.32265416322016,0.0794309863014127
+161,"Mental Health Continuum","twin","SPH_11_t","t3",-0.892918486444395,0.066110830269437
+161,"Mental Health Continuum","twin","SPH_11_t","t4",-0.187536932448056,0.057393684457541
+161,"Mental Health Continuum","twin","SPH_11_t","t5",0.924219776877528,0.0668259399252047
+161,"Mental Health Continuum","twin","SPH_12_t","t1",-1.66938389989532,0.0977553580057807
+161,"Mental Health Continuum","twin","SPH_12_t","t2",-0.956453878676098,0.0675986665729941
+161,"Mental Health Continuum","twin","SPH_12_t","t3",-0.432622203497094,0.0590101762724401
+161,"Mental Health Continuum","twin","SPH_12_t","t4",0.376410729934694,0.0585204620065941
+161,"Mental Health Continuum","twin","SPH_12_t","t5",1.92909549426846,0.11853508792587
+161,"Mental Health Continuum","twin","SPH_13_t","t1",-1.78426776672059,0.106026069900831
+161,"Mental Health Continuum","twin","SPH_13_t","t2",-0.989713755595211,0.0684359472245273
+161,"Mental Health Continuum","twin","SPH_13_t","t3",-0.224569686029718,0.0575534080918778
+161,"Mental Health Continuum","twin","SPH_13_t","t4",0.854980427143135,0.0652890582934581
+161,"Mental Health Continuum","twin","SPH_14_t","t1",-1.89682347730688,0.115522491526455
+161,"Mental Health Continuum","twin","SPH_14_t","t2",-1.26293769917366,0.0770643020105452
+161,"Mental Health Continuum","twin","SPH_14_t","t3",-0.825494490929236,0.0646832802274026
+161,"Mental Health Continuum","twin","SPH_14_t","t4",-0.332291150530821,0.0581867737774721
+161,"Mental Health Continuum","twin","SPH_14_t","t5",0.687551058472147,0.0622074166258167

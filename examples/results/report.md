@@ -2,7 +2,7 @@
 
 * respondents (complete pairs): **484**
 * scales loaded: **24** (8 non-redundant)
-* instruments: **Big Five Inventory-2 (BFI-2), Spectrum of Psychological Health**
+* instruments: **Big Five Inventory-2 (BFI-2), Mental Health Continuum**
 
 ## Data versions
 
@@ -43,11 +43,11 @@ Different units of analysis are shown side by side and are never averaged into o
 
 | type | n | % | example scales |
 |---|---|---|---|
-| A. Score fidelity with measurement-invariance support | 3 | 12.5 | Conscientiousness; Productiveness; Negative Emotionality |
+| A. Score fidelity with measurement-invariance support | 3 | 12.5 | Conscientiousness; Productiveness; Neuroticism |
 | B. Individuation without adequate calibration | 3 | 12.5 | Agreeableness; Compassion; Psychological Well-Being |
 | C. Limited individuation with structural evidence | 4 | 16.7 | Respectfulness; Responsibility; Emotional Volatility |
 | D. Score fidelity with structural discrepancy | 1 | 4.2 | Emotional Well-Being |
-| E. Score fidelity with limited structural evidence | 6 | 25.0 | Extraversion; Persistence; Anxiety |
+| E. Score fidelity with limited structural evidence | 6 | 25.0 | Extraversion; Assertiveness; Anxiety |
 | Structural evidence not established (baseline CFA misfit) | 1 | 4.2 | Overall Score |
 | Structural model not estimable (nonconverged, not identified or inadmissible) | 6 | 25.0 | Sociability; Energy Level; Trust |
 

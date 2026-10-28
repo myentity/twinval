@@ -60,17 +60,17 @@ BFI2_45,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,True,1.0,5.0,5,1.0,4
 BFI2_50,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,True,1.0,5.0,5,1.0,5.0,False,harmonized
 BFI2_55,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,True,1.0,5.0,5,1.0,5.0,False,harmonized
 BFI2_60,148,Big Five Inventory-2 (BFI-2),148_OpenMindedness,False,1.0,5.0,5,1.0,4.0,True,harmonized
-SPH_1,161,Spectrum of Psychological Health,161_EmotionalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
-SPH_2,161,Spectrum of Psychological Health,161_EmotionalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
-SPH_3,161,Spectrum of Psychological Health,161_EmotionalWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
-SPH_4,161,Spectrum of Psychological Health,161_SocialWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
-SPH_5,161,Spectrum of Psychological Health,161_SocialWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
-SPH_6,161,Spectrum of Psychological Health,161_SocialWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
-SPH_7,161,Spectrum of Psychological Health,161_SocialWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
-SPH_8,161,Spectrum of Psychological Health,161_SocialWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
-SPH_9,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
-SPH_10,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
-SPH_11,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
-SPH_12,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
-SPH_13,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
-SPH_14,161,Spectrum of Psychological Health,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
+SPH_1,161,Mental Health Continuum,161_EmotionalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
+SPH_2,161,Mental Health Continuum,161_EmotionalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
+SPH_3,161,Mental Health Continuum,161_EmotionalWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
+SPH_4,161,Mental Health Continuum,161_SocialWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
+SPH_5,161,Mental Health Continuum,161_SocialWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
+SPH_6,161,Mental Health Continuum,161_SocialWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
+SPH_7,161,Mental Health Continuum,161_SocialWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
+SPH_8,161,Mental Health Continuum,161_SocialWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
+SPH_9,161,Mental Health Continuum,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
+SPH_10,161,Mental Health Continuum,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
+SPH_11,161,Mental Health Continuum,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
+SPH_12,161,Mental Health Continuum,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized
+SPH_13,161,Mental Health Continuum,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,5.0,True,harmonized
+SPH_14,161,Mental Health Continuum,161_PsychologicalWellBeing,False,1.0,6.0,6,1.0,6.0,False,harmonized

@@ -12,5 +12,5 @@
    appear to be positive definite! The smallest eigenvalue (= -1.996776e-18) 
    is smaller than zero. This may be a symptom that the model is not 
    identified.",7.54004216194153
-161,"Spectrum of Psychological Health","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.348832130432129
-161,"Spectrum of Psychological Health","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.441807985305786
+161,"Mental Health Continuum","human","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.348832130432129
+161,"Mental Health Continuum","twin","ok","heywood_resid=FALSE; heywood_corr=FALSE",0.441807985305786

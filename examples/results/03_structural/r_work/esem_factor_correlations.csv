@@ -19,9 +19,9 @@
 148,"Big Five Inventory-2 (BFI-2)","twin","148_Conscientiousness","148_NegativeEmotionality",-0.242287381702109,0.0309118833185018,4.66293670342566e-15
 148,"Big Five Inventory-2 (BFI-2)","twin","148_Conscientiousness","148_OpenMindedness",0.105564878091182,0.0359801875057482,0.00334653935144513
 148,"Big Five Inventory-2 (BFI-2)","twin","148_NegativeEmotionality","148_OpenMindedness",0.122560620613031,0.0351135338010528,0.000482280482419828
-161,"Spectrum of Psychological Health","human","161_EmotionalWellBeing","161_SocialWellBeing",0.653249599233487,0.0400198124250427,0
-161,"Spectrum of Psychological Health","human","161_EmotionalWellBeing","161_PsychologicalWellBeing",0.737639093967288,0.0330471768306888,0
-161,"Spectrum of Psychological Health","human","161_SocialWellBeing","161_PsychologicalWellBeing",0.688631282689971,0.0318891042575394,0
-161,"Spectrum of Psychological Health","twin","161_EmotionalWellBeing","161_SocialWellBeing",0.365736725297476,0.0347625675983967,0
-161,"Spectrum of Psychological Health","twin","161_EmotionalWellBeing","161_PsychologicalWellBeing",0.340484446464175,0.0257664437927226,0
-161,"Spectrum of Psychological Health","twin","161_SocialWellBeing","161_PsychologicalWellBeing",0.322647971813716,0.031678438517835,0
+161,"Mental Health Continuum","human","161_EmotionalWellBeing","161_SocialWellBeing",0.653249599233487,0.0400198124250427,0
+161,"Mental Health Continuum","human","161_EmotionalWellBeing","161_PsychologicalWellBeing",0.737639093967288,0.0330471768306888,0
+161,"Mental Health Continuum","human","161_SocialWellBeing","161_PsychologicalWellBeing",0.688631282689971,0.0318891042575394,0
+161,"Mental Health Continuum","twin","161_EmotionalWellBeing","161_SocialWellBeing",0.365736725297476,0.0347625675983967,0
+161,"Mental Health Continuum","twin","161_EmotionalWellBeing","161_PsychologicalWellBeing",0.340484446464175,0.0257664437927226,0
+161,"Mental Health Continuum","twin","161_SocialWellBeing","161_PsychologicalWellBeing",0.322647971813716,0.031678438517835,0

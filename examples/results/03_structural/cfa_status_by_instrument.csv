@@ -1,3 +1,3 @@
 instrument_id,instrument_name,n_scales,primary_branch,configural_status,n_scales_configural_ok,n_scales_cfa_misfit,n_scales_fit_not_testable,n_scales_not_estimable,metric_status,scalar_status,n_scales_metric_supported,n_scales_metric_rejected,n_scales_scalar_supported,n_scales_scalar_rejected
 148,Big Five Inventory-2 (BFI-2),20,wu,mixed,11,1,0,8,not_supported,not_supported,6,1,2,4
-161,Spectrum of Psychological Health,4,wu,mixed,1,2,0,1,not_established,not_established,0,0,0,0
+161,Mental Health Continuum,4,wu,mixed,1,2,0,1,not_established,not_established,0,0,0,0

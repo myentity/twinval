@@ -609,87 +609,87 @@ instrument_id,instrument_name,side,factor,item,loading,se,pvalue,is_target
 148,Big Five Inventory-2 (BFI-2),twin,148_OpenMindedness,BFI2_50_t,0.787494430341467,0.022719359195229,0.0,1
 148,Big Five Inventory-2 (BFI-2),twin,148_OpenMindedness,BFI2_55_t,0.996651736119445,0.015005485807168,0.0,1
 148,Big Five Inventory-2 (BFI-2),twin,148_OpenMindedness,BFI2_60_t,0.881996758882806,0.0145372613154335,0.0,1
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_1_h,0.650884176812013,0.0546759382365158,0.0,1
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_2_h,0.613704310950077,0.052776113631776,0.0,1
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_3_h,0.833435720602462,0.0531720784672796,0.0,1
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_4_h,0.102041782752981,0.0566520839108489,0.0716712255135639,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_5_h,0.0507916293933737,0.0621540072330739,0.413819891092935,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_6_h,0.15118406910369,0.0491233658407815,0.002086463288776,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_7_h,-0.0451410239244058,0.0539338174738218,0.402609048607615,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_8_h,0.0257603189975268,0.0595030553340081,0.665069760610586,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_9_h,0.421908458215956,0.0458228321158483,0.0,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_10_h,0.19969680312046,0.0568344213404339,0.000441979013849,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_11_h,-0.0411863773682994,0.0548899958622301,0.453047567433859,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_12_h,-0.103955118206657,0.0670724582260609,0.121167254786711,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_13_h,-0.125972438184543,0.0684346536881162,0.0656553121960384,0
-161,Spectrum of Psychological Health,human,161_EmotionalWellBeing,SPH_14_h,0.0695489396920631,0.0566177770465709,0.219299085394554,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_1_h,0.155134998272041,0.0427317276554196,0.0002829378346109,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_2_h,0.116094863813394,0.0435568277857511,0.0076904699754745,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_3_h,0.0691355219845709,0.0398017477432917,0.0823876757462803,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_4_h,0.39496769367676,0.0499467013406318,2.66453525910038e-15,1
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_5_h,0.448227900700766,0.0543862636966175,2.2204460492503099e-16,1
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_6_h,0.817396244527598,0.0509193448967215,0.0,1
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_7_h,0.752024913259663,0.0458591193152472,0.0,1
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_8_h,0.850270121695076,0.0542480940548783,0.0,1
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_9_h,-0.0096743942420784,0.0454719792214305,0.831518008240369,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_10_h,-0.107787961739449,0.0509543210787558,0.0343972219899664,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_11_h,0.3040690277012,0.0481302447365726,2.65606869831458e-10,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_12_h,0.204097467457436,0.0474704603485647,1.71212787649644e-05,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_13_h,-0.115824632464812,0.0623852661697902,0.0633677477908718,0
-161,Spectrum of Psychological Health,human,161_SocialWellBeing,SPH_14_h,0.0592836312253144,0.0448917246807844,0.186637599699901,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_1_h,0.0412218017665204,0.0633755092563431,0.515409722481904,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_2_h,0.192182036516985,0.0501395824545939,0.0001266205846768,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_3_h,0.0555591564761879,0.0526899412774898,0.291674787852569,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_4_h,0.340562234429626,0.0572282352312983,2.665942799851e-09,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_5_h,0.294732909592869,0.0611526065197101,1.43825031928557e-06,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_6_h,-0.134648423397175,0.0599682504012126,0.0247470499378597,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_7_h,0.0786214274969426,0.0513785731522446,0.125957912971234,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_8_h,-0.125849107267816,0.05973600969157,0.0351388653069507,0
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_9_h,0.479763098495093,0.0616048839356277,6.8833827526759706e-15,1
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_10_h,0.653058428092836,0.0656277358351834,0.0,1
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_11_h,0.523092101552785,0.066343062345491,3.1086244689504403e-15,1
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_12_h,0.655878009751673,0.0751017722373809,0.0,1
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_13_h,0.819896677784246,0.082844250642527,0.0,1
-161,Spectrum of Psychological Health,human,161_PsychologicalWellBeing,SPH_14_h,0.684805828792465,0.0624745540561249,0.0,1
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_1_t,0.608671045055921,0.0323965451510526,0.0,1
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_2_t,0.391945997589787,0.0591754355519866,3.5089264827092796e-11,1
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_3_t,0.786035561120289,0.0265030108570401,0.0,1
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_4_t,0.130583623026484,0.0500110534678751,0.0090252758384084,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_5_t,-0.0320917780168185,0.0435132105186627,0.460807372834171,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_6_t,0.112992204206435,0.0443693832437606,0.0108770082561007,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_7_t,-0.102906180534212,0.0394683779735955,0.009125748380623,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_8_t,0.0647642789714254,0.0480400694394403,0.177616439009927,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_9_t,0.726880435073617,0.0322624052471129,0.0,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_10_t,0.533794437068375,0.0458309502696777,0.0,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_11_t,-0.0577877702093061,0.0417797494917645,0.166618072270271,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_12_t,-0.0299367306290115,0.0507905715381341,0.555582838636349,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_13_t,0.466091409962295,0.0492029952707462,0.0,0
-161,Spectrum of Psychological Health,twin,161_EmotionalWellBeing,SPH_14_t,0.41654108216731,0.0355612050831932,0.0,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_1_t,0.324137329102041,0.0230980186735477,0.0,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_2_t,0.0083928040280727,0.0411492054571805,0.838384527719029,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_3_t,0.257782219937005,0.0238122732535073,0.0,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_4_t,0.227517719507087,0.0481175663283032,2.26328019281574e-06,1
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_5_t,0.477869300637813,0.0437294858052891,0.0,1
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_6_t,0.968789136491125,0.0270603569608605,0.0,1
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_7_t,0.578837324798127,0.0390426682440003,0.0,1
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_8_t,1.03289685513814,0.0272536283727406,0.0,1
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_9_t,0.0884193100586781,0.0294989060408464,0.0027231470510762,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_10_t,0.116562776560923,0.0426689590139887,0.0062990645254041,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_11_t,0.445487318524648,0.0400434407986365,0.0,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_12_t,-0.0986357026487467,0.0442106319287066,0.0256784579764111,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_13_t,-0.271424143937055,0.043210142137371,3.35339978008165e-10,0
-161,Spectrum of Psychological Health,twin,161_SocialWellBeing,SPH_14_t,0.187734850509342,0.0313285247035566,2.06693551163539e-09,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_1_t,0.28056202987633,0.0329393134317687,0.0,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_2_t,0.598701347808998,0.0430993470680119,0.0,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_3_t,0.0822637395373729,0.0422623887302309,0.0515947083002153,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_4_t,0.48766121895001,0.0367314275604478,0.0,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_5_t,0.578088295696295,0.0322959876150123,0.0,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_6_t,-0.278830452337725,0.0409536035149462,9.86566384142407e-12,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_7_t,0.376514814332496,0.0380150657077061,0.0,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_8_t,-0.278444804433487,0.043462487979994,1.48844714331631e-10,0
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_9_t,0.255524012933704,0.0601491856998018,2.1552307889694e-05,1
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_10_t,0.166619943710761,0.0630884638744864,0.0082648916916692,1
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_11_t,0.609967531291492,0.0423854846964743,0.0,1
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_12_t,0.568228299493961,0.040983815849878,0.0,1
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_13_t,0.149405777956185,0.0675637425758837,0.027012945120032,1
-161,Spectrum of Psychological Health,twin,161_PsychologicalWellBeing,SPH_14_t,0.475702230142434,0.0434052145454223,0.0,1
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_1_h,0.650884176812013,0.0546759382365158,0.0,1
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_2_h,0.613704310950077,0.052776113631776,0.0,1
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_3_h,0.833435720602462,0.0531720784672796,0.0,1
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_4_h,0.102041782752981,0.0566520839108489,0.0716712255135639,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_5_h,0.0507916293933737,0.0621540072330739,0.413819891092935,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_6_h,0.15118406910369,0.0491233658407815,0.002086463288776,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_7_h,-0.0451410239244058,0.0539338174738218,0.402609048607615,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_8_h,0.0257603189975268,0.0595030553340081,0.665069760610586,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_9_h,0.421908458215956,0.0458228321158483,0.0,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_10_h,0.19969680312046,0.0568344213404339,0.000441979013849,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_11_h,-0.0411863773682994,0.0548899958622301,0.453047567433859,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_12_h,-0.103955118206657,0.0670724582260609,0.121167254786711,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_13_h,-0.125972438184543,0.0684346536881162,0.0656553121960384,0
+161,Mental Health Continuum,human,161_EmotionalWellBeing,SPH_14_h,0.0695489396920631,0.0566177770465709,0.219299085394554,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_1_h,0.155134998272041,0.0427317276554196,0.0002829378346109,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_2_h,0.116094863813394,0.0435568277857511,0.0076904699754745,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_3_h,0.0691355219845709,0.0398017477432917,0.0823876757462803,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_4_h,0.39496769367676,0.0499467013406318,2.66453525910038e-15,1
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_5_h,0.448227900700766,0.0543862636966175,2.2204460492503099e-16,1
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_6_h,0.817396244527598,0.0509193448967215,0.0,1
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_7_h,0.752024913259663,0.0458591193152472,0.0,1
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_8_h,0.850270121695076,0.0542480940548783,0.0,1
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_9_h,-0.0096743942420784,0.0454719792214305,0.831518008240369,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_10_h,-0.107787961739449,0.0509543210787558,0.0343972219899664,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_11_h,0.3040690277012,0.0481302447365726,2.65606869831458e-10,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_12_h,0.204097467457436,0.0474704603485647,1.71212787649644e-05,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_13_h,-0.115824632464812,0.0623852661697902,0.0633677477908718,0
+161,Mental Health Continuum,human,161_SocialWellBeing,SPH_14_h,0.0592836312253144,0.0448917246807844,0.186637599699901,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_1_h,0.0412218017665204,0.0633755092563431,0.515409722481904,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_2_h,0.192182036516985,0.0501395824545939,0.0001266205846768,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_3_h,0.0555591564761879,0.0526899412774898,0.291674787852569,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_4_h,0.340562234429626,0.0572282352312983,2.665942799851e-09,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_5_h,0.294732909592869,0.0611526065197101,1.43825031928557e-06,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_6_h,-0.134648423397175,0.0599682504012126,0.0247470499378597,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_7_h,0.0786214274969426,0.0513785731522446,0.125957912971234,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_8_h,-0.125849107267816,0.05973600969157,0.0351388653069507,0
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_9_h,0.479763098495093,0.0616048839356277,6.8833827526759706e-15,1
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_10_h,0.653058428092836,0.0656277358351834,0.0,1
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_11_h,0.523092101552785,0.066343062345491,3.1086244689504403e-15,1
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_12_h,0.655878009751673,0.0751017722373809,0.0,1
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_13_h,0.819896677784246,0.082844250642527,0.0,1
+161,Mental Health Continuum,human,161_PsychologicalWellBeing,SPH_14_h,0.684805828792465,0.0624745540561249,0.0,1
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_1_t,0.608671045055921,0.0323965451510526,0.0,1
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_2_t,0.391945997589787,0.0591754355519866,3.5089264827092796e-11,1
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_3_t,0.786035561120289,0.0265030108570401,0.0,1
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_4_t,0.130583623026484,0.0500110534678751,0.0090252758384084,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_5_t,-0.0320917780168185,0.0435132105186627,0.460807372834171,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_6_t,0.112992204206435,0.0443693832437606,0.0108770082561007,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_7_t,-0.102906180534212,0.0394683779735955,0.009125748380623,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_8_t,0.0647642789714254,0.0480400694394403,0.177616439009927,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_9_t,0.726880435073617,0.0322624052471129,0.0,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_10_t,0.533794437068375,0.0458309502696777,0.0,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_11_t,-0.0577877702093061,0.0417797494917645,0.166618072270271,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_12_t,-0.0299367306290115,0.0507905715381341,0.555582838636349,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_13_t,0.466091409962295,0.0492029952707462,0.0,0
+161,Mental Health Continuum,twin,161_EmotionalWellBeing,SPH_14_t,0.41654108216731,0.0355612050831932,0.0,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_1_t,0.324137329102041,0.0230980186735477,0.0,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_2_t,0.0083928040280727,0.0411492054571805,0.838384527719029,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_3_t,0.257782219937005,0.0238122732535073,0.0,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_4_t,0.227517719507087,0.0481175663283032,2.26328019281574e-06,1
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_5_t,0.477869300637813,0.0437294858052891,0.0,1
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_6_t,0.968789136491125,0.0270603569608605,0.0,1
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_7_t,0.578837324798127,0.0390426682440003,0.0,1
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_8_t,1.03289685513814,0.0272536283727406,0.0,1
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_9_t,0.0884193100586781,0.0294989060408464,0.0027231470510762,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_10_t,0.116562776560923,0.0426689590139887,0.0062990645254041,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_11_t,0.445487318524648,0.0400434407986365,0.0,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_12_t,-0.0986357026487467,0.0442106319287066,0.0256784579764111,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_13_t,-0.271424143937055,0.043210142137371,3.35339978008165e-10,0
+161,Mental Health Continuum,twin,161_SocialWellBeing,SPH_14_t,0.187734850509342,0.0313285247035566,2.06693551163539e-09,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_1_t,0.28056202987633,0.0329393134317687,0.0,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_2_t,0.598701347808998,0.0430993470680119,0.0,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_3_t,0.0822637395373729,0.0422623887302309,0.0515947083002153,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_4_t,0.48766121895001,0.0367314275604478,0.0,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_5_t,0.578088295696295,0.0322959876150123,0.0,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_6_t,-0.278830452337725,0.0409536035149462,9.86566384142407e-12,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_7_t,0.376514814332496,0.0380150657077061,0.0,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_8_t,-0.278444804433487,0.043462487979994,1.48844714331631e-10,0
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_9_t,0.255524012933704,0.0601491856998018,2.1552307889694e-05,1
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_10_t,0.166619943710761,0.0630884638744864,0.0082648916916692,1
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_11_t,0.609967531291492,0.0423854846964743,0.0,1
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_12_t,0.568228299493961,0.040983815849878,0.0,1
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_13_t,0.149405777956185,0.0675637425758837,0.027012945120032,1
+161,Mental Health Continuum,twin,161_PsychologicalWellBeing,SPH_14_t,0.475702230142434,0.0434052145454223,0.0,1
